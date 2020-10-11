@@ -13,7 +13,7 @@
 int main () {}
 int main (int argc, char *argv[]) {}
 int main (int argc, char **argv) {}
-/* another implementation-defined form, with int as return type */	
+// another implementation-defined form, with int as return type	
 ```
 Przykład 1
 ```cpp
@@ -31,9 +31,11 @@ int main(int argc, char **argv)
 }
 ```
 Przykład 2
+
 [WinMain](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
 
 ```cpp
+// another implementation-defined form, with int as return type
 INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     PSTR lpCmdLine, INT nCmdShow)
 {
