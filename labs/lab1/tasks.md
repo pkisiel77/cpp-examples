@@ -30,6 +30,18 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
+Przykład 2
+[WinMain](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
+
+```cpp
+INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
+    PSTR lpCmdLine, INT nCmdShow)
+{
+    return 0;
+}
+```
+
+
 #### Zadanie 2
 Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
 
