@@ -58,6 +58,10 @@ Napisz kalkulator BMI
 
 Wzór dla BMI
 
+```cpp
+BMI = (masa_ciala)/(wzrost * wzrost) // masa_ciala [kg], wzrost [m]
+```
+
 Zakresy wartości BMI:
 mniej niż 16 - wygłodzenie
 16 - 16.99 - wychudzenie
