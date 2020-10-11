@@ -15,7 +15,7 @@ int main (int argc, char *argv[]) {}
 int main (int argc, char **argv) {}
 // another implementation-defined form, with int as return type	
 ```
-Przykład 1
+#### Przykład 1
 ```cpp
 #include <iostream>
 using namespace std;
@@ -30,7 +30,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-Przykład 2
+#### Przykład 2
 
 [WinMain](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
 
@@ -44,22 +44,25 @@ INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 ```
 
 
-#### Zadanie 2
+#### Zadanie 1
 Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
 
 Przykład
+
 sort.exe 100 2 30 5 8 34 56 78 90
+
 out = 2 5 8 30 34 56 78 90 100
 
 ./sort 100 2 30 5 8 34 56 78 90
+
 out = 2 5 8 30 34 56 78 90 100
 
 ### Operacje na strumieniach cin, cout
 
-Zadanie 2
+#### Zadanie 2
 BMI
 
-Zadanie 1
+#### Zadanie 3
 Kalkulator
 
 ### Formatownie wyjścia - iomanip
