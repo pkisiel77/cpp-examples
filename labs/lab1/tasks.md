@@ -4,7 +4,15 @@
 
 # Początek C++
 
+### Komentarze w kodzie C++
+[Comments in C++](https://en.cppreference.com/w/cpp/comment)
+
 ### Argumenty funkcji main
+
+```sh
+int main() {}
+
+```
 
 Ciąg znaków dowolny sortowanie wynik przedstawić na out
 Przykład
