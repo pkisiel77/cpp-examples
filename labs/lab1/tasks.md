@@ -56,6 +56,18 @@ out = 2 5 8 30 34 56 78 90 100
 #### Zadanie 2
 Napisz kalkulator BMI
 
+Wzór dla BMI
+
+Zakresy wartości BMI:
+mniej niż 16 - wygłodzenie
+16 - 16.99 - wychudzenie
+17 - 18.49 - niedowaga
+18.5 - 24.99 - wartość prawidłowa
+25 - 29.99 - nadwaga
+30 - 34.99 - I stopień otyłości
+35 - 39.99 - II stopień otyłości
+powyżej 40 - otyłość skrajna
+
 
 ### Formatownie wyjścia - iomanip
 
