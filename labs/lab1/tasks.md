@@ -15,27 +15,32 @@ int main (int argc, char *argv[]) {}
 int main (int argc, char **argv) {}
 /* another implementation-defined form, with int as return type */	
 ```
-
+Przykład 1
 ```cpp
-// Name of program mainreturn.cpp 
 #include <iostream> 
 using namespace std; 
   
 int main(int argc, char** argv) 
-{ 
+{
     cout << "You have entered " << argc 
-         << " arguments:" << "\n"; 
+         << " arguments:" << endl; 
   
     for (int i = 0; i < argc; ++i) 
-        cout << argv[i] << "\n"; 
+        cout << argv[i] << endl; 
   
     return 0; 
 } 
 ```
+#### Zadanie 1
 
-Ciąg znaków dowolny sortowanie wynik przedstawić na out
+#### Zadanie 2
+Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
+
 Przykład
 sort.exe 100 2 30 5 8 34 56 78 90
+out = 2 5 8 30 34 56 78 90 100
+
+./sort 100 2 30 5 8 34 56 78 90
 out = 2 5 8 30 34 56 78 90 100
 
 ### Operacje na strumieniach cin, cout
