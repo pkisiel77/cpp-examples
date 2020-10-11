@@ -10,8 +10,9 @@
 ### Argumenty funkcji main
 
 ```sh
-int main() {}
-
+int main () { body }
+int main (int argc, char *argv[]) { body }
+/* another implementation-defined form, with int as return type */	
 ```
 
 Ciąg znaków dowolny sortowanie wynik przedstawić na out
