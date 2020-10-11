@@ -10,9 +10,27 @@
 ### Argumenty funkcji main
 
 ```sh
-int main () { body }
-int main (int argc, char *argv[]) { body }
+int main () {}
+int main (int argc, char *argv[]) {}
+int main (int argc, char **argv) {}
 /* another implementation-defined form, with int as return type */	
+```
+
+```sh
+// Name of program mainreturn.cpp 
+#include <iostream> 
+using namespace std; 
+  
+int main(int argc, char** argv) 
+{ 
+    cout << "You have entered " << argc 
+         << " arguments:" << "\n"; 
+  
+    for (int i = 0; i < argc; ++i) 
+        cout << argv[i] << "\n"; 
+  
+    return 0; 
+} 
 ```
 
 Ciąg znaków dowolny sortowanie wynik przedstawić na out
