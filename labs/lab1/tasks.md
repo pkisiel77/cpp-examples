@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+# Labolatorium 1
+## Początek C++
+
 Argumenty funkcji main
 
 Ciąg znaków dowolny sortowanie wynik przedstawić na out
