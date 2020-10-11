@@ -17,19 +17,18 @@ int main (int argc, char **argv) {}
 ```
 Przykład 1
 ```cpp
-#include <iostream> 
-using namespace std; 
-  
-int main(int argc, char** argv) 
+#include <iostream>
+using namespace std;
+
+int main(int argc, char **argv)
 {
-    cout << "You have entered " << argc 
-         << " arguments:" << endl; 
-  
-    for (int i = 0; i < argc; ++i) 
-        cout << argv[i] << endl; 
-  
-    return 0; 
-} 
+    cout << "Number of arguments " << argc << endl;
+
+    for (int i = 0; i < argc; ++i)
+        cout << argv[i] << endl;
+
+    return 0;
+}
 ```
 #### Zadanie 1
 
