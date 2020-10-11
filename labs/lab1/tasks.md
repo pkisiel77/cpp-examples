@@ -42,28 +42,22 @@ INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     return 0;
 }
 ```
-
+### Operacje na strumieniach cin, cout
 
 #### Zadanie 1
 Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
 
-Przykład
+Przykład dla zadania nr 1
 
-sort.exe 100 2 30 5 8 34 56 78 90
+- sort.exe 100 2 30 5 8 34 56 78 90
+- out = 2 5 8 30 34 56 78 90 100
 
-out = 2 5 8 30 34 56 78 90 100
-
-./sort 100 2 30 5 8 34 56 78 90
-
-out = 2 5 8 30 34 56 78 90 100
-
-### Operacje na strumieniach cin, cout
+- ./sort 100 2 30 5 8 34 56 78 90
+- out = 2 5 8 30 34 56 78 90 100
 
 #### Zadanie 2
-BMI
+Napisz kalkulator BMI
 
-#### Zadanie 3
-Kalkulator
 
 ### Formatownie wyjścia - iomanip
 
