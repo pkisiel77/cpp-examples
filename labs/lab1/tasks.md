@@ -9,14 +9,14 @@
 
 ### Argumenty funkcji main
 
-```sh
+```cpp
 int main () {}
 int main (int argc, char *argv[]) {}
 int main (int argc, char **argv) {}
 /* another implementation-defined form, with int as return type */	
 ```
 
-```sh
+```cpp
 // Name of program mainreturn.cpp 
 #include <iostream> 
 using namespace std; 
