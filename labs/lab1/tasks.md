@@ -56,11 +56,12 @@ out = 2 5 8 30 34 56 78 90 100
 #### Zadanie 2
 Napisz kalkulator wyliczający wskaźnik BMI (Body Mass Index)
 
-Wzór dla BMI
+Wzór dla wskaźnika BMI
 
 ```cpp
 BMI = (masa_ciala)/(wzrost * wzrost) // masa_ciala [kg], wzrost [m]
 ```
+
 
 ```
 Zakresy wartości BMI:
