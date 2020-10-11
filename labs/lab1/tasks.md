@@ -5,20 +5,25 @@
 # Labolatorium 1
 ## Początek C++
 
-Argumenty funkcji main
+### Argumenty funkcji main
 
 Ciąg znaków dowolny sortowanie wynik przedstawić na out
 Przykład
 sort.exe 100 2 30 5 8 34 56 78 90
 out = 2 5 8 30 34 56 78 90 100
 
-Operacje na strumieniach cin, cout
+### Operacje na strumieniach cin, cout
 
 Zadanie 2
 BMI
 
 Zadanie 1
 Kalkulator
+
+### Formatownie wyjścia - iomanip
+
+### Referencja 
+
 
 
 
