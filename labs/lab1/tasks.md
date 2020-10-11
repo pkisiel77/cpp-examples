@@ -44,12 +44,14 @@ INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
 
 Przykład dla zadania nr 1
+```sh
+sort.exe 100 2 30 5 8 34 56 78 90
+out = 2 5 8 30 34 56 78 90 100
 
-- sort.exe 100 2 30 5 8 34 56 78 90
-- out = 2 5 8 30 34 56 78 90 100
-
-- ./sort 100 2 30 5 8 34 56 78 90
-- out = 2 5 8 30 34 56 78 90 100
+chmod +x sort
+./sort 100 2 30 5 8 34 56 78 90
+out = 2 5 8 30 34 56 78 90 100
+```
 
 #### Zadanie 2
 Napisz kalkulator BMI
