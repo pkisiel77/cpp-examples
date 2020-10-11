@@ -30,8 +30,6 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-#### Zadanie 1
-
 #### Zadanie 2
 Napisz program sortujący rosnąco ciąg liczb podanch jako arguemnt programu.
 
