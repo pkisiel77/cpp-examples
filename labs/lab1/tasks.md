@@ -1,5 +1,9 @@
 # Początek
 
+## Terminy
+LAB-3 26.10.2020 - do godz. 23:55
+LAB-1 26.10.2020 - do godz. 23:55
+
 ### Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
 
