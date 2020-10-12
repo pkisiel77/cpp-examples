@@ -4,6 +4,7 @@
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
 
 ### Argumenty funkcji main
+[main() in C++](https://en.cppreference.com/w/cpp/language/main_function)
 
 ```cpp
 int main () {}
