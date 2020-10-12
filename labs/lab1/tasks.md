@@ -1,4 +1,4 @@
-# Początek C++
+# Początek
 
 ### Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
