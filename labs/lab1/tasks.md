@@ -13,7 +13,7 @@
 ```cpp
 int main () {}
 int main (int argc, char *argv[]) {}
-int main (int argc, char **argv) {}
+// int main (int argc, char **argv) {}
 // another implementation-defined form, with int as return type	
 ```
 #### Przykład 1
