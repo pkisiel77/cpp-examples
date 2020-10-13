@@ -3,8 +3,8 @@
 ## Terminy
 - LAB-3 26.10.2020 - do godz. 23:55
 - LAB-1 26.10.2020 - do godz. 23:55
-
 - LAB-4 27.10.2020 - do godz. 23:55
+- LAB-2 27.10.2020 - do godz. 23:55
 
 
 ### Komentarze w kodzie C++
