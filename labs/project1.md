@@ -1,7 +1,8 @@
 # Logger for C++
 
-Example of the very simple logger used in the C project.
-Prepare new version in C++
+Below is an example of a very very simple C logger  used in a C project. 
+
+Prepare a new version in C ++ (file, memory, db provider)
 
 ```c
 int ZapiszDoLog(char *sciezka, char *tryb)
