@@ -69,6 +69,40 @@ int * ptrInt3 = nullptr; // C++11
 ```cpp
 int * ptr, v1;
 int * ptr1, * ptr2;
+
+// p jest wskaźnikiem na int:
+int *p;
+// s jest wskaźnikiem na char:
+char *s;
+
+// Tutaj i jest normalną zmienną, nie wskaźnikiem(!):
+int *q, i;
+// Równoważnie:
+int i, *q;
+```
+
+## Operator &
+Aby zainicjalizować wskaźnik potrzebujemy operatora pobrania adresu – &. 
+Operator ten, jak nazwa wskazuje, zwraca adres podanego obiektu.
+
+```cpp
+int i;
+int *p = &i;
+```
+## Operator *
+Mechanizm ten to tzw. operator dereferencji, oznaczany znowu gwiazdką przed wskaźnikiem. 
+Pozwala on zarówno na pobranie wartości zmiennej na którą wskaźnik wskazuje, jak i na jej modyfikację:
+
+```cpp
+int i = 1;
+int p = &i;
+
+cout <<  p; // adres 0x1798010
+cout << *p; // 1
+
+*p = 2;
+cout << *p; // 2
+cout << i;  // 2
 ```
 
 ```cpp
