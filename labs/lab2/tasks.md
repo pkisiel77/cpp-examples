@@ -175,12 +175,3 @@ Należy wziąć pod uwagę, że ta funkcja powoduje skopiowanie obiektu do zmien
 więc może nie być efektywna dla typów, dla których wspomniane operacje są kosztowne. 
 W takie sytuacji rekomendowane jest przeciążenie tej funkcji tak, by wykonywała zamianę w wydajniejszy sposób.
 
-
-
-# Zalety
-
-
-
-
-
-
