@@ -6,18 +6,18 @@
 (for)[https://docs.microsoft.com/pl-pl/cpp/cpp/for-statement-cpp?view=vs-2019]
 
 Składnia
-'''cpp
+```cpp
 for ( init-expression ; cond-expression ; loop-expression )
     statement
-'''
+```
 (Range-based for)[https://en.cppreference.com/w/cpp/language/range-for]
 (Range-based for)[https://docs.microsoft.com/pl-pl/cpp/cpp/range-based-for-statement-cpp?view=vs-2019]
 
 Składnia
-'''cpp
+```cpp
 for (***Deklaracja* : dla zakresu *wyrażenie***)
     instrukcja
-'''
+```
 
 ## while
 
@@ -25,20 +25,21 @@ for (***Deklaracja* : dla zakresu *wyrażenie***)
 (while)[https://docs.microsoft.com/pl-pl/cpp/cpp/while-statement-cpp?view=vs-2019]
 
 Składnia
-'''cpp
+```cpp
 for (***Deklaracja* : dla zakresu *wyrażenie***)
     instrukcja
-'''
+```
 
 ## do{}while
 
 (do-while)[https://en.cppreference.com/w/cpp/language/do]
 (do-while)[https://docs.microsoft.com/pl-pl/cpp/cpp/do-while-statement-cpp?view=vs-2019]
-'''cpp
+
+```cpp
 do
    statement
 while ( expression ) ;
-'''
+```
 
 ## Instrukcje warunkowe
 
@@ -59,42 +60,42 @@ Conditional Operator
 
 # Wskaźniki i referencje
 
-'''cpp
-int * wskaznikInt1 = 0;
-int * wskaznikInt2 = NULL;
-int * wskaznikInt3 = nullptr; // C++11
-'''
+```cpp
+int * ptrInt1 = 0;
+int * ptrInt2 = NULL;
+int * ptrInt3 = nullptr; // C++11
+```
 
-'''cpp
-int * wskaznik, zmienna;
-int * wskaznik1, * wskaznik2;
-'''
+```cpp
+int * ptr, v1;
+int * ptr1, * ptr2;
+```
 
-'''cpp
-int zmienna = 123;
-int * wskaznik = & zmienna;
-int tablica[ 2 ] = { 10, 20 };
+```cpp
+int v1 = 123;
+int * ptr= & v1;
+int arr[ 2 ] = { 10, 20 };
 
-std::cout << "Wartosc: " << zmienna << ", Adres: " << wskaznik << ", Adres wskaznika: " << & wskaznik << std::endl;
-std::cout << & tablica[ 0 ] << '\n' << & tablica[ 1 ] << std::endl;
-'''
+std::cout << "Wartosc: " << v1 << ", Adres: " << ptr << ", Adres wskaznika: " << & ptr << std::endl;
+std::cout << & arr[ 0 ] << '\n' << & arr[ 1 ] << std::endl;
+```
 
-'''cpp
-int zmienna = 123;
-int * wskaznik = & zmienna;
+```cpp
+int v1 = 123;
+int * ptr = & v1;
 
-std::cout << zmienna << std::endl;
-std::cout << wskaznik << std::endl;
-std::cout << * wskaznik << std::endl;
-'''
+std::cout << v1 << std::endl;
+std::cout << ptr << std::endl;
+std::cout << * ptr << std::endl;
+```
 
-'''cpp
-std::cout << zmienna << " = " << * wskaznik << std::endl;
-zmienna = 42;
-std::cout << zmienna << " = " << * wskaznik << std::endl;
-* wskaznik = 357;
-std::cout << zmienna << " = " << * wskaznik << std::endl;
-'''
+```cpp
+std::cout << v1 << " = " << * ptr << std::endl;
+v1 = 42;
+std::cout << v1 << " = " << * ptr << std::endl;
+* ptr = 357;
+std::cout << v1 << " = " << * ptr << std::endl;
+```
 
 Zadanie 1
 Napisz funkcję otrzymującą jako argumenty wskaźniki do dwóch zmiennych typu int, która zamienia ze sobą wartości wskazywanych zmiennych tylko wtedy, gdy wskazywana przez drugi argument zmienna jest
@@ -119,14 +120,14 @@ Opis
 Przypisuje wartość obiektu a obiektowi b i wartość obiektu b obiektowi a
 
 Składnia
-'''cpp
+```cpp
 #include <algorithm>
 namespace std
 {
     template < typename T >
     void swap( T & a, T & b );
 }
-'''
+```
 
 (Przykład)[http://www.cplusplus.com/reference/algorithm/swap/]
 
