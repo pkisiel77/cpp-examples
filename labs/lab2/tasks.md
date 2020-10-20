@@ -68,6 +68,8 @@ do
 while ( expression ) ;
 ```
 
+## goto
+
 ## Instrukcje warunkowe
 
 ### if
