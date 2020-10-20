@@ -84,8 +84,13 @@ while ( expression ) ;
 
 ### ? :
 
-Operator warunkowy
+Operator warunkowy / trójargumentowy 
 Conditional Operator
+
+```cpp
+    int a=0, b=1;
+    return a>b ? 1 : 0;
+```
 
 # Wskaźniki i referencje
 
