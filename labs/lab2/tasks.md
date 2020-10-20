@@ -70,6 +70,29 @@ while ( expression ) ;
 
 ## goto
 
+```cpp
+    int i=1;
+
+    if(i=0)
+    {
+        goto AAA;
+    }
+    else 
+    {
+        goto BBB;
+    }
+
+AAA:
+    {
+        cout << "true" << endl;    
+    }
+
+BBB:
+    {
+        cout << "false" << endl;    
+    }
+```
+
 ## Instrukcje warunkowe
 
 ### if
