@@ -19,6 +19,35 @@ for (***Deklaracja* : dla zakresu *wyrażenie***)
     instrukcja
 ```
 
+```cpp
+    // FASLE 0
+    // TRUE != 0
+
+    //int i=0, j=0;
+
+    // pre
+    // post
+
+    //for(int i=0;i<10;i++)
+    //{
+    //    std::cout << i << endl;
+    //}
+
+    // Basic 10-element integer array.
+    int x[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    // Range-based for loop to iterate through the array.
+    for( int y : x ) 
+    { 
+        // Access by value using a copy declared as a specific type.
+        // Not preferred.
+        cout << y << " ";
+    }
+    cout << endl;
+
+    // example for: key, value
+```
+
 ## while
 
 (while)[https://en.cppreference.com/w/cpp/language/while]
@@ -26,8 +55,6 @@ for (***Deklaracja* : dla zakresu *wyrażenie***)
 
 Składnia
 ```cpp
-for (***Deklaracja* : dla zakresu *wyrażenie***)
-    instrukcja
 ```
 
 ## do{}while
