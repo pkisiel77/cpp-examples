@@ -71,7 +71,7 @@ while ( expression ) ;
 ```cpp
     int i=1;
 
-    if(i=0)
+    if(i=0) // err? ==
     {
         goto AAA;
     }
