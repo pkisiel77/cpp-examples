@@ -202,7 +202,7 @@ Napisz funkcję, która pobiera dwa argumenty i zwraca dwa odrębne wyniki.
 Jednym z wyników powinien być iloczyn obu argumentów, a drugim ich suma. Ponieważ funkcja może bezpośrednio zwracać tylko jedną wartość, druga
 powinna być zwracana poprzez parametr wskaźnikowy albo referencję.
 
-### swap()
+## swap()
 
 Opis
 Przypisuje wartość obiektu a obiektowi b i wartość obiektu b obiektowi a
@@ -219,11 +219,11 @@ namespace std
 
 (Przykład)[http://www.cplusplus.com/reference/algorithm/swap/]
 
-#### Zadanie 5
+### Zadanie 5
 Napisz funkcję, która zamienia miejscami wartości swoich dwóch argumentów.
 Przekaż do funkcji argumenty przy użyciu wskaźników albo referencji.
 
-#### Zadanie 6
+### Zadanie 6
 (Source)[http://cpp0x.pl/dokumentacja/standard-C++/swap/461]
 Należy wziąć pod uwagę, że ta funkcja powoduje skopiowanie obiektu do zmiennej tymczasowej i dwa razy wywołuje operator przypisania, 
 więc może nie być efektywna dla typów, dla których wspomniane operacje są kosztowne. 
