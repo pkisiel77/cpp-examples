@@ -82,12 +82,12 @@ while ( expression ) ;
 
 AAA:
     {
-        cout << "true" << endl;    
+        cout << "AAA" << endl;    
     }
 
 BBB:
     {
-        cout << "false" << endl;    
+        cout << "BBB" << endl;    
     }
 ```
 
@@ -109,8 +109,8 @@ BBB:
 - Conditional Operator
 
 ```cpp
-    int a=0, b=1;
-    return a>b ? 1 : 0;
+int a=0, b=1;
+return a>b ? 1 : 0;
 ```
 
 # Wskaźniki i referencje
