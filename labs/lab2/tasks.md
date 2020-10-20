@@ -222,6 +222,7 @@ namespace std
 ### Zadanie 5
 Napisz funkcję, która zamienia miejscami wartości swoich dwóch argumentów.
 Przekaż do funkcji argumenty przy użyciu wskaźników albo referencji.
+Przygotuj odpowiednie testy dla zaproponowanego rozwiązania.
 
 ### Zadanie 6
 (Source)[http://cpp0x.pl/dokumentacja/standard-C++/swap/461]
