@@ -128,6 +128,7 @@ int * ptr = 0;                    // Zadeklaruj wskaźnik typu int, inicjacja ws
 std::cout << *ptr << std::endl;   // STATUS_ACCESS_VIOLATION EXCEPTION
 int * ptr = NULL;                
 ```
+Wartość NULL podczas deklaracji jest dobrą praktyką inżynierii oprogramowania.
 
 ## Wskaźniki
 ```cpp
