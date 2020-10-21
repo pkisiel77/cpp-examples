@@ -115,10 +115,18 @@ return a>b ? 1 : 0;
 
 # Wskaźniki i referencje
 
+## Init pointer
+
 ```cpp
 int * ptrInt1 = 0;
 int * ptrInt2 = NULL;
 int * ptrInt3 = nullptr; // C++11
+```
+
+```cpp
+int * iPtr = 0;         // Declare an int pointer, and initialize the pointer to point to nothing
+cout << *iPtr << endl;  // ERROR! STATUS_ACCESS_VIOLATION exception
+int * p = NULL;         // Also declare a NULL pointer points to nothing
 ```
 
 ```cpp
