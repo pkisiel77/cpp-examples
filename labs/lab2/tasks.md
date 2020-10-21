@@ -124,9 +124,9 @@ int * ptrInt3 = nullptr; // C++11
 ```
 
 ```cpp
-int * iPtr = 0;         // Declare an int pointer, and initialize the pointer to point to nothing
-cout << *iPtr << endl;  // ERROR! STATUS_ACCESS_VIOLATION exception
-int * p = NULL;         // Also declare a NULL pointer points to nothing
+int * ptr = 0;                    // Zadeklaruj wskaźnik typu int, inicjacja wskaźnika tak, aby wskazywał na NULL
+std::cout << *ptr << std::endl;   // STATUS_ACCESS_VIOLATION EXCEPTION
+int * ptr = NULL;                
 ```
 
 ## Wskaźniki
