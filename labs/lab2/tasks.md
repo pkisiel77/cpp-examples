@@ -115,7 +115,7 @@ return a>b ? 1 : 0;
 
 # Wskaźniki i referencje
 
-## Init pointer
+## Inicjacja i deklaracja wskaźnika z NULL
 
 ```cpp
 int * ptrInt1 = 0;
@@ -129,6 +129,7 @@ cout << *iPtr << endl;  // ERROR! STATUS_ACCESS_VIOLATION exception
 int * p = NULL;         // Also declare a NULL pointer points to nothing
 ```
 
+## Wskaźniki
 ```cpp
 int * ptr, v1;
 int * ptr1, * ptr2;
