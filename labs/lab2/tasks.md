@@ -2,8 +2,8 @@
 
 ## for 
 
-- [for](https://en.cppreference.com/w/cpp/language/for)
-- [for](https://docs.microsoft.com/pl-pl/cpp/cpp/for-statement-cpp?view=vs-2019)
+- [cppreference](https://en.cppreference.com/w/cpp/language/for)
+- [microsoft](https://docs.microsoft.com/pl-pl/cpp/cpp/for-statement-cpp?view=vs-2019)
 
 Składnia
 ```cpp
