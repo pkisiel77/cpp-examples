@@ -2,16 +2,17 @@
 
 ## for 
 
-- [cppreference](https://en.cppreference.com/w/cpp/language/for)
-- [microsoft](https://docs.microsoft.com/pl-pl/cpp/cpp/for-statement-cpp?view=vs-2019)
+- [cppreference-link](https://en.cppreference.com/w/cpp/language/for)
+- [microsoft-link](https://docs.microsoft.com/pl-pl/cpp/cpp/for-statement-cpp?view=vs-2019)
 
 Składnia
 ```cpp
 for ( init-expression ; cond-expression ; loop-expression )
     statement
 ```
-- (Range-based for)[https://en.cppreference.com/w/cpp/language/range-for]
-- (Range-based for)[https://docs.microsoft.com/pl-pl/cpp/cpp/range-based-for-statement-cpp?view=vs-2019]
+### Range-based for
+- [cppreference-link](https://en.cppreference.com/w/cpp/language/range-for)
+- [microsoft-link](https://docs.microsoft.com/pl-pl/cpp/cpp/range-based-for-statement-cpp?view=vs-2019)
 
 Składnia
 ```cpp
