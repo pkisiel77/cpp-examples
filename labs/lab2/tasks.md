@@ -118,7 +118,8 @@ return a>b ? 1 : 0;
 
 ## Inicjacja i deklaracja wskaźnika z NULL
 
-(NULL)[https://en.cppreference.com/w/cpp/types/NULL]
+[NULL in C](https://en.cppreference.com/w/c/types/NULL)
+[NULL in C++](https://en.cppreference.com/w/cpp/types/NULL)
 
 ```cpp
 int * ptrInt1 = 0;
