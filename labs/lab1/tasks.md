@@ -1,10 +1,10 @@
 # Początek
 
 ## Terminy
-- LAB-3 26.10.2020 - do godz. 23:59
-- LAB-1 26.10.2020 - do godz. 23:59
-- LAB-4 27.10.2020 - do godz. 23:59
-- LAB-2 27.10.2020 - do godz. 23:59
+- LAB-3 02.11.2020 - do godz. 23:59
+- LAB-1 02.11.2020 - do godz. 23:59
+- LAB-4 02.11.2020 - do godz. 23:59
+- LAB-2 02.11.2020 - do godz. 23:59
 
 
 ### Komentarze w kodzie C++
