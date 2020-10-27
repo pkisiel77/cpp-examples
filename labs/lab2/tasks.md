@@ -1,3 +1,5 @@
+Termin oddania dla wszystkich grup 04.11.2020
+
 # Pętle 
 
 ## for 
