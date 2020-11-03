@@ -1,4 +1,7 @@
+
 # Definicje klas i ich składowych w C++
+
+### (Termin oddania dla wszystkich grup 20.11.2020)
 
 Należy zaimplementować klasę reprezentującą macierz elementów double.
 Klasa ma mieć następujące metody:
