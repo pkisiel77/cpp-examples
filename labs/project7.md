@@ -6,3 +6,6 @@ Napisz program w którym mozna:
 - usunąć pojaz, 
 - wyświetlić dane o pojeździe.
 Odczyt i zapis bazy danych SQL lub noSQL
+
+## Osoby
+P. Marek
