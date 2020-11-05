@@ -24,4 +24,8 @@ int ZapiszDoLog(char *sciezka, char *tryb)
 }
 ```
 
+## Osoby
+O. Sliwiński
+
+
 
