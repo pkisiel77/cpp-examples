@@ -4,5 +4,6 @@ Napisz kalkulator w terminalu graficznym.
 Podstawowe operacje + obsługa nawiasów oraz funkcji trygonometrycznych.
 
 ## Osoby
-D. Banach
+- D. Banach
+- P. Dudek
 
