@@ -1,4 +1,8 @@
 # Kalkulator macierzy
 
-Napisz kalkulator dla macierzy w terminalu tekstowym lub graficznym. 
+Napisz kalkulator dla macierzy w terminalu graficznym. 
 Podstawowe operacje.
+
+## Osoby
+M. Gawęcki
+
