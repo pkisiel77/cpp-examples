@@ -4,5 +4,6 @@ Napisz kalkulator dla macierzy w terminalu graficznym.
 Podstawowe operacje.
 
 ## Osoby
-M. Gawęcki
+- M. Gawęcki
+- A. Ciesielczyk
 
