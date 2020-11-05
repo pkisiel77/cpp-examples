@@ -8,4 +8,7 @@ Napisz program w którym mozna:
 Odczyt i zapis bazy danych SQL lub noSQL
 
 ## Osoby
-P. Marek
+- P. Marek
+- A. Dochnal
+
+
