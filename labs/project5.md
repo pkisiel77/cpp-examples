@@ -6,5 +6,6 @@ Napisz grę Snake w terminalu graficznym.
 - G. Lak
 - F. Buliński
 - J. Bednarowicz
+- J. Górka
 
 
