@@ -3,11 +3,11 @@
 Należy zaimplementować system dla działu HR w firmie.
 1. Gdy w poniższych wymaganiach mowa jest o kontenerze należy zastosować
 jeden z poniższych kontenerów (właściwy dla danego wymagania):
-• std::stack
-• std::vector
-• std::queue
-• std::list
-• std::map
+- std::stack
+- std::vector
+- std::queue
+- std::list
+- std::map
 2. Należy zaimplementować klasę Employee z następującymi polami:
 • id: string - identyfikator pracownika
 • name: string
@@ -39,4 +39,4 @@ z użyciem std::algorithm)
 4. Należy zaimplementować metodę main demonstrującą działanie powyższego
 kodu dla co najmniej 10 pracowników pracujących co najmniej
 w 3 departamentach
-2
+
