@@ -9,12 +9,11 @@ jeden z poniższych kontenerów (właściwy dla danego wymagania):
 - std::list
 - std::map
 2. Należy zaimplementować klasę Employee z następującymi polami:
-• id: string - identyfikator pracownika
-• name: string
-• surname: string
-• departmentId: string - identyfikator działu w którym pracuje dane
-osoba
-• position: string - stanowisko na którym pracuje dana osoba
+- id: string - identyfikator pracownika
+- name: string
+- surname: string
+- departmentId: string - identyfikator działu w którym pracuje dane osoba
+- position: string - stanowisko na którym pracuje dana osoba
 3. Należy zaimplementować klasę HRMS służącą do zarządzania pracownikami.
 Klasa ma mieć następujące składowe:
 • kontener w którym będą przechowywani wszyscy pracownicy
