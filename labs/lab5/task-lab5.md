@@ -1,5 +1,7 @@
 # Przeciążanie operatorów w C++
 
+### (Termin oddania dla wszystkich grup 04.12.2020)
+
 Należy rozszerzyć klasę macierzy z ćwiczenia 1. o następujące funkcjonalności.
 1. operator + wykonujący dodawanie macierzy
 2. operator - wykonujący odejmowanie macierzy
