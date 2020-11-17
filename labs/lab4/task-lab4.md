@@ -2,7 +2,7 @@
 
 ### (Termin oddania dla wszystkich grup 25.11.2020)
 
-Przygotwać rozwiązanie Lab3 w poniższej strukturze plików.
+Przygotować rozwiązanie Lab3 w poniższej strukturze plików.
 
 ## Struktura plików
 ```
