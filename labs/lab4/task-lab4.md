@@ -45,4 +45,8 @@ Project_name
 
 [Blok try catch](https://en.cppreference.com/w/cpp/language/try_catch)
 
+## typedef
+typedef unsigned char uint8_t;
+
+
 
