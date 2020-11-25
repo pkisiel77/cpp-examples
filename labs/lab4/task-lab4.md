@@ -1,6 +1,6 @@
 # Organizacja projektu w C++
 
-### (Termin oddania dla wszystkich grup 25.11.2020)
+### (Termin oddania dla wszystkich grup 02.12.2020)
 
 Przygotować rozwiązanie Lab3 w poniższej strukturze plików.
 
