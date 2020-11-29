@@ -41,15 +41,6 @@ Project_name
 
 - [example](https://github.com/AakashMallik/sample_cmake)
 
-## try catch
-
-[Blok try catch](https://en.cppreference.com/w/cpp/language/try_catch)
-
-[Wyjątki opis MS](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
-
-[Wyjątki](https://en.cppreference.com/w/cpp/error/exception)
-
-
 ## typedef
 typedef unsigned char uint8_t;
 
