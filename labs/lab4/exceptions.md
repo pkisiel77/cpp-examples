@@ -24,6 +24,8 @@ Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzyk
 - debugging - proces wykrywania i usuwania błędów w programie. 
 - obsługa wyjątków – proces  analizy zdarzeń które mogą powodować niewłaściwe zachowanie programu i  definiowanie procedur alternatywnych zachowań programu
 
+[src](https://docplayer.pl/57445059-11-1-obsluga-bledow-i-wyjatkow-polecenia-try-throw-catch-cli-c-klasa-exception-9.html)
+
 ```cpp
 try 
 {
@@ -56,35 +58,37 @@ catch (...)
 }
 ```
 
-```cpp
-#include <iostream>
-#include <vector>
- 
-int main() {
-    try {
-        std::cout << "Throwing an integer exception...\n";
-        throw 42;
-    } catch (int i) {
-        std::cout << " the integer exception was caught, with value: " << i << '\n';
-    }
- 
-    try {
-        std::cout << "Creating a vector of size 5... \n";
-        std::vector<int> v(5);
-        std::cout << "Accessing the 11th element of the vector...\n";
-        std::cout << v.at(10); // vector::at() throws std::out_of_range
-    } catch (const std::exception& e) { // caught by reference to base
-        std::cout << " a standard exception was caught, with message '"
-                  << e.what() << "'\n";
-    }
- 
-}
-```
-
-
 - [Wyjątki standardowe](https://en.cppreference.com/w/cpp/error/exception)
 - [Wyjątki opis MS](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
-- [Wyjątki własne]
+
+## Własne wyjątki
+
+```cpp
+#include <iostream>
+#include <exception>
+using namespace std;
+
+class MyException : public exception
+{
+    virtual const char *what() const throw()
+    {
+        return "My exception :)";
+    }
+};
+int main()
+{
+    MyException myEx;
+    try
+    {
+        throw myEx;
+    }
+    catch (exception &e)
+    {
+        cout << e.what() << endl;
+    }
+    return 0;
+}
+```
 
 ## noexception
 
@@ -125,6 +129,33 @@ int main()
 
 Ex2
 ```cpp
+#include <iostream>
+#include <vector>
+ 
+int main() {
+    try {
+        std::cout << "Throwing an integer exception...\n";
+        throw 42;
+    } catch (int i) {
+        std::cout << " the integer exception was caught, with value: " << i << '\n';
+    }
+ 
+    try {
+        std::cout << "Creating a vector of size 5... \n";
+        std::vector<int> v(5);
+        std::cout << "Accessing the 11th element of the vector...\n";
+        std::cout << v.at(10); // vector::at() throws std::out_of_range
+    } catch (const std::exception& e) { // caught by reference to base
+        std::cout << " a standard exception was caught, with message '"
+                  << e.what() << "'\n";
+    }
+ 
+}
+```
+
+Ex3
+```cpp
+
 ```
 
 
