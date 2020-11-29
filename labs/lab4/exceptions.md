@@ -62,3 +62,40 @@ int main() {
 - [Wyjątki opis MS](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
 - [Wyjątki własne]
 
+## Przykłady
+
+Ex1
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	try
+	{
+		int n;
+		cout << "Number(1-10):";
+		cin >> n;
+		if (n < 0)
+			throw 1;
+		if (n == 0)
+			throw 2;
+		if (n > 10)
+			throw 3;
+		cout << "n*n = " << n * n << endl;
+	}
+	catch (int x)
+	{
+		cout << "Exception nb " << x << endl;
+	}
+
+	return 0;
+}
+```
+
+Ex2
+```cpp
+```
+
+
+
