@@ -93,10 +93,10 @@ int main()
 
 ```cpp
 // specyfikator noexcept
-void metod0(); // metoda może rzucić wyjątki
-void metod1() noexcept(true); // metoda nie rzuca wyjątki
-void metod2() noexcept(false); // metoda może rzucić wyjątki
-void metod3() noexcept; // noexcept(true)
+void method0(); // metoda może rzucić wyjątki
+void method1() noexcept(true); // metoda nie rzuca wyjątki
+void method2() noexcept(false); // metoda może rzucić wyjątki
+void method3() noexcept; // noexcept(true)
 ```
 
 ```cpp
