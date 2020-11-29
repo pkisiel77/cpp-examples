@@ -13,12 +13,12 @@ _Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzy
   - mistake => działanie człowieka, które powoduje niewłaściwe działanie programu. 
 - wyjątek (exception) – przewidywalne przez  programistę niewłaściwe zachowanie programu wykonywalnego.   
 - wyjątek (IEEE 610, Standard Computer Dictionary) - zdarzenie które powoduje niewłaściwe działanie programu. Rozróżnia się następujące typy wyjątków:
-  − niewłaściwe adresowanie,  
+  − niewłaściwe adresowanie,
   − niewłaściwe dane,
   − niewłaściwie wykonana operacja,
   − przepełnienie (overflow exception),
   − niedopełnienie (underflow exception),
-  − niewłaściwa ochrona (protection exception). 
+  − niewłaściwa ochrona (protection exception).
 - wyjątek – jest to obiekt, który przekazuje informację o niewłaściwym działaniu programu do innego obszaru  programu.
 - debugging - proces wykrywania i usuwania błędów w programie. 
 - obsługa wyjątków – proces  analizy zdarzeń które mogą powodować niewłaściwe zachowanie programu i  definiowanie procedur alternatywnych zachowań programu
