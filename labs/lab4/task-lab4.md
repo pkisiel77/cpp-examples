@@ -45,6 +45,8 @@ Project_name
 
 [Blok try catch](https://en.cppreference.com/w/cpp/language/try_catch)
 
+[Wyjątyki](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
+
 ## typedef
 typedef unsigned char uint8_t;
 
