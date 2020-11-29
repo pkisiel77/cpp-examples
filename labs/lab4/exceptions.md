@@ -16,16 +16,19 @@ catch (typ nazwa)
 ```cpp
 try 
 {
-    // Blok kodu
+    // Code
 }
-catch (int ex) {
- cout << "exception for type int";
+catch (int ex) 
+{
+    cout << "exception for type int";
 }
-catch (double ex) {
- cout << "exception for type double";
+catch (double ex) 
+{
+    cout << "exception for type double";
 }
-catch (...) {
- cout << "default exception";
+catch (...) 
+{
+    cout << "default exception";
 }
 ```
 
