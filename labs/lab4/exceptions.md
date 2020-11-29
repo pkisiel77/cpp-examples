@@ -239,4 +239,7 @@ void main()
 example for [link](https://docplayer.pl/57445059-11-1-obsluga-bledow-i-wyjatkow-polecenia-try-throw-catch-cli-c-klasa-exception-9.html)
 
 
+[Ex4](https://docs.microsoft.com/pl-pl/cpp/cpp/exceptions-and-stack-unwinding-in-cpp?view=msvc-160)
+
+
 
