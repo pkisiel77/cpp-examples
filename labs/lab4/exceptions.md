@@ -1,14 +1,28 @@
 # Wyjątki (Exceptions)
 
+Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzykownego zadania. Ryzykownego, czyli takiego , które może się nie udać.
+
 ## Opis
 
 ### Obsługa błędów i wyjątków
 
 - błąd => przyczyna, która powoduje niewłaściwe działanie programu. 
--- error => róŜnica między spodziewanym a faktycznym działaniem programu. 
--- fault, bug –        defekt, przyczyna, która powoduje niewłaściwe działanie programu. 
-- failure      –        stan w którym program nie działa właściwe.  
-- mistake    –        działanie człowieka, które powoduje niewłaściwe działanie programu. wyjątek (exception) – przewidywalne przez  programistę niewłaściwe zachowanie programu wykonywalnego.   wyjątek (IEEE 610, Standard Computer Dictionary) - zdarzenie które powoduje niewłaściwe działanie programu.    RozróŜnia się następujące typy wyjątków:  −    niewłaściwe adresowanie,  −    niewłaściwe dane,  −    niewłaściwie wykonana operacja,    −    przepełnienie (overflow exception), −    niedopełnienie (underflow exception),−    niewłaściwa ochrona (protection exception). wyjątek – jest to obiekt, który przekazuje informację o niewłaściwym działaniu programu do innego obszaru  programu.debugging - proces wykrywania i usuwania błędów w programie. obsługa wyjątków – proces  analizy zdarzeń które mogą powodować niewłaściwe zachowanie programu i  definiowanie procedur alternatywnych zachowań programu
+  - error => różnica między spodziewanym a faktycznym działaniem programu. 
+  - fault, bug => defekt, przyczyna, która powoduje niewłaściwe działanie programu. 
+  - failure => stan w którym program nie działa właściwe.  
+  - mistake => działanie człowieka, które powoduje niewłaściwe działanie programu. 
+- wyjątek (exception) – przewidywalne przez  programistę niewłaściwe zachowanie programu wykonywalnego.   
+- wyjątek (IEEE 610, Standard Computer Dictionary) - zdarzenie które powoduje niewłaściwe działanie programu.    
+ Rozróżnia się następujące typy wyjątków:
+  − niewłaściwe adresowanie,  
+  − niewłaściwe dane,
+  − niewłaściwie wykonana operacja,
+  − przepełnienie (overflow exception),
+  − niedopełnienie (underflow exception),
+  − niewłaściwa ochrona (protection exception). 
+- wyjątek – jest to obiekt, który przekazuje informację o niewłaściwym działaniu programu do innego obszaru  programu.
+- debugging - proces wykrywania i usuwania błędów w programie. 
+- obsługa wyjątków – proces  analizy zdarzeń które mogą powodować niewłaściwe zachowanie programu i  definiowanie procedur alternatywnych zachowań programu
 
 ```cpp
 try 
