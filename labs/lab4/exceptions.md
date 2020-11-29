@@ -13,6 +13,21 @@ catch (typ nazwa)
     // Obsługa wyjątku
 }
 ```
+```cpp
+try 
+{
+    // Blok kodu
+}
+catch (int ex) {
+ cout << "exception for type int";
+}
+catch (double ex) {
+ cout << "exception for type double";
+}
+catch (...) {
+ cout << "default exception";
+}
+```
 
 ```cpp
 #include <iostream>
@@ -39,11 +54,8 @@ int main() {
 }
 ```
 
+
 - [Wyjątki standardowe](https://en.cppreference.com/w/cpp/error/exception)
-- Wyjątki własne
+- [Wyjątki opis MS](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
+- [Wyjątki własne]
 
-[Blok try catch](https://en.cppreference.com/w/cpp/language/try_catch)
-
-[Wyjątki opis MS](https://docs.microsoft.com/pl-pl/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160)
-
-[Wyjątki]
