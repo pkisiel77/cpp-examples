@@ -154,10 +154,6 @@ int main()
 }
 ```
 
-## Kolejność
-
-
-
 ## Przykłady
 
 Ex1
