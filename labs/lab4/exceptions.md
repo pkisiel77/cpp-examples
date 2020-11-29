@@ -89,7 +89,70 @@ int main()
 }
 ```
 
-## noexception
+## noexcept
+
+```cpp
+// specyfikator noexcept
+void metod0(); // metoda może rzucić wyjątki
+void metod1() noexcept(true); // metoda nie rzuca wyjątki
+void metod2() noexcept(false); // metoda może rzucić wyjątki
+void metod3() noexcept; // noexcept(true)
+```
+
+```cpp
+// operator noexcept
+void method(double) noexcept;
+void method(int);
+
+constexpr bool m1 = noexcept(method(2.5)); // true
+constexpr bool m2 = noexcept(method(2)); // false
+```
+
+```bash
+g++ file.cpp -std=c++11
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+void foo() noexcept     // see the noexcept specifier
+{
+    throw 42;
+}
+int main()
+{
+    try
+    {
+        foo();
+    }
+    catch(...)
+    {
+        cerr<<"exception caught\n";
+    }
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+void foo()    // noexcept is eliminated
+{
+    throw 42;
+}
+int main()
+{
+    try
+    {
+        foo();
+    }
+    catch(...)
+    {
+        cerr<<"exception caught\n";
+    }
+    return 0;
+}
+```
 
 ## Kolejność
 
@@ -154,8 +217,26 @@ int main() {
 
 Ex3
 ```cpp
-
+#include <iostream>
+using namespace std;
+void main()
+{
+    try
+    {
+        int x = 7;
+        throw x;
+    }
+    // polecenie catch() wyłapuje wyrzuconą zmienną typu int gdy:
+    // catch (const int ci), catch (int i), catch (int & r)
+    /*    catch (int i)       {             cout << "Blad, x=  " << i << endl;        } */
+    /*    catch (const int ci)       {             cout << "Blad, x=  " << ci << endl;        } */
+    catch (int &r)
+    {
+        cout << "Blad, x=  " << r << endl;
+    }
+}
 ```
+example for [link](https://docplayer.pl/57445059-11-1-obsluga-bledow-i-wyjatkow-polecenia-try-throw-catch-cli-c-klasa-exception-9.html)
 
 
 
