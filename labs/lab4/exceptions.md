@@ -1,6 +1,6 @@
 # Wyjątki (Exceptions)
 
-Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzykownego zadania. Ryzykownego, czyli takiego , które może się nie udać.
+_Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzykownego zadania. Ryzykownego, czyli takiego , które może się nie udać._
 
 ## Opis
 
@@ -12,8 +12,7 @@ Stosujemy w sytuacjach, gdy jedna z części programu zleca innej wykoanie ryzyk
   - failure => stan w którym program nie działa właściwe.  
   - mistake => działanie człowieka, które powoduje niewłaściwe działanie programu. 
 - wyjątek (exception) – przewidywalne przez  programistę niewłaściwe zachowanie programu wykonywalnego.   
-- wyjątek (IEEE 610, Standard Computer Dictionary) - zdarzenie które powoduje niewłaściwe działanie programu.    
- Rozróżnia się następujące typy wyjątków:
+- wyjątek (IEEE 610, Standard Computer Dictionary) - zdarzenie które powoduje niewłaściwe działanie programu. Rozróżnia się następujące typy wyjątków:
   − niewłaściwe adresowanie,  
   − niewłaściwe dane,
   − niewłaściwie wykonana operacja,
