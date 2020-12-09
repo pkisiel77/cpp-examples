@@ -1,6 +1,6 @@
 # Kontenery w C++
 
-### (Termin oddania dla wszystkich grup 04.12.2020)
+### (Termin oddania dla wszystkich grup 31.12.2020)
 
 Należy zaimplementować system dla działu HR w firmie.
 1. Gdy w poniższych wymaganiach mowa jest o kontenerze należy zastosować
