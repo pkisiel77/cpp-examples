@@ -6,4 +6,6 @@ Podstawowe operacje.
 ## Osoby
 - M. Gawęcki
 - A. Ciesielczyk
+- P. Kożuch
+
 
