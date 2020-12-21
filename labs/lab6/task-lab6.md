@@ -117,3 +117,11 @@ int main()
 
 ## std::map
 
+std::map (mapa, inaczej słownik) jest kontenerem asocjacyjnym, pozwalającym na przechowywanie posortowanej listy unikalnych par postaci klucz-wartość. Elementy są sortowane na podstawie funkcji porównującej Compare, aplikowanej do kluczy. Operacje znajdowania, wstawiania i usuwania elementów mają złożoność logarytmiczną. Słowniki są zazwyczaj implementowane jako [drzewa czerwono-czarne](https://eduinf.waw.pl/inf/alg/001_search/0121.php)
+
+Wszędzie, gdzie w bibliotece standardowej wykorzystywany jest koncept Compare, unikalność jest sprawdzana korzystając z relacji równoważności. Dwa obiekty a i b są uważane za równoważne, jeśli żaden z nich nie jest mniejszy od drugiego: !comp(a, b) && !comp(b, a).
+
+std::map spełnia wymogi Container, AllocatorAwareContainer, AssociativeContainer i ReversibleContainer.
+
+więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/map)
+
