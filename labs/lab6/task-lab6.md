@@ -36,6 +36,63 @@ Szablon tej klasy funkcjonuje jak opakowanie do kontenera - umożliwia tylko pew
 
 więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/stack)
 
+```cpp
+#include <iostream>
+#include <stack>
+
+int main()
+{
+    std::stack<int> intStack;
+    intStack.push(10);
+    intStack.push(20);
+    intStack.push(30);
+
+    std::cout << "Top of the stack = " << intStack.top();
+    std::cout << std::endl;
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <stack>
+
+int main()
+{
+    std::stack<int> intStack;
+    intStack.push(10);
+    intStack.push(20);
+    intStack.push(30);
+
+    std::cout << "Size of stack using stack.size() method " << intStack.size();
+    std::cout << std::endl;
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <stack>
+
+int main()
+{
+    std::stack<int> intStack;
+    intStack.push(10);
+    intStack.push(20);
+    intStack.push(30);
+
+    std::cout << "Is stack empty? " << intStack.empty() << std::endl;
+    std::cout << "Pop three times" << std::endl;
+    intStack.pop();
+    intStack.pop();
+    intStack.pop();
+
+    std::cout << "Is stack empty? " << intStack.empty() << std::endl;
+    std::cout << std::endl;
+    return 0;
+}
+```
+
 ## std::vector
 
 std::vector jest kontenerem sekwencyjnym, który enkapsuluje tablice zmiennej wielkości.
