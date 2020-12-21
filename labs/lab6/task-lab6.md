@@ -125,3 +125,65 @@ std::map spełnia wymogi Container, AllocatorAwareContainer, AssociativeContaine
 
 więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/map)
 
+```cpp
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int main (){
+  map<char,int> first;
+  
+  //initializing
+  first['a']=10;
+  first['b']=20;
+  first['c']=30;
+  first['d']=40;
+  
+   map<char, int>::iterator it;
+   for(it=first.begin(); it!=first.end(); ++it){
+      cout << it->first << " => " << it->second << '\n';
+   }
+   
+  return 0;
+}
+```
+
+Microsoft [Map](https://docs.microsoft.com/pl-pl/cpp/standard-library/map-class?view=msvc-160)
+
+```cpp
+// map_begin.cpp
+// compile with: /EHsc
+#include <map>
+#include <iostream>
+
+int main( )
+{
+   using namespace std;
+   map <int, int> m1;
+
+   map <int, int> :: iterator m1_Iter;
+   map <int, int> :: const_iterator m1_cIter;
+   typedef pair <int, int> Int_Pair;
+
+   m1.insert ( Int_Pair ( 0, 0 ) );
+   m1.insert ( Int_Pair ( 1, 1 ) );
+   m1.insert ( Int_Pair ( 2, 4 ) );
+
+   m1_cIter = m1.begin ( );
+   cout << "The first element of m1 is " << m1_cIter -> first << endl;
+
+   m1_Iter = m1.begin ( );
+   m1.erase ( m1_Iter );
+
+   // The following 2 lines would err because the iterator is const
+   // m1_cIter = m1.begin ( );
+   // m1.erase ( m1_cIter );
+
+   m1_cIter = m1.begin( );
+   cout << "The first element of m1 is now " << m1_cIter -> first << endl;
+}
+```
+
+
+
