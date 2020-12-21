@@ -30,11 +30,9 @@ Klasa ma mieć następujące składowe:
 
 ## std::list
 
-```
 std::list jest kontenerem pozwalającym na wstawianie i usuwanie elementów w dowolnym miejscu w kontenerze, w czasie stałym. Szybki dostęp bezpośredni do elementów nie jest wspierany. Zazwyczaj jest implementowana jako lista dwukierunkowa. W porównaniu do std::forward_list ten kontener pozwala na iterowanie w obu kierunkach. Zużywa z tego powodu więcej pamięci.
 
 Dodawanie, usuwanie ani przenoszenie elementów wewnątrz listy / pomiędzy listami nie unieważnia iteratorów ani referencji. Iterator jest unieważniany tylko wtedy, gdy odpowiadający mu element jest usuwany.
-```
 
 ```cpp
 #include <algorithm>
