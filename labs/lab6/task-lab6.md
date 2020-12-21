@@ -28,6 +28,52 @@ Klasa ma mieć następujące składowe:
 - metoda printSalariesSorted() wypisująca wynagrodzenia wszystkich pracowników, wraz z informacjami o tych pracownikach, w kolejności malejącego wynagrodzenia (sortowanie ma być wykonana z użyciem std::algorithm)
 4. Należy zaimplementować metodę main demonstrującą działanie powyższego kodu dla co najmniej 10 pracowników pracujących co najmniej w 3 departamentach
 
+## std::stack
+
+std::stack (stos) jest adapterem kontenera, zapewniająca programiście funkcjonalność stosu - struktury danych FILO (first-in, last-out; pierwszy na wejściu, ostatni na wyjściu).
+
+Szablon tej klasy funkcjonuje jak opakowanie do kontenera - umożliwia tylko pewien konkretny zbiór operacji. Stos operuje tylko na końcu opakowywanego kontenera, nazywanym wierzchołkiem stosu (top()). Możliwymi działaniami jest dodanie elementu na koniec (wrzucenie na stos) i usunięcie elementu z końca (zdjęcie ze stosu).
+
+więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/stack)
+
+## std::vector
+
+std::vector jest kontenerem sekwencyjnym, który enkapsuluje tablice zmiennej wielkości.
+
+Elementy są przechowywane w ciągłej pamięci, co oznacza, że można do nich uzyskać dostęp nie tylko przez iteratory, ale również przesuwając zwykłe wskaźniki na elementy. Dzięki temu wskaźnik na element wektora można przekazać do funkcji oczekującej wskaźnika na element tablicy.	(od C++03)
+Pojemność wektora jest zarządzana automatycznie, zwiększana bądź zmniejszana w razie potrzeby. Wektory zużywają zwykle więcej pamięci niż tablice, ponieważ "na zapas" alokują więcej pamięci, która jest później używana w przypadku zwiększenia liczby elementów. W ten sposób wektor nie musi realokować całej swojej pamięci za każdym razem, gdy dodawany jest do niego element, ale dopiero gdy zapasowa pamięć się wyczerpie. Całkowitą ilość zarezerwowanej pamięci można odczytać poprzez funkcję capacity(). Nadmiarowa pamięć może zostać zwrócona do systemu poprzez wywołanie shrink_to_fit(). (od C++11)
+
+Realokacje są kosztownymi operacjami pod względem wydajności. Jeśli liczba elementów jest znana zawczasu, można wykorzystać funkcję reserve(), aby wyeliminować realokacje i od razu zarezerwować wymaganą ilość pamięci.
+
+Złożoność obliczeniowa (wydajność) standardowych operacji na wektorze jest następująca:
+
+Dostęp bezpośredni do elementu - stała O(1)
+Wstawienie lub usunięcie elementu na końcu - amortyzowana stała O(1)
+Wstawienie lub usunięcie elementu - liniowa względem odległości do końca wektora O(n)
+std::vector spełnia wymagania Container, AllocatorAwareContainer, SequenceContainer i ReversibleContainer.
+
+
+
+```cpp
+#include <iostream>
+#include <vector>
+ 
+int main()
+{
+    // Tworzy wektor zawierający liczby całkowite
+    std::vector<int> v = {7, 5, 16, 8};
+ 
+    // Dodaje dwie liczby do wektora
+    v.push_back(25);
+    v.push_back(13);
+ 
+    // Iteruje po wartościach w wektorze i wypisuje je
+    for(int n : v) {
+        std::cout << n << '\n';
+    }
+}
+```
+
 ## std::list
 
 std::list jest kontenerem pozwalającym na wstawianie i usuwanie elementów w dowolnym miejscu w kontenerze, w czasie stałym. Szybki dostęp bezpośredni do elementów nie jest wspierany. Zazwyczaj jest implementowana jako lista dwukierunkowa. W porównaniu do std::forward_list ten kontener pozwala na iterowanie w obu kierunkach. Zużywa z tego powodu więcej pamięci.
