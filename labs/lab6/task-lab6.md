@@ -52,8 +52,6 @@ Wstawienie lub usunięcie elementu na końcu - amortyzowana stała O(1)
 Wstawienie lub usunięcie elementu - liniowa względem odległości do końca wektora O(n)
 std::vector spełnia wymagania Container, AllocatorAwareContainer, SequenceContainer i ReversibleContainer.
 
-
-
 ```cpp
 #include <iostream>
 #include <vector>
@@ -73,6 +71,15 @@ int main()
     }
 }
 ```
+
+## std::queue
+
+td::queue - kolejka jest adapterem kontenera, zapewniającym programiście funkcjonalność kolejki - struktury danych FIFO (first-in, first-out; pierwszy na wejściu, pierwszy na wyjściu).
+
+Szablon tej klasy funkcjonuje jak opakowanie do kontenera - umożliwia tylko pewien konkretny zbiór operacji. Kolejka dodaje elementy na koniec opakowywanego kontenera i usuwa elementy z jego początku.
+
+więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/queue)
+
 
 ## std::list
 
@@ -107,3 +114,6 @@ int main()
     }
 }
 ```
+
+## std::map
+
