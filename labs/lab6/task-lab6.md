@@ -80,6 +80,121 @@ Szablon tej klasy funkcjonuje jak opakowanie do kontenera - umożliwia tylko pew
 
 więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/queue)
 
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+int main()
+{
+  queue<int> queue1;
+  queue1.emplace(1);
+  queue1.emplace(2);
+  queue1.emplace(3);
+
+  if (queue1.empty())
+  {
+    cout << "The queue is empty";
+  }
+  else
+  {
+    cout << "The queue is not empty";
+  }
+  return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main()
+{
+  queue<int> queue2;
+  queue2.push(0);
+  queue2.push(1);
+  queue2.push(2);
+  queue2.push(3);
+  queue2.push(4);
+  // queue has element 0,1,2,3,4
+
+  queue2.pop();
+
+  // after poping one element queue becomes 0,1,2,3
+
+  // Printing queue elements
+  cout << "Elements of the queue are:";
+  while (!queue2.empty())
+  {
+    cout << ' ' << queue2.front();
+    queue2.pop();
+  }
+}
+```
+
+```cpp
+#include <iostream> 
+#include <queue> 
+using namespace std; 
+  
+int main() 
+{ 
+    queue<int> queue3; 
+    queue3.push(0); 
+    queue3.push(1); 
+    queue3.push(2);
+    queue3.push(3);
+    queue3.push(4);
+    
+    cout<<"Size of the queue is: "<<queue3.size()<<endl;
+    cout<<"The element at the front is:"<<queue3.front()<<endl;
+    cout<<"The element at the back is:"<<queue3.back()<<endl;	
+    return(0);
+}
+```
+
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main()
+{
+  queue<int> queue2;
+  queue<int> queue1;
+  queue1.push(0);
+  queue1.push(1);
+  queue1.push(2);
+  queue1.push(3);
+  queue1.push(4);
+
+  queue2.push(5);
+  queue2.push(6);
+  queue2.push(7);
+  queue2.push(8);
+  queue2.push(9);
+
+  queue1.swap(queue2); //Swapping
+
+  cout << "Elements of queue1 after swapping are:";
+  while (!queue1.empty())
+  {
+    cout << queue1.front() << " ";
+    queue1.pop();
+  }
+
+  // Print the second set
+  cout << endl
+       << "Elements of queue2 after swapping are:";
+  while (!queue2.empty())
+  {
+    cout << queue2.front() << " ";
+    queue2.pop();
+  }
+
+  return 0;
+}
+```
 
 ## std::list
 
