@@ -126,6 +126,21 @@ std::map spełnia wymogi Container, AllocatorAwareContainer, AssociativeContaine
 więcej na stronie [cppreference](https://pl.cppreference.com/w/cpp/container/map)
 
 ```cpp
+// Create
+map<string, int> myMap;
+//Insert
+myMap.insert(make_pair("earth", 1));
+myMap.insert(make_pair("moon", 2));
+
+myMap["sun"] = 3;
+
+map<char, int>::iterator it;
+for(it=first.begin(); it!=first.end(); ++it){
+  cout << it->first << " => " << it->second << '\n';
+}
+```
+
+```cpp
 #include <iostream>
 #include <map>
 
