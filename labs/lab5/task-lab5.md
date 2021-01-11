@@ -14,4 +14,5 @@ Należy rozszerzyć klasę macierzy z ćwiczenia 1. o następujące funkcjonalno
 
 ## [Proszę wybrać 3 operatory i je przeładować](https://docs.microsoft.com/pl-pl/cpp/cpp/operator-overloading?view=msvc-160)
 
+## [new delete](https://docs.microsoft.com/pl-pl/cpp/cpp/new-and-delete-operators?view=msvc-160)
 
