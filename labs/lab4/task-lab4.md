@@ -41,6 +41,9 @@ Project_name
 
 - [example](https://github.com/AakashMallik/sample_cmake)
 
+## Articles
+[Simple modern cmake tutorial](https://levelup.gitconnected.com/simple-modern-cmake-tutorial-b0c1c362cd2c)
+
 ## typedef
 typedef unsigned char uint8_t;
 
