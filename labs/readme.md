@@ -1,5 +1,5 @@
 Nowości w modern C++
-[Uniform initialization](https://www.geeksforgeeks.org/uniform-initialization-in-c/)
+- [Uniform initialization](https://www.geeksforgeeks.org/uniform-initialization-in-c/)
 - Automatic type deduction
 - Type aliasing
 - Smart pointers
