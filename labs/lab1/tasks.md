@@ -3,7 +3,8 @@
 ## Terminy
 
 ## Linki
-https://pl.quora.com/Jakie-języki-programistyczne-są-najczęściej-używane-w-2021
+- https://pl.quora.com/Jakie-języki-programistyczne-są-najczęściej-używane-w-2021
+- https://www.youtube.com/watch?v=Og847HVwRSI
 
 ## Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
