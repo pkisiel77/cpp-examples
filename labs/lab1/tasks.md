@@ -1,11 +1,6 @@
 # Początek
 
 ## Terminy
-- LAB-3 02.11.2020 - do godz. 23:59
-- LAB-1 02.11.2020 - do godz. 23:59
-- LAB-4 02.11.2020 - do godz. 23:59
-- LAB-2 02.11.2020 - do godz. 23:59
-
 
 ### Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
@@ -47,6 +42,16 @@ INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 }
 ```
 ### Operacje na strumieniach cin, cout
+
+https://docs.microsoft.com/pl-pl/cpp/text/string-and-i-o-formatting-modern-cpp?view=msvc-160
+
+```cpp
+    std::string text;
+    std::cout << "Hello World!\n";
+    std::cin >> text;
+    std::cout << text << std::endl;
+```
+
 
 #### Zadanie 1
 Napisz program sortujący rosnąco ciąg liczb podanch jako argument programu.
