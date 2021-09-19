@@ -52,6 +52,13 @@ https://docs.microsoft.com/pl-pl/cpp/text/string-and-i-o-formatting-modern-cpp?v
     std::cout << text << std::endl;
 ```
 
+```cpp
+  std::string name;
+
+  std::cout << "Please, enter your full name: ";
+  std::getline (std::cin,name);
+  std::cout << "Hello, " << name << "!\n";
+```
 
 #### Zadanie 1
 Napisz program sortujący rosnąco ciąg liczb podanch jako argument programu.
