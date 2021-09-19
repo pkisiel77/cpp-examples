@@ -2,10 +2,13 @@
 
 ## Terminy
 
-### Komentarze w kodzie C++
+## Linki
+https://pl.quora.com/Jakie-języki-programistyczne-są-najczęściej-używane-w-2021
+
+## Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
 
-### Argumenty funkcji main
+## Argumenty funkcji main
 [main() in C++](https://en.cppreference.com/w/cpp/language/main_function)
 
 ```cpp
