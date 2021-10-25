@@ -99,6 +99,9 @@ BBB:
 - (if)[https://en.cppreference.com/w/cpp/language/if]
 - (if)[https://docs.microsoft.com/pl-pl/cpp/cpp/if-else-statement-cpp?view=vs-2019]
 
+#### Zadanie 1
+Jaki będzie wyniki działania poniższego kodu i dlaczego.
+
 ```cpp
 #include <iostream>
 
@@ -108,8 +111,10 @@ int main()
     
     if (a == 0); 
     {
-        std::cout << "a=" << a << std::endl;        
+        std::cout << "a1=" << a << std::endl;
+        a = 2;
     }
+    std::cout << "a2=" << a << std::endl;
 }
 ```
 
