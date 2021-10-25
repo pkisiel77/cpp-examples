@@ -99,6 +99,20 @@ BBB:
 - (if)[https://en.cppreference.com/w/cpp/language/if]
 - (if)[https://docs.microsoft.com/pl-pl/cpp/cpp/if-else-statement-cpp?view=vs-2019]
 
+```cpp
+#include <iostream>
+
+int main()
+{
+    int a = 1;
+    
+    if (a == 0); 
+    {
+        std::cout << "a=" << a << std::endl;        
+    }
+}
+```
+
 ### switch
 
 - (switch)[https://en.cppreference.com/w/cpp/language/switch]
