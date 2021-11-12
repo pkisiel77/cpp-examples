@@ -11,6 +11,18 @@ prezentowania tej stałej, oznaczanej w jzyku C++ jako M_PI, z dokładnśocią p
 Napisz program, który wyświetla na ekranie komputera pierwiastek kwadratowy z wartości predefiniowanej stałej PI = 3,14... 
 Należy przyjąć format wyświetlania tego pierwiastka z dokładnością dwóch miejsc po kropce.[1]
 
+## Zadanie 3
+Napisz program, który wyświetla na ekranie komputera obliczoną wartość liczby PI z dokładnością 100 miejsc po kropce.[PKS]
+
+## Zadanie 3
+Napisz program, który wyświetla na ekranie komputera obliczoną wartość liczby INNE STAŁE z dokładnością 100 miejsc po kropce.[PKS]
+
+## Zadanie X
+Prąd/Napięcie/Oporność
+
+## Zadanie XX 
+Wyrażenia arytmetyczne 3/4 zadania
+
 ## Zadanie 4
 Napisz program, który oblicza objto kuli o promieniu r.
 Warto promienia wprowadzamy z klawiatury. W programie
