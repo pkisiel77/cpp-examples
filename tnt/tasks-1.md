@@ -11,6 +11,18 @@ prezentowania tej stałej, oznaczanej w jzyku C++ jako M_PI, z dokładnśocią p
 Napisz program, który wyświetla na ekranie komputera pierwiastek kwadratowy z wartości predefiniowanej stałej PI = 3,14... 
 Należy przyjąć format wyświetlania tego pierwiastka z dokładnością dwóch miejsc po kropce.[1]
 
+## Zadanie 4
+Napisz program, który oblicza objto kuli o promieniu r.
+Warto promienia wprowadzamy z klawiatury. W programie
+naley przyj, e r jest typu float (rzeczywistego). Dla zmiennych r oraz objetosc naley przyj format wywietlania ich
+na ekranie z dokadnoci dwóch miejsc po kropce.
+
+## Zdanie 5
+Napisz program, który oblicza wynik dzielenia całkowitego bez reszty dla dwóch liczb całkowitych a = 37 i b = 11.
+
+## Zadanie 6
+ Napisz program, który oblicza reszt z dzielenia całkowitego dla dwóch liczb całkowitych a = 37 i b = 11.
+
 
 
 ## Literatura
