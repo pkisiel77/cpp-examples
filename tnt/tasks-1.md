@@ -15,13 +15,19 @@ Należy przyjąć format wyświetlania tego pierwiastka z dokładnością dwóch
 Napisz program, który oblicza objto kuli o promieniu r.
 Warto promienia wprowadzamy z klawiatury. W programie
 naley przyj, e r jest typu float (rzeczywistego). Dla zmiennych r oraz objetosc naley przyj format wywietlania ich
-na ekranie z dokadnoci dwóch miejsc po kropce.
+na ekranie z dokadnoci dwóch miejsc po kropce.[1]
 
 ## Zdanie 5
-Napisz program, który oblicza wynik dzielenia całkowitego bez reszty dla dwóch liczb całkowitych a = 37 i b = 11.
+Napisz program, który oblicza wynik dzielenia całkowitego bez reszty dla dwóch liczb całkowitych a = 37 i b = 11.[1]
 
 ## Zadanie 6
- Napisz program, który oblicza reszt z dzielenia całkowitego dla dwóch liczb całkowitych a = 37 i b = 11.
+ Napisz program, który oblicza reszt z dzielenia całkowitego dla dwóch liczb całkowitych a = 37 i b = 11.[1]
+
+## Zadanie 7
+Napisz program, który oblicza sum, rónic, iloczyn i iloraz
+dla dwóch liczb x i y wprowadzanych z klawiatury. W programie przyjmujemy, e liczby x i y s typu float (rzeczywistego). Dla zmiennych x, y, suma, roznica, iloczyn i iloraz naley
+przyj format wywietlania ich na ekranie z dokadnoci
+dwóch miejsc po kropce [1]
 
 
 
