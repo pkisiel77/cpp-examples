@@ -93,3 +93,71 @@ int main()
 }
 ```
 
+## calc
+```cpp
+#include<iostream>
+
+using namespace std;
+
+int
+dodawanie (int v1, int v2)
+{
+  return v1 + v2;
+}
+
+int
+odejmowanie (int v1, int v2)
+{
+  return v1 - v2;
+}
+
+int
+mnozenie (int v1, int v2)
+{
+  return v1 * v2;
+}
+
+double
+dzielenie (int v1, int v2)
+{
+  return v1 / (v2 * 1.0);
+}
+
+int
+main ()
+{
+  int v1, v2;
+  int x;
+  cout << "podaj pierwsza liczbe" << endl;
+  cin >> v1;
+  cout << "posdaj druga licz" << endl;
+  cin >> v2;
+  cout << "(1+" << endl;
+  cout << "(2-" << endl;
+  cout << "(3*" << endl;
+  cout << "(4/" << endl;
+  cin >> x;
+
+  if (x == 1)
+  {
+      int dod = dodawanie (v1, v2);
+      cout << "dod=" << dod << endl;
+  }
+  else if(x == 2)
+  {
+      int ode = odejmowanie (v1, v2);
+      cout << "ode=" << ode << endl;
+  }
+  else if(x == 3)
+  {
+      int mno = mnozenie (v1, v2);
+      cout << "mno=" << mno << endl;
+  }
+  else if(x == 4)
+  {
+      double dzi = dzielenie (v1, v2);
+      cout << "dzi=" << dzi << endl;
+  }
+}
+```
+
