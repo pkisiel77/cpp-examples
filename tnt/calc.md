@@ -70,3 +70,26 @@ int main()
 }
 ```
 
+## Tablica
+```cpp
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int tab[5] = {1,20,3,-4,5};
+    // [1][20][3][-4][5]
+    //  0  1   2  3   4
+    
+    for(int i=0; i<5; i++)
+    {
+        cout << "index=" << i << endl;
+        cout << tab[i] << endl;
+    }
+
+    
+    return 0;
+}
+```
+
