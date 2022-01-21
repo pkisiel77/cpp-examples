@@ -20,3 +20,53 @@ int main()
 
 ## Dodaj możliwość odejmowania
 
+```cpp
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int v1;
+    int x ;
+    double v2;
+    double result;
+    
+    cout << "Podaj pierwsza liczbe" << endl;
+    cin >> v1;
+    cout << "Podaj druga liczbe" << endl;
+    cin >> v2;
+    cout << "Wybierz odejmowanie lub dodawanie" << endl;
+    cout << "odejmowanie (1 + " << endl;
+    cout << "dodawanie (2 -" << endl;
+    cout << "* (3 -" << endl;
+    cout << "/ (4 -" << endl;
+    
+    cin >> x;
+
+    if(x == 1)
+    {
+        result = v1 + v2;
+    }
+    else if(x == 2)
+    {
+        result = v1 - v2;
+    }
+    else if(x == 3)
+    {
+        result = v1*v2;
+    }
+    else if(x == 4)
+    {
+        if (v2 != 0)
+        {
+            cout << v1/(v2*1.0) << endl;
+            result = v1/v2;
+        }
+    }
+    cout << " v1=" << v1 << " v2=" << v2 << " is = " << result << std::endl;
+    
+    return 0;
+}
+```
+
