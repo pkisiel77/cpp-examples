@@ -161,3 +161,46 @@ main ()
 }
 ```
 
+## 25012022
+```cpp
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+  int tab[10];
+  auto tabSize = 10;
+  int liczba;
+  
+  cout << "Podaj elementy tablicy o rozmiarze 10" << endl;
+  for (int i = 0; i < tabSize; i++)
+    {
+      cout << "Podaj liczbe = ";
+      cin >> liczba;
+      tab[i] = liczba;
+    } cout << "podane liczby to " << endl;
+
+  for (int k = 0; k < tabSize; k++)
+    {
+      cout << tab[k] << ',';
+    }
+    cout << "" << endl;
+    
+
+
+    int suma = 0;
+  for (int k = 0; k < tabSize; k++)
+    {
+      suma = suma + tab[k];
+    } 
+    
+  cout << "Suma  = " << suma << endl;
+  auto rezultat = suma / (tabSize*1.0);
+  cout << "AVG = " << rezultat << endl;
+  
+  
+  
+  return 0;
+}
+```
+
