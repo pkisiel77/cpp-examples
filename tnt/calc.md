@@ -203,4 +203,63 @@ main ()
   return 0;
 }
 ```
+### MIN, MAX
+```cpp
+#include <iostream>
+using namespace std;
+int main ()
+{
+  int tab[10];
+  auto tabSize = 10;
+  int liczba;
+  
+  // 1. Set array
+  cout << "Podaj elementy tablicy o rozmiarze 10" << endl;
+  for (int i = 0; i < tabSize; i++)
+    {
+      cout << "Podaj liczbe = ";
+      cin >> liczba;
+      tab[i] = liczba;
+    } 
+    
+  // 2. Show array
+  cout << "podane liczby to " << endl;
+
+  for (int k = 0; k < tabSize; k++)
+    {
+      cout << tab[k] << ',';
+    }
+    cout << "" << endl;
+    
+
+  // 3. MIN
+  int min = tab[0];
+   for (int i = 1; i < tabSize; i++)
+   {
+       if(tab[i] < min)
+       {
+           min = tab[i];
+       }
+     
+   }
+   cout << "MIN=" << min << endl;
+   cout << "" << endl;
+  
+  // 4. MIN
+  int max = tab[0];
+   for (int i = 1; i < tabSize; i++)
+   {
+       if(tab[i] > max)
+       {
+           max = tab[i];
+       }
+     
+   }
+   cout << "MAX=" << max << endl;
+   cout << "" << endl;
+  
+  
+  return 0;
+}
+```
 
