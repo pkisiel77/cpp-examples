@@ -1,6 +1,4 @@
-# Początek
-
-## Terminy
+# Lab1
 
 ## Linki
 - https://pl.quora.com/Jakie-języki-programistyczne-są-najczęściej-używane-w-2021
