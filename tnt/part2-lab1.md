@@ -1,11 +1,14 @@
 # Lab 1 - part 2
 
-##
+## Pętla for
+
+Inicjacja ziminnej i dla pętli for
+
 
 ```cpp
-void** getRepDataPtr(shint* d_size)
+void** getRepDataPtr(int* d_size)
 {
-	shint i;
+	int i;
 	for (i = 0; i < L_REP_MAX; i++)
 	{
 		if (report_act[i] == 0)
