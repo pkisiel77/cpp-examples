@@ -2,8 +2,9 @@
 
 ## Pętla for
 
+```
 Inicjacja ziminnej i dla pętli for
-
+```
 
 ```cpp
 void** getRepDataPtr(int* d_size)
