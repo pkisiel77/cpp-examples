@@ -1,5 +1,11 @@
 # Lab 1 - part 2
 
+## auto
+
+```cpp
+constexpr auto 
+```
+
 ## Pętla for
 
 Inicjacja zmiennej i dla pętli for
