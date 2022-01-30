@@ -7,6 +7,9 @@
 ## Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
 
+## Dyrektywy preprocesora
+[Preprocessor](https://docs.microsoft.com/pl-pl/cpp/preprocessor/preprocessor-directives?view=msvc-170)
+
 ## Argumenty funkcji main
 [main() in C++](https://en.cppreference.com/w/cpp/language/main_function)
 
