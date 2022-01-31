@@ -94,6 +94,34 @@ int main()
     return 0;
 }
 ```
+## MIN
+```cpp
+#include <iostream>
+
+int main()
+{
+    int tab[10] = {1,2,3,4,5,6,7,8,9,-10};
+    int tabSize = 10;
+
+    for(int i=0; i<tabSize; i++)
+    {
+        std::cout << tab[i] << " ";
+    }
+    std::cout << "" << std::endl;
+
+    // MIN
+    int min = tab[0];
+    for(int i=1; i<tabSize; i++)
+    {
+        if(tab[i] < min)
+        {
+            min = tab[i];
+        }       
+    }  
+    std::cout << "MIN=" << min << std::endl;  
+
+}
+```
 
 ## calc
 ```cpp
