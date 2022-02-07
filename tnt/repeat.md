@@ -123,6 +123,43 @@ int main()
 }
 ```
 
+## MIN Array
+```cpp
+
+#include <iostream>
+
+int min(int tab[], int tabSize)
+{
+    int min = tab[0];
+    for(int i=1; i<tabSize; i++)
+    {
+        if(tab[i] < min)
+        {
+            min = tab[i];
+        }       
+    } 
+    return min; 
+}
+
+int main()
+{
+    int tab[10] = {1,2,3,4,5,6,7,8,9,-10};
+    int tabSize = 10;
+
+    for(int i=0; i<tabSize; i++)
+    {
+        std::cout << tab[i] << " ";
+    }
+    std::cout << "" << std::endl;
+
+    // MIN
+    int minValue = min(tab, tabSize);
+
+    std::cout << "MIN=" << minValue << std::endl;  
+
+}
+```
+
 ## calc
 ```cpp
 #include<iostream>
