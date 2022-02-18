@@ -40,6 +40,10 @@ przyj format wywietlania ich na ekranie z dokadnoci
 dwóch miejsc po kropce [1]
 
 
+## Zadanie 
+
+- https://www.youtube.com/watch?v=0ZxqLybllNQ
+
 
 ## Literatura
 [1] [ebook] C++. Zadania z programowania z przykładowymi rozwiązaniami Mirosław J. Kubiak
