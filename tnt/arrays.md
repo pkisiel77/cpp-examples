@@ -26,3 +26,11 @@ array[2] = 20;
 
 
 ## Tablice dwuwymiarowe
+
+```cpp
+typ_tablicy nazwa_tablicy[rozmir_tablicy][rozmiar_tablicy];
+```
+
+```cpp
+int array[5][5];
+```
