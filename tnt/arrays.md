@@ -4,7 +4,7 @@
 
 Tablica jest strukturą danych, która umożliwia przechowywanie w sposób zorganizowany wielu zmiennych tego sameog typu.
 
-```
+```cpp
 // deklaracja
 int array[2];
 // definicja
