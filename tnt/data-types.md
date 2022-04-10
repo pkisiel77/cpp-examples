@@ -2,6 +2,7 @@
 
 - https://www.w3schools.com/cpp/cpp_data_types.asp
 - https://www.geeksforgeeks.org/c-data-types/
+- https://www.w3schools.com/cpp/cpp_variables.asp
 
 ## Code
 
