@@ -40,4 +40,15 @@ http://kaluska.pl/algorytmy-tablice-dwuwymiarowe/
 - ćwiczenia 1-5
 - oraz rozwiąż samodzielnie ćwiczenia 1-4
 
+### Projekt
+Napisz grę w kółko i krzyżyk (O,X)
+
+
+
+Proponowane funkcjinalności:
+- możliwość gry z komputerem,
+- możliwość gry dla dwóch graczy,
+- możliwość wyboru czy gramy O czy X,
+- komunikat o wygranej jednego z graczy,
+- w przypadku gry z komputerem możemy wybrać kto zaczyna lub zdecydować się na losowy wybór.
 
