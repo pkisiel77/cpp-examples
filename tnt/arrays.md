@@ -43,7 +43,7 @@ http://kaluska.pl/algorytmy-tablice-dwuwymiarowe/
 ### Projekt
 Napisz grę w kółko i krzyżyk (O,X)
 
-
+![](media/demonstration.mp4)
 
 Proponowane funkcjinalności:
 - możliwość gry z komputerem,
