@@ -1,0 +1,7 @@
+# algorytm
+# program
+# main
+
+:)
+
+
