@@ -12,8 +12,16 @@ Ponisza instrukcja jest przez preprocesor ignorowana
 
 ### #define
 ```cpp
-#define
+#define _test_int_var 1
+
+int main() 
+{
+    cout << _test_int_var << "\n";
+    return 0;
+}
 ```
+
+### #undef
 
 ```cpp
 #undef
