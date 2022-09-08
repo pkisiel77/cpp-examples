@@ -1,8 +1,7 @@
 # Lab1
 
 ## Linki
-- https://pl.quora.com/Jakie-języki-programistyczne-są-najczęściej-używane-w-2021
-- https://www.youtube.com/watch?v=Og847HVwRSI
+- https://www.youtube.com/results?search_query=Most+Popular+Programming+Languages
 
 ## Komentarze w kodzie C++
 [Comments in C++](https://en.cppreference.com/w/cpp/comment)
