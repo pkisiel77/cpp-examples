@@ -10,6 +10,7 @@ Ponisza instrukcja jest przez preprocesor ignorowana
 
 ## Dyrektywy
 
+### #define
 ```cpp
 #define
 ```
