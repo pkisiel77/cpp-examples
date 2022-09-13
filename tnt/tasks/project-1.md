@@ -51,10 +51,9 @@ zmiennych i funkcji.
   - z aplikacji konsolowej => konsola.jpg
 - W edytorze tekstu pakietu biurowego utwórz plik z dokumentacją i nazwij go egzamin. 
 - Dokument powinien zawierać podpisane zrzuty ekranu oraz zapisane informacje:
-  ‒ nazwę systemu operacyjnego, na którym pracował zdający
-  ‒ nazwy środowisk programistycznych, z których zdający korzystał na egzaminie
-  ‒ nazwy języków programowania użytych podczas tworzenia aplikacji
-  ‒ nazwę emulowanego urządzenia lub systemu, na którym uruchomiono aplikację mobilną
+  - nazwę systemu operacyjnego,
+  - nazwy środowisk programistycznych,
+  - nazwy języków programowania użytych podczas tworzenia aplikacji,
   ‒ opcjonalnie komentarz do wykonanej pracy.
 Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
