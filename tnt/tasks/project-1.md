@@ -55,7 +55,7 @@ zmiennych i funkcji.
   - nazwy środowisk programistycznych,
   - nazwy języków programowania użytych podczas tworzenia aplikacji,
   ‒ opcjonalnie komentarz do wykonanej pracy.
-Całą dokumentację umieść w podfolderze ***dokumentacja***.
+- Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
 # Source 
 - https://arkusze.pl/informatory/informator-egzamin-zawodowy-technik-programista-2019.pdf
