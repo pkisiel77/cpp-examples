@@ -48,8 +48,7 @@ zmiennych i funkcji.
 - Jeżeli aplikacja uruchamia się, na zrzucie należy umieścić okno z wynikiem działania programu oraz otwarte środowisko programistyczne z projektem pod spodem.
 - Jeżeli aplikacja nie uruchamia się z powodu błędów kompilacji, należy na zrzucie umieścić okno ze spisem błędów i widocznym otwartym środowiskiem programistycznym. 
 - Wymagane zrzuty ekranu:
-  ‒ z aplikacji konsolowej – konsola.jpg
-
+  - z aplikacji konsolowej => konsola.jpg
 - W edytorze tekstu pakietu biurowego utwórz plik z dokumentacją i nazwij go egzamin. 
 - Dokument powinien zawierać podpisane zrzuty ekranu oraz zapisane informacje:
   ‒ nazwę systemu operacyjnego, na którym pracował zdający
