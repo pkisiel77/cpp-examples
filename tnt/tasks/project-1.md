@@ -32,6 +32,7 @@ zmiennych i funkcji.
 - Nagłówek powinien znaleźć się w kodzie źródłowym nad funkcją. 
 - W miejscu nawiasów <> należy podać nazwę funkcji, nazwy parametrów oraz zwięzłe informacje (kilka słów) – zgodnie ze wzorcem. 
 - W miejscu autor należy podać Imię i Nazwisko
+```cpp
 /********************************************************
 * nazwa funkcji: <tu wstaw nazwę funkcji>
 *
@@ -41,6 +42,7 @@ zmiennych i funkcji.
 *
 * autor: <numer PESEL zdającego>
 * ****************************************************/
+```
 
 # Source 
 - https://arkusze.pl/informatory/informator-egzamin-zawodowy-technik-programista-2019.pdf
