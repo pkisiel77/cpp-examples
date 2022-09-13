@@ -43,6 +43,21 @@ zmiennych i funkcji.
 * autor: <numer PESEL zdającego>
 * ****************************************************/
 ```
+- Wykonaj zrzuty ekranu dokumentujące uruchomienie aplikacji. 
+- Zrzuty powinny obejmować cały obszar ekranu z widocznym paskiem zadań. 
+- Jeżeli aplikacja uruchamia się, na zrzucie należy umieścić okno z wynikiem działania programu oraz otwarte środowisko programistyczne z projektem pod spodem.
+- Jeżeli aplikacja nie uruchamia się z powodu błędów kompilacji, należy na zrzucie umieścić okno ze spisem błędów i widocznym otwartym środowiskiem programistycznym. 
+- Wymagane zrzuty ekranu:
+  ‒ z aplikacji konsolowej – konsola.jpg
+
+- W edytorze tekstu pakietu biurowego utwórz plik z dokumentacją i nazwij go egzamin. 
+- Dokument powinien zawierać podpisane zrzuty ekranu oraz zapisane informacje:
+  ‒ nazwę systemu operacyjnego, na którym pracował zdający
+  ‒ nazwy środowisk programistycznych, z których zdający korzystał na egzaminie
+  ‒ nazwy języków programowania użytych podczas tworzenia aplikacji
+  ‒ nazwę emulowanego urządzenia lub systemu, na którym uruchomiono aplikację mobilną
+  ‒ opcjonalnie komentarz do wykonanej pracy.
+Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
 # Source 
 - https://arkusze.pl/informatory/informator-egzamin-zawodowy-technik-programista-2019.pdf
