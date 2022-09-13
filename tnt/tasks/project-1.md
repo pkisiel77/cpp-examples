@@ -40,7 +40,7 @@ zmiennych i funkcji.
 * wartość zwracana: <co zwraca funkcja – opis>
 * opis funkcji: <zwięzły opis>
 *
-* autor: <numer PESEL zdającego>
+* autor: <Imię i nazwisko>
 * ****************************************************/
 ```
 - Wykonaj zrzuty ekranu dokumentujące uruchomienie aplikacji. 
