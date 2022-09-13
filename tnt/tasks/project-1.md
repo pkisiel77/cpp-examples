@@ -27,6 +27,20 @@ zmiennych i funkcji.
 - Dokumentacja do programu powinna być wykonana zgodnie z wytycznymi z części ***Dokumentacja utworzonej aplikacji***
 
 # Dokumentacja utworzonej aplikacji
+- Wykonaj dokumentację aplikacji. 
+- W kodzie źródłowym aplikacji szyfrującej utwórz nagłówek funkcji szyfrującej według wzoru. 
+- Nagłówek powinien znaleźć się w kodzie źródłowym nad funkcją. 
+- W miejscu nawiasów <> należy podać nazwę funkcji, nazwy parametrów oraz zwięzłe informacje (kilka słów) – zgodnie ze wzorcem. 
+- W miejscu autor należy podać Imię i Nazwisko
+/********************************************************
+* nazwa funkcji: <tu wstaw nazwę funkcji>
+*
+* parametry wejściowe: <nazwa parametru> - <co przechowuje parametr>
+* wartość zwracana: <co zwraca funkcja – opis>
+* opis funkcji: <zwięzły opis>
+*
+* autor: <numer PESEL zdającego>
+* ****************************************************/
 
 # Source 
 - https://arkusze.pl/informatory/informator-egzamin-zawodowy-technik-programista-2019.pdf
