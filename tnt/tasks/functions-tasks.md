@@ -55,4 +55,4 @@ zmiennych i funkcji.
 - Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
 # Source 
-- https://icis.pcz.pl/~agrosser/dydaktyka/pum/z04.pdf
+
