@@ -10,10 +10,6 @@ Składnia
 for ( init-expression ; cond-expression ; loop-expression )
     statement
 ```
-### Przykłady i zadania
-- http://drzewniak.slupsk.pl/~ks/c/c_013.html
-
-
 
 ### Range-based for
 - [cppreference-link](https://en.cppreference.com/w/cpp/language/range-for)
@@ -24,6 +20,8 @@ Składnia
 for (***Deklaracja* : dla zakresu *wyrażenie***)
     instrukcja
 ```
+### Przykłady i zadania
+- http://drzewniak.slupsk.pl/~ks/c/c_013.html
 
 ```cpp
 
