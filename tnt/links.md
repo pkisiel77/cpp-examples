@@ -7,3 +7,6 @@
 
 # Links
 - https://github.com/drogonframework/drogon
+- http://shebang.pl/kursy/programowanie-cpp/r1-czym-jest/#czipwjcpp
+
+
