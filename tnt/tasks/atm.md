@@ -8,7 +8,7 @@
 - Dokumentację aplikacji w postaci zrzutów ekranu i dokumentu umieść w podfolferze dokumentacja.
 
 # Zadanie
-Napisz program, symulujący [ATM](https://pl.wikipedia.org/wiki/Bankomat)
+Napisz program konsolowy, symulujący [ATM](https://pl.wikipedia.org/wiki/Bankomat)
 
 # Założenia programu
 - Program wykonywany w konsoli.
