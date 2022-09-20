@@ -55,3 +55,4 @@ zmiennych i funkcji.
 # Source 
 - https://www.youtube.com/watch?v=wccZgjs90S8
 - https://www.youtube.com/watch?v=qBI7Qnz9Zho
+- https://www.youtube.com/watch?v=k18L_KxF9Ds
