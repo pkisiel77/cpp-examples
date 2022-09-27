@@ -1,0 +1,5 @@
+# Klasa
+
+# Obiekt
+
+# Zadania
