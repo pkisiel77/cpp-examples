@@ -1,6 +1,12 @@
+# Teoria
 
+## Linki
+- https://www.w3schools.com/cpp/cpp_conditions.asp
+- 
 
-# Zadanie 2
+# Zadania
+
+## Zadanie 
 Napisz program informujący czy liczba podana przez użytkownika jest większa, mniejsza czy równa zero. 
 Wykorzystaj tylko dwie instrukcje warunkowe.
 
