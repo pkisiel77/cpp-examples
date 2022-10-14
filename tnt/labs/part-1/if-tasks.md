@@ -7,6 +7,28 @@
 
 # Zadania
 
+## Zadanie 
+Napisz program który obliczy:
+<img width="142" alt="image" src="https://user-images.githubusercontent.com/26519123/195828008-acd75697-5cd2-4ee5-9bc9-b235fdd70ff8.png">
+
+Przykład użycia funkcji SQRT()
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  cout << "Square root of 25 = ";
+   
+  // print the square root of 25
+  cout << sqrt(25);
+
+  return 0;
+}
+
+// Output: Square root of 25 = 5
+```
+
 ## Zadanie 1
 Mapisz program który rozwiąże poniższe równanie:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
