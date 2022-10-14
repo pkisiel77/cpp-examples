@@ -7,7 +7,11 @@
 
 # Zadania
 
-## Zadanie 
+## Zadanie 1
+Mapisz program który rozwiąże poniższe równanie:
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
+
+## Zadanie 2
 Napisz program informujący czy liczba podana przez użytkownika jest większa, mniejsza czy równa zero. 
 Wykorzystaj tylko dwie instrukcje warunkowe.
 
