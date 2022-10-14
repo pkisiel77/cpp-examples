@@ -9,7 +9,10 @@
 
 ## Zadanie 
 Napisz program który obliczy:
-<img width="142" alt="image" src="https://user-images.githubusercontent.com/26519123/195828008-acd75697-5cd2-4ee5-9bc9-b235fdd70ff8.png">
+- <img width="142" alt="image" src="https://user-images.githubusercontent.com/26519123/195828008-acd75697-5cd2-4ee5-9bc9-b235fdd70ff8.png">
+- <img width="157" alt="image" src="https://user-images.githubusercontent.com/26519123/195828669-2fa6679b-fe2b-4e12-88bd-4189995866cd.png">
+- <img width="212" alt="image" src="https://user-images.githubusercontent.com/26519123/195828752-330ed368-cf79-49da-bece-7fa8268273fc.png">
+- <img width="243" alt="image" src="https://user-images.githubusercontent.com/26519123/195828829-2a9b75af-0dba-4f87-82d2-f692cd56d96b.png">
 
 Przykład użycia funkcji SQRT()
 ```cpp
