@@ -7,7 +7,7 @@
 
 # Zadania
 
-## Zadanie 
+## Zadanie 1
 Napisz program który obliczy:
 - <img width="142" alt="image" src="https://user-images.githubusercontent.com/26519123/195828008-acd75697-5cd2-4ee5-9bc9-b235fdd70ff8.png">
 - <img width="157" alt="image" src="https://user-images.githubusercontent.com/26519123/195828669-2fa6679b-fe2b-4e12-88bd-4189995866cd.png">
@@ -32,37 +32,37 @@ int main() {
 // Output: Square root of 25 = 5
 ```
 
-## Zadanie 1
+## Zadanie 2
 Mapisz program który rozwiąże poniższe równanie:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
 
-## Zadanie 2
+## Zadanie 3
 Napisz program który obliczy wartość liczbową dla x = 1/7 i y = 0.5
 <img width="315" alt="image" src="https://user-images.githubusercontent.com/26519123/195825547-a6be93c6-bf3b-445b-a585-c5b267b379a3.png">
 
-## Zadanie 2
+## Zadanie 4
 Napisz program informujący czy liczba podana przez użytkownika jest większa, mniejsza czy równa zero. 
 Wykorzystaj tylko dwie instrukcje warunkowe.
 
-## Zadanie 3
+## Zadanie 5
 Napisz program informujący czy liczba podana przez użytkownika jest liczbą pierwszą.
 
-## Zadanie 4
+## Zadanie 6
 Napisz program informujący czy liczba podana przez użytkownika jest parzysta czy nieparzysta.
 
-## Zadanie 5
+## Zadanie 7
 Napisz program wyznaczający najmniejszą z 10 liczb podanych przez użytkownika.
 
-## Zadanie 6
+## Zadanie 8
 Napisz program, który odpowiada na pytanie, czy wśród 10 liczb występują pary liczb.
 
-## Zadanie 7
+## Zadanie 9
 Napisz program, który odpowiada na pytanie, czy trzy podawane liczby całkowite są ustawione w porządku rosnącym.
 
-## Zadanie 8
+## Zadanie 10
 Napisz program sprawdzający czy liczba podana przez użytkownika jest z przedziału <-10,13> lub <25,35>
 
-## Zadanie 9
+## Zadanie 11
 Napisz kalkulator wyliczający wskaźnik BMI (Body Mass Index)
 
 Wzór dla wskaźnika BMI
@@ -84,7 +84,7 @@ mniej niż 16 - wygłodzenie
 powyżej 40 - otyłość skrajna
 ```
 
-## Zadanie 10
+## Zadanie 12
 Napisz program sprawdzający czy dwie różne liczby całkowite są liczbami skojarzonymi.
 
 Dwie różne liczby całkowite a i b większe od 1 nazwiemy skojarzonymi, 
