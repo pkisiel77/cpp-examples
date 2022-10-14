@@ -12,6 +12,10 @@ Mapisz program który rozwiąże poniższe równanie:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
 
 ## Zadanie 2
+Napisz program który obliczy wartość liczbową dla x = 1/7 i y = 0.5
+<img width="315" alt="image" src="https://user-images.githubusercontent.com/26519123/195825547-a6be93c6-bf3b-445b-a585-c5b267b379a3.png">
+
+## Zadanie 2
 Napisz program informujący czy liczba podana przez użytkownika jest większa, mniejsza czy równa zero. 
 Wykorzystaj tylko dwie instrukcje warunkowe.
 
