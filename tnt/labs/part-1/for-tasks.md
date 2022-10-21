@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 ```
-## sln
+## Proponowane rozwiązanie
 ```cpp
 #include <iostream>
 
