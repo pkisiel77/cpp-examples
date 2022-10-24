@@ -2,6 +2,7 @@
 
 ## Linki
 - https://www.youtube.com/watch?v=hXLbgSh1Wo0&list=PLOYHgt8dIdoxx0Y5wzs7CFpmBzb40PaDo&index=3&ab_channel=Pasjainformatyki
+- https://www.youtube.com/watch?v=hXLbgSh1Wo0&ab_channel=Pasjainformatyki
 - https://en.cppreference.com/w/cpp/language/if
 - https://www.w3schools.com/cpp/cpp_conditions.asp
 
