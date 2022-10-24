@@ -3,6 +3,6 @@
 - https://online.visual-paradigm.com/diagrams/templates/?category=flowchart
 
 
-## Lit
+## Links
 - https://home.agh.edu.pl/~estrzalk/PI/cw/zapis_algorytmow.pdf
-- 
+
