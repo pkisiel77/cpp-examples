@@ -1,6 +1,7 @@
 # Wstęp
 - https://en.cppreference.com/w/cpp/language/for
 - https://www.youtube.com/watch?v=y6GOYVTVvqo&ab_channel=Pasjainformatyki
+- https://cpp0x.pl/kursy/Kurs-C++/Poziom-2/Petla-for/294
 
 # Zadanie 1
 
