@@ -42,3 +42,10 @@ int main()
     return 0;
 }
 ```
+
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/26519123/197748223-6b7658cb-ca21-423d-adfc-cb4811a17bd1.png">
+
+
+
+
+
