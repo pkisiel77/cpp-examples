@@ -43,9 +43,5 @@ int main()
 }
 ```
 
-<img width="733" alt="image" src="https://user-images.githubusercontent.com/26519123/197748223-6b7658cb-ca21-423d-adfc-cb4811a17bd1.png">
-
-
-
-
+<img width="736" alt="image" src="https://user-images.githubusercontent.com/26519123/197942274-6a712b1b-f1d0-4df5-b187-fd73b9e68e9e.png">
 
