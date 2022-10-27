@@ -4,6 +4,11 @@
 - https://cpp0x.pl/kursy/Kurs-C++/Poziom-2/Petla-for/294
 
 # Zadanie 1
+Na podstawie poniższego diagramu napisz program w C++
+
+<img width="486" alt="image" src="https://user-images.githubusercontent.com/26519123/198257884-6f0b525a-6f4e-4180-8ef9-1be61b7ffc6e.png">
+
+# Zadanie 2
 
 ```cpp
 #include <iostream>
@@ -22,7 +27,7 @@ int main()
 ```
 Do zadania 1 dodaj schemat blokowy.
 
-# Zadanie 2
+# Zadanie 3
 
 ```cpp
 #include <iostream>
