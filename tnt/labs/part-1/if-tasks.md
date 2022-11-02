@@ -33,8 +33,8 @@ int main() {
 // Output: Square root of 25 = 5
 ```
 
-## Zadanie 2
-Mapisz program który rozwiąże poniższe równanie:
+## Zadanie 2*
+Napisz program który rozwiąże poniższe równanie:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
 
 ## Zadanie 3
