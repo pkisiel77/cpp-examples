@@ -16,7 +16,7 @@ Napisz program który obliczy:
 - <img width="212" alt="image" src="https://user-images.githubusercontent.com/26519123/195828752-330ed368-cf79-49da-bece-7fa8268273fc.png">
 - <img width="243" alt="image" src="https://user-images.githubusercontent.com/26519123/195828829-2a9b75af-0dba-4f87-82d2-f692cd56d96b.png">
 
-Przykład użycia funkcji SQRT() = $\sqrt{}$
+Przykład użycia funkcji SQRT() np. $\sqrt{25}$
 ```cpp
 #include <iostream>
 #include <cmath>
