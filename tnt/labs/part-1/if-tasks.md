@@ -56,7 +56,7 @@ Napisz program w którym zostanie użyte:
 - else
 
 ## Zadanie 2.1
-Wyjaśnij dlaczego poniższy zapis skopiluje się ale nie jest poprawny:
+Wyjaśnij dlaczego poniższy kod skopiluje się ale nie jest poprawny:
 
 ```cpp
     int a = 1;
