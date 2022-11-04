@@ -11,7 +11,7 @@
 ## Zadanie 1
 Napisz program który obliczy:
 - $\sqrt{3x-1}+(1+x)^2$
-- $(sqrt{2} + 3)^2$
+- $(\sqrt{2} + 3)^2$
 - <img width="157" alt="image" src="https://user-images.githubusercontent.com/26519123/195828669-2fa6679b-fe2b-4e12-88bd-4189995866cd.png">
 - <img width="212" alt="image" src="https://user-images.githubusercontent.com/26519123/195828752-330ed368-cf79-49da-bece-7fa8268273fc.png">
 - <img width="243" alt="image" src="https://user-images.githubusercontent.com/26519123/195828829-2a9b75af-0dba-4f87-82d2-f692cd56d96b.png">
