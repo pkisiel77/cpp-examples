@@ -15,7 +15,24 @@ Napisz program który obliczy:
 - $(3\sqrt{2}+2\sqrt{3})^2$
 - $(0.5\sqrt{2}-0.3\sqrt{3})^2$
 
-Przykład użycia funkcji SQRT() np. $\sqrt{25}$
+Przykład użycia funkcji pow(a,b) => $a^b$
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+  // computes 5 raised to the power 3
+  cout << pow(5, 3);
+
+  return 0;
+}
+
+// Output: 125
+```
+
+Przykład użycia funkcji sqrt(a) np. $\sqrt{a}$
 ```cpp
 #include <iostream>
 #include <cmath>
