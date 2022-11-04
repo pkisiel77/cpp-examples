@@ -32,7 +32,7 @@ int main() {
 // Output: 125
 ```
 
-Przykład użycia funkcji sqrt(a) np. $\sqrt{a}$
+Przykład użycia funkcji sqrt(a) => $\sqrt{a}$
 ```cpp
 #include <iostream>
 #include <cmath>
