@@ -61,3 +61,21 @@ int main() {
 Napisz program w C++ realizujący poniższy algorytm
 
 <img width="316" alt="image" src="https://user-images.githubusercontent.com/26519123/197586992-f78b155f-ba25-4bb7-a3b7-f20965c9f836.png">
+
+```cpp
+#include <iostream>
+
+int main() {
+    int n;
+
+    std::cout << "Podaj n ";
+    std::cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        std::cout << i << "\n";
+    }
+
+    return 0;
+}
+```
+
