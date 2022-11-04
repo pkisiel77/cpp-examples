@@ -127,5 +127,4 @@ b) dzielnikami 195 są 1, 3, 5, 13, 15, 39, 65, a suma tych liczb równa jest 14
 
 ## Zadanie 13*
 Napisz program który rozwiąże poniższe równanie:
-<img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
-
+$3x+4(3-x)-(3x+2)=3$
