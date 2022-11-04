@@ -55,6 +55,17 @@ Napisz program w którym zostanie użyte:
 - else if
 - else
 
+## Zadanie 2.1
+Wyjaśnij dlaczego poniższy zapis skopiluje się ale nie jest poprawny:
+
+```cpp
+    int a = 1;
+
+    if (a == 1);{
+        std::cout << a << "\n";
+    }
+```
+
 ## Zadanie 3
 Napisz program który obliczy wartość liczbową dla x = 1/7 i y = 0.5
 <img width="315" alt="image" src="https://user-images.githubusercontent.com/26519123/195825547-a6be93c6-bf3b-445b-a585-c5b267b379a3.png">
