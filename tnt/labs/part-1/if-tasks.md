@@ -49,10 +49,11 @@ int main() {
 
 // Output: Square root of 25 = 5
 ```
-
 ## Zadanie 2
-Napisz program który rozwiąże poniższe równanie dla x=0.005:
-<img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
+Napisz program w którym zostanie użyte:
+- if
+- else if
+- else
 
 ## Zadanie 3
 Napisz program który obliczy wartość liczbową dla x = 1/7 i y = 0.5
@@ -112,3 +113,8 @@ a suma wszystkich różnych dodatnich dzielników b mniejszych od b jest równa 
 Skojarzone są np. liczby 140 i 195, ponieważ:
 a) dzielnikami 140 są 1, 2, 4, 5, 7, 10, 14, 20, 28, 35, 70, a ich suma wynosi 196 = 195+1.
 b) dzielnikami 195 są 1, 3, 5, 13, 15, 39, 65, a suma tych liczb równa jest 141 = 140+1. 
+
+## Zadanie 13*
+Napisz program który rozwiąże poniższe równanie:
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/26519123/195822629-df3bfbc1-d157-4f03-96c6-eee148ee350d.png">
+
