@@ -13,7 +13,7 @@ Napisz program który obliczy:
 - $(\sqrt{2} + 3)^2$
 - $(3-\sqrt{5})^2$
 - $(3\sqrt{2}+2\sqrt{3})^2$
-- $(1/2\sqrt{2}-1/3\sqrt{3})^2$
+- $(0.5\sqrt{2}-0.3\sqrt{3})^2$
 
 Przykład użycia funkcji SQRT() np. $\sqrt{25}$
 ```cpp
