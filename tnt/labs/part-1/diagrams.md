@@ -36,6 +36,27 @@ Napisz program w C++ realizujący poniższy algorytm
 
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/26519123/197586880-a01c7f7f-cadb-443e-9064-880fe6a69c4d.png">
 
+```cpp
+#include <iostream>
+
+int main() {
+    int a, b;
+
+    std::cout << "Podaj a ";
+    std::cin >> a;
+    std::cout << "Podaj b ";
+    std::cin >> b;
+
+    if (a >= b) {
+        std::cout << "max a =  " << a << "\n";
+    } else {
+        std::cout << "max b = " << b << "\n";
+    }
+
+    return 0;
+}
+```
+
 ## Zadanie 3
 Napisz program w C++ realizujący poniższy algorytm
 
