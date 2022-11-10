@@ -1,3 +1,23 @@
+# Teoria
+
+```cpp
+// operator modulo % - reszta z dzielenia całkowitego
+
+if(i%2==0) {
+    std::cout << i << " jest parzyste " << "\n";
+}
+```
+
+
+## Zadanie
+Naisz program który za pomocą **pętli for** wyświetli liczby całkowite od 1 do 110
+
+## Zadanie
+Naisz program który za pomocą **pętli do{}while** wyświetli liczby całkowite od 1 do 110
+
+## Zadanie
+Naisz program który za pomocą **pętli while** wyświetli liczby całkowite od 1 do 110
+
 ## Zadanie
 Naisz program który za pomocą **pętli for** sumuje liczby całkowite od 1 do 110
 
