@@ -21,6 +21,7 @@ Naisz program który za pomocą **pętli while** sumuje liczby **pierwsze** od 1
 Napisz program który wyświetli tabliczkę mnożenia od 1 do 100
 
 Wynik działania programu:
+
 ![image](https://user-images.githubusercontent.com/26519123/201101425-a3b3c2cc-d7db-4f17-8410-8857df1b5218.png)
 src: https://www.bajkidoczytania.pl/img/tabliczka-mnozenia-do-100.pdf
 
