@@ -17,6 +17,13 @@ Naisz program który za pomocą **pętli do{}while** sumuje liczby **nieparzyste
 Naisz program który za pomocą **pętli while** sumuje liczby **pierwsze** od 1 do 110
 
 ## Zadanie *
+
+Napisz program który wyświetli tabliczkę mnożenia od 1 do 100
+
+Wynik działania programu:
+![image](https://user-images.githubusercontent.com/26519123/201101425-a3b3c2cc-d7db-4f17-8410-8857df1b5218.png)
+
+## Zadanie *
 Napisz program, który znajdzie największą i najmniejszą liczbę ze zbioru n **(int n;)** liczb losowych z przedziału od 1 do 100 oraz obliczy ich średnią arytmatyczną
 
 ```cpp
@@ -42,3 +49,4 @@ int main(){
 	return 0;
 }
 ```
+
