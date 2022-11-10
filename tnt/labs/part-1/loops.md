@@ -90,7 +90,7 @@ int main(){
     std::cout << "You pressed a key = " << key << "\n";
     std::cout << "key code = " << (int)key << "\n";
 
-	return 0;
+    return 0;
 }
 ```
 
