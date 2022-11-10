@@ -17,10 +17,7 @@ Naisz program który za pomocą **pętli do{}while** sumuje liczby **nieparzyste
 Naisz program który za pomocą **pętli while** sumuje liczby **pierwsze** od 1 do 110
 
 ## Zadanie *
-Napisz program, który znajdzie największą i najmniejszą liczbę ze zbioru **int n** liczb losowych z przedziału od 1 do 100 oraz oblicza ich średnią
-
-Link: https://en.cppreference.com/w/cpp/experimental/randint
-Link: https://en.cppreference.com/w/cpp/numeric/random/rand
+Napisz program, który znajdzie największą i najmniejszą liczbę ze zbioru n **(int n;)** liczb losowych z przedziału od 1 do 100 oraz obliczy ich średnią arytmatyczną
 
 ```cpp
 #include<iostream>
