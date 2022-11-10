@@ -73,3 +73,27 @@ int main(){
 }
 ```
 
+## Zadanie 
+Napisz program, który wyświetla litery z alfabetu od a do z i od z do a.
+
+Przykład z wyświetlaniem znaku oraz jego kodu
+```cpp
+#include<iostream>
+
+int main(){
+    
+    char key;
+    
+    std::cout << "Press any key..." << "\n";
+    std::cin >> key;
+    
+    std::cout << "You pressed a key = " << key << "\n";
+    std::cout << "key code = " << (int)key << "\n";
+
+	return 0;
+}
+```
+
+
+
+
