@@ -3,9 +3,9 @@
 ```cpp
 // operator modulo % - reszta z dzielenia całkowitego
 
-if(i%2==0) {
-    std::cout << i << " jest parzyste " << "\n";
-}
+    if (i % 2 == 0) {
+        std::cout << i << " jest parzyste " << "\n";
+    }
 ```
 
 
