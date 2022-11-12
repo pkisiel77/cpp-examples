@@ -43,5 +43,5 @@ int main() {
 ## Zadanie
 
 Oblicz:
-- $2*34/52$
+- $\frac{2*3}4/52$
 
