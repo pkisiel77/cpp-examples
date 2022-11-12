@@ -43,7 +43,7 @@ int main() {
 ## Zadanie
 Napisz program który obliczy poniższe wyrażenie:
 
-$(\sqrt{5} + 2)^\frac{1}{2}$
+$((\sqrt{5} + 2)^\frac{1}{2}+(\sqrt{5} - 2)^\frac{1}{2})^2$
 
 ![image](https://user-images.githubusercontent.com/26519123/201484440-0cf2bad0-fe02-4c14-926c-083c9087dcbf.png)
 
