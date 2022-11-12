@@ -42,5 +42,6 @@ int main() {
 
 ## Zadanie
 
-Oblicz
-$2*34/5$
+Oblicz:
+- $2*34/52$
+
