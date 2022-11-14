@@ -1,3 +1,25 @@
+## Teoria
+
+PI
+E 
+other consts
+
+```cpp
+double get_PI()
+{
+    double pi;
+    __asm
+    {
+        fldpi
+        fstp pi
+    }
+    return pi;
+}
+
+double PI = get_PI();
+```
+
+
 ## Zadanie 1
 Napisz program który obliczy:
 - $(\sqrt{2} + 3)^2$
