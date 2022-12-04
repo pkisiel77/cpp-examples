@@ -9,11 +9,11 @@ Funkcja ma swoją nazwę, która ją identyfikuje.
 
 ## Deklaracja
 
-Kilka przykładów deklaracji funkcji:
-double kwadrat(int bok);
-void fun(int stopien, char znaczek, int nachylenie); int przypadek(void);
-char znak_x();
-void pin(...);
+Przykłady deklaracji funkcji:
+- double kwadrat(int bok);
+- void fun(int stopien, char znaczek, int nachylenie); int przypadek(void);
+- char znak_x();
+- void pin(...);
 
 ```
 Deklaracja funkcji kończy się średnikiem
