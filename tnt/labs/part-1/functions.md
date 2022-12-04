@@ -1,6 +1,23 @@
-# Definicja
+# Funkcja
 
-# Deklaracja
+Funkcja ma swoją nazwę, która ją identyfikuje.
+
+[] [] ();
+
+
+## Definicja
+
+## Deklaracja
+
+Kilka przykładów deklaracji funkcji:
+double kwadrat(int bok);
+void fun(int stopien, char znaczek, int nachylenie); int przypadek(void);
+char znak_x();
+void pin(...);
+
+```
+Deklaracja funkcji kończy się średnikiem
+```
 
 # links
 - https://www.youtube.com/watch?v=NKTqUVq6NN0&ab_channel=Kana%C5%82oWszystkim
