@@ -10,7 +10,11 @@ Funkcja ma swoją nazwę, która ją identyfikuje.
 ## Deklaracja
 
 Przykłady deklaracji funkcji:
-- double kwadrat(int bok);
+```
+double kwadrat(int bok);
+```
+kwadrat jest funkcji (wywo3ywan1 z jednym argumentem typu int), która w rezul- tacie zwraca wartoœæ typu double.
+
 - void fun(int stopien, char znaczek, int nachylenie); 
 - int przypadek(void);
 - char znak_x();
