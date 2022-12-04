@@ -11,7 +11,8 @@ Funkcja ma swoją nazwę, która ją identyfikuje.
 
 Przykłady deklaracji funkcji:
 - double kwadrat(int bok);
-- void fun(int stopien, char znaczek, int nachylenie); int przypadek(void);
+- void fun(int stopien, char znaczek, int nachylenie); 
+- int przypadek(void);
 - char znak_x();
 - void pin(...);
 
