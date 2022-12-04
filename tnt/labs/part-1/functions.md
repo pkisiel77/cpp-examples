@@ -9,6 +9,8 @@ Funkcja ma swoją nazwę, która ją identyfikuje.
 
 ## Deklaracja
 
+Deklaracja funkcji kończy się średnikiem
+
 Przykłady deklaracji funkcji:
 ```cpp
 double kwadrat(int bok);
@@ -22,9 +24,7 @@ char znak_x();
 void pin(...);
 ```
 
-```
-Deklaracja funkcji kończy się średnikiem
-```
+
 
 # links
 - https://www.youtube.com/watch?v=NKTqUVq6NN0&ab_channel=Kana%C5%82oWszystkim
