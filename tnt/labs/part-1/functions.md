@@ -2,8 +2,12 @@
 
 Funkcja ma swoją nazwę, która ją identyfikuje.
 
-[] [] ();
-
+```cpp
+typ_wartości nazwa_funkcji(lista_parametrów){
+   deklaracje_zmiennych;  
+   ciąg instrukcji;
+}
+```
 
 ## Definicja
 
