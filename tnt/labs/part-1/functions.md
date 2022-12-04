@@ -6,6 +6,9 @@ Funkcja ma swoją nazwę, która ją identyfikuje.
 typ_wartości nazwa_funkcji(lista_parametrów){
    deklaracje_zmiennych;  
    ciąg instrukcji;
+   deklaracje_zmiennych;
+   ciąg instrukcji;
+   ...
 }
 ```
 
