@@ -1,15 +1,13 @@
 # Funkcja
 
+- Funkcja ma swoją nazwę, która ją identyfikuje.
 - Funkcja jest blokiem kodu, który wykonuje jakąś operację. 
 - Funkcja może opcjonalnie definiować parametry wejściowe, które umożliwiają obiektom wywołującym przekazywanie argumentów do funkcji. 
 - Funkcja może opcjonalnie zwrócić wartość jako dane wyjściowe. 
 - Funkcje są przydatne w przypadku hermetyzacji typowych operacji w jednym bloku wielokrotnego użytku, najlepiej z nazwą, 
   która wyraźnie opisuje działanie funkcji.
+
 https://learn.microsoft.com/pl-pl/cpp/cpp/functions-cpp?view=msvc-170
-
-
-
-Funkcja ma swoją nazwę, która ją identyfikuje.
 
 ```cpp
 typ_wartości nazwa_funkcji(lista_parametrów){
