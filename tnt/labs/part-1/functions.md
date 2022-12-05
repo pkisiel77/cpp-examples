@@ -23,6 +23,13 @@ typ_wartości nazwa_funkcji(lista_parametrów){
    ...
 }
 ```
+
+# Deklaracja i definicja
+
+Funkcja C++ składa się z dwóch części:
+- Deklaracja: zwracany typ, nazwa funkcji i parametry (jeśli występują)
+- Definicja: ciało funkcji (kod do wykonania)
+
 ## Deklaracja
 
 - Deklaracja 
@@ -86,10 +93,8 @@ double kwadrat(int bok)
 }
 ```
 
-
-
-
-# links
+# Linki
+- https://www.w3schools.com/cpp/cpp_functions.asp
 - https://www.youtube.com/watch?v=NKTqUVq6NN0&ab_channel=Kana%C5%82oWszystkim
 - https://www.youtube.com/watch?v=HHplT1A4_A4&t=1s&ab_channel=Pasjainformatyki
 
@@ -97,7 +102,7 @@ double kwadrat(int bok)
 Napisz program w C++ obliczający pole prostokąta. 
 Program powinien on zawierać jedną funkcję (podprogram) => bezparametrową funkcję pole_prostokata(), w której zawarty będzie algorytm obliczania pola.
 
-Wartości boków a i b wprowadzamy z klawiatury. w programie należy założyć, że zmienne a, b oraz pole są typu float (rzeczywistego) i są one zmiennymi globalnymi. Należy dla nich przyjąć format wyświetlania ich z dwoma miejscami po kropce.”
+Wartości boków a i b wprowadzamy z klawiatury. w programie należy założyć, że zmienne a, b oraz pole są typu float (rzeczywistego) i są one zmiennymi globalnymi. Należy dla nich przyjąć format wyświetlania ich z dwoma miejscami po kropce.
 
 
 
