@@ -42,12 +42,31 @@ double kwadrat(int bok);
 ```
 kwadrat jest funkcji (wywoływaną z jednym argumentem typu **int**), która w rezultacie zwraca wartość typu **double**
 
+### Opisz poniższe deklaracje.
 ```cpp
 void fun(int stopien, char znaczek, int nachylenie); 
 int przypadek(void);
 char znak_x();
 void pin(...);
 ```
+
+### Nazwa argumentów funkcji w deklaracji
+
+Nazwy argumentów umieszczone w nawiasach deklaracji funkcji są nieistotne dla kompilatora i można je pominąć. 
+
+Uwaga: nazwy, a nie typy argumentów.
+
+Dlatego deklarację funkcji:
+```cpp
+void fun(int stopien, char znaczek, int nachylenie);
+```
+można napisać także jako:
+```cpp
+void fun(int, char, int);
+```
+To dlatego, że w deklaracji powiadamiamy kompilator o liczbie i typie argumentów. 
+Ich nazwy nie są w tym momencie istotne. 
+To będzie ważne w definicji.
 
 ## Definicja
 
