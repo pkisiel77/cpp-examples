@@ -28,9 +28,9 @@ typ_wartości nazwa_funkcji(lista_parametrów){
 - Deklaracja 
 ```cpp 
 int f( );
-```
-oznacza 
-```cpp 
+
+// oznacza 
+
 int f(void);
 ```
 
