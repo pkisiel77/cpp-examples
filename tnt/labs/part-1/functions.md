@@ -42,6 +42,14 @@ void pin(...);
 
 ## Definicja
 
+```cpp
+double kwadrat(int bok)
+{
+  double ret = bok * bok;
+  return ret;
+}
+```
+
 
 
 
