@@ -54,7 +54,7 @@ void pin(...);
 
 Nazwy argumentów umieszczone w nawiasach deklaracji funkcji są nieistotne dla kompilatora i można je pominąć. 
 
-Uwaga: nazwy, a nie typy argumentów.
+> Uwaga: nazwy, a nie typy argumentów.
 
 Dlatego deklarację funkcji:
 ```cpp
