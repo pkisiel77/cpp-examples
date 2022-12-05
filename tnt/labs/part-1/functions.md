@@ -25,7 +25,8 @@ typ_wartości nazwa_funkcji(lista_parametrów){
 ```
 ## Deklaracja
 
-Deklaracja funkcji kończy się średnikiem
+- Deklaracja int f( ); – oznacza int f(void);
+- Deklaracja funkcji kończy się średnikiem
 
 Przykłady deklaracji funkcji:
 ```cpp
