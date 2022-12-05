@@ -88,8 +88,7 @@ auto funkcja(typ_arg1 , typ_arg2 ) -> typ_rezultatu ;
 ```cpp
 double kwadrat(int bok)
 {
-  double ret = bok * bok;
-  return ret;
+  retrun bok * bok;
 }
 ```
 
