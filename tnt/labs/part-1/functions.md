@@ -68,6 +68,14 @@ To dlatego, że w deklaracji powiadamiamy kompilator o liczbie i typie argument�
 Ich nazwy nie są w tym momencie istotne. 
 To będzie ważne w definicji.
 
+### C++ 11
+
+C++11 dopuszcza nowy, alternatywny zapis w takiej postaci:
+
+```cpp
+auto funkcja(typ_arg1 , typ_arg2 ) -> typ_rezultatu ;
+```
+
 ## Definicja
 
 ```cpp
