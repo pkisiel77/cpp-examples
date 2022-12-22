@@ -98,13 +98,13 @@ double kwadrat(int bok)
 - https://www.youtube.com/watch?v=b1HxT1QATvo&ab_channel=Kana%C5%82oWszystkim
 - https://www.youtube.com/watch?v=HHplT1A4_A4&t=1s&ab_channel=Pasjainformatyki
 
-## Zadania
+## RectangleArea
 Napisz program w C++ obliczający pole prostokąta (utwórz funkcję rectangleArea). 
 Program powinien on zawierać jedną funkcję (podprogram) => bezparametrową funkcję pole_prostokata(), w której zawarty będzie algorytm obliczania pola.
 
 Wartości boków a i b wprowadzamy z klawiatury. w programie należy założyć, że zmienne a, b oraz pole są typu float (rzeczywistego) i są one zmiennymi globalnymi. Należy dla nich przyjąć format wyświetlania ich z dwoma miejscami po kropce.
 
-## Z2
+## Conversion
 Conversion
 Napisz program (utwórz funkcję conversion) do konwersji temperatury ze stopni Celsjusza na stopnie Fahrenheita:
 Fahrenheit = Celsjusz * (212 - 32)/100 + 32
