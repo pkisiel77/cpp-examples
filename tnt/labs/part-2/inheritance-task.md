@@ -9,7 +9,7 @@ Source: http://hoth.amu.edu.pl/~fishbomb/wyklady/wyklad_11.html
 
 ## Zadanie 2
 
-Opisz co się dzieje w poniższykodzie linika kodu po linijce
+Opisz co się dzieje w poniższy kodzie linika kodu po linijce
 
 ```cpp
 #include <iostream>
