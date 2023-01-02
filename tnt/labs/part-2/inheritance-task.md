@@ -1,6 +1,5 @@
-Zadanie 2
-Cześć A: Implementacja klas.
 ## Zadanie 1
+*Cześć A: Implementacja klas.*
 Napisać program umożliwiający tworzenie oraz dalsze wykorzystanie obiektów dwóch klas: COsoba oraz CPracownik.
 Klasą bazową jest klasa COsoba. W klasie tej przewidziane są chronione dane składowe: nazwisko (typu string) oraz wiek (typu int;
 wiek osoby powinien być z zakresu od 0 do 120). W klasie powinien zostać zdefiniowany konstruktor domyślny, który umożliwia
@@ -16,7 +15,7 @@ pewnych domyślne wartości danym składowym klasy (nazwisko = "", wiek = 0, zar
 stała funkcja Drukuj wyświetlająca informacje o pracowniku na ekranie oraz działający w podobny sposób przeciążony operator
 wstawiania do strumienia <<. Dodatkowo w klasie powinna zostać zdefiniowana funkcja składowa Dochod_Roczny. Zadaniem
 funkcji jest przekazywanie do programu (przez return) rocznego dochodu uzyskanego przez pracownika (12 x zarobek_mies).
-Cześć B: Zadania testowe w programie.
+*Cześć B: Zadania testowe w programie.*
 1) Zadeklaruj w programie obiekt osobaA typu COsoba (przyjmujemy, że dane o osobie będą określone w dalszej części programu)
 oraz obiekt pracA typu CPracownik (dane o pracowniku nadane zostaną przy tworzeniu obiektu).
 2) Nadaj wartości danym obiektu osobaA wykorzystując do tego funkcje dostępowe Set.
@@ -39,6 +38,7 @@ ptr1.
 
 ## Zadanie 2
 
+Opisz co się dzieje w poniższykodzie linika kodu po linijce
 
 ```cpp
 #include <iostream>
