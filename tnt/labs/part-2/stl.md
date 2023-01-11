@@ -49,7 +49,7 @@ std::size()
 myVector.size()
 ```
 
-### Resize
+### Example - resize
 ```cpp
 #include <iostream>
 #include <vector>
