@@ -42,7 +42,11 @@ C++11
 ```cpp
 for(auto& elem:myVector)
     std::cout<<elem<<" ";
-
+```
+C++17
+```cpp
+std::size() 
+myVector.size()
 ```
 
 ### Resize
