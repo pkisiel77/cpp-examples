@@ -7,6 +7,44 @@
 
 ## vector
 
+### Example 1
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> myVector;
+
+    // Add elements to the vector
+    myVector.push_back(1);
+    myVector.push_back(2);
+    myVector.push_back(3);
+
+    // Print the elements of the vector
+    for (int i = 0; i < myVector.size(); i++) {
+        std::cout << myVector[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // Remove the last element of the vector
+    myVector.pop_back();
+
+    // Print the elements of the vector again
+    for (int i = 0; i < myVector.size(); i++) {
+        std::cout << myVector[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+C++11
+```cpp
+for(auto& elem:myVector)
+    std::cout<<elem<<" ";
+
+```
+
 ### Resize
 ```cpp
 #include <iostream>
