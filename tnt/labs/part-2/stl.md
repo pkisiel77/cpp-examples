@@ -57,7 +57,8 @@ Struktura zawiera:
 - wiek 
 - i nazwy umiejętności. 
 Wektor jest uzupełniany poprzez dodanie kilku kandydatów do listy.
-Następnie są wyszukiwane umiejętności.
+
+Następnie wyszukiwane są umiejętności.
 
 ```cpp
 #include <iostream>
