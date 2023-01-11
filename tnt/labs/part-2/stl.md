@@ -7,7 +7,7 @@
 
 ## vector
 
-### Example 1
+### Example std::vector
 ```cpp
 #include <iostream>
 #include <vector>
@@ -48,7 +48,7 @@ C++17
 std::size() 
 myVector.size()
 ```
-### Example - vector
+### Example std::vector
 
 Program tworzy wektor struktur o nazwie Kandydat. 
 Struktura zawiera: 
