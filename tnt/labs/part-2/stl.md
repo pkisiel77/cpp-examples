@@ -50,13 +50,14 @@ myVector.size()
 ```
 ### Example - vector
 
-Program tworzy wektor struktur o nazwie Kandydat. Struktura zawiera 
+Program tworzy wektor struktur o nazwie Kandydat. 
+Struktura zawiera: 
 - imię,
 - nazwisko,
 - wiek 
 - i nazwy umiejętności. 
-Następnie używa funkcji push_back() w celu dodania kilku kandydatów do listy. 
-Następnie monituje użytkownika o wprowadzenie umiejętności do wyszukania i używa opartej na zakresie pętli for do iteracji kandydatów, sprawdzając, czy ciąg umiejętności każdego kandydata zawiera określoną umiejętność, używając metody find() std::string, jeśli tak drukuje nazwisko i wiek kandydata, który posiada tę umiejętność
+Wektor jest uzupełniany poprzez dodanie kilku kandydatów do listy.
+Następnie są wyszukiwane umiejętności.
 
 ```cpp
 #include <iostream>
