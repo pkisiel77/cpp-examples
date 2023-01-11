@@ -56,6 +56,7 @@ Struktura zawiera:
 - nazwisko,
 - wiek 
 - i nazwy umiejętności. 
+
 Wektor jest uzupełniany poprzez dodanie kilku kandydatów do listy.
 
 Następnie wyszukiwane są umiejętności.
