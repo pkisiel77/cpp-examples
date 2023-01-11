@@ -48,6 +48,50 @@ C++17
 std::size() 
 myVector.size()
 ```
+### Example - vector
+
+Program tworzy wektor struktur o nazwie Kandydat. Struktura zawiera 
+- imię,
+- nazwisko,
+- wiek 
+- i nazwy umiejętności. 
+Następnie używa funkcji push_back() w celu dodania kilku kandydatów do listy. 
+Następnie monituje użytkownika o wprowadzenie umiejętności do wyszukania i używa opartej na zakresie pętli for do iteracji kandydatów, sprawdzając, czy ciąg umiejętności każdego kandydata zawiera określoną umiejętność, używając metody find() std::string, jeśli tak drukuje nazwisko i wiek kandydata, który posiada tę umiejętność
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
+struct Candidate {
+    std::string name;
+    int age;
+    std::string skills;
+};
+
+int main() {
+    std::vector<Candidate> candidates;
+
+    // Add candidates to the list
+    candidates.push_back({"Alice", 25, "C++, Python, JavaScript"});
+    candidates.push_back({"Bob", 30, "Java, C#, SQL"});
+    candidates.push_back({"Charlie", 35, "C++, Java, Python"});
+
+    // Ask the user for a skill to search for
+    std::cout << "Enter a skill to search for: ";
+    std::string searchSkill;
+    std::cin >> searchSkill;
+
+    // Search for candidates with the specified skill
+    std::cout << "Candidates with " << searchSkill << " skill:" << std::endl;
+    for (const auto& candidate : candidates) {
+        if (candidate.skills.find(searchSkill) != std::string::npos) {
+            std::cout << candidate.name << ", " << candidate.age << std::endl;
+        }
+    }
+    return 0;
+}
+```
 
 ### Example - resize
 ```cpp
