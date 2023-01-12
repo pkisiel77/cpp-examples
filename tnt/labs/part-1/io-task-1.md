@@ -17,3 +17,11 @@ Program powinien umożliwić wprowadzanie nowych danych do pliku oraz edycję ju
 ## Uwaga 
 
 Program powinien być czytelny, zawierać komentarze i być zgodny z dobrymi praktykami programowania w C++.
+
+## Kod
+
+```cpp
+fstream plik; 
+plik.open("nazwa_pliku.txt", ios::out);
+```
+
