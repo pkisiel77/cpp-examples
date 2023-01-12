@@ -163,5 +163,25 @@ int main () {
 ```
 https://cplusplus.com/reference/algorithm/sort/
 
+### Example
+Proszę napisać program w języku C++, który utworzy wektor liczb całkowitych o rozmiarze 10 elementów i wypełni go wartościami od 1 do 10. Następnie program powinien wypisać zawartość wektora na ekranie.
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> myVector(10);
+    for (int i = 0; i < 10; i++) {
+        myVector[i] = i + 1;
+    }
+    for (int i = 0; i < 10; i++) {
+        std::cout << myVector[i] << " ";
+    }
+    return 0;
+}
+
+```
+
 
 
