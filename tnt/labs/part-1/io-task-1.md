@@ -24,4 +24,25 @@ Program powinien być czytelny, zawierać komentarze i być zgodny z dobrymi pra
 fstream plik; 
 plik.open("nazwa_pliku.txt", ios::out);
 ```
+### Aktualizacja pliku
+Aby zaktualizować plik tekstowy w C++, można użyć biblioteki "fstream", która pozwala na otwieranie, zapisywanie i modyfikowanie plików. 
+Przykład kodu, który otwiera plik "example.txt" i dopisuje tekst "This is new text." na końcu pliku:
+
+```cpp
+#include <fstream>
+#include <string>
+
+int main() {
+    std::ofstream file("example.txt", std::ios::app);
+    if (file.is_open()) {
+        file << "This is new text.";
+        file.close();
+    }
+    else {
+        std::cout << "Unable to open file";
+    }
+    return 0;
+}
+```
+Uwaga, że flaga "ios::app" jest ustawiona, aby dopisywać tekst na końcu pliku, zamiast nadpisywać jego zawartość.
 
