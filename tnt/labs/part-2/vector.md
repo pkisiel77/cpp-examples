@@ -182,6 +182,36 @@ int main() {
 }
 
 ```
+### Example
+Proszę napisać program w języku C++, który utworzy wektor obiektów klasy "Person" zawierającej pola name (string) i age (int), a następnie zaimplementuje funkcję, która przyjmuje wektor i dwie liczby całkowite a i b jako argumenty i zwraca wektor składający się tylko z obiektów o polu age z przedziału <a,b>, posortowanych alfabetycznie według pola name.
 
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+class Person {
+    public:
+        std::string name;
+        int age;
+};
+std::vector<Person> filterAndSort(std::vector<Person> people, int a, int b) {
+    std::vector<Person> result;
+    std::copy_if(people.begin(), people.end(), std::back_inserter(result), [a, b](const Person& p) {
+        return a <= p.age && p.age <= b;
+    });
+    std::sort(result.begin(), result.end(), [](const Person& a, const Person& b) {
+        return a.name < b.name;
+    });
+    return result;
+}
+int main() {
+    std::vector<Person> people = {{"John", 30}, {"Mike", 25}, {"Bob", 35}};
+    auto result = filterAndSort(people, 25, 35);
+    for (const auto& person : result) {
+        std::cout << person.name << " " << person.age << std::endl;
+    }
+    return 0;
+}
+```
 
 
