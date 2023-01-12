@@ -20,10 +20,6 @@ Program powinien być czytelny, zawierać komentarze i być zgodny z dobrymi pra
 
 ## Kod
 
-```cpp
-fstream plik; 
-plik.open("nazwa_pliku.txt", ios::out);
-```
 ### Aktualizacja pliku
 Aby zaktualizować plik tekstowy w C++, można użyć biblioteki "fstream", która pozwala na otwieranie, zapisywanie i modyfikowanie plików. 
 Przykład kodu, który otwiera plik "example.txt" i dopisuje tekst "This is new text." na końcu pliku:
@@ -45,4 +41,59 @@ int main() {
 }
 ```
 Uwaga, że flaga "ios::app" jest ustawiona, aby dopisywać tekst na końcu pliku, zamiast nadpisywać jego zawartość.
+
+### Pobieranie danych z pliku
+Aby pobrać dane z pliku tekstowego w C++, można użyć biblioteki "fstream" i otworzyć plik do odczytu. Przykład kodu, który otwiera plik "example.txt" i wczytuje jego zawartość do zmiennej "content":
+```cpp
+#include <fstream>
+#include <string>
+
+int main() {
+    std::ifstream file("example.txt");
+    std::string content;
+
+    if (file.is_open()) {
+        std::string line;
+        while (getline(file, line)) {
+            content += line + '\n';
+        }
+        file.close();
+    }
+    else {
+        std::cout << "Unable to open file";
+    }
+
+    std::cout << content;
+    return 0;
+}
+```
+Funkcja "getline" jest używana do odczytywania pojedynczej linii tekstu z pliku i przypisywania jej do zmiennej "line". Pętla while jest używana, aby odczytać wszystkie linie pliku.
+
+Innym sposobem jest użycie strumienia operatora >>.
+
+```cpp
+#include <fstream>
+#include <string>
+
+int main() {
+    std::ifstream file("example.txt");
+    std::string content;
+
+    if (file.is_open()) {
+        std::string line;
+        while (file >> line) {
+            content += line + '\n';
+        }
+        file.close();
+    }
+    else {
+        std::cout << "Unable to open file";
+    }
+
+    std::cout << content;
+    return 0;
+}
+```
+W tym przypadku operator >> jest używany do odczytywania pojedynczych słów z pliku i przypisywania ich do zmiennej "line", a następnie pętla while jest używana, aby odczytać wszystkie słowa pliku.
+
 
