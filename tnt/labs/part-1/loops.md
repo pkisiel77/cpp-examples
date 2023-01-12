@@ -93,6 +93,26 @@ int main(){
     return 0;
 }
 ```
+## Zadanie 
+Napisz program, który wykorzystuje pętle for i wyświetla na ekranie wszystkie liczby od 1 do 100.
+## Zadanie 
+Napisz program, który wykorzystuje pętle while i wyświetla na ekranie wszystkie liczby od 100 do 1.
+## Zadanie 
+Napisz program, który wykorzystuje pętle do-while i wyświetla na ekranie wszystkie liczby parzyste od 0 do 20.
+## Zadanie 
+Napisz program, który wykorzystuje pętle for i wyświetla na ekranie wszystkie liczby podzielne przez 3 z przedziału od 1 do 100.
+## Zadanie 
+Napisz program, który wykorzystuje pętle while i wyświetla na ekranie sumę liczb od 1 do 10.
+## Zadanie 
+Napisz program, który wykorzystuje pętle do-while i wyświetla na ekranie iloczyn liczb od 1 do 5.
+## Zadanie 
+Napisz program, który wykorzystuje pętle for i wyświetla na ekranie silnię liczby n (n podane przez użytkownika).
+## Zadanie 
+Napisz program, który wykorzystuje pętle while i wyświetla na ekranie kolejne potęgi liczby 2, aż do osiągnięcia liczby m (m podane przez użytkownika).
+## Zadanie 
+Napisz program, który wykorzystuje pętle do-while i wyświetla na ekranie wszystkie liczby trójkątne z przedziału od 1 do 20.
+## Zadanie 
+Napisz program, który wykorzystuje pętle for i wyświetla na ekranie tabliczkę mnożenia dla liczb od 1 do 10.
 
 
 
