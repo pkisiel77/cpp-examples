@@ -5,9 +5,8 @@ Utwórz klasę "Konto" z polami:
 - numer 
 - i saldo.
 
-Dodaj konstruktor domyślny oraz konstruktor z parametrami (konstruktor przeciążony), który ustawia pola klasy na podane wartości.  
-Dodaj destruktor, który wyświetla informację o usunięciu obiektu.
-
+Dodaj konstruktor domyślny oraz konstruktor z parametrami (konstruktor przeciążony), który ustawia pola klasy na podane wartości. 
+Dodaj destruktor, który wyświetla informację o usunięciu obiektu. 
 Utwórz kilka obiektów klasy "Konto" i przetestuj działanie konstruktorów i destruktora.
 
 ### Dodatkowo
