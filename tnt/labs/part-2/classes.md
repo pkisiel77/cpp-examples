@@ -12,13 +12,15 @@ Dodaj destruktor, który wyświetla informację o usunięciu obiektu.
 Utwórz kilka obiektów klasy "Konto" i przetestuj działanie konstruktorów i destruktora.
 
 ```cpp
+#include <iostream>
+
 class Konto {
     public:
         Konto();
-        Konto(string n, int num, double s);
+        Konto(std::string n, int num, double s);
         ~Konto();
 
-        string nazwa;
+        std::string nazwa;
         int numer;
         double saldo;
 };
@@ -29,14 +31,14 @@ Konto::Konto() {
     saldo = 0.0;
 }
 
-Konto::Konto(string n, int num, double s) {
+Konto::Konto(std::string n, int num, double s) {
     nazwa = n;
     numer = num;
     saldo = s;
 }
 
 Konto::~Konto() {
-    cout << "Usunięto obiekt klasy Konto o numerze " << numer << endl;
+    std::cout << "Usunięto obiekt klasy Konto o numerze " << numer << "\n";
 }
 
 int main() {
@@ -62,41 +64,49 @@ Dodaj destruktor, który wyświetla informację o usunięciu obiektu.
 Stwórz kilka obiektów klasy "Konto" i przetestuj działanie konstruktorów i destruktora.
 
 ```cpp
-class Konto {
-    public:
-        Konto();
-        Konto(const Konto& k);
-        Konto(string n, int num, double s);
-        ~Konto();
+#include <iostream>
 
-        string nazwa;
-        int numer;
-        double saldo;
+class Konto
+{
+public:
+    Konto();
+    Konto(const Konto &k);
+    Konto(std::string n, int num, double s);
+    ~Konto();
+
+    std::string nazwa;
+    int numer;
+    double saldo;
 };
 
-Konto::Konto() {
+Konto::Konto()
+{
     nazwa = "";
     numer = 0;
     saldo = 0.0;
 }
 
-Konto::Konto(const Konto& k) {
+Konto::Konto(const Konto &k)
+{
     nazwa = k.nazwa;
     numer = k.numer;
     saldo = k.saldo;
 }
 
-Konto::Konto(string n, int num, double s) {
+Konto::Konto(std::string n, int num, double s)
+{
     nazwa = n;
     numer = num;
     saldo = s;
 }
 
-Konto::~Konto() {
-    cout << "Usunięto obiekt klasy Konto o numerze " << numer << endl;
+Konto::~Konto()
+{
+    std::cout << "Usunięto obiekt klasy Konto o numerze " << numer << "\n";
 }
 
-int main() {
+int main()
+{
     Konto k1("Jan Kowalski", 123, 1000.0);
     Konto k2(k1);
     Konto k3 = k1;
