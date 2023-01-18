@@ -15,7 +15,7 @@ Dopisz medotę która wyświetli wartości pól:
 - numer 
 - i saldo 
 
-Dla utworzonego obiektu.
+dla utworzonego obiektu.
 
 ```cpp
 #include <iostream>
