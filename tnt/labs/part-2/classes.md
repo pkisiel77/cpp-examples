@@ -11,6 +11,13 @@ Dodaj destruktor, który wyświetla informację o usunięciu obiektu.
 
 Utwórz kilka obiektów klasy "Konto" i przetestuj działanie konstruktorów i destruktora.
 
+### Dodatkowo
+Dopisz medotę która wyświetli wartości pól:
+- nazwa, 
+- numer 
+- i saldo 
+Dla utworzonego obiektu.
+
 ```cpp
 #include <iostream>
 
