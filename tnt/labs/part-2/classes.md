@@ -59,8 +59,11 @@ Utwórz klasę "Konto" z polami:
 - nazwa, 
 - numer 
 - i saldo.
+
 Dodaj konstruktor domyślny, konstruktor kopiujący oraz konstruktor z parametrami, który ustawia pola klasy na podane wartości.
+
 Dodaj destruktor, który wyświetla informację o usunięciu obiektu.
+
 Stwórz kilka obiektów klasy "Konto" i przetestuj działanie konstruktorów i destruktora.
 
 ```cpp
