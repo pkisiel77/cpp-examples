@@ -16,6 +16,7 @@ Dopisz medotę która wyświetli wartości pól:
 - nazwa, 
 - numer 
 - i saldo 
+
 Dla utworzonego obiektu.
 
 ```cpp
