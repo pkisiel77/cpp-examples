@@ -20,6 +20,7 @@ Program powinien być czytelny, zawierać komentarze i być zgodny z dobrymi pra
 
 ## Linki
 - https://www.youtube.com/watch?v=EaHFhms_Shw&ab_channel=CodeBeauty
+- https://www.youtube.com/watch?v=ruf_pj2hGpw&ab_channel=CalebCurry
 
 ## Kod
 
