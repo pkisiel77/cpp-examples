@@ -94,6 +94,7 @@ double kwadrat(int bok)
 
 # Linki
 - https://www.w3schools.com/cpp/cpp_functions.asp
+- https://www.youtube.com/watch?v=8rxQsVRdVjI&ab_channel=CodeBeauty
 - https://www.youtube.com/watch?v=NKTqUVq6NN0&ab_channel=Kana%C5%82oWszystkim
 - https://www.youtube.com/watch?v=b1HxT1QATvo&ab_channel=Kana%C5%82oWszystkim
 - https://www.youtube.com/watch?v=HHplT1A4_A4&t=1s&ab_channel=Pasjainformatyki
