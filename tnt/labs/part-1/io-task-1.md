@@ -18,6 +18,9 @@ Program powinien umożliwić wprowadzanie nowych danych do pliku oraz edycję ju
 
 Program powinien być czytelny, zawierać komentarze i być zgodny z dobrymi praktykami programowania w C++.
 
+## Linki
+- https://www.youtube.com/watch?v=EaHFhms_Shw&ab_channel=CodeBeauty
+
 ## Kod
 
 ### Aktualizacja pliku
