@@ -9,3 +9,7 @@ git checkout 1-connect-to-cosmosdb
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
 
+```
+git rm --cached -r venv*
+```
+
