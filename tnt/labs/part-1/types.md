@@ -8,3 +8,34 @@ Następnie program powinien wykonać kilka operacji na tych liczbach, wykorzystu
 - Oblicz i wyświetl różnicę pomiędzy liczbą całkowitą a liczbą zmiennoprzecinkową
 - Wypisz na ekranie wartość zmiennej całkowitej oraz zmiennej zmiennoprzecinkowej
 - Uwaga: Pamiętaj o odpowiednim konwertowaniu typów danych przed wykonaniem operacji matematycznych.
+
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  // Typy liczbowe stałoprzecinkowe
+  float a = 3.14;
+  double b = -2.718;
+
+  cout << "Wartość zmiennej 'a': " << a << endl;
+  cout << "Wartość zmiennej 'b': " << b << endl;
+
+  // Typy liczbowe zmiennoprzecinkowe
+  long double c = 1.0;
+  long double d = -0.5;
+
+  cout << "Wartość zmiennej 'c': " << c << endl;
+  cout << "Wartość zmiennej 'd': " << d << endl;
+
+  // Operacje matematyczne na typach liczbowych
+  long double result = sin(a) + cos(b);
+
+  cout << "Wynik operacji matematycznej: " << result << endl;
+
+  return 0;
+}
+```
