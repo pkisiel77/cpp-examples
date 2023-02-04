@@ -9,6 +9,7 @@ Następnie program powinien wykonać kilka operacji na tych liczbach, wykorzystu
 - Wypisz na ekranie wartość zmiennej całkowitej oraz zmiennej zmiennoprzecinkowej
 - Uwaga: Pamiętaj o odpowiednim konwertowaniu typów danych przed wykonaniem operacji matematycznych.
 
+## stałoprzecinkowe, zmiennoprzecinkowe
 
 ```cpp
 #include <iostream>
