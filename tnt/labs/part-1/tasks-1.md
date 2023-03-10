@@ -28,9 +28,10 @@ Kroki programu:
 Utwórz stos na liczbach całkowitych, na którym będziesz przechowywał wartości wynikowe.
 Pobierz od użytkownika wyrażenie w postaci ONP.
 Przejdź przez wyrażenie od lewej do prawej i wykonaj następujące czynności:
-a) Jeśli napotkasz liczbę, umieść ją na stosie.
-b) Jeśli napotkasz operator, pobierz dwie wartości ze szczytu stosu, wykonaj działanie określone przez operator i umieść wynik na stosie.
-Po przejściu całego wyrażenia, wynik powinien znajdować się na szczycie stosu. Zdejmij go ze stosu i wypisz na ekranie.
+- Jeśli napotkasz liczbę, umieść ją na stosie.
+- Jeśli napotkasz operator, pobierz dwie wartości ze szczytu stosu, wykonaj działanie określone przez operator i umieść wynik na stosie.
+- Po przejściu całego wyrażenia, wynik powinien znajdować się na szczycie stosu. 
+- Zdejmij go ze stosu i wypisz na ekranie.
 
 ```
 Podaj 5 liczb całkowitych:
