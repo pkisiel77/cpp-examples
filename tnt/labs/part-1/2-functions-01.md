@@ -12,6 +12,9 @@ https://user-images.githubusercontent.com/26519123/226863231-5be7342f-a7ce-4b9c-
 // function declaration
 int addTwoIntNumbers(int a, int b);
 
+// or 
+// int addTwoIntNumbers(int, int);
+
 int main() 
 {
     int ret = addTwoIntNumbers(1,2);
