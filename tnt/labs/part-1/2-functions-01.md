@@ -1,3 +1,7 @@
+## 
+
+https://app.prezo.ai/decks/d567dee5-d87a-497f-b43f-5453cdca2a66
+
 ## Deklaracja i definicja funkcji
 
 
