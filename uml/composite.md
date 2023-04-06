@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    Component "1" *-- "0..*" Component : contains
+    Component "1" *-- "0..*" Composite : contains
     Component <|-- Leaf
     Component <|-- Composite
     class Component {
