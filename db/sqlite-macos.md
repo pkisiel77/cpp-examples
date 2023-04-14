@@ -1,0 +1,3 @@
+```sh
+brew install sqlite
+```
