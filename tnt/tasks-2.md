@@ -26,3 +26,11 @@ Enter a number to check if it's prime (-1 to quit): 4
 Enter a number to check if it's prime (-1 to quit): -1
 Exiting the program.
 ```
+
+Evaluation Criteria:
+
+- Correct implementation of the is_prime function.
+- Proper handling of user input and edge cases.
+- Clear and concise code structure.
+- Effective use of loops and conditionals to control the program flow.
+
