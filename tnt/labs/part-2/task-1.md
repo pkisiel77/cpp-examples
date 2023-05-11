@@ -20,9 +20,9 @@ Dodaj do klasy Samochod następujące metody:
 
 ## Zadanie 3:
 
-Stwórz klasę SportowySamochod, która dziedziczy po klasie Samochod. Ta klasa powinna mieć dodatkowy atrybut maksymalnaPredkosc, który jest prywatny i ma własne metody dostępowe (gettery i settery). Wartość maksymalnej prędkości nie powinna być ujemna. 
+Stwórz klasę SportowySamochod, która dziedziczy po klasie Samochod. Ta klasa powinna mieć dodatkowy atrybut maksymalnaPredkosc, który jest prywatny i ma własne metody dostępowe (gettery i settery). Wartość maksymalnej prędkości nie powinna być ujemna.  
 
-Dodaj do klasy SportowySamochod metodę turbo, która zwiększa wartość maksymalnaPredkosc. Metoda ta powinna przyjmować jako argument wartość, o którą zwiększana jest prędkość.
+Dodaj do klasy SportowySamochod metodę turbo, która zwiększa wartość maksymalnaPredkosc. Metoda ta powinna przyjmować jako argument wartość, o którą zwiększana jest prędkość. 
 
 ## Zadanie 4:
 
