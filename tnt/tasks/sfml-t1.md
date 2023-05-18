@@ -19,4 +19,5 @@ W funkcji main:
 pozwalając na przechowywanie różnych typów obiektów w tablicy wskaźników do klasy bazowej i prawidłowe wywoływanie odpowiednich metod dla każdego typu obiektu.
 
 Do wizualizacji użyj biblioteki SFML (Simple and Fast Multimedia Library) 
+https://www.youtube.com/watch?v=YfMQyOw1zik&ab_channel=SamuliNatri
 
