@@ -17,3 +17,6 @@ W funkcji main:
 - Odpowiedź powinna zawierać definicje klas Figura, Kwadrat i Kolo, a także kod demonstrujący użycie tych klas w funkcji main. 
 - Upewnij się, że program prawidłowo wykorzystuje polimorfizm, 
 pozwalając na przechowywanie różnych typów obiektów w tablicy wskaźników do klasy bazowej i prawidłowe wywoływanie odpowiednich metod dla każdego typu obiektu.
+
+Do wizualizacji użyj biblioteki SFML (Simple and Fast Multimedia Library) 
+
