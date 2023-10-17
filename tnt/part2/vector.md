@@ -23,6 +23,9 @@ Napisz program, który będzie wykonywał następujące kroki:
 - Wypisuje średnią wartość liczb w wektorze.
 - Wypisuje wszystkie liczby większe od tej średniej.
 
+<details>
+  <summary>Sln</summary>
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -71,6 +74,7 @@ int main() {
 }
 
 ```
+</details>
 
 
   
