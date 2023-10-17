@@ -24,7 +24,7 @@ Napisz program, który będzie wykonywał następujące kroki:
 - Wypisuje wszystkie liczby większe od tej średniej.
 
 <details>
-  <summary>Sln</summary>
+  <summary>Kod</summary>
 
 ```cpp
 #include <iostream>
@@ -73,6 +73,15 @@ int main() {
     return 0;
 }
 
+```
+</details>
+
+## Zadanie 3*
+
+<details>
+  <summary>Kod</summary>
+```cpp
+  
 ```
 </details>
 
