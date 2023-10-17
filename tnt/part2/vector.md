@@ -92,6 +92,49 @@ Napisz program, który:
 ```cpp
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
+int main() {
+    int n;
+    std::vector<int> liczby;
+
+    // 1. Pobranie ilości liczb
+    std::cout << "Podaj ilosc liczb: ";
+    std::cin >> n;
+
+    // 2. Pobranie liczb od użytkownika
+    std::cout << "Podaj " << n << " liczb:" << std::endl;
+    for (int i = 0; i < n; ++i) {
+        int liczba;
+        std::cin >> liczba;
+        liczby.push_back(liczba);
+    }
+
+    // 3. Sortowanie wektora w porządku rosnącym
+    std::sort(liczby.begin(), liczby.end());
+
+    // 4. Obliczenie i wypisanie mediany
+    double mediana;
+    if (n % 2 == 0) {
+        mediana = (liczby[n / 2 - 1] + liczby[n / 2]) / 2.0;
+    } else {
+        mediana = liczby[n / 2];
+    }
+    std::cout << "Mediana: " << mediana << std::endl;
+
+    // 5. Usunięcie liczb większych od mediany
+    liczby.erase(std::remove_if(liczby.begin(), liczby.end(), [mediana](int x) { return x > mediana; }), liczby.end());
+
+    // 6. Wypisanie pozostałych liczb w wektorze
+    std::cout << "Liczby w wektorze po usunieciu: ";
+    for (int liczba : liczby) {
+        std::cout << liczba << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
 ```
 </details>
 
