@@ -13,3 +13,16 @@ Twoje zadanie polega na napisaniu funkcji w C++, która przyjmuje string repreze
   Następnie napisz funkcję, która potrafi odkodować takie hasło na podstawie std::vector<int> z powrotem na string. 
   
   Pamiętaj o obsłudze potencjalnych błędów, takich jak niewłaściwe znaki w haśle.
+
+## Zadanie 2*
+Napisz program, który będzie wykonywał następujące kroki:
+
+- Pobiera od użytkownika liczbę n - ilość liczb, które zostaną wprowadzone.
+- Pobiera n liczb od użytkownika i zapisuje je w wektorze.
+- Wypisuje wszystkie liczby z wektora.
+- Wypisuje średnią wartość liczb w wektorze.
+- Wypisuje wszystkie liczby większe od tej średniej.
+
+
+
+  
