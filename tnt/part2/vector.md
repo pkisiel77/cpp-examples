@@ -77,13 +77,21 @@ int main() {
 </details>
 
 ## Zadanie 3*
+Napisz program, który:
+
+- Pobiera od użytkownika liczbę n - ilość liczb, które zostaną wprowadzone.
+- Pobiera n liczb od użytkownika i zapisuje je w wektorze.
+- Sortuje liczby w wektorze w porządku rosnącym.
+- Wypisuje medianę (wartość środkową) liczb w wektorze.
+- Usuwa z wektora wszystkie liczby większe od mediany.
+- Wypisuje liczby, które pozostały w wektorze.
 
 <details>
   <summary>Kod</summary>
   
 ```cpp
 #include <iostream>
-#include <vector>  
+#include <vector>
 ```
 </details>
 
