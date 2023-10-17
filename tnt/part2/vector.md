@@ -82,7 +82,8 @@ int main() {
   <summary>Kod</summary>
   
 ```cpp
-  
+#include <iostream>
+#include <vector>  
 ```
 </details>
 
