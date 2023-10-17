@@ -23,6 +23,54 @@ Napisz program, który będzie wykonywał następujące kroki:
 - Wypisuje średnią wartość liczb w wektorze.
 - Wypisuje wszystkie liczby większe od tej średniej.
 
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    int n;
+    std::vector<int> liczby;
+
+    // 1. Pobranie ilości liczb
+    std::cout << "Podaj ilosc liczb: ";
+    std::cin >> n;
+
+    // 2. Pobranie liczb od użytkownika
+    std::cout << "Podaj " << n << " liczb:" << std::endl;
+    for (int i = 0; i < n; ++i) {
+        int liczba;
+        std::cin >> liczba;
+        liczby.push_back(liczba);
+    }
+
+    // 3. Wypisanie liczb z wektora
+    std::cout << "Wprowadzone liczby: ";
+    for (int liczba : liczby) {
+        std::cout << liczba << " ";
+    }
+    std::cout << std::endl;
+
+    // 4. Obliczenie i wypisanie średniej wartości
+    double suma = 0.0;
+    for (int liczba : liczby) {
+        suma += liczba;
+    }
+    double srednia = suma / n;
+    std::cout << "Srednia wartosc: " << srednia << std::endl;
+
+    // 5. Wypisanie liczb większych od średniej
+    std::cout << "Liczby wieksze od sredniej: ";
+    for (int liczba : liczby) {
+        if (liczba > srednia) {
+            std::cout << liczba << " ";
+        }
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+```
 
 
   
