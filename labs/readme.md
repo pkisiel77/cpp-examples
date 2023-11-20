@@ -1,3 +1,5 @@
+lab8 - Threads
+
 Nowości w modern C++
 - [Uniform initialization](https://www.geeksforgeeks.org/uniform-initialization-in-c/)
 - Automatic type deduction
