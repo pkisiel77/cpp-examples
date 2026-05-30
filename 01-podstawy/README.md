@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-pierwszy-program.md` - algorytm, program, `main`, komentarze, pierwszy kod.
+1. [01-pierwszy-program.md](01-pierwszy-program.md) - algorytm, program, `main`, komentarze, pierwszy kod.
 2. `02-wejscie-wyjscie.md` - `cin`, `cout`, `getline`, argumenty programu.
 3. `03-typy-zmienne-operatory.md` - typy danych, zmienne, operatory, obliczenia.
 4. `04-formatowanie-wyjscia.md` - `iomanip`, precyzja, szerokość, wypełnienie.
@@ -27,7 +27,6 @@ Po zakończeniu segmentu student powinien umieć:
 
 Materiały w tym katalogu są jeszcze w trakcie porządkowania. Aktualnie źródłem treści są:
 
-- [pierwszy-program.md](pierwszy-program.md)
 - [wejscie-wyjscie.md](wejscie-wyjscie.md)
 - [lab-01-wejscie-wyjscie.md](lab-01-wejscie-wyjscie.md)
 - [typy-danych.md](typy-danych.md)
@@ -37,6 +36,8 @@ Materiały w tym katalogu są jeszcze w trakcie porządkowania. Aktualnie źród
 - [zadania-podstawowe.md](zadania-podstawowe.md)
 - [stare-zadania-1.md](stare-zadania-1.md)
 - [notatki-27092022.md](notatki-27092022.md)
+
+Pliki źródłowe wchłonięte do nowych lekcji są przenoszone do [archive](archive).
 
 ## Format lekcji
 
