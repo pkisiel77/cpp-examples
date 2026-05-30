@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-instrukcje-warunkowe.md` - `if`, `else`, porównania, operatory logiczne.
+1. [01-instrukcje-warunkowe.md](01-instrukcje-warunkowe.md) - `if`, `else`, porównania, operatory logiczne.
 2. `02-switch-i-operator-warunkowy.md` - `switch` oraz `?:`.
 3. `03-petla-for.md` - klasyczna pętla `for` i typowe schematy iteracji.
 4. `04-petle-while-do-while.md` - pętle zależne od warunku.
