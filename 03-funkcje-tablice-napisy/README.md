@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-funkcje-podstawy.md` - deklaracja, definicja, wywołanie, wartość zwracana.
+1. [01-funkcje-podstawy.md](01-funkcje-podstawy.md) - deklaracja, definicja, wywołanie, wartość zwracana.
 2. `02-parametry-i-zakres.md` - parametry funkcji, zmienne lokalne, proste przypadki przekazywania danych.
 3. `03-tablice.md` - tablice jednowymiarowe, indeksy, pętle.
 4. `04-tablice-dwuwymiarowe.md` - macierze i proste operacje na siatkach danych.
