@@ -1,15 +1,55 @@
-# 01 - Podstawy
+# 01 - Podstawy C++
 
-Cel segmentu: zbudować pierwszy zestaw umiejętności potrzebny do pisania prostych programów konsolowych.
+Ten segment jest pierwszym właściwym blokiem kursu. Materiały są przygotowywane po polsku i mają prowadzić studenta od pierwszego programu do prostych zadań konsolowych.
 
-## Kolejność
+## Cele segmentu
 
-1. [cpp-info.md](cpp-info.md), [pierwszy-program.md](pierwszy-program.md)
-2. [wejscie-wyjscie.md](wejscie-wyjscie.md), [lab-01-wejscie-wyjscie.md](lab-01-wejscie-wyjscie.md)
-3. [typy-danych.md](typy-danych.md), [data-types.md](data-types.md), [zmienne.md](zmienne.md)
-4. [math.md](math.md)
-5. [zadania-podstawowe.md](zadania-podstawowe.md), [stare-zadania-1.md](stare-zadania-1.md)
+Po zakończeniu segmentu student powinien umieć:
 
-## Efekt
+- opisać rolę algorytmu, programu i funkcji `main`,
+- napisać, skompilować i uruchomić prosty program C++,
+- używać `std::cin`, `std::cout` i `std::getline`,
+- dobrać podstawowe typy danych do problemu,
+- deklarować i inicjalizować zmienne,
+- wykonywać proste obliczenia,
+- formatować podstawowe wyjście tekstowe,
+- rozwiązać proste zadania konsolowe.
 
-Student rozumie strukturę programu, używa `cin`/`cout`, typów prostych, zmiennych i wykonuje podstawowe obliczenia.
+## Docelowa kolejność lekcji
+
+1. `01-pierwszy-program.md` - algorytm, program, `main`, komentarze, pierwszy kod.
+2. `02-wejscie-wyjscie.md` - `cin`, `cout`, `getline`, argumenty programu.
+3. `03-typy-zmienne-operatory.md` - typy danych, zmienne, operatory, obliczenia.
+4. `04-formatowanie-wyjscia.md` - `iomanip`, precyzja, szerokość, wypełnienie.
+5. `05-zadania.md` - zadania podstawowe i dodatkowe.
+
+## Obecne materiały źródłowe
+
+Materiały w tym katalogu są jeszcze w trakcie porządkowania. Aktualnie źródłem treści są:
+
+- [pierwszy-program.md](pierwszy-program.md)
+- [wejscie-wyjscie.md](wejscie-wyjscie.md)
+- [lab-01-wejscie-wyjscie.md](lab-01-wejscie-wyjscie.md)
+- [typy-danych.md](typy-danych.md)
+- [data-types.md](data-types.md)
+- [zmienne.md](zmienne.md)
+- [math.md](math.md)
+- [zadania-podstawowe.md](zadania-podstawowe.md)
+- [stare-zadania-1.md](stare-zadania-1.md)
+- [notatki-27092022.md](notatki-27092022.md)
+
+## Format lekcji
+
+Każda docelowa lekcja powinna mieć taki układ:
+
+1. Cel lekcji.
+2. Wymagania wstępne.
+3. Krótka teoria.
+4. Przykład kodu.
+5. Zadania do wykonania.
+6. Kryteria zaliczenia.
+
+## Katalogi pomocnicze
+
+- `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
