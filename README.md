@@ -1,4 +1,35 @@
-# cpp-examples
+# C++ examples
 
-## C 
-- https://www.docdroid.net/73uNJco/c-pdf
+Repozytorium jest uporządkowane jako kurs C++ podzielony na segmenty nauki. Każdy segment ma własny katalog i `README.md` z proponowaną kolejnością pracy.
+
+## Ścieżka nauki
+
+1. [00-start](00-start/README.md) - środowisko, kompilator, Git, CMake.
+2. [01-podstawy](01-podstawy/README.md) - pierwszy program, wejście/wyjście, typy, zmienne, proste obliczenia.
+3. [02-sterowanie-i-petle](02-sterowanie-i-petle/README.md) - instrukcje warunkowe, pętle, proste algorytmy.
+4. [03-funkcje-tablice-napisy](03-funkcje-tablice-napisy/README.md) - funkcje, tablice, napisy, rozbijanie programu na części.
+5. [04-wskazniki-referencje-pamiec](04-wskazniki-referencje-pamiec/README.md) - adresy, wskaźniki, referencje, podstawy pamięci.
+6. [05-pliki-wyjatki](05-pliki-wyjatki/README.md) - pliki tekstowe, obsługa błędów, wyjątki.
+7. [06-oop](06-oop/README.md) - klasy, obiekty, konstruktory, dziedziczenie, przeciążanie operatorów.
+8. [07-stl-struktury-danych](07-stl-struktury-danych/README.md) - kontenery STL i podstawowe struktury danych.
+9. [08-projekt-build-testy](08-projekt-build-testy/README.md) - organizacja projektu, preprocesor, build, testy, CI/CD.
+10. [09-modern-cpp](09-modern-cpp/README.md) - elementy modern C++, wielowątkowość, moduły.
+11. [10-projekty](10-projekty/README.md) - zadania projektowe i tematy zaliczeniowe.
+
+## Konwencja segmentu
+
+W każdym segmencie materiały są uporządkowane według schematu:
+
+- `README.md` - cel segmentu i sugerowana kolejność.
+- pliki lekcyjne - teoria, przykłady i linki.
+- pliki `zadania-*` albo `lab-*` - ćwiczenia do wykonania.
+- pliki pomocnicze albo przykłady `.cpp`, jeśli występują.
+
+## Materiały pomocnicze
+
+- [_assets](./_assets) - media i pliki pomocnicze.
+- [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
+
+## Dalsze porządkowanie
+
+Następny sensowny krok to ujednolicenie formatu pojedynczych lekcji: cel, teoria, przykład, zadania podstawowe, zadania dodatkowe, kryteria zaliczenia.
