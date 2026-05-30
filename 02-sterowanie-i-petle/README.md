@@ -22,19 +22,11 @@ Po zakończeniu segmentu student powinien umieć:
 3. [03-petla-for.md](03-petla-for.md) - klasyczna pętla `for` i typowe schematy iteracji.
 4. [04-petle-while-do-while.md](04-petle-while-do-while.md) - pętle zależne od warunku.
 5. [05-break-continue-i-zagniezdzenia.md](05-break-continue-i-zagniezdzenia.md) - sterowanie wewnątrz pętli i pętle zagnieżdżone.
-6. `06-zadania.md` - zadania podstawowe i dodatkowe.
+6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
-
-- [petle-i-warunki.md](petle-i-warunki.md)
-- [for-if.md](for-if.md)
-- [skladnia-for.md](skladnia-for.md)
-- [zadania-if.md](zadania-if.md)
-- [zadania-petle.md](zadania-petle.md)
-- [zadania-t1.md](zadania-t1.md)
-- [linki-if-else.md](linki-if-else.md)
+Materiały źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
 
 ## Format lekcji
 
