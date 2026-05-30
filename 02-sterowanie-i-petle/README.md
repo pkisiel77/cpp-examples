@@ -20,7 +20,7 @@ Po zakończeniu segmentu student powinien umieć:
 1. [01-instrukcje-warunkowe.md](01-instrukcje-warunkowe.md) - `if`, `else`, porównania, operatory logiczne.
 2. [02-switch-i-operator-warunkowy.md](02-switch-i-operator-warunkowy.md) - `switch` oraz `?:`.
 3. [03-petla-for.md](03-petla-for.md) - klasyczna pętla `for` i typowe schematy iteracji.
-4. `04-petle-while-do-while.md` - pętle zależne od warunku.
+4. [04-petle-while-do-while.md](04-petle-while-do-while.md) - pętle zależne od warunku.
 5. `05-break-continue-i-zagniezdzenia.md` - sterowanie wewnątrz pętli i pętle zagnieżdżone.
 6. `06-zadania.md` - zadania podstawowe i dodatkowe.
 
