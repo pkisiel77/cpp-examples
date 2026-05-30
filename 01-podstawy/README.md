@@ -20,7 +20,7 @@ Po zakończeniu segmentu student powinien umieć:
 1. [01-pierwszy-program.md](01-pierwszy-program.md) - algorytm, program, `main`, komentarze, pierwszy kod.
 2. [02-wejscie-wyjscie.md](02-wejscie-wyjscie.md) - `cin`, `cout`, `getline`, argumenty programu.
 3. [03-typy-zmienne-operatory.md](03-typy-zmienne-operatory.md) - typy danych, zmienne, operatory, obliczenia.
-4. `04-formatowanie-wyjscia.md` - `iomanip`, precyzja, szerokość, wypełnienie.
+4. [04-formatowanie-wyjscia.md](04-formatowanie-wyjscia.md) - `iomanip`, precyzja, szerokość, wypełnienie.
 5. `05-zadania.md` - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
