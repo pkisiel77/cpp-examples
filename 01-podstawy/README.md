@@ -21,19 +21,13 @@ Po zakończeniu segmentu student powinien umieć:
 2. [02-wejscie-wyjscie.md](02-wejscie-wyjscie.md) - `cin`, `cout`, `getline`, argumenty programu.
 3. [03-typy-zmienne-operatory.md](03-typy-zmienne-operatory.md) - typy danych, zmienne, operatory, obliczenia.
 4. [04-formatowanie-wyjscia.md](04-formatowanie-wyjscia.md) - `iomanip`, precyzja, szerokość, wypełnienie.
-5. `05-zadania.md` - zadania podstawowe i dodatkowe.
+5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
 
 Materiały w tym katalogu są jeszcze w trakcie porządkowania. Aktualnie źródłem treści są:
 
-- [lab-01-wejscie-wyjscie.md](lab-01-wejscie-wyjscie.md)
-- [math.md](math.md)
-- [zadania-podstawowe.md](zadania-podstawowe.md)
-- [stare-zadania-1.md](stare-zadania-1.md)
-- [notatki-27092022.md](notatki-27092022.md)
-
-Pliki źródłowe wchłonięte do nowych lekcji są przenoszone do [archive](archive).
+Pozostałe pliki źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
 
 ## Format lekcji
 
