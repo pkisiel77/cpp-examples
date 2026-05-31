@@ -15,7 +15,7 @@ Po zakończeniu segmentu student powinien umieć:
 - użyć podstawowego bloku `try`, `throw`, `catch`,
 - dobrać prostą strategię obsługi błędów do zadania.
 
-## Docelowa kolejność lekcji
+## Kolejność lekcji
 
 1. [01-pliki-tekstowe.md](01-pliki-tekstowe.md) - zapis, odczyt i dopisywanie danych.
 2. [02-odczyt-i-walidacja.md](02-odczyt-i-walidacja.md) - sprawdzanie błędów wejścia i stanu pliku.
@@ -23,14 +23,14 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-zadanie-menu-plikowe.md](04-zadanie-menu-plikowe.md) - mały program z menu do zarządzania plikiem.
 5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Obecne materiały źródłowe
+## Materiały źródłowe
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pierwotne wersje są zachowane w katalogu [archive](archive):
 
-- [pliki-tekstowe.md](pliki-tekstowe.md)
-- [pliki-tekstowe-zadanie.md](pliki-tekstowe-zadanie.md)
-- [zadanie-io-plik.md](zadanie-io-plik.md)
-- [wyjatki.md](wyjatki.md)
+- [archive/pliki-tekstowe.md](archive/pliki-tekstowe.md)
+- [archive/pliki-tekstowe-zadanie.md](archive/pliki-tekstowe-zadanie.md)
+- [archive/zadanie-io-plik.md](archive/zadanie-io-plik.md)
+- [archive/wyjatki.md](archive/wyjatki.md)
 
 ## Format lekcji
 
@@ -46,4 +46,4 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
-- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.
