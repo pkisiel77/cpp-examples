@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-adresy-i-wskazniki.md` - adres zmiennej, wskaźnik, `nullptr`, dereferencja.
+1. [01-adresy-i-wskazniki.md](01-adresy-i-wskazniki.md) - adres zmiennej, wskaźnik, `nullptr`, dereferencja.
 2. `02-referencje.md` - referencje i różnice względem wskaźników.
 3. `03-przekazywanie-do-funkcji.md` - przekazywanie przez wartość, wskaźnik i referencję.
 4. `04-bezpieczenstwo-pamieci.md` - typowe błędy i dobre praktyki.
