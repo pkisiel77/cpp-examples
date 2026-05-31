@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-pliki-tekstowe.md` - zapis, odczyt i dopisywanie danych.
+1. [01-pliki-tekstowe.md](01-pliki-tekstowe.md) - zapis, odczyt i dopisywanie danych.
 2. `02-odczyt-i-walidacja.md` - sprawdzanie błędów wejścia i stanu pliku.
 3. `03-wyjatki.md` - podstawy `try`, `throw`, `catch`.
 4. `04-zadanie-menu-plikowe.md` - mały program z menu do zarządzania plikiem.
