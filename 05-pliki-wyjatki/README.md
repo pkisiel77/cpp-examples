@@ -20,7 +20,7 @@ Po zakończeniu segmentu student powinien umieć:
 1. [01-pliki-tekstowe.md](01-pliki-tekstowe.md) - zapis, odczyt i dopisywanie danych.
 2. [02-odczyt-i-walidacja.md](02-odczyt-i-walidacja.md) - sprawdzanie błędów wejścia i stanu pliku.
 3. [03-wyjatki.md](03-wyjatki.md) - podstawy `try`, `throw`, `catch`.
-4. `04-zadanie-menu-plikowe.md` - mały program z menu do zarządzania plikiem.
+4. [04-zadanie-menu-plikowe.md](04-zadanie-menu-plikowe.md) - mały program z menu do zarządzania plikiem.
 5. `05-zadania.md` - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
