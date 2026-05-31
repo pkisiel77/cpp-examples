@@ -1,14 +1,49 @@
 # 05 - Pliki i wyjątki
 
-Cel segmentu: utrwalać programy, które czytają i zapisują dane oraz reagują na błędy.
+Ten segment pokazuje, jak program może zapisywać dane poza pamięcią operacyjną oraz jak reagować na sytuacje błędne. Materiał łączy obsługę plików tekstowych z podstawami walidacji, kontroli błędów i wyjątków.
 
-## Kolejność
+## Cele segmentu
 
-1. [pliki-tekstowe.md](pliki-tekstowe.md)
-2. [pliki-tekstowe-zadanie.md](pliki-tekstowe-zadanie.md)
-3. [zadanie-io-plik.md](zadanie-io-plik.md)
-4. [wyjatki.md](wyjatki.md)
+Po zakończeniu segmentu student powinien umieć:
 
-## Efekt
+- otworzyć plik tekstowy do odczytu,
+- otworzyć plik tekstowy do zapisu,
+- dopisać dane na końcu pliku,
+- odczytać plik linia po linii,
+- sprawdzić, czy operacja na pliku się udała,
+- rozumieć różnicę między błędem możliwym do obsłużenia a błędem programistycznym,
+- użyć podstawowego bloku `try`, `throw`, `catch`,
+- dobrać prostą strategię obsługi błędów do zadania.
 
-Student zapisuje dane do pliku, odczytuje je, waliduje błędy i stosuje wyjątki do obsługi sytuacji niepoprawnych.
+## Docelowa kolejność lekcji
+
+1. `01-pliki-tekstowe.md` - zapis, odczyt i dopisywanie danych.
+2. `02-odczyt-i-walidacja.md` - sprawdzanie błędów wejścia i stanu pliku.
+3. `03-wyjatki.md` - podstawy `try`, `throw`, `catch`.
+4. `04-zadanie-menu-plikowe.md` - mały program z menu do zarządzania plikiem.
+5. `05-zadania.md` - zadania podstawowe i dodatkowe.
+
+## Obecne materiały źródłowe
+
+Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+
+- [pliki-tekstowe.md](pliki-tekstowe.md)
+- [pliki-tekstowe-zadanie.md](pliki-tekstowe-zadanie.md)
+- [zadanie-io-plik.md](zadanie-io-plik.md)
+- [wyjatki.md](wyjatki.md)
+
+## Format lekcji
+
+Każda docelowa lekcja powinna mieć taki układ:
+
+1. Cel lekcji.
+2. Wymagania wstępne.
+3. Krótka teoria.
+4. Przykład kodu.
+5. Zadania do wykonania.
+6. Kryteria zaliczenia.
+
+## Katalogi pomocnicze
+
+- `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
