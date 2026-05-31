@@ -21,7 +21,7 @@ Po zakończeniu segmentu student powinien umieć:
 2. [02-referencje.md](02-referencje.md) - referencje i różnice względem wskaźników.
 3. [03-przekazywanie-do-funkcji.md](03-przekazywanie-do-funkcji.md) - przekazywanie przez wartość, wskaźnik i referencję.
 4. [04-bezpieczenstwo-pamieci.md](04-bezpieczenstwo-pamieci.md) - typowe błędy i dobre praktyki.
-5. `05-zadania.md` - zadania podstawowe i dodatkowe.
+5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
 
