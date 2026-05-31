@@ -22,18 +22,11 @@ Po zakończeniu segmentu student powinien umieć:
 3. [03-tablice.md](03-tablice.md) - tablice jednowymiarowe, indeksy, pętle.
 4. [04-tablice-dwuwymiarowe.md](04-tablice-dwuwymiarowe.md) - macierze i proste operacje na siatkach danych.
 5. [05-napisy.md](05-napisy.md) - `std::string`, długość, znaki, proste przetwarzanie tekstu.
-6. `06-zadania.md` - zadania podstawowe i dodatkowe.
+6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
 
 ## Obecne materiały źródłowe
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
-
-- [funkcje.md](funkcje.md)
-- [funkcje-deklaracja-definicja.md](funkcje-deklaracja-definicja.md)
-- [zadania-funkcje.md](zadania-funkcje.md)
-- [tablice.md](tablice.md)
-- [zadania-tablice.md](zadania-tablice.md)
-- [napisy.md](napisy.md)
+Materiały źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
 
 ## Format lekcji
 
