@@ -26,7 +26,7 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-kopiowanie-obiektow.md](04-kopiowanie-obiektow.md) - konstruktor kopiujący i przekazywanie obiektów.
 5. [05-dziedziczenie.md](05-dziedziczenie.md) - klasy bazowe i pochodne.
 6. [06-przeciazanie-operatorow.md](06-przeciazanie-operatorow.md) - podstawy przeciążania operatorów.
-7. `07-zadania.md` - zadania podstawowe i projektowe.
+7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
 ## Obecne materiały źródłowe
 
