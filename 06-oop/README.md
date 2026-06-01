@@ -22,7 +22,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 1. [01-klasy-i-obiekty.md](01-klasy-i-obiekty.md) - klasa, obiekt, pola i metody.
 2. [02-konstruktory-i-enkapsulacja.md](02-konstruktory-i-enkapsulacja.md) - konstruktory, `private`, gettery i settery.
-3. `03-metody-const-i-this.md` - metody `const`, wskaźnik `this`, dobre nazwy.
+3. [03-metody-const-i-this.md](03-metody-const-i-this.md) - metody `const`, wskaźnik `this`, dobre nazwy.
 4. `04-kopiowanie-obiektow.md` - konstruktor kopiujący i przekazywanie obiektów.
 5. `05-dziedziczenie.md` - klasy bazowe i pochodne.
 6. `06-przeciazanie-operatorow.md` - podstawy przeciążania operatorów.
