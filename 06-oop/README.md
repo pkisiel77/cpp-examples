@@ -18,7 +18,7 @@ Po zakończeniu segmentu student powinien umieć:
 - przeciążyć prosty operator,
 - zaprojektować małą klasę do zadania praktycznego.
 
-## Docelowa kolejność lekcji
+## Kolejność lekcji
 
 1. [01-klasy-i-obiekty.md](01-klasy-i-obiekty.md) - klasa, obiekt, pola i metody.
 2. [02-konstruktory-i-enkapsulacja.md](02-konstruktory-i-enkapsulacja.md) - konstruktory, `private`, gettery i settery.
@@ -28,25 +28,25 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-przeciazanie-operatorow.md](06-przeciazanie-operatorow.md) - podstawy przeciążania operatorów.
 7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
-## Obecne materiały źródłowe
+## Materiały źródłowe
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pierwotne wersje są zachowane w katalogu [archive](archive):
 
-- [klasa-obiekt.md](klasa-obiekt.md)
-- [nazwy-klas.md](nazwy-klas.md)
-- [klasy-zadania.md](klasy-zadania.md)
-- [zadania-oop-1.md](zadania-oop-1.md)
-- [zadania-oop-t1.md](zadania-oop-t1.md)
-- [lab-03-klasa-macierz.md](lab-03-klasa-macierz.md)
-- [lab-03-zadania.md](lab-03-zadania.md)
-- [konstruktor-kopiujacy.md](konstruktor-kopiujacy.md)
-- [friends.md](friends.md)
-- [dziedziczenie-zadania.md](dziedziczenie-zadania.md)
-- [przeciazanie-operatorow.md](przeciazanie-operatorow.md)
-- [drzewo-binarne.md](drzewo-binarne.md)
-- [composite.md](composite.md)
-- [uml-composite.md](uml-composite.md)
-- [linki-oop.md](linki-oop.md)
+- [archive/klasa-obiekt.md](archive/klasa-obiekt.md)
+- [archive/nazwy-klas.md](archive/nazwy-klas.md)
+- [archive/klasy-zadania.md](archive/klasy-zadania.md)
+- [archive/zadania-oop-1.md](archive/zadania-oop-1.md)
+- [archive/zadania-oop-t1.md](archive/zadania-oop-t1.md)
+- [archive/lab-03-klasa-macierz.md](archive/lab-03-klasa-macierz.md)
+- [archive/lab-03-zadania.md](archive/lab-03-zadania.md)
+- [archive/konstruktor-kopiujacy.md](archive/konstruktor-kopiujacy.md)
+- [archive/friends.md](archive/friends.md)
+- [archive/dziedziczenie-zadania.md](archive/dziedziczenie-zadania.md)
+- [archive/przeciazanie-operatorow.md](archive/przeciazanie-operatorow.md)
+- [archive/drzewo-binarne.md](archive/drzewo-binarne.md)
+- [archive/composite.md](archive/composite.md)
+- [archive/uml-composite.md](archive/uml-composite.md)
+- [archive/linki-oop.md](archive/linki-oop.md)
 
 ## Format lekcji
 
@@ -62,4 +62,4 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
-- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.
