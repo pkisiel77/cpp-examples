@@ -18,7 +18,7 @@ Po zakończeniu segmentu student powinien umieć:
 ## Docelowa kolejność lekcji
 
 1. [01-wprowadzenie-do-stl.md](01-wprowadzenie-do-stl.md) - po co są kontenery i kiedy ich używać.
-2. `02-vector.md` - `std::vector`, dodawanie, usuwanie, iteracja.
+2. [02-vector.md](02-vector.md) - `std::vector`, dodawanie, usuwanie, iteracja.
 3. `03-algorytmy-stl.md` - `std::sort`, `std::find_if`, predykaty i lambdy.
 4. `04-map-i-slownik.md` - `std::map`, klucze, wartości i wyszukiwanie.
 5. `05-stack-queue-list.md` - stos, kolejka i lista.
