@@ -21,7 +21,7 @@ Po zakończeniu segmentu student powinien umieć:
 2. [02-vector.md](02-vector.md) - `std::vector`, dodawanie, usuwanie, iteracja.
 3. [03-algorytmy-stl.md](03-algorytmy-stl.md) - `std::sort`, `std::find_if`, predykaty i lambdy.
 4. [04-map-i-slownik.md](04-map-i-slownik.md) - `std::map`, klucze, wartości i wyszukiwanie.
-5. `05-stack-queue-list.md` - stos, kolejka i lista.
+5. [05-stack-queue-list.md](05-stack-queue-list.md) - stos, kolejka i lista.
 6. `06-projekt-hrms.md` - mini-projekt z kilkoma kontenerami.
 7. `07-zadania.md` - zadania podstawowe i projektowe.
 
