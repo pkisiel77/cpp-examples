@@ -23,7 +23,7 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-map-i-slownik.md](04-map-i-slownik.md) - `std::map`, klucze, wartości i wyszukiwanie.
 5. [05-stack-queue-list.md](05-stack-queue-list.md) - stos, kolejka i lista.
 6. [06-projekt-hrms.md](06-projekt-hrms.md) - mini-projekt z kilkoma kontenerami.
-7. `07-zadania.md` - zadania podstawowe i projektowe.
+7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
 ## Obecne materiały źródłowe
 
