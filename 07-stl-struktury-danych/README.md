@@ -25,21 +25,21 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-projekt-hrms.md](06-projekt-hrms.md) - mini-projekt z kilkoma kontenerami.
 7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
-## Obecne materiały źródłowe
+## Materiały zarchiwizowane
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 
-- [kontenery-stl.md](kontenery-stl.md)
-- [vector.md](vector.md)
-- [vector-zadania.md](vector-zadania.md)
-- [vector-part2.md](vector-part2.md)
-- [map-zadania.md](map-zadania.md)
-- [kolejka-linki.md](kolejka-linki.md)
-- [console.md](console.md)
-- [converter_v1.cpp](converter_v1.cpp)
-- [egzamin-tablice.md](egzamin-tablice.md)
-- [powtorzenie-zadania.md](powtorzenie-zadania.md)
-- [powtorzenie-part2.md](powtorzenie-part2.md)
+- [archive/kontenery-stl.md](archive/kontenery-stl.md)
+- [archive/vector.md](archive/vector.md)
+- [archive/vector-zadania.md](archive/vector-zadania.md)
+- [archive/vector-part2.md](archive/vector-part2.md)
+- [archive/map-zadania.md](archive/map-zadania.md)
+- [archive/kolejka-linki.md](archive/kolejka-linki.md)
+- [archive/console.md](archive/console.md)
+- [archive/converter_v1.cpp](archive/converter_v1.cpp)
+- [archive/egzamin-tablice.md](archive/egzamin-tablice.md)
+- [archive/powtorzenie-zadania.md](archive/powtorzenie-zadania.md)
+- [archive/powtorzenie-part2.md](archive/powtorzenie-part2.md)
 
 ## Format lekcji
 
