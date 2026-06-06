@@ -20,7 +20,7 @@ Po zakończeniu segmentu student powinien umieć:
 ## Docelowa kolejność lekcji
 
 1. [01-preprocesor-i-include.md](01-preprocesor-i-include.md) - preprocesor, `#include`, `#define`, guardy.
-2. `02-podzial-na-pliki.md` - pliki `.h` i `.cpp`, interfejs i implementacja.
+2. [02-podzial-na-pliki.md](02-podzial-na-pliki.md) - pliki `.h` i `.cpp`, interfejs i implementacja.
 3. `03-struktura-projektu.md` - katalogi `include`, `src`, `tests`, `build`.
 4. `04-kompilacja-i-build.md` - kompilacja wielu plików i prosty build.
 5. `05-sprawdzanie-skladni.md` - `-fsyntax-only`, ostrzeżenia i podstawowa analiza.
