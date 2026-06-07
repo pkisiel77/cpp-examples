@@ -1,0 +1,19 @@
+name: C++ build and tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show compiler version
+        run: c++ --version
+
+      - name: Build and test
+        run: BUILD_DIR=/tmp/task-counter-build sh 08-projekt-build-testy/examples/project-layout/build.sh
