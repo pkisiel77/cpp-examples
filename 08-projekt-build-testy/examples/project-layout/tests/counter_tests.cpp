@@ -1,6 +1,24 @@
 #include <iostream>
+#include <string>
 
 #include "task_counter/counter.h"
+
+bool expectEqual(const std::string& name, int actual, int expected) {
+    if (actual != expected) {
+        std::cout << name << " failed: expected "
+                  << expected << ", got " << actual << '\n';
+        return false;
+    }
+
+    return true;
+}
+
+bool testInitialState() {
+    Counter counter;
+
+    return expectEqual("initial open tasks", counter.getOpenTasks(), 0)
+           && expectEqual("initial completed tasks", counter.getCompletedTasks(), 0);
+}
 
 bool testCompletingTask() {
     Counter counter;
@@ -9,7 +27,8 @@ bool testCompletingTask() {
     counter.addTask();
     counter.completeTask();
 
-    return counter.getOpenTasks() == 1 && counter.getCompletedTasks() == 1;
+    return expectEqual("open tasks after complete", counter.getOpenTasks(), 1)
+           && expectEqual("completed tasks after complete", counter.getCompletedTasks(), 1);
 }
 
 bool testCompletingWithoutOpenTasks() {
@@ -17,17 +36,20 @@ bool testCompletingWithoutOpenTasks() {
 
     counter.completeTask();
 
-    return counter.getOpenTasks() == 0 && counter.getCompletedTasks() == 0;
+    return expectEqual("open tasks after empty complete", counter.getOpenTasks(), 0)
+           && expectEqual("completed tasks after empty complete", counter.getCompletedTasks(), 0);
 }
 
 int main() {
+    if (!testInitialState()) {
+        return 1;
+    }
+
     if (!testCompletingTask()) {
-        std::cout << "testCompletingTask failed\n";
         return 1;
     }
 
     if (!testCompletingWithoutOpenTasks()) {
-        std::cout << "testCompletingWithoutOpenTasks failed\n";
         return 1;
     }
 
