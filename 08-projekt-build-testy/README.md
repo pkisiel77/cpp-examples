@@ -26,7 +26,7 @@ Po zakończeniu segmentu student powinien umieć:
 5. [05-sprawdzanie-skladni.md](05-sprawdzanie-skladni.md) - `-fsyntax-only`, ostrzeżenia i podstawowa analiza.
 6. [06-testy.md](06-testy.md) - proste testy bez frameworka i organizacja przypadków testowych.
 7. [07-ci-cd.md](07-ci-cd.md) - czym jest automatyzacja testów i budowania.
-8. `08-zadania.md` - zadania podstawowe i projektowe.
+8. [08-zadania.md](08-zadania.md) - zadania podstawowe i projektowe.
 
 ## Obecne materiały źródłowe
 
