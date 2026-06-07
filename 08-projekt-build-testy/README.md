@@ -28,16 +28,16 @@ Po zakończeniu segmentu student powinien umieć:
 7. [07-ci-cd.md](07-ci-cd.md) - czym jest automatyzacja testów i budowania.
 8. [08-zadania.md](08-zadania.md) - zadania podstawowe i projektowe.
 
-## Obecne materiały źródłowe
+## Materiały zarchiwizowane
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 
-- [preprocesor.md](preprocesor.md)
-- [organizacja-projektu.md](organizacja-projektu.md)
-- [structure.md](structure.md)
-- [check-cpp-syntax.md](check-cpp-syntax.md)
-- [testy-ci-cd.md](testy-ci-cd.md)
-- [sqlite-macos.md](sqlite-macos.md)
+- [archive/preprocesor.md](archive/preprocesor.md)
+- [archive/organizacja-projektu.md](archive/organizacja-projektu.md)
+- [archive/structure.md](archive/structure.md)
+- [archive/check-cpp-syntax.md](archive/check-cpp-syntax.md)
+- [archive/testy-ci-cd.md](archive/testy-ci-cd.md)
+- [archive/sqlite-macos.md](archive/sqlite-macos.md)
 
 ## Format lekcji
 
