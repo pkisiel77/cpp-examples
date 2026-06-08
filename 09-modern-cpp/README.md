@@ -20,7 +20,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Docelowa kolejność lekcji
 
-1. `01-nowosci-modern-cpp.md` - najważniejsze elementy C++11 i nowszych standardów.
+1. [01-nowosci-modern-cpp.md](01-nowosci-modern-cpp.md) - najważniejsze elementy C++11 i nowszych standardów.
 2. `02-auto-nullptr-inicjalizacja.md` - `auto`, `nullptr`, inicjalizacja klamrowa.
 3. `03-lambda-i-algorytmy.md` - lambdy w praktycznym użyciu ze STL.
 4. `04-enum-class-override-aliasy.md` - typy silniejsze semantycznie i czytelniejsze API.
