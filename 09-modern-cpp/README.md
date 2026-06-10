@@ -26,7 +26,7 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-enum-class-override-aliasy.md](04-enum-class-override-aliasy.md) - typy silniejsze semantycznie i czytelniejsze API.
 5. [05-move-semantics.md](05-move-semantics.md) - podstawy referencji rvalue i przenoszenia.
 6. [06-namespaces.md](06-namespaces.md) - przestrzenie nazw i operator zakresu.
-7. `07-moduly-i-podzial-kodu.md` - klasyczne pliki kontra moduły C++20.
+7. [07-moduly-i-podzial-kodu.md](07-moduly-i-podzial-kodu.md) - klasyczne pliki kontra moduły C++20.
 8. `08-wielowatkowosc.md` - podstawy `std::thread`.
 9. `09-zadania.md` - zadania podstawowe i projektowe.
 
