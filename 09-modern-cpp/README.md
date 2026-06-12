@@ -28,7 +28,7 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-namespaces.md](06-namespaces.md) - przestrzenie nazw i operator zakresu.
 7. [07-moduly-i-podzial-kodu.md](07-moduly-i-podzial-kodu.md) - klasyczne pliki kontra moduły C++20.
 8. [08-wielowatkowosc.md](08-wielowatkowosc.md) - podstawy `std::thread`.
-9. `09-zadania.md` - zadania podstawowe i projektowe.
+9. [09-zadania.md](09-zadania.md) - zadania podstawowe i projektowe.
 
 ## Obecne materiały źródłowe
 
