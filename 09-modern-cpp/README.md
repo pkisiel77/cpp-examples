@@ -30,18 +30,18 @@ Po zakończeniu segmentu student powinien umieć:
 8. [08-wielowatkowosc.md](08-wielowatkowosc.md) - podstawy `std::thread`.
 9. [09-zadania.md](09-zadania.md) - zadania podstawowe i projektowe.
 
-## Obecne materiały źródłowe
+## Materiały zarchiwizowane
 
-Materiały w tym katalogu są w trakcie porządkowania. Aktualnie źródłem treści są:
+Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 
-- [modern-cpp.md](modern-cpp.md)
-- [namespaces.md](namespaces.md)
-- [moduly.md](moduly.md)
-- [moduly-linki.md](moduly-linki.md)
-- [modules-ex1-main.cpp](modules-ex1-main.cpp)
-- [wielowatkowosc.md](wielowatkowosc.md)
-- [main1.cpp](main1.cpp)
-- [main2.cpp](main2.cpp)
+- [archive/modern-cpp.md](archive/modern-cpp.md)
+- [archive/namespaces.md](archive/namespaces.md)
+- [archive/moduly.md](archive/moduly.md)
+- [archive/moduly-linki.md](archive/moduly-linki.md)
+- [archive/modules-ex1-main.cpp](archive/modules-ex1-main.cpp)
+- [archive/wielowatkowosc.md](archive/wielowatkowosc.md)
+- [archive/main1.cpp](archive/main1.cpp)
+- [archive/main2.cpp](archive/main2.cpp)
 
 ## Format lekcji
 
