@@ -15,7 +15,9 @@ Przed rozpoczęciem lekcji warto znać:
 - podstawową kompilację programu C++,
 - rozdzielanie kodu na mniejsze fragmenty.
 
-## Co oznacza modern C++
+## Krótka teoria
+
+### Co oznacza modern C++
 
 Modern C++ to styl pisania kodu korzystający z nowszych standardów języka,
 szczególnie C++11, C++14, C++17 i nowszych. Nie chodzi tylko o nowe słowa
@@ -26,7 +28,7 @@ kluczowe. Ważniejsza jest zmiana stylu:
 - krótszy i czytelniejszy kod,
 - większe wykorzystanie biblioteki standardowej.
 
-## Przykłady zmian
+## Przykład kodu: wybrane zmiany
 
 ### Inicjalizacja klamrowa
 
@@ -98,7 +100,7 @@ auto [name, score] = result;
 Structured bindings z C++17 ułatwiają rozpakowanie par, krotek i prostych
 struktur.
 
-## Co zostanie omówione dalej
+### Co zostanie omówione dalej
 
 Ten segment rozwija wybrane tematy:
 
@@ -110,7 +112,7 @@ Ten segment rozwija wybrane tematy:
 - moduły jako temat C++20,
 - podstawy wielowątkowości.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/modern_cpp_overview.cpp`](examples/modern_cpp_overview.cpp).

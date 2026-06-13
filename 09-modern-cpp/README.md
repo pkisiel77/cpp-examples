@@ -18,7 +18,7 @@ Po zakończeniu segmentu student powinien umieć:
 - wyjaśnić, czym różni się moduł jako temat C++20 od klasycznego podziału na pliki,
 - uruchomić prosty przykład z `std::thread`.
 
-## Docelowa kolejność lekcji
+## Kolejność lekcji
 
 1. [01-nowosci-modern-cpp.md](01-nowosci-modern-cpp.md) - najważniejsze elementy C++11 i nowszych standardów.
 2. [02-auto-nullptr-inicjalizacja.md](02-auto-nullptr-inicjalizacja.md) - `auto`, `nullptr`, inicjalizacja klamrowa.
@@ -30,9 +30,9 @@ Po zakończeniu segmentu student powinien umieć:
 8. [08-wielowatkowosc.md](08-wielowatkowosc.md) - podstawy `std::thread`.
 9. [09-zadania.md](09-zadania.md) - zadania podstawowe i projektowe.
 
-## Materiały zarchiwizowane
+## Status porządkowania
 
-Pierwotne materiały zostały zachowane w katalogu [archive](archive):
+Lekcje i zadania zostały uporządkowane do wspólnego formatu segmentów. Pierwotne materiały są zachowane w katalogu [archive](archive):
 
 - [archive/modern-cpp.md](archive/modern-cpp.md)
 - [archive/namespaces.md](archive/namespaces.md)
@@ -42,6 +42,19 @@ Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 - [archive/wielowatkowosc.md](archive/wielowatkowosc.md)
 - [archive/main1.cpp](archive/main1.cpp)
 - [archive/main2.cpp](archive/main2.cpp)
+
+## Przykłady kodu
+
+Przykłady w katalogu [examples](examples) można kompilować osobno:
+
+- [examples/modern_cpp_overview.cpp](examples/modern_cpp_overview.cpp) - przegląd wybranych elementów modern C++.
+- [examples/auto_nullptr_initialization.cpp](examples/auto_nullptr_initialization.cpp) - `auto`, `nullptr` i inicjalizacja klamrowa.
+- [examples/lambda_algorithms.cpp](examples/lambda_algorithms.cpp) - lambdy z algorytmami STL.
+- [examples/strong_types_api.cpp](examples/strong_types_api.cpp) - `enum class`, aliasy i `override`.
+- [examples/move_semantics.cpp](examples/move_semantics.cpp) - podstawy przenoszenia.
+- [examples/namespaces.cpp](examples/namespaces.cpp) - przestrzenie nazw.
+- [examples/code-organization](examples/code-organization) - podział kodu na moduł logiczny.
+- [examples/thread_basics.cpp](examples/thread_basics.cpp) - podstawy `std::thread`.
 
 ## Format lekcji
 
@@ -57,4 +70,4 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
-- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.

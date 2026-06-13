@@ -17,7 +17,9 @@ Przed rozpoczęciem lekcji warto znać:
 - kompilację wielu plików,
 - przestrzenie nazw.
 
-## Klasyczny podział na pliki
+## Krótka teoria
+
+### Klasyczny podział na pliki
 
 W typowym projekcie C++ interfejs umieszczamy w pliku `.h`, a implementację w
 pliku `.cpp`.
@@ -44,7 +46,7 @@ std::string formatMessage(const Message& message) {
 
 To jest podstawowy i nadal bardzo powszechny sposób organizacji kodu C++.
 
-## „Moduł” jako część programu
+### „Moduł” jako część programu
 
 W rozmowach o projekcie słowo „moduł” często oznacza logiczną część programu,
 np. moduł wiadomości, moduł użytkowników albo moduł raportów.
@@ -58,7 +60,7 @@ message.cpp
 
 Nie jest to jeszcze moduł C++20. To tylko organizacja kodu.
 
-## Moduły C++20
+### Moduły C++20
 
 C++20 wprowadził językową funkcję `module`.
 
@@ -77,7 +79,7 @@ wersji narzędzi i systemu build.
 Dlatego w tym repozytorium przykłady kompilowalne trzymamy przy klasycznym
 podziale na `.h` i `.cpp`.
 
-## Co wybrać w tym kursie
+### Co wybrać w tym kursie
 
 Na tym etapie wybieraj:
 
@@ -89,7 +91,7 @@ Na tym etapie wybieraj:
 Moduły C++20 warto znać jako kierunek rozwoju języka, ale nie są wymagane do
 zrozumienia większości projektów C++.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w katalogu
 [`examples/code-organization`](examples/code-organization).

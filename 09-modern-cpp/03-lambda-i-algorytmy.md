@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - pętlę zakresową,
 - podstawy `auto`.
 
-## Czym jest lambda
+## Krótka teoria
+
+### Czym jest lambda
 
 Lambda to krótka funkcja zapisana w miejscu użycia.
 
@@ -35,7 +37,7 @@ Elementy lambdy:
 Lambdy są szczególnie wygodne z algorytmami STL, bo często potrzebujemy małego
 warunku tylko w jednym miejscu.
 
-## Lambda jako predykat
+## Przykład kodu: lambda jako predykat
 
 Predykat to funkcja albo lambda zwracająca `bool`.
 
@@ -53,7 +55,7 @@ Predykaty pasują do algorytmów takich jak:
 - `std::remove_if`,
 - `std::sort`.
 
-## Sortowanie obiektów
+## Przykład kodu: sortowanie obiektów
 
 Jeśli sortujemy obiekty lub struktury, trzeba podać kryterium:
 
@@ -66,7 +68,7 @@ std::sort(orders.begin(), orders.end(),
 
 Lambda zwraca `true`, jeśli `left` ma znaleźć się przed `right`.
 
-## Przechwytywanie zmiennych
+### Przechwytywanie zmiennych
 
 Lambda może używać zmiennych z zewnętrznego zakresu.
 
@@ -95,7 +97,7 @@ auto countOrder = [&counter](const Order&) {
 Przechwytywanie przez referencję trzeba stosować ostrożnie, bo lambda pracuje na
 oryginalnej zmiennej.
 
-## Czytelność lambd
+### Czytelność lambd
 
 Lambda jest dobrym wyborem, gdy:
 
@@ -105,7 +107,7 @@ Lambda jest dobrym wyborem, gdy:
 
 Jeśli warunek robi się długi, lepiej rozważyć osobną funkcję albo metodę.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/lambda_algorithms.cpp`](examples/lambda_algorithms.cpp).

@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - referencje,
 - podstawy zarządzania zasobami.
 
-## Problem kopiowania
+## Krótka teoria
+
+### Problem kopiowania
 
 Kopiowanie obiektu oznacza utworzenie drugiego, niezależnego obiektu z taką samą
 zawartością.
@@ -28,7 +30,7 @@ Report copy = original;
 Dla małych obiektów koszt jest niewielki. Dla obiektów przechowujących duże
 wektory, napisy albo uchwyty do zasobów kopiowanie może być kosztowne.
 
-## Przenoszenie
+### Przenoszenie
 
 Przenoszenie pozwala przejąć zasoby z obiektu tymczasowego albo obiektu, którego
 już nie potrzebujemy.
@@ -41,7 +43,7 @@ Po `std::move(original)` obiekt `original` nadal istnieje, ale jego stan jest
 poprawny tylko w sensie technicznym. Nie należy zakładać, że zachował dawną
 zawartość.
 
-## `std::move`
+## Przykład kodu: `std::move`
 
 `std::move` niczego samo nie przenosi. Ono tylko zamienia wyrażenie na takie,
 które może zostać obsłużone przez konstruktor przenoszący albo operator
@@ -53,7 +55,7 @@ Do `std::move` potrzebny jest nagłówek:
 #include <utility>
 ```
 
-## Konstruktor przenoszący
+### Konstruktor przenoszący
 
 Konstruktor przenoszący przyjmuje referencję rvalue:
 
@@ -65,7 +67,7 @@ W praktyce często nie trzeba pisać go ręcznie, bo typy z biblioteki standardo
 same dobrze obsługują przenoszenie. Własny konstruktor w przykładzie służy
 pokazaniu, kiedy przeniesienie następuje.
 
-## Kiedy używać przenoszenia
+### Kiedy używać przenoszenia
 
 Przenoszenie jest przydatne, gdy:
 
@@ -77,7 +79,7 @@ Przenoszenie jest przydatne, gdy:
 Nie należy używać `std::move` mechanicznie. Jeśli obiekt ma być dalej używany z
 oczekiwaną zawartością, przenoszenie będzie błędem projektowym.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/move_semantics.cpp`](examples/move_semantics.cpp).

@@ -1,6 +1,6 @@
 # 09 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [09 - Modern C++](README.md). Zadania
 sprawdzają konstrukcje C++11 i C++17, lambdy, silniejsze typy, semantykę
@@ -194,5 +194,4 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Archiwum
 
-Oryginalne materiały źródłowe tego segmentu będą zachowane w katalogu
-[archive](archive) po zakończeniu porządkowania.
+Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

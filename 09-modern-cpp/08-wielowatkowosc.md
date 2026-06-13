@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - podstawy klas i obiektów,
 - kompilację programu C++17.
 
-## Czym jest wątek
+## Krótka teoria
+
+### Czym jest wątek
 
 Wątek to osobny tor wykonania w ramach jednego programu. Dzięki wątkom program
 może wykonywać kilka zadań pozornie równolegle, a na procesorach wielordzeniowych
@@ -28,7 +30,7 @@ Do podstawowej obsługi wątków potrzebny jest nagłówek:
 #include <thread>
 ```
 
-## Uruchomienie wątku
+## Przykład kodu: uruchomienie wątku
 
 Najprostszy przykład:
 
@@ -43,13 +45,13 @@ worker.join();
 
 `join` oznacza: poczekaj, aż wątek zakończy pracę.
 
-## Dlaczego `join` jest ważny
+### Dlaczego `join` jest ważny
 
 Jeśli utworzony wątek nie zostanie obsłużony przez `join` albo `detach`, program
 zakończy się błędem w czasie działania. Na tym etapie używamy `join`, bo jest
 łatwiejszy do zrozumienia i bezpieczniejszy.
 
-## Wspólne dane
+## Przykład kodu: wspólne dane
 
 Jeśli kilka wątków modyfikuje tę samą zmienną, może dojść do wyścigu danych.
 Wynik programu staje się wtedy nieprzewidywalny.
@@ -72,7 +74,7 @@ oraz `std::lock_guard`:
 `lock_guard` blokuje mutex przy utworzeniu i automatycznie odblokowuje go przy
 wyjściu z zakresu.
 
-## Przekazywanie danych do wątku
+### Przekazywanie danych do wątku
 
 Do wątku można przekazać funkcję, lambdę albo obiekt funkcyjny.
 
@@ -85,7 +87,7 @@ std::thread worker{[&counter]() {
 Jeśli lambda przechwytuje referencje, trzeba pilnować, aby obiekty istniały tak
 długo, jak działa wątek.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/thread_basics.cpp`](examples/thread_basics.cpp).

@@ -15,7 +15,9 @@ Przed rozpoczęciem lekcji warto znać:
 - podział programu na moduły tematyczne,
 - podstawowe użycie `std::`.
 
-## Po co są przestrzenie nazw
+## Krótka teoria
+
+### Po co są przestrzenie nazw
 
 W większym programie różne części kodu mogą używać tych samych nazw funkcji,
 typów albo stałych. Przestrzeń nazw grupuje powiązane elementy i zmniejsza
@@ -33,7 +35,7 @@ Funkcję wywołujemy przez operator zakresu:
 int result = math::add(2, 3);
 ```
 
-## Operator `::`
+## Przykład kodu: operator `::`
 
 Operator `::` wskazuje, z której przestrzeni nazw pochodzi element.
 
@@ -51,7 +53,7 @@ reporting::printSummary();
 
 Taki zapis jest dłuższy, ale bardzo czytelny.
 
-## Zagnieżdżone przestrzenie nazw
+### Zagnieżdżone przestrzenie nazw
 
 W C++17 można zapisać zagnieżdżoną przestrzeń nazw krótko:
 
@@ -71,7 +73,7 @@ namespace reports {
 }
 ```
 
-## `using`
+### `using`
 
 Deklaracja `using` pozwala skrócić nazwę wybranego elementu:
 
@@ -90,7 +92,7 @@ using namespace app::reports;
 Szerokie `using namespace` może wprowadzić wiele nazw naraz i utrudnić
 rozpoznanie, skąd pochodzi dana funkcja.
 
-## `using namespace std`
+### `using namespace std`
 
 W krótkich przykładach edukacyjnych czasem spotyka się:
 
@@ -101,7 +103,7 @@ using namespace std;
 W materiałach tego kursu preferujemy zapis z `std::`, ponieważ uczy on, skąd
 pochodzą elementy biblioteki standardowej i zmniejsza ryzyko konfliktu nazw.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/namespaces.cpp`](examples/namespaces.cpp).

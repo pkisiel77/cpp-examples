@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - podstawy typów wyliczeniowych,
 - konstruktory.
 
-## `enum class`
+## Krótka teoria
+
+### `enum class`
 
 Zwykły `enum` łatwo miesza się z liczbami całkowitymi. `enum class` tworzy
 silniej oddzielony typ.
@@ -37,7 +39,7 @@ Priority priority = Priority::High;
 
 Dzięki temu kod jest czytelniejszy i trudniej przypadkowo przekazać złą wartość.
 
-## Aliasy typów
+### Aliasy typów
 
 Alias pozwala nadać czytelną nazwę istniejącemu typowi:
 
@@ -54,7 +56,7 @@ void send(UserId userId);
 
 Taki zapis jest bardziej opisowy niż samo `std::string`.
 
-## `override`
+## Przykład kodu: `override`
 
 `override` informuje kompilator, że metoda ma nadpisywać metodę wirtualną z
 klasy bazowej.
@@ -70,7 +72,7 @@ Jeśli popełnimy literówkę w nazwie metody albo zmienimy typ parametru,
 kompilator zgłosi błąd. Bez `override` łatwo przypadkowo utworzyć nową metodę
 zamiast nadpisać istniejącą.
 
-## `= default`
+### `= default`
 
 `= default` mówi, że chcemy domyślne zachowanie wygenerowane przez kompilator.
 
@@ -83,7 +85,7 @@ public:
 
 Taki zapis jest przydatny, gdy chcemy jawnie pokazać intencję.
 
-## `= delete`
+### `= delete`
 
 `= delete` blokuje wybraną operację.
 
@@ -98,7 +100,7 @@ public:
 Można tak zabronić kopiowania obiektu, jeśli kopiowanie nie ma sensu albo
 mogłoby prowadzić do błędów.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/strong_types_api.cpp`](examples/strong_types_api.cpp).

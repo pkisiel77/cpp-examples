@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - `std::vector`,
 - pętlę zakresową.
 
-## `auto`
+## Krótka teoria
+
+### `auto`
 
 `auto` pozwala kompilatorowi wywnioskować typ zmiennej z wartości po prawej
 stronie przypisania.
@@ -40,7 +42,7 @@ auto value = loadData();
 
 Jeśli nazwa funkcji nie mówi jasno, co zwraca, jawny typ może być lepszy.
 
-## `auto` i referencje
+### `auto` i referencje
 
 W pętli po większych obiektach często używamy referencji:
 
@@ -56,7 +58,7 @@ for (const auto& student : students) {
 - nie pozwalaj go zmienić,
 - dobierz typ automatycznie.
 
-## `nullptr`
+## Przykład kodu: `nullptr`
 
 `nullptr` oznacza pusty wskaźnik:
 
@@ -75,7 +77,7 @@ Student* selected = nullptr;
 
 Taki zapis jasno mówi, że wskaźnik na razie nie wskazuje na żaden obiekt.
 
-## Sprawdzanie wskaźnika
+### Sprawdzanie wskaźnika
 
 Przed użyciem wskaźnika trzeba sprawdzić, czy nie jest pusty:
 
@@ -89,7 +91,7 @@ W prostych programach edukacyjnych wskaźniki nadal są użyteczne do pokazania
 mechaniki języka. W kodzie produkcyjnym często lepiej wybrać referencje albo
 inteligentne wskaźniki.
 
-## Inicjalizacja klamrowa
+## Przykład kodu: inicjalizacja klamrowa
 
 Klamry pozwalają inicjalizować różne typy w spójny sposób:
 
@@ -108,7 +110,7 @@ Student student{"Anna", 82};
 Klamry pomagają ograniczyć część przypadkowych konwersji zawężających, np.
 przypisanie liczby zmiennoprzecinkowej do `int`.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/auto_nullptr_initialization.cpp`](examples/auto_nullptr_initialization.cpp).
