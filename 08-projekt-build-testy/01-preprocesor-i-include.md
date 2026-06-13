@@ -16,7 +16,9 @@ Przed rozpoczęciem lekcji warto znać:
 - pliki nagłówkowe z biblioteki standardowej, np. `<iostream>`,
 - kompilację pojedynczego pliku `.cpp`.
 
-## Czym jest preprocesor
+## Krótka teoria
+
+### Czym jest preprocesor
 
 Preprocesor działa przed kompilatorem. Przetwarza dyrektywy zaczynające się od
 znaku `#`, a dopiero wynik tego przetwarzania trafia do właściwej kompilacji.
@@ -28,7 +30,7 @@ Najczęściej spotykane dyrektywy to:
 - `#ifdef`, `#ifndef`, `#if` - włącza lub wyłącza fragmenty kodu,
 - `#endif` - kończy blok kompilacji warunkowej.
 
-## `#include`
+### `#include`
 
 Dyrektywa `#include` dołącza zawartość pliku do aktualnego pliku źródłowego.
 
@@ -49,7 +51,7 @@ Własne nagłówki zapisujemy w cudzysłowie:
 #include "calculator.h"
 ```
 
-## Makra i stałe kompilacyjne
+## Przykład kodu: makra i stałe kompilacyjne
 
 Makro zdefiniowane przez `#define` jest podstawiane tekstowo przed kompilacją:
 
@@ -66,7 +68,7 @@ constexpr int maxUsers = 100;
 
 Makra nadal są przydatne do kompilacji warunkowej.
 
-## Kompilacja warunkowa
+## Przykład kodu: kompilacja warunkowa
 
 Kompilacja warunkowa pozwala włączyć fragment kodu tylko wtedy, gdy dana flaga
 jest zdefiniowana:
@@ -89,7 +91,7 @@ albo podczas kompilacji:
 c++ -std=c++17 -DDEBUG_MODE examples/preprocessor_info.cpp -o preprocessor_info
 ```
 
-## Guardy w plikach nagłówkowych
+### Guardy w plikach nagłówkowych
 
 Ten sam nagłówek może zostać dołączony kilka razy przez różne pliki. Guard
 chroni przed wielokrotną definicją tych samych elementów.
@@ -114,7 +116,7 @@ Alternatywą jest:
 `#pragma once` jest proste i powszechnie obsługiwane, ale klasyczny guard
 `#ifndef` / `#define` / `#endif` dobrze pokazuje mechanizm preprocesora.
 
-## Nazwy predefiniowane
+### Nazwy predefiniowane
 
 Preprocesor udostępnia specjalne nazwy, które pomagają w diagnostyce:
 
@@ -128,7 +130,7 @@ __TIME__
 Nie należy budować logiki programu na dacie kompilacji, ale takie wartości są
 przydatne w prostych komunikatach diagnostycznych.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/preprocessor_info.cpp`](examples/preprocessor_info.cpp).

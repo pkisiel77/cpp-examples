@@ -15,7 +15,13 @@ Przed rozpoczęciem lekcji warto znać:
 - strukturę projektu z katalogami `include`, `src`, `tests` i `build`,
 - podstawową komendę kompilacji `c++`.
 
-## Kompilacja wielu plików jedną komendą
+## Krótka teoria
+
+Kompilacja projektu składa się z przetworzenia plików źródłowych i połączenia
+wyniku w program wykonywalny. W małym projekcie można zrobić to jedną komendą,
+a w większym rozdzielić pracę na kompilację plików obiektowych i linkowanie.
+
+## Przykład komendy: kompilacja wielu plików jedną komendą
 
 Najprostszy sposób budowania małego projektu to podanie kompilatorowi wszystkich
 plików `.cpp`:
@@ -35,7 +41,7 @@ Znaczenie elementów komendy:
 - pliki `.cpp` - kod źródłowy do skompilowania,
 - `-o ...` - nazwa programu wynikowego.
 
-## Ostrzeżenia kompilatora
+### Ostrzeżenia kompilatora
 
 Podczas nauki warto kompilować z ostrzeżeniami:
 
@@ -56,7 +62,7 @@ c++ -std=c++17 -Wall -Wextra -pedantic \
 Ostrzeżenia nie zawsze zatrzymują kompilację, ale często pokazują błąd, który
 później będzie trudny do znalezienia.
 
-## Kompilacja i linkowanie
+## Przykład komendy: kompilacja i linkowanie
 
 Budowanie programu można rozbić na dwa kroki.
 
@@ -111,7 +117,7 @@ undefined reference to `Counter::addTask()'
 Programy wynikowe, pliki `.o` i tymczasowe katalogi build nie powinny trafiać do
 commita. Kod źródłowy powinien wystarczyć do odtworzenia tych plików.
 
-## Prosty skrypt build
+## Przykład komendy: prosty skrypt build
 
 Dłuższe komendy warto zapisać w skrypcie:
 
@@ -133,7 +139,7 @@ weryfikacji można wskazać inny katalog:
 BUILD_DIR=/tmp/task-counter-build sh examples/project-layout/build.sh
 ```
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w katalogu
 [`examples/project-layout`](examples/project-layout).

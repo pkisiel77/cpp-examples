@@ -17,7 +17,7 @@ Po zakończeniu segmentu student powinien umieć:
 - uruchomić proste testy funkcji,
 - opisać podstawową ideę CI/CD.
 
-## Docelowa kolejność lekcji
+## Kolejność lekcji
 
 1. [01-preprocesor-i-include.md](01-preprocesor-i-include.md) - preprocesor, `#include`, `#define`, guardy.
 2. [02-podzial-na-pliki.md](02-podzial-na-pliki.md) - pliki `.h` i `.cpp`, interfejs i implementacja.
@@ -28,9 +28,9 @@ Po zakończeniu segmentu student powinien umieć:
 7. [07-ci-cd.md](07-ci-cd.md) - czym jest automatyzacja testów i budowania.
 8. [08-zadania.md](08-zadania.md) - zadania podstawowe i projektowe.
 
-## Materiały zarchiwizowane
+## Status porządkowania
 
-Pierwotne materiały zostały zachowane w katalogu [archive](archive):
+Lekcje i zadania zostały uporządkowane do wspólnego formatu segmentów. Pierwotne materiały są zachowane w katalogu [archive](archive):
 
 - [archive/preprocesor.md](archive/preprocesor.md)
 - [archive/organizacja-projektu.md](archive/organizacja-projektu.md)
@@ -38,6 +38,16 @@ Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 - [archive/check-cpp-syntax.md](archive/check-cpp-syntax.md)
 - [archive/testy-ci-cd.md](archive/testy-ci-cd.md)
 - [archive/sqlite-macos.md](archive/sqlite-macos.md)
+
+## Przykłady kodu i konfiguracji
+
+Przykłady w katalogu [examples](examples) można uruchamiać osobno:
+
+- [examples/preprocessor_info.cpp](examples/preprocessor_info.cpp) - preprocesor i nazwy predefiniowane.
+- [examples/split-project](examples/split-project) - podział programu na `.h` i `.cpp`.
+- [examples/project-layout](examples/project-layout) - struktura projektu, build i testy.
+- [examples/syntax-check/student_report.cpp](examples/syntax-check/student_report.cpp) - plik do sprawdzania składni.
+- [examples/ci-cd/github-actions-cpp.yml](examples/ci-cd/github-actions-cpp.yml) - przykładowy workflow CI.
 
 ## Format lekcji
 
@@ -53,4 +63,4 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady i małe projekty dla tego segmentu.
-- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.

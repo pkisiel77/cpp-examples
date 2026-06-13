@@ -14,7 +14,9 @@ Przed rozpoczęciem lekcji warto znać:
 - kompilację projektu z kilkoma plikami,
 - podstawowe flagi `-std`, `-Wall`, `-Wextra` i `-I`.
 
-## Po co sprawdzać składnię osobno
+## Krótka teoria
+
+### Po co sprawdzać składnię osobno
 
 Pełna kompilacja tworzy program wykonywalny. Czasem chcemy szybciej sprawdzić,
 czy plik jest poprawny składniowo, ale jeszcze nie potrzebujemy programu.
@@ -28,7 +30,7 @@ Do tego służy flaga:
 Kompilator analizuje plik i zgłasza błędy, ale nie tworzy pliku `.o` ani
 programu wynikowego.
 
-## Podstawowa komenda
+## Przykład komendy: sprawdzanie składni
 
 Dla pojedynczego pliku:
 
@@ -45,7 +47,7 @@ c++ -std=c++17 -Wall -Wextra -pedantic -fsyntax-only \
 
 Jeśli komenda nie wypisuje błędów, składnia pliku jest poprawna.
 
-## Ostrzeżenia
+### Ostrzeżenia
 
 Ostrzeżenie nie zawsze zatrzymuje kompilację, ale często wskazuje problem:
 
@@ -73,7 +75,7 @@ c++ -std=c++17 -Wall -Wextra -pedantic -Werror -fsyntax-only \
   examples/syntax-check/student_report.cpp
 ```
 
-## Błąd kompilacji a błąd linkowania
+### Błąd kompilacji a błąd linkowania
 
 Sprawdzanie składni wykrywa błędy w pojedynczym pliku:
 
@@ -86,7 +88,7 @@ Nie wykrywa wszystkich problemów linkowania. Jeśli funkcja jest tylko
 zadeklarowana, ale nie ma implementacji, `-fsyntax-only` może przejść poprawnie,
 a pełne linkowanie zakończy się błędem.
 
-## Sprawdzanie projektu z katalogami
+## Przykład komendy: sprawdzanie projektu z katalogami
 
 Dla projektu z własnymi nagłówkami nadal trzeba podać ścieżkę `-I`:
 
@@ -99,7 +101,7 @@ c++ -std=c++17 -Wall -Wextra -pedantic -fsyntax-only \
 Sprawdzenie składni nie zastępuje pełnego buildu. Jest dodatkowym, szybkim
 krokiem kontroli.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w pliku
 [`examples/syntax-check/student_report.cpp`](examples/syntax-check/student_report.cpp).

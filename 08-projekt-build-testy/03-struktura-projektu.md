@@ -14,7 +14,9 @@ Przed rozpoczęciem lekcji warto znać:
 - kompilację programu złożonego z kilku plików,
 - podstawową rolę plików nagłówkowych.
 
-## Dlaczego struktura katalogów ma znaczenie
+## Krótka teoria
+
+### Dlaczego struktura katalogów ma znaczenie
 
 Gdy projekt ma kilka plików, płaski katalog szybko staje się nieczytelny.
 Ustalona struktura pomaga:
@@ -24,7 +26,7 @@ Ustalona struktura pomaga:
 - nie mieszać kodu źródłowego z plikami wynikowymi,
 - łatwiej przejść później do CMake albo innego narzędzia build.
 
-## Prosta struktura
+## Przykład struktury projektu
 
 Na tym etapie wystarczy taki układ:
 
@@ -48,7 +50,7 @@ Znaczenie katalogów:
 - `tests/` - programy testujące,
 - `build/` - pliki wygenerowane podczas kompilacji.
 
-## Katalog `include`
+### Katalog `include`
 
 W `include` trzymamy nagłówki publiczne. Dobrą praktyką jest dodanie katalogu z
 nazwą projektu:
@@ -65,7 +67,7 @@ Dzięki temu w kodzie można pisać:
 
 Taki zapis zmniejsza ryzyko konfliktu nazw z innymi projektami.
 
-## Katalog `src`
+### Katalog `src`
 
 W `src` trzymamy pliki `.cpp` z implementacją:
 
@@ -77,7 +79,7 @@ src/main.cpp
 Plik `main.cpp` jest punktem startowym aplikacji. Pozostałe pliki `.cpp`
 zawierają funkcje i klasy używane przez aplikację.
 
-## Katalog `tests`
+### Katalog `tests`
 
 W `tests` można umieścić osobne programy testujące. Na tym etapie nie trzeba
 jeszcze używać frameworka testowego.
@@ -91,7 +93,7 @@ tests/counter_tests.cpp
 Taki plik może kompilować się jako osobny program i zwracać `0`, jeśli testy
 przechodzą.
 
-## Katalog `build`
+### Katalog `build`
 
 `build` służy na pliki wynikowe:
 
@@ -102,7 +104,7 @@ przechodzą.
 Zwykle nie commitujemy zawartości `build/`. W repozytorium można zostawić pusty
 plik `.gitkeep`, jeśli chcemy pokazać, że katalog ma istnieć.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w katalogu
 [`examples/project-layout`](examples/project-layout).
@@ -150,7 +152,7 @@ Uruchomienie testów:
 ./examples/project-layout/build/counter_tests
 ```
 
-## Flaga `-I`
+## Przykład komendy: flaga `-I`
 
 Flaga `-I` mówi kompilatorowi, gdzie szukać własnych nagłówków:
 

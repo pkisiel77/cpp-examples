@@ -15,7 +15,9 @@ Przed rozpoczęciem lekcji warto znać:
 - dyrektywę `#include`,
 - guardy z lekcji [01-preprocesor-i-include.md](01-preprocesor-i-include.md).
 
-## Problem jednego pliku
+## Krótka teoria
+
+### Problem jednego pliku
 
 Małe programy można pisać w jednym pliku `main.cpp`. Gdy kod rośnie, taki plik
 staje się trudny do czytania i testowania.
@@ -27,7 +29,7 @@ Podział na pliki pozwala:
 - ponownie używać funkcji w różnych miejscach programu,
 - kompilować większe projekty w bardziej uporządkowany sposób.
 
-## Deklaracja i definicja
+### Deklaracja i definicja
 
 Deklaracja mówi kompilatorowi, że dana funkcja istnieje:
 
@@ -45,7 +47,7 @@ int add(int a, int b) {
 
 Deklaracja najczęściej trafia do pliku `.h`, a definicja do pliku `.cpp`.
 
-## Typowy podział
+### Typowy podział
 
 Prosty program może mieć trzy pliki:
 
@@ -61,7 +63,7 @@ Rola plików:
 - `calculator.cpp` - implementacje funkcji,
 - `main.cpp` - punkt startowy programu.
 
-## Plik nagłówkowy
+## Przykład kodu: plik nagłówkowy
 
 Plik `calculator.h` opisuje interfejs:
 
@@ -79,7 +81,7 @@ int multiply(int a, int b);
 Nagłówek powinien być możliwie mały i czytelny. Osoba korzystająca z modułu
 powinna widzieć, co może wywołać, bez czytania szczegółów implementacji.
 
-## Plik implementacji
+## Przykład kodu: plik implementacji
 
 Plik `calculator.cpp` zawiera definicje funkcji:
 
@@ -94,7 +96,7 @@ int add(int a, int b) {
 Dołączenie własnego nagłówka w pliku implementacji pomaga sprawdzić, czy
 deklaracje i definicje są ze sobą zgodne.
 
-## Plik `main.cpp`
+## Przykład kodu: plik `main.cpp`
 
 Plik `main.cpp` korzysta z interfejsu:
 
@@ -112,7 +114,7 @@ int main() {
 `main.cpp` nie musi znać szczegółów implementacji funkcji `add`. Wystarczy mu
 deklaracja z nagłówka.
 
-## Kompilacja wielu plików
+## Przykład komendy: kompilacja wielu plików
 
 Kompilator musi dostać wszystkie pliki `.cpp`, które zawierają potrzebne
 implementacje:
@@ -124,7 +126,7 @@ c++ -std=c++17 main.cpp calculator.cpp -o calculator_app
 Jeśli podamy tylko `main.cpp`, kompilator zobaczy deklarację funkcji, ale linker
 nie znajdzie jej definicji.
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Przykład znajduje się w katalogu
 [`examples/split-project`](examples/split-project).
@@ -139,7 +141,7 @@ c++ -std=c++17 \
 ./split_project
 ```
 
-## Najczęstsze błędy
+## Typowe błędy
 
 ### Brak pliku `.cpp` w kompilacji
 

@@ -1,6 +1,6 @@
 # 08 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [08 - Projekt, build i testy](README.md).
 Zadania sprawdzają preprocesor, podział programu na pliki, strukturę katalogów,
@@ -247,5 +247,4 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Archiwum
 
-Oryginalne materiały źródłowe tego segmentu będą zachowane w katalogu
-[archive](archive) po zakończeniu porządkowania.
+Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

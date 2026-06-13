@@ -15,7 +15,9 @@ Przed rozpoczęciem lekcji warto znać:
 - prosty skrypt build,
 - testy uruchamiane jako osobny program.
 
-## Co oznacza CI
+## Krótka teoria
+
+### Co oznacza CI
 
 CI, czyli Continuous Integration, oznacza regularne sprawdzanie zmian w kodzie.
 W praktyce dla małego projektu C++ oznacza to najczęściej:
@@ -28,7 +30,7 @@ W praktyce dla małego projektu C++ oznacza to najczęściej:
 
 CI nie zastępuje myślenia programisty, ale szybko wykrywa część problemów.
 
-## Co oznacza CD
+### Co oznacza CD
 
 CD może oznaczać Continuous Delivery albo Continuous Deployment. W tym kursie
 wystarczy rozumieć ogólną ideę: po przejściu testów projekt może być
@@ -37,7 +39,7 @@ automatycznie przygotowany do wydania.
 Dla repozytorium edukacyjnego zwykle wystarczy CI. Automatyczne wdrażanie nie
 jest potrzebne na tym etapie.
 
-## Dlaczego testy muszą zwracać kod błędu
+### Dlaczego testy muszą zwracać kod błędu
 
 Skrypt CI sprawdza kod zakończenia komendy:
 
@@ -47,7 +49,7 @@ Skrypt CI sprawdza kod zakończenia komendy:
 Dlatego testy z lekcji [06-testy.md](06-testy.md) zwracają `1`, jeśli któryś
 przypadek testowy nie przechodzi. Dzięki temu CI może zatrzymać proces.
 
-## Lokalny odpowiednik CI
+## Przykład komendy: lokalny odpowiednik CI
 
 Zanim uruchomimy automatyzację na serwerze, warto mieć lokalną komendę, która
 robi to samo:
@@ -66,7 +68,7 @@ Taki skrypt:
 To jest najważniejsza część CI. Platforma, np. GitHub Actions, tylko uruchamia
 tę komendę automatycznie.
 
-## Przykład GitHub Actions
+## Przykład konfiguracji: GitHub Actions
 
 Przykładowy workflow znajduje się w pliku
 [`examples/ci-cd/github-actions-cpp.yml`](examples/ci-cd/github-actions-cpp.yml).
@@ -80,7 +82,7 @@ Aby go użyć w prawdziwym repozytorium, należy skopiować go do:
 Workflow uruchamia się dla `push` i `pull_request`, a następnie wykonuje skrypt
 build z przykładu.
 
-## Minimalny workflow
+### Minimalny workflow
 
 Najważniejsza część workflow to kroki:
 
@@ -94,7 +96,7 @@ Najważniejsza część workflow to kroki:
 
 Pierwszy krok pobiera kod. Drugi uruchamia build i testy.
 
-## Co powinno trafić do CI
+### Co powinno trafić do CI
 
 Na tym etapie warto automatyzować:
 

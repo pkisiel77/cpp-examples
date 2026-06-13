@@ -15,7 +15,9 @@ Przed rozpoczęciem lekcji warto znać:
 - kompilację programu złożonego z kilku plików,
 - podstawowe instrukcje warunkowe.
 
-## Po co pisać testy
+## Krótka teoria
+
+### Po co pisać testy
 
 Test to program, który sprawdza, czy kod zachowuje się zgodnie z oczekiwaniem.
 Najprostszy test:
@@ -28,7 +30,7 @@ Najprostszy test:
 
 Dzięki temu test można uruchamiać ręcznie albo w skrypcie build.
 
-## Test jako osobny program
+## Przykład kodu: test jako osobny program
 
 W przykładzie testy są w pliku:
 
@@ -45,7 +47,7 @@ Program testujący korzysta z tej samej klasy `Counter`, co aplikacja:
 Nie uruchamia `main.cpp` aplikacji. Ma własną funkcję `main`, która sprawdza
 wybrane przypadki.
 
-## Funkcja pomocnicza
+### Funkcja pomocnicza
 
 Żeby testy były czytelniejsze, można napisać małą funkcję pomocniczą:
 
@@ -63,7 +65,7 @@ bool expectEqual(const std::string& name, int actual, int expected) {
 
 Taka funkcja zmniejsza powtarzanie kodu i wypisuje konkretny powód błędu.
 
-## Przypadki testowe
+### Przypadki testowe
 
 Dobry test sprawdza jeden scenariusz. Przykłady dla klasy `Counter`:
 
@@ -79,7 +81,7 @@ bool testCompletingTask();
 bool testCompletingWithoutOpenTasks();
 ```
 
-## Kod zakończenia programu
+### Kod zakończenia programu
 
 Program powinien zwrócić:
 
@@ -89,7 +91,7 @@ Program powinien zwrócić:
 Skrypty build i narzędzia CI wykorzystują ten kod, aby przerwać proces po
 wykryciu błędu.
 
-## Kompilacja testów
+## Przykład komendy: kompilacja testów
 
 Testy kompilujemy jako osobny program:
 
@@ -107,7 +109,7 @@ Uruchomienie:
 ./examples/project-layout/build/counter_tests
 ```
 
-## Testy w skrypcie build
+### Testy w skrypcie build
 
 Skrypt `examples/project-layout/build.sh` kompiluje aplikację, kompiluje testy i
 uruchamia testy. Jeśli testy zwrócą błąd, skrypt zakończy działanie z błędem.
