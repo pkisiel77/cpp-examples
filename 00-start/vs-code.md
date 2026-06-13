@@ -130,6 +130,16 @@ pomocne, ale ostatecznie kod musi przejść przez kompilator.
 6. Skompiluj i uruchom program.
 7. Zmień wypisywany tekst i uruchom program ponownie.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- otworzyć folder projektu w VS Code,
+- użyć wbudowanego terminala,
+- odnaleźć i otworzyć plik `.cpp`,
+- skompilować program bez wychodzenia z edytora,
+- rozpoznać najczęstsze problemy z katalogiem roboczym.
+
 ## Kryteria zaliczenia
 
 Lekcja jest zaliczona, jeśli student potrafi:

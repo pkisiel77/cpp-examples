@@ -146,6 +146,16 @@ git status --short
 6. Sprawdź status ponownie.
 7. Utwórz commit z krótkim opisem.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- wyjaśnić różnicę między katalogiem roboczym, indeksem i commitem,
+- użyć `git status` przed commitem,
+- dodać wybrane pliki przez `git add`,
+- utworzyć czytelny commit,
+- utworzyć i przełączyć branch.
+
 ## Kryteria zaliczenia
 
 Lekcja jest zaliczona, jeśli student potrafi:

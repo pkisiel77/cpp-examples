@@ -167,6 +167,16 @@ dir
    błędu.
 6. Przywróć poprawny kod i upewnij się, że program kompiluje się bez ostrzeżeń.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- sprawdzić wersję kompilatora,
+- skompilować pojedynczy plik `.cpp`,
+- uruchomić program wynikowy z terminala,
+- użyć flag `-Wall`, `-Wextra` i `-pedantic`,
+- przeczytać podstawowy komunikat błędu kompilacji.
+
 ## Kryteria zaliczenia
 
 Lekcja jest zaliczona, jeśli student potrafi:

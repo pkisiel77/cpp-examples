@@ -123,6 +123,16 @@ Pełny przykład znajduje się w pliku [examples/format_table.cpp](examples/form
 4. Napisz program, który wypisuje numer faktury w formacie podobnym do `00000123`.
 5. Napisz program, który wypisuje prostą tabelę: nazwa produktu, liczba sztuk, cena.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- użyć `std::fixed`,
+- ustawić precyzję przez `std::setprecision`,
+- wyrównać kolumny przez `std::setw`,
+- przygotować prostą tabelę tekstową,
+- dobrać format wyniku do danych liczbowych.
+
 ## Kryteria zaliczenia
 
 Program powinien:

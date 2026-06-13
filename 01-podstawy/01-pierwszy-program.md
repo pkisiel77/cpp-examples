@@ -102,6 +102,16 @@ Komentarzy używamy do wyjaśnienia decyzji albo trudniejszego fragmentu kodu. N
 4. Dodaj do programu komentarz z krótkim opisem działania.
 5. Skompiluj program i uruchom go z terminala.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- wskazać funkcję `main`,
+- wypisać tekst przez `std::cout`,
+- zakończyć instrukcję średnikiem,
+- dodać komentarz do kodu,
+- skompilować i uruchomić pierwszy program.
+
 ## Kryteria zaliczenia
 
 Program powinien:

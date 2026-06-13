@@ -215,6 +215,16 @@ Ten przykład znajduje się w pliku [examples/math_functions.cpp](examples/math_
 5. Napisz program, który oblicza pole prostokąta na podstawie boków podanych przez użytkownika.
 6. Napisz program, który oblicza pierwiastek z liczby podanej przez użytkownika.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- dobrać typ zmiennej do danych,
+- wykonać proste obliczenie arytmetyczne,
+- odróżnić dzielenie całkowite od zmiennoprzecinkowego,
+- użyć funkcji z biblioteki `cmath`,
+- nazwać zmienne w sposób czytelny dla osoby sprawdzającej.
+
 ## Kryteria zaliczenia
 
 Program powinien:

@@ -40,7 +40,12 @@ Lekcje w tym segmencie są uporządkowane w docelowym formacie:
 Student potrafi skompilować prosty program, uruchomić go lokalnie, pracować
 w edytorze i zapisać zmiany w repozytorium.
 
-## Kolejny krok porządkowania
+## Checklist dla studenta
 
-Po tym segmencie warto przejść do [01-podstawy](../01-podstawy/README.md)
-i ujednolicić pierwsze lekcje z podstaw języka.
+Po przejściu segmentu student powinien umieć:
+
+- uruchomić edytor i terminal,
+- sprawdzić dostępność kompilatora C++,
+- skompilować prosty plik `.cpp`,
+- wyjaśnić, do czego służą Git i CMake,
+- przejść do segmentu [01-podstawy](../01-podstawy/README.md).

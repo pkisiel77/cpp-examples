@@ -233,3 +233,13 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - wykonać podstawowe obliczenia,
 - użyć `std::setprecision`, `std::fixed`, `std::setw` i `std::setfill`,
 - przygotować czytelny wynik w konsoli.
+
+## Mini-sprawdzian segmentu
+
+Przed przejściem dalej student powinien samodzielnie napisać mały program, który:
+
+- pyta użytkownika o nazwę produktu, cenę i liczbę sztuk,
+- oblicza wartość zamówienia,
+- wypisuje wynik z dokładnością do dwóch miejsc po przecinku,
+- używa czytelnych nazw zmiennych,
+- kompiluje się z flagami `-Wall -Wextra -pedantic`.

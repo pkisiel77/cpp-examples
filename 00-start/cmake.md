@@ -156,6 +156,16 @@ cmake --version
 6. Uruchom powstały program.
 7. Zmień tekst wypisywany przez program i zbuduj projekt ponownie.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- wskazać rolę pliku `CMakeLists.txt`,
+- utworzyć katalog build poza kodem źródłowym,
+- uruchomić `cmake -S . -B build`,
+- zbudować projekt komendą `cmake --build build`,
+- odróżnić pliki źródłowe od wygenerowanych artefaktów.
+
 ## Kryteria zaliczenia
 
 Lekcja jest zaliczona, jeśli student potrafi:

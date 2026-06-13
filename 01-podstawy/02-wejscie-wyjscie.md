@@ -138,6 +138,16 @@ c++ examples/program_arguments.cpp -o program_arguments
 4. Napisz program, który wczytuje imię i nazwisko w jednej linii przy pomocy `std::getline`.
 5. Napisz program, który wypisuje wszystkie argumenty przekazane przy uruchomieniu.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- wczytać pojedynczą wartość przez `std::cin`,
+- wypisać komunikat przez `std::cout`,
+- wczytać linię tekstu przez `std::getline`,
+- wyjaśnić problem połączenia `>>` i `getline`,
+- przygotować czytelne komunikaty dla użytkownika.
+
 ## Kryteria zaliczenia
 
 Program powinien:

@@ -77,6 +77,15 @@ Przykład:
 4. Wypisz, które wcześniejsze segmenty są potrzebne do wykonania tego projektu.
 5. Dopisz, jak sprawdzisz poprawność gotowego programu.
 
+## Checklist dla studenta
+
+Przed zaliczeniem lekcji sprawdź, czy potrafisz:
+
+- wskazać, które elementy kursu wspierają kwalifikacje zawodowe,
+- połączyć temat C++ z praktycznym zadaniem programistycznym,
+- wyjaśnić, dlaczego projekty wymagają dokumentacji,
+- wskazać obszar, który wymaga u Ciebie dalszej pracy.
+
 ## Kryteria zaliczenia
 
 Lekcja jest zaliczona, jeśli student potrafi:
