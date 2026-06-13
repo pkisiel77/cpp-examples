@@ -24,6 +24,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - pliki lekcyjne - cel lekcji, wymagania wstępne, teoria, przykłady, zadania i kryteria zaliczenia.
 - plik zadań segmentu - zestaw ćwiczeń od podstawowych do projektowych.
 - `examples/` - kompilowalne przykłady `.cpp`, jeśli segment ich używa.
+- `tests/` - proste testy automatyczne bez zewnętrznego frameworka, jeśli segment ich używa.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.
 
 ## Materiały pomocnicze
@@ -33,6 +34,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/postepy-i-ocenianie.md](docs/postepy-i-ocenianie.md) - punkty kontrolne, poziomy osiągnięć i model oceniania.
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
+- [10-projekty/checklista-projektu.md](10-projekty/checklista-projektu.md) - lista kontroli projektu zaliczeniowego.
 - [templates](templates) - szablony oddawania krótkich zadań i projektów.
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.

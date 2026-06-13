@@ -33,6 +33,10 @@ sh tools/check-examples.sh
 Skrypt zapisuje pliki wynikowe w `/tmp/cpp-examples-build`, więc nie zaśmieca
 katalogów z materiałami.
 
+W segmentach z katalogiem `tests` znajdziesz też małe testy bez zewnętrznego
+frameworka. Możesz uruchamiać je osobno, jeśli chcesz przećwiczyć sprawdzanie
+funkcji bez pełnego skryptu repozytorium.
+
 ## Jak oddawać zadania
 
 Dla każdego zadania przygotuj:
@@ -65,6 +69,10 @@ Unikaj:
 
 Przy projektach z [10-projekty](../10-projekty/README.md) najpierw zrób wariant
 minimum. Dopiero gdy działa stabilnie, dodawaj rozszerzenia.
+
+Przed oddaniem projektu przejdź przez
+[checklistę projektu](../10-projekty/checklista-projektu.md). Jest bardziej
+szczegółowa niż ogólna checklista oddania i pomaga przygotować pokaz projektu.
 
 Każdy projekt powinien mieć `README.md` z informacją:
 

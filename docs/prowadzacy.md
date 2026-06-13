@@ -55,7 +55,9 @@ Przy sprawdzaniu krótkich zadań wymagaj:
 
 Dla większych zadań i projektów używaj rubryki z [10-projekty](../10-projekty/README.md).
 Najpierw sprawdzaj wariant minimum, dopiero później rozszerzenia.
-Przy odbiorze możesz przejść przez [checklistę oddania](checklista-oddania.md).
+Przy odbiorze krótkich zadań możesz przejść przez
+[checklistę oddania](checklista-oddania.md), a przy projektach przez
+[checklistę projektu](../10-projekty/checklista-projektu.md).
 
 ## Walidacja techniczna repozytorium
 
@@ -80,3 +82,5 @@ Przy projektach zaliczeniowych poproś studentów o:
 - scenariusze sprawdzenia albo proste testy.
 
 Nie oceniaj rozszerzeń, jeśli wersja minimalna nie jest stabilna.
+Na pokazie projektu warto poprosić studenta o przejście przez przypadek
+poprawny, graniczny i błędny z checklisty projektu.
