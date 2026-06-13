@@ -45,6 +45,10 @@ Dla każdego zadania przygotuj:
 
 Przed oddaniem uruchom program dla danych poprawnych, granicznych i błędnych.
 
+Możesz zacząć od szablonu [templates/zadanie](../templates/zadanie) albo
+[templates/projekt](../templates/projekt), jeśli prowadzący nie podał innego
+formatu.
+
 ## Czego unikać
 
 Unikaj:

@@ -31,6 +31,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/prowadzacy.md](docs/prowadzacy.md) - przewodnik organizacyjny dla prowadzącego.
 - [docs/plan-semestru.md](docs/plan-semestru.md) - przykładowy 15-tygodniowy rozkład zajęć.
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
+- [templates](templates) - szablony oddawania krótkich zadań i projektów.
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
 
