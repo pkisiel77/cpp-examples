@@ -65,6 +65,12 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/point_operators.cpp](examples/point_operators.cpp) - przeciążanie operatorów.
 - [examples/money_output_operator.cpp](examples/money_output_operator.cpp) - operator wyjścia `<<`.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test klasy bez zewnętrznego frameworka.
+Test pokazuje, jak sprawdzać konstruktor, metody zmieniające stan, metody
+`const` oraz operator porównania.
+
 ## Format lekcji
 
 Każda docelowa lekcja powinna mieć taki układ:
@@ -79,4 +85,5 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla klas.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.

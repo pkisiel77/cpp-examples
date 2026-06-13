@@ -65,6 +65,12 @@ echo "test 05 validation"
     -o "$BUILD_DIR/05_test_walidacja"
 "$BUILD_DIR/05_test_walidacja"
 
+echo "test 06 oop"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    06-oop/tests/test_konto.cpp \
+    -o "$BUILD_DIR/06_test_konto"
+"$BUILD_DIR/06_test_konto"
+
 echo "compile 09 code-organization"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     09-modern-cpp/examples/code-organization/main.cpp \
