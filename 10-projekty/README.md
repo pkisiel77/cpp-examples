@@ -92,6 +92,30 @@ Projekt powinien zawierać:
 - krótki opis decyzji projektowych,
 - testy albo opis ręcznych scenariuszy sprawdzenia.
 
+## Wariant minimum i rozszerzenie
+
+Każdy projekt należy oddawać w jednym z dwóch wariantów:
+
+- wariant minimum - spełnia sekcję `Minimalny wariant zaliczeniowy`, kompiluje się i obsługuje podstawowe przypadki użycia,
+- wariant rozszerzony - spełnia wariant minimum oraz co najmniej dwa punkty z sekcji `Rozszerzenia dla chętnych`.
+
+Wariant rozszerzony nie zwalnia z jakości kodu. Najpierw musi działać stabilna wersja minimalna, dopiero później warto dodawać funkcje dodatkowe.
+
+## Rubryka oceny projektu
+
+Proponowana punktacja dla każdego projektu:
+
+| Obszar | Punkty | Co jest oceniane |
+| --- | ---: | --- |
+| Funkcjonalność minimum | 30 | Działają wszystkie wymagania z wariantu minimalnego. |
+| Poprawność techniczna | 20 | Projekt kompiluje się z `-Wall -Wextra -pedantic`, nie wymaga plików wynikowych w repozytorium i obsługuje błędne dane. |
+| Organizacja kodu | 20 | Kod jest podzielony na funkcje, klasy i pliki zgodnie z problemem. Nazwy są czytelne. |
+| Testy lub scenariusze sprawdzenia | 15 | Autor potrafi pokazać przypadki poprawne, graniczne i błędne. |
+| Dokumentacja | 10 | `README.md` wyjaśnia kompilację, uruchomienie, strukturę projektu i ograniczenia. |
+| Rozszerzenia | 5 | Projekt zawiera sensowne funkcje dodatkowe bez psucia wersji minimalnej. |
+
+Ocena projektu powinna zaczynać się od uruchomienia wariantu minimalnego. Jeśli wariant minimalny nie działa, rozszerzenia nie powinny podnosić oceny ponad podstawowy próg zaliczenia.
+
 ## Kryteria zaliczenia segmentu
 
 Student zalicza segment, jeśli potrafi samodzielnie:
