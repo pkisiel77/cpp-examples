@@ -44,6 +44,7 @@ Dla każdego zadania przygotuj:
 - przykładowe dane wejściowe, jeśli program ich wymaga.
 
 Przed oddaniem uruchom program dla danych poprawnych, granicznych i błędnych.
+Przejdź też przez [checklistę oddania](checklista-oddania.md).
 
 Możesz zacząć od szablonu [templates/zadanie](../templates/zadanie) albo
 [templates/projekt](../templates/projekt), jeśli prowadzący nie podał innego

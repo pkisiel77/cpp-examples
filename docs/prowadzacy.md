@@ -54,6 +54,7 @@ Przy sprawdzaniu krótkich zadań wymagaj:
 
 Dla większych zadań i projektów używaj rubryki z [10-projekty](../10-projekty/README.md).
 Najpierw sprawdzaj wariant minimum, dopiero później rozszerzenia.
+Przy odbiorze możesz przejść przez [checklistę oddania](checklista-oddania.md).
 
 ## Walidacja techniczna repozytorium
 
