@@ -57,6 +57,12 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/list_operations.cpp](examples/list_operations.cpp) - operacje na liście.
 - [examples/hrms.cpp](examples/hrms.cpp) - przykład projektu HRMS.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test kontenerów i algorytmów STL bez
+zewnętrznego frameworka. Test pokazuje sortowanie, filtrowanie, wyszukiwanie w
+`std::map` oraz kolejność obsługi `std::queue`.
+
 ## Format lekcji
 
 Każda docelowa lekcja powinna mieć taki układ:
@@ -71,4 +77,5 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla kontenerów i algorytmów STL.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.

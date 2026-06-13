@@ -71,6 +71,12 @@ echo "test 06 oop"
     -o "$BUILD_DIR/06_test_konto"
 "$BUILD_DIR/06_test_konto"
 
+echo "test 07 stl"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    07-stl-struktury-danych/tests/test_stl_algorytmy.cpp \
+    -o "$BUILD_DIR/07_test_stl_algorytmy"
+"$BUILD_DIR/07_test_stl_algorytmy"
+
 echo "compile 09 code-organization"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     09-modern-cpp/examples/code-organization/main.cpp \
