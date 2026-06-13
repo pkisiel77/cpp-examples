@@ -42,21 +42,21 @@ Po zakończeniu segmentu student powinien umieć:
 
 Opisy w docelowym formacie:
 
+- `gra-kolko-krzyzyk.md`,
 - `project-01-logger.md`,
 - `project-02-kolejkowanie-zamowien.md`,
+- `project-04-tetris.md`,
+- `project-05-snake.md`,
+- `project-06-pacman.md`,
 - `project-07-baza-pojazdow.md`,
 - `project-08-kalkulator.md`,
 - `project-09-kalkulator-macierzy.md`,
 - `project-10-system-zadan.md`,
 - `project-11-parser-csv.md`.
 
-Do uporządkowania w kolejnych małych krokach:
+Do uporządkowania w kolejnych małych krokach zostały materiały pomocnicze:
 
-- `gra-kolko-krzyzyk.md`,
-- `project-04-tetris.md`,
-- `project-05-snake.md`,
-- `project-06-pacman.md`,
-- materiały pomocnicze w `tnt-tasks/`.
+- `tnt-tasks/`.
 
 ## Dodatkowe zadania źródłowe
 
