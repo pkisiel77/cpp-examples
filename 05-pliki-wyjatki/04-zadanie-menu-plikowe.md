@@ -111,6 +111,12 @@ Przykład pokazuje:
 4. Dodaj komunikat `Brak wpisow`, jeśli plik jest pusty.
 5. Rozbuduj wpis tak, aby przed tekstem zapisywany był numer wpisu.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj opcję liczenia wpisów w pliku.
+2. Dodaj walidację pustego wpisu.
+3. Zmień program tak, aby nazwa pliku była stałą na początku programu.
+
 ## Kryteria zaliczenia
 
 Program powinien:

@@ -155,6 +155,12 @@ Pełny przykład znajduje się w pliku [examples/function_bmi.cpp](examples/func
 5. Napisz funkcję `obliczBmi`, która przyjmuje masę i wzrost, a następnie zwraca wartość BMI.
 6. Napisz program pokazujący, że zmiana parametru przekazanego przez wartość nie zmienia zmiennej w funkcji `main`.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj przykład funkcji z parametrem przekazywanym przez `const` referencję.
+2. Zmień nazwę zmiennej lokalnej tak, aby nie myliła się z parametrem.
+3. Dodaj funkcję, która zwraca wynik zamiast wypisywać go w środku funkcji.
+
 ## Kryteria zaliczenia
 
 Program powinien:

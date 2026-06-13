@@ -148,6 +148,12 @@ if (a == 1)
 4. Napisz program, który sprawdza, czy liczba należy do przedziału `<-10, 13>`.
 5. Napisz program, który sprawdza, czy liczba należy do jednego z przedziałów: `<-10, 13>` albo `<25, 35>`.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj drugi warunek sprawdzający, czy liczba jest parzysta.
+2. Zmień program tak, aby obsługiwał zakres od `-100` do `100`.
+3. Dodaj komunikat dla wartości granicznych, np. `0`, `100` i `-100`.
+
 ## Kryteria zaliczenia
 
 Program powinien:

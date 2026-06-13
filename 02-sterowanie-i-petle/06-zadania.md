@@ -196,3 +196,13 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - uniknąć pętli nieskończonej,
 - użyć `break` i `continue` w uzasadnionych sytuacjach,
 - zastosować pętlę zagnieżdżoną do problemu dwuwymiarowego.
+
+## Mini-sprawdzian segmentu
+
+Napisz program z menu, który pozwala:
+
+- wczytywać liczby do momentu wyboru opcji zakończenia,
+- zliczać liczby dodatnie, ujemne i zera,
+- pominąć liczby spoza zakresu od `-100` do `100`,
+- wypisać podsumowanie po zakończeniu,
+- skompilować program z `-Wall -Wextra -pedantic`.

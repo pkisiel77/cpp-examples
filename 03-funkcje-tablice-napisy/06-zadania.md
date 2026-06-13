@@ -177,6 +177,16 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - wykonać podstawowe operacje na `std::string`,
 - podzielić większy program na mniejsze funkcje.
 
+## Mini-sprawdzian segmentu
+
+Napisz program analizujący listę ocen, który:
+
+- przechowuje oceny w tablicy,
+- ma osobne funkcje do obliczania średniej, minimum i maksimum,
+- wypisuje wyniki w czytelnej formie,
+- sprawdza, czy każda ocena mieści się w zakresie od `1` do `6`,
+- kompiluje się z `-Wall -Wextra -pedantic`.
+
 ## Archiwum
 
 Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

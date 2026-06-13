@@ -209,6 +209,12 @@ W wielu zadaniach lepiej pominąć błędną linię, wypisać ostrzeżenie i kon
 4. Rozbuduj program z zadania 3 tak, aby obsługiwał brak pliku.
 5. Napisz program, który czyta plik linia po linii i wypisuje tylko te linie, które zawierają poprawne liczby całkowite.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj komunikat z numerem błędnej linii.
+2. Zmień zakres poprawnych wartości i sprawdź przypadki graniczne.
+3. Policz, ile poprawnych i błędnych danych było w pliku.
+
 ## Kryteria zaliczenia
 
 Program powinien:

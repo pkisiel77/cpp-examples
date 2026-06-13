@@ -142,6 +142,12 @@ To jest szczególnie przydatne dla większych obiektów, takich jak `std::string
 4. Napisz funkcję `zamien`, która przyjmuje dwie referencje do `int` i zamienia wartości miejscami.
 5. Napisz funkcję `wypiszTekst`, która przyjmuje `const std::string&` i wypisuje tekst.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj funkcję zwiększającą wartość przez referencję.
+2. Porównaj wynik przekazania przez wartość i przez referencję.
+3. Dodaj przykład referencji `const` dla wartości tylko do odczytu.
+
 ## Kryteria zaliczenia
 
 Program powinien:

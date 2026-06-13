@@ -190,6 +190,12 @@ if (p != nullptr)
 4. Utwórz wskaźnik ustawiony na `nullptr` i sprawdź go instrukcją `if`.
 5. Wypisz adres zmiennej, wartość wskaźnika oraz adres samego wskaźnika.
 
+## Ćwiczenia dodatkowe
+
+1. Wypisz adresy dwóch różnych zmiennych i porównaj wynik.
+2. Dodaj wskaźnik do zmiennej typu `double`.
+3. Zmień wartość zmiennej przez wskaźnik i wypisz wynik przed oraz po zmianie.
+
 ## Kryteria zaliczenia
 
 Program powinien:

@@ -179,6 +179,12 @@ operator `>>` wczyta najpierw tylko `Ala`. Funkcja `std::getline` wczyta całą 
 4. Rozbuduj program odczytujący plik tak, aby wypisywał numer każdej linii.
 5. Napisz program, który liczy, ile linii znajduje się w pliku tekstowym.
 
+## Ćwiczenia dodatkowe
+
+1. Zmień nazwę pliku wynikowego na `notatki.txt`.
+2. Dopisz do pliku trzy linie bez usuwania poprzedniej zawartości.
+3. Odczytaj plik i wypisz numery linii.
+
 ## Kryteria zaliczenia
 
 Program powinien:

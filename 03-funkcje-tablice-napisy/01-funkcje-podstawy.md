@@ -172,6 +172,12 @@ Słabe przykłady:
 4. Napisz funkcję `czyParzysta`, która przyjmuje liczbę całkowitą i zwraca `true`, jeśli liczba jest parzysta.
 5. Napisz program, który korzysta z co najmniej trzech własnych funkcji.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj funkcję obliczającą obwód prostokąta.
+2. Zmień przykład tak, aby funkcja przyjmowała dane od użytkownika.
+3. Dodaj funkcję `wypiszWynik`, która oddziela obliczenia od prezentacji.
+
 ## Kryteria zaliczenia
 
 Program powinien:

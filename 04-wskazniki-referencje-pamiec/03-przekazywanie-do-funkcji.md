@@ -155,6 +155,12 @@ Pełny przykład znajduje się w pliku [examples/multiple_results_reference.cpp]
 4. Napisz funkcję, która przyjmuje dwie liczby i zwraca przez referencje ich sumę oraz iloczyn.
 5. Napisz funkcję, która przyjmuje wskaźnik na `int` i zwiększa wartość tylko wtedy, gdy wskaźnik nie jest `nullptr`.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj funkcję zwracającą dwa wyniki przez referencje.
+2. Zmień funkcję ze wskaźnikiem tak, aby sprawdzała `nullptr`.
+3. Porównaj czytelność wersji ze wskaźnikiem i wersji z referencją.
+
 ## Kryteria zaliczenia
 
 Program powinien:

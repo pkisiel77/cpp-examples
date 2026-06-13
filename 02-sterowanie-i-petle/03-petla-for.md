@@ -171,6 +171,12 @@ Zmienna `i` zadeklarowana w pętli istnieje tylko w tej pętli.
 7. Napisz program, który oblicza silnię liczby `n` podanej przez użytkownika.
 8. Napisz program, który wypisuje litery alfabetu od `a` do `z`.
 
+## Ćwiczenia dodatkowe
+
+1. Zmień zakres pętli tak, aby wypisywała liczby od `10` do `1`.
+2. Dodaj sumowanie tylko liczb parzystych.
+3. Wypisz przy każdej iteracji aktualną wartość licznika i sumy.
+
 ## Kryteria zaliczenia
 
 Program powinien:

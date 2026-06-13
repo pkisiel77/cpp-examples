@@ -210,6 +210,16 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - nie wychodzić poza zakres tablicy,
 - wyjaśnić, dlaczego nie wolno zwracać adresu zmiennej lokalnej.
 
+## Mini-sprawdzian segmentu
+
+Napisz program z trzema funkcjami, który:
+
+- zamienia dwie wartości przez referencje,
+- próbuje ustawić wartość przez wskaźnik po sprawdzeniu `nullptr`,
+- zwraca dwa wyniki przez parametry wyjściowe,
+- wypisuje adresy i wartości przed oraz po zmianie,
+- kompiluje się z `-Wall -Wextra -pedantic`.
+
 ## Archiwum
 
 Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

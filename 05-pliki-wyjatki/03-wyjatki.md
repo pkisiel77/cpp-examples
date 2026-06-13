@@ -205,6 +205,12 @@ Wyjątki nie powinny zastępować pętli, `if` ani menu. Służą do obsługi sy
 4. Przygotuj przykład z `std::vector` i metodą `at()`, który obsługuje indeks spoza zakresu.
 5. Napisz program, który próbuje otworzyć plik i rzuca wyjątek, jeśli plik nie istnieje.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj własny komunikat do wyjątku `std::runtime_error`.
+2. Obsłuż osobno `std::invalid_argument` i `std::exception`.
+3. Przenieś walidację danych do osobnej funkcji rzucającej wyjątek.
+
 ## Kryteria zaliczenia
 
 Program powinien:

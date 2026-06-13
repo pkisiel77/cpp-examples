@@ -164,6 +164,12 @@ Ten przykład znajduje się w pliku [examples/ternary_even_odd.cpp](examples/ter
 4. Napisz program, który przy pomocy operatora `?:` wybiera większą z dwóch liczb.
 5. Napisz program, który przy pomocy operatora `?:` wypisuje, czy użytkownik jest pełnoletni.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj do menu nową opcję i obsłuż ją w `switch`.
+2. Zamień prosty `if else` na operator warunkowy tam, gdzie poprawia czytelność.
+3. Dodaj przypadek `default` z czytelnym komunikatem o błędnym wyborze.
+
 ## Kryteria zaliczenia
 
 Program powinien:

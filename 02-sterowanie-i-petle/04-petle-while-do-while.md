@@ -159,6 +159,12 @@ W tym przykładzie `i` nigdy się nie zmienia, więc warunek `i <= 10` pozostaje
 6. Napisz program, który wczytuje liczby od użytkownika aż do podania `0`, a następnie wypisuje ich sumę.
 7. Napisz program z menu działającym w pętli `do while`, gdzie opcja `0` kończy program.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj licznik prób w pętli `while`.
+2. Zmień menu `do while`, aby kończyło pracę po wyborze `0`.
+3. Dodaj obsługę błędnej wartości bez przerywania programu.
+
 ## Kryteria zaliczenia
 
 Program powinien:

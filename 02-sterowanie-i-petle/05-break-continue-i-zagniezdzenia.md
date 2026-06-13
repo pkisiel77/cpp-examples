@@ -159,6 +159,12 @@ W tym przykładzie `break` kończy pętlę po `j`, ale pętla po `i` działa dal
 5. Napisz program, który wypisuje prostokąt z gwiazdek o wymiarach podanych przez użytkownika.
 6. Napisz program, który wypisuje trójkąt z gwiazdek o wysokości podanej przez użytkownika.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj warunek, który używa `continue` do pomijania liczb ujemnych.
+2. Zmień przykład z `break`, aby kończył wyszukiwanie po znalezieniu dwóch wyników.
+3. Rozbuduj pętlę zagnieżdżoną o nagłówki wierszy i kolumn.
+
 ## Kryteria zaliczenia
 
 Program powinien:

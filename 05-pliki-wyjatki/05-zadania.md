@@ -190,6 +190,16 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - podzielić program plikowy na funkcje,
 - zbudować proste menu działające w pętli.
 
+## Mini-sprawdzian segmentu
+
+Napisz program tworzący raport z pliku tekstowego, który:
+
+- odczytuje dane linia po linii,
+- pomija błędne linie z komunikatem,
+- liczy poprawne wartości i ich sumę,
+- zapisuje wynik do osobnego pliku,
+- obsługuje brak pliku przez wyjątek albo czytelny komunikat błędu.
+
 ## Archiwum
 
 Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

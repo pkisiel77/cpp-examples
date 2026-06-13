@@ -156,6 +156,12 @@ Im mniejszy zakres zmiennej, tym mniejsze ryzyko przypadkowego użycia jej w zł
 4. Napisz funkcję `zwieksz`, która przyjmuje `int&`. Porównaj ją z wersją wskaźnikową.
 5. Znajdź w swoich wcześniejszych przykładach miejsca, w których można użyć `const` referencji.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj sprawdzanie wskaźnika przed każdym odczytem.
+2. Zmień przykład tak, aby funkcja zwracała informację o błędzie.
+3. Wypisz komunikat diagnostyczny, gdy dane wejściowe są niepoprawne.
+
 ## Kryteria zaliczenia
 
 Program powinien:

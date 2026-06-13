@@ -171,6 +171,12 @@ jest błędny, bo zapisuje poza tablicą. Taki błąd może prowadzić do nieprz
 5. Wczytaj od użytkownika pięć liczb do tablicy, a następnie wypisz je w odwrotnej kolejności.
 6. Policz, ile elementów tablicy jest parzystych.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj funkcję liczącą sumę elementów tablicy.
+2. Dodaj funkcję zliczającą elementy większe od podanej wartości.
+3. Zmień przykład tak, aby rozmiar tablicy był stałą nazwaną.
+
 ## Kryteria zaliczenia
 
 Program powinien:

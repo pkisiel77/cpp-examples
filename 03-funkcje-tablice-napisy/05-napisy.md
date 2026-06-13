@@ -154,6 +154,12 @@ Polskie znaki, takie jak `ą`, `ę`, `ł`, wymagają dodatkowej wiedzy o kodowan
 5. Napisz funkcję `czyPalindrom`, która sprawdza, czy napis jest palindromem.
 6. Napisz program, który zlicza, ile razy litera `a` występuje w napisie.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj zliczanie spacji w napisie.
+2. Zmień program tak, aby ignorował wielkość liter przy porównaniu.
+3. Dodaj funkcję sprawdzającą, czy napis zaczyna się od podanego znaku.
+
 ## Kryteria zaliczenia
 
 Program powinien:

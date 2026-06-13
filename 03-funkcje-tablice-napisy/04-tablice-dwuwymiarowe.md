@@ -172,6 +172,12 @@ poprawne indeksy to:
 5. Znajdź największy element w tablicy dwuwymiarowej.
 6. Utwórz pustą planszę `3 x 3` dla gry w kółko i krzyżyk i wypisz ją na ekran.
 
+## Ćwiczenia dodatkowe
+
+1. Dodaj obliczanie sumy każdej kolumny.
+2. Wypisz największą wartość w całej macierzy.
+3. Zmień rozmiar macierzy i sprawdź, które fragmenty kodu wymagają aktualizacji.
+
 ## Kryteria zaliczenia
 
 Program powinien:
