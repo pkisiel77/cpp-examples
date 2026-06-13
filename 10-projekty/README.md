@@ -54,14 +54,15 @@ Opisy w docelowym formacie:
 - `project-10-system-zadan.md`,
 - `project-11-parser-csv.md`.
 
-Do uporządkowania w kolejnych małych krokach zostały materiały pomocnicze:
+Uporządkowane materiały pomocnicze:
 
 - `tnt-tasks/`.
 
 ## Dodatkowe zadania źródłowe
 
-Katalog [tnt-tasks](tnt-tasks) zawiera starsze opisy zadań, które można
-wykorzystać jako ćwiczenia lub tematy projektów po uporządkowaniu.
+Katalog [tnt-tasks](tnt-tasks) zawiera uporządkowane zadania pomocnicze, które
+można wykorzystać jako ćwiczenia, warianty projektów albo źródła do dalszego
+przenoszenia do wcześniejszych segmentów.
 
 ## Docelowy format opisu projektu
 

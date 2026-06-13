@@ -4,44 +4,35 @@ Ten katalog zawiera starsze opisy zadań źródłowych. Nie są jeszcze części
 głównej listy projektów, ale mogą być wykorzystane jako ćwiczenia, warianty
 projektów albo materiał do archiwizacji.
 
-W części plików znajduje się stary szablon egzaminacyjny oraz niespójne
-fragmenty, np. wymagania o funkcji szyfrującej w zadaniach niezwiązanych
-z szyfrowaniem. Przy porządkowaniu należy zachować sens zadania, a wymagania
-techniczne dopasować do aktualnego formatu repozytorium.
+Pliki w tym katalogu zostały oczyszczone ze starego szablonu egzaminacyjnego
+i dopasowane do aktualnego formatu repozytorium.
 
 ## Klasyfikacja
 
-### Kandydaci na osobne ćwiczenia
+### Ćwiczenia
 
 - [encryption-1.md](encryption-1.md) - szyfr podstawieniowy GADERYPOLUKI.
 - [min-max-avg.md](min-max-avg.md) - minimum, maksimum i średnia z liczb
   podawanych przez użytkownika.
 - [sfml-t1.md](sfml-t1.md) - polimorfizm, klasy figur i opcjonalna wizualizacja
   w SFML.
+- [calculator.md](calculator.md) - krótszy wariant kalkulatora skupiony na
+  odwrotnej notacji polskiej.
 
-### Kandydaci na większe projekty
+### Projekt pomocniczy
 
 - [atm.md](atm.md) - symulacja bankomatu. Ten temat można rozwinąć jako projekt
   konsolowy z kontami, PIN-em, saldem, wpłatą, wypłatą i historią operacji.
 
-### Duplikaty albo warianty istniejących projektów
+## Możliwe dalsze użycie
 
-- [calculator.md](calculator.md) - pokrywa się z głównym opisem
-  [Projekt 08 - Kalkulator](../project-08-kalkulator.md). Może zostać
-  archiwalnym źródłem albo krótszym ćwiczeniem z odwrotnej notacji polskiej.
-
-## Proponowany sposób dalszego porządkowania
-
-1. Przerobić `encryption-1.md` na krótkie ćwiczenie w segmencie funkcji,
-   napisów albo STL.
-2. Przerobić `min-max-avg.md` na ćwiczenie z pętli, wejścia użytkownika
-   i walidacji danych.
-3. Przerobić `sfml-t1.md` na materiał z OOP: klasy abstrakcyjne, dziedziczenie
-   i polimorfizm. Część SFML zostawić jako rozszerzenie.
-4. Zdecydować, czy `atm.md` ma zostać nowym projektem w `10-projekty`, czy
-   ćwiczeniem konsolowym w segmencie OOP.
-5. Przenieść albo zarchiwizować `calculator.md`, ponieważ główny projekt
-   kalkulatora jest już uporządkowany.
+- `encryption-1.md` można przenieść do segmentu funkcji i napisów.
+- `min-max-avg.md` można przenieść do segmentu sterowania i pętli.
+- `sfml-t1.md` można przenieść do segmentu OOP.
+- `calculator.md` można zostawić jako ćwiczenie przygotowujące do projektu
+  [Projekt 08 - Kalkulator](../project-08-kalkulator.md).
+- `atm.md` można zostawić jako projekt pomocniczy albo rozwinąć do osobnego
+  głównego projektu.
 
 ## Docelowy format po przeniesieniu
 
