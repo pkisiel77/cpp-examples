@@ -46,7 +46,14 @@ Katalog [examples](examples) zawiera krótkie, kompilowalne programy powiązane
 z lekcjami. Przykłady służą do demonstracji składni i jako punkt startowy do
 zadań.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test bez zewnętrznego frameworka. Test
+sprawdza podstawowe obliczenia, dobór typu wyniku, prostą klasyfikację tekstową
+oraz formatowanie liczby z ustaloną precyzją.
+
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla podstaw C++.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
