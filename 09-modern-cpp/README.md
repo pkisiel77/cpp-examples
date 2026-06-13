@@ -56,6 +56,12 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/code-organization](examples/code-organization) - podział kodu na moduł logiczny.
 - [examples/thread_basics.cpp](examples/thread_basics.cpp) - podstawy `std::thread`.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test wybranych elementów modern C++ bez
+zewnętrznego frameworka. Test sprawdza pętlę zakresową z `auto`, `nullptr`,
+`enum class`, aliasy typów, lambdy z algorytmami STL oraz przenoszenie danych.
+
 ## Format lekcji
 
 Każda docelowa lekcja powinna mieć taki układ:
@@ -70,4 +76,5 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla elementów modern C++.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.
