@@ -5,6 +5,7 @@ Zakłada pracę etapową: najpierw podstawy języka, potem organizacja kodu,
 a na końcu projekty zaliczeniowe.
 
 Gotowy rozkład 15-tygodniowy znajduje się w [planie semestru](plan-semestru.md).
+Zasady punktów kontrolnych i oceniania opisuje dokument [postępy i ocenianie](postepy-i-ocenianie.md).
 
 ## Proponowany układ pracy
 

@@ -30,6 +30,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 
 - [docs/prowadzacy.md](docs/prowadzacy.md) - przewodnik organizacyjny dla prowadzącego.
 - [docs/plan-semestru.md](docs/plan-semestru.md) - przykładowy 15-tygodniowy rozkład zajęć.
+- [docs/postepy-i-ocenianie.md](docs/postepy-i-ocenianie.md) - punkty kontrolne, poziomy osiągnięć i model oceniania.
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
 - [templates](templates) - szablony oddawania krótkich zadań i projektów.
