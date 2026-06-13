@@ -47,6 +47,12 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/standard_exception.cpp](examples/standard_exception.cpp) - obsługa wyjątku standardowego.
 - [examples/file_menu.cpp](examples/file_menu.cpp) - program z menu plikowym.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test walidacji danych wejściowych bez
+zewnętrznego frameworka. Test pokazuje, jak wydzielić parsowanie i sprawdzanie
+zakresu do funkcji, którą można uruchomić bez otwierania pliku.
+
 ## Format lekcji
 
 Każda docelowa lekcja powinna mieć taki układ:
@@ -61,4 +67,5 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne walidacji danych.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.

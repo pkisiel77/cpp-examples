@@ -59,6 +59,12 @@ echo "test 03 functions"
     -o "$BUILD_DIR/03_test_podstawowe_funkcje"
 "$BUILD_DIR/03_test_podstawowe_funkcje"
 
+echo "test 05 validation"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    05-pliki-wyjatki/tests/test_walidacja.cpp \
+    -o "$BUILD_DIR/05_test_walidacja"
+"$BUILD_DIR/05_test_walidacja"
+
 echo "compile 09 code-organization"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     09-modern-cpp/examples/code-organization/main.cpp \
