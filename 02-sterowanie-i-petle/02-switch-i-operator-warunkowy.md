@@ -8,7 +8,9 @@ Celem lekcji jest poznanie dwóch dodatkowych sposobów zapisu decyzji w program
 
 Student powinien znać materiał z lekcji [01-instrukcje-warunkowe.md](01-instrukcje-warunkowe.md): `if`, `else`, operatory porównania i operatory logiczne.
 
-## Instrukcja `switch`
+## Krótka teoria
+
+### Instrukcja `switch`
 
 Instrukcja `switch` pozwala wybrać jeden z wielu przypadków na podstawie wartości jednej zmiennej lub wyrażenia.
 
@@ -36,7 +38,7 @@ Znaczenie elementów:
 - `break` kończy wykonywanie instrukcji `switch`,
 - `default` obsługuje sytuację, gdy żaden `case` nie pasuje.
 
-## Przykład: proste menu
+## Przykład kodu: proste menu
 
 ```cpp
 #include <iostream>
@@ -73,7 +75,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/switch_menu.cpp](examples/switch_menu.cpp).
 
-## Dlaczego `break` jest ważny
+### Dlaczego `break` jest ważny
 
 Jeżeli pominiemy `break`, program przejdzie do kolejnego przypadku. Takie zachowanie nazywa się przejściem dalej przez przypadki.
 
@@ -92,7 +94,7 @@ Dla `wybor == 1` program wypisze zarówno `Jeden`, jak i `Dwa`.
 
 Czasem jest to celowe, ale na początku nauki zwykle oznacza błąd.
 
-## Kiedy użyć `switch`, a kiedy `if`
+### Kiedy użyć `switch`, a kiedy `if`
 
 `switch` jest dobrym wyborem, gdy:
 
@@ -107,7 +109,7 @@ Czasem jest to celowe, ale na początku nauki zwykle oznacza błąd.
 - potrzebne są operatory logiczne,
 - sprawdzamy wartości zmiennoprzecinkowe.
 
-## Operator warunkowy `?:`
+### Operator warunkowy `?:`
 
 Operator warunkowy pozwala zapisać prostą decyzję w jednym wyrażeniu.
 
@@ -128,7 +130,7 @@ int wieksza = (a > b) ? a : b;
 
 Jeżeli `a > b`, zmienna `wieksza` otrzyma wartość `a`. W przeciwnym razie otrzyma wartość `b`.
 
-## Przykład: parzystość liczby
+## Przykład kodu: parzystość liczby
 
 ```cpp
 #include <iostream>
@@ -150,7 +152,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/ternary_even_odd.cpp](examples/ternary_even_odd.cpp).
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program z menu kalkulatora:
    - `1` - dodawanie,

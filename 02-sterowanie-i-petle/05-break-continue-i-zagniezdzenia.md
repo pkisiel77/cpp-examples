@@ -12,7 +12,9 @@ Student powinien znać:
 - [04-petle-while-do-while.md](04-petle-while-do-while.md),
 - instrukcje warunkowe z lekcji [01-instrukcje-warunkowe.md](01-instrukcje-warunkowe.md).
 
-## Instrukcja `break`
+## Krótka teoria
+
+### Instrukcja `break`
 
 Instrukcja `break` natychmiast kończy najbliższą pętlę.
 
@@ -41,7 +43,7 @@ Wynik:
 
 Gdy `i` ma wartość `5`, pętla kończy działanie.
 
-## Przykład: szukanie liczby
+## Przykład kodu: szukanie liczby
 
 ```cpp
 int szukana = 7;
@@ -59,7 +61,7 @@ for (int i = 1; i <= 10; i++)
 
 Pełny przykład znajduje się w pliku [examples/break_search.cpp](examples/break_search.cpp).
 
-## Instrukcja `continue`
+### Instrukcja `continue`
 
 Instrukcja `continue` pomija resztę aktualnego obiegu pętli i przechodzi do następnego.
 
@@ -81,7 +83,7 @@ Ten kod wypisze tylko liczby nieparzyste. Gdy liczba jest parzysta, `continue` p
 
 Pełny przykład znajduje się w pliku [examples/continue_skip_even.cpp](examples/continue_skip_even.cpp).
 
-## Kiedy używać `break` i `continue`
+### Kiedy używać `break` i `continue`
 
 `break` jest przydatny, gdy:
 
@@ -97,7 +99,7 @@ Pełny przykład znajduje się w pliku [examples/continue_skip_even.cpp](example
 
 Nie należy nadużywać `break` i `continue`. Jeśli pętla staje się trudna do czytania, warto uprościć warunki albo podzielić kod na funkcje.
 
-## Pętle zagnieżdżone
+### Pętle zagnieżdżone
 
 Pętla zagnieżdżona to pętla umieszczona wewnątrz innej pętli.
 
@@ -113,7 +115,7 @@ for (int i = 1; i <= 3; i++)
 
 Dla każdej wartości `i` wewnętrzna pętla przechodzi przez wszystkie wartości `j`.
 
-## Przykład: tabliczka mnożenia
+## Przykład kodu: tabliczka mnożenia
 
 ```cpp
 for (int row = 1; row <= 10; row++)
@@ -129,7 +131,7 @@ for (int row = 1; row <= 10; row++)
 
 Pełny przykład znajduje się w pliku [examples/nested_multiplication_table.cpp](examples/nested_multiplication_table.cpp).
 
-## `break` w pętli zagnieżdżonej
+### `break` w pętli zagnieżdżonej
 
 `break` kończy tylko najbliższą pętlę.
 
@@ -148,7 +150,7 @@ for (int i = 1; i <= 3; i++)
 
 W tym przykładzie `break` kończy pętlę po `j`, ale pętla po `i` działa dalej.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który sprawdza liczby od `1` do `100` i kończy pętlę, gdy znajdzie pierwszą liczbę podzielną przez `17`.
 2. Napisz program, który wypisuje liczby od `1` do `50`, pomijając liczby podzielne przez `5`.

@@ -12,7 +12,9 @@ Student powinien znać:
 - [02-switch-i-operator-warunkowy.md](02-switch-i-operator-warunkowy.md),
 - podstawowe operatory arytmetyczne z segmentu [01-podstawy](../01-podstawy/README.md).
 
-## Składnia pętli `for`
+## Krótka teoria
+
+### Składnia pętli `for`
 
 ```cpp
 for (inicjalizacja; warunek; zmiana)
@@ -36,7 +38,7 @@ Znaczenie elementów:
 - `i < 10` - warunek kontynuowania pętli,
 - `i++` - zwiększenie licznika po każdym obiegu.
 
-## Kolejność działania
+### Kolejność działania
 
 Dla pętli:
 
@@ -65,7 +67,7 @@ Wynik:
 
 Ten przykład znajduje się w pliku [examples/for_count.cpp](examples/for_count.cpp).
 
-## Pętla z innym krokiem
+### Pętla z innym krokiem
 
 Licznik nie musi zwiększać się o `1`.
 
@@ -78,7 +80,7 @@ for (int i = 0; i <= 20; i += 2)
 
 Ta pętla wypisuje liczby parzyste od `0` do `20`.
 
-## Pętla malejąca
+### Pętla malejąca
 
 Pętla może też odliczać w dół.
 
@@ -89,7 +91,7 @@ for (int i = 10; i >= 1; i--)
 }
 ```
 
-## Suma liczb
+## Przykład kodu: suma liczb
 
 Pętla `for` często służy do obliczania sumy.
 
@@ -106,7 +108,7 @@ std::cout << "Suma: " << suma << std::endl;
 
 Pełny przykład znajduje się w pliku [examples/for_sum.cpp](examples/for_sum.cpp).
 
-## Pętla i warunek
+## Przykład kodu: pętla i warunek
 
 Wewnątrz pętli można używać instrukcji `if`.
 
@@ -124,7 +126,7 @@ Ten kod wypisuje liczby parzyste od `1` do `20`.
 
 Pełny przykład znajduje się w pliku [examples/for_even_numbers.cpp](examples/for_even_numbers.cpp).
 
-## Częste błędy
+## Typowe błędy
 
 ### Zły warunek końca
 
@@ -158,7 +160,7 @@ for (int i = 0; i < 10; i++)
 
 Zmienna `i` zadeklarowana w pętli istnieje tylko w tej pętli.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który za pomocą pętli `for` wypisuje liczby od `1` do `110`.
 2. Napisz program, który za pomocą pętli `for` wypisuje liczby od `100` do `1`.

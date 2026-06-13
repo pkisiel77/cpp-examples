@@ -24,9 +24,11 @@ Po zakończeniu segmentu student powinien umieć:
 5. [05-break-continue-i-zagniezdzenia.md](05-break-continue-i-zagniezdzenia.md) - sterowanie wewnątrz pętli i pętle zagnieżdżone.
 6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Obecne materiały źródłowe
+## Status porządkowania
 
-Materiały źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
+Lekcje i zadania w tym segmencie są uporządkowane w docelowym formacie.
+Materiały źródłowe zostały przeniesione do [archive](archive) po wchłonięciu
+ich treści do lekcji i zadań.
 
 ## Format lekcji
 
@@ -38,6 +40,12 @@ Każda docelowa lekcja powinna mieć taki układ:
 4. Przykład kodu.
 5. Zadania do wykonania.
 6. Kryteria zaliczenia.
+
+## Przykłady kodu
+
+Katalog [examples](examples) zawiera krótkie programy pokazujące instrukcje
+warunkowe, `switch`, pętle oraz użycie `break` i `continue`. Przykłady są
+kompilowalne i mogą być punktem startowym do zadań.
 
 ## Katalogi pomocnicze
 

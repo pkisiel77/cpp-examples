@@ -8,7 +8,9 @@ Celem lekcji jest nauczenie zapisu decyzji w programie przy pomocy instrukcji `i
 
 Student powinien znać podstawy z segmentu [01-podstawy](../01-podstawy/README.md): zmienne, typy danych, operatory arytmetyczne oraz wejście i wyjście.
 
-## Po co są instrukcje warunkowe
+## Krótka teoria
+
+### Po co są instrukcje warunkowe
 
 Instrukcja warunkowa pozwala wykonać fragment kodu tylko wtedy, gdy spełniony jest określony warunek.
 
@@ -23,7 +25,7 @@ if (liczba > 0)
 
 Kod w nawiasach klamrowych wykona się tylko wtedy, gdy `liczba > 0`.
 
-## Operatory porównania
+### Operatory porównania
 
 | Operator | Znaczenie |
 | --- | --- |
@@ -45,7 +47,7 @@ if (a == 5) // porównanie
 a = 5; // przypisanie
 ```
 
-## `if` i `else`
+## Przykład kodu: `if` i `else`
 
 ```cpp
 #include <iostream>
@@ -72,7 +74,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/if_positive_negative.cpp](examples/if_positive_negative.cpp).
 
-## `else if`
+### `else if`
 
 Jeżeli mamy więcej niż dwa przypadki, używamy `else if`.
 
@@ -93,7 +95,7 @@ else
 
 Warunki są sprawdzane od góry do dołu. Wykonuje się pierwszy pasujący blok.
 
-## Operatory logiczne
+### Operatory logiczne
 
 Warunki można łączyć operatorami logicznymi.
 
@@ -114,7 +116,7 @@ if (liczba >= -10 && liczba <= 13)
 
 Pełny przykład znajduje się w pliku [examples/range_check.cpp](examples/range_check.cpp).
 
-## Częsty błąd: średnik po `if`
+## Typowy błąd: średnik po `if`
 
 Nie stawiamy średnika bezpośrednio po warunku `if`.
 
@@ -138,7 +140,7 @@ if (a == 1)
 }
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który sprawdza, czy liczba jest dodatnia, ujemna czy równa zero.
 2. Napisz program, który sprawdza, czy liczba jest parzysta.

@@ -1,6 +1,6 @@
 # 06 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [02 - Sterowanie i pętle](README.md). Zadania sprawdzają instrukcje warunkowe, `switch`, operator `?:`, pętle oraz sterowanie wykonaniem pętli.
 

@@ -12,7 +12,9 @@ Student powinien znać:
 - [03-petla-for.md](03-petla-for.md),
 - podstawowe operatory porównania i logiczne.
 
-## Pętla `while`
+## Krótka teoria
+
+### Pętla `while`
 
 Pętla `while` wykonuje instrukcje tak długo, jak długo warunek jest prawdziwy.
 
@@ -41,7 +43,7 @@ Pętla `while` najpierw sprawdza warunek, a dopiero potem wykonuje ciało pętli
 
 Pełny przykład znajduje się w pliku [examples/while_count.cpp](examples/while_count.cpp).
 
-## Kiedy używać `while`
+### Kiedy używać `while`
 
 Pętla `while` jest dobrym wyborem, gdy nie wiemy z góry, ile razy pętla ma się wykonać.
 
@@ -51,7 +53,7 @@ Przykłady:
 - program wykonuje menu do momentu wyboru opcji wyjścia,
 - program przetwarza dane, dopóki spełniony jest warunek.
 
-## Przykład: suma do zera
+## Przykład kodu: suma do zera
 
 ```cpp
 int liczba;
@@ -73,7 +75,7 @@ std::cout << "Suma: " << suma << std::endl;
 
 Pełny przykład znajduje się w pliku [examples/while_sum_until_zero.cpp](examples/while_sum_until_zero.cpp).
 
-## Pętla `do while`
+### Pętla `do while`
 
 Pętla `do while` najpierw wykonuje ciało pętli, a dopiero potem sprawdza warunek.
 
@@ -106,7 +108,7 @@ while (wybor != 0);
 
 Pełny przykład znajduje się w pliku [examples/do_while_menu.cpp](examples/do_while_menu.cpp).
 
-## Różnica między `while` i `do while`
+### Różnica między `while` i `do while`
 
 `while` może nie wykonać się ani razu:
 
@@ -131,7 +133,7 @@ do
 while (i < 5);
 ```
 
-## Pętla nieskończona
+### Pętla nieskończona
 
 Pętla nieskończona powstaje wtedy, gdy warunek nigdy nie staje się fałszywy.
 
@@ -147,7 +149,7 @@ while (i <= 10)
 
 W tym przykładzie `i` nigdy się nie zmienia, więc warunek `i <= 10` pozostaje prawdziwy.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który za pomocą `while` wypisuje liczby od `1` do `110`.
 2. Napisz program, który za pomocą `while` wypisuje liczby od `100` do `1`.
