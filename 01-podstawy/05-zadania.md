@@ -11,14 +11,23 @@ Ten plik zbiera zadania do segmentu [01 - Podstawy C++](README.md). Zadania są 
 
 ## Zasady wykonania
 
-Każde zadanie powinno być zapisane w osobnym pliku `.cpp`. Program powinien kompilować się bez błędów i wypisywać wynik w czytelnej formie.
+Każde zadanie powinno być zapisane w osobnym pliku `.cpp`. Program powinien
+kompilować się bez błędów i wypisywać wynik w czytelnej formie.
 
 Przykład kompilacji:
 
 ```sh
-c++ nazwa_pliku.cpp -o program
+c++ -std=c++17 -Wall -Wextra -pedantic nazwa_pliku.cpp -o program
 ./program
 ```
+
+Przed oddaniem zadania sprawdź:
+
+- czy plik ma rozszerzenie `.cpp`,
+- czy program zawiera funkcję `main`,
+- czy nazwy zmiennych opisują dane, które przechowują,
+- czy program działa dla przykładowych danych z treści zadania,
+- czy wynik jest wypisany w formie zrozumiałej dla użytkownika.
 
 ## Poziom 1 - Pierwsze programy
 
@@ -33,6 +42,12 @@ Imie: Jan
 Grupa: 1A
 ```
 
+Wymagania:
+
+- użyj `#include <iostream>`,
+- wypisz każdą informację w osobnej linii,
+- zakończ program przez `return 0;`.
+
 ### Zadanie 2. Trzy linie tekstu
 
 Napisz program, który wypisuje trzy osobne linie:
@@ -41,6 +56,14 @@ Napisz program, który wypisuje trzy osobne linie:
 - nazwę środowiska pracy,
 - datę wykonania zadania.
 
+Przykładowy wynik:
+
+```text
+Jezyk: C++
+Srodowisko: Visual Studio Code
+Data: 2026-06-13
+```
+
 ### Zadanie 3. Komentarze
 
 Napisz prosty program wypisujący dowolny tekst. Dodaj:
@@ -48,9 +71,29 @@ Napisz prosty program wypisujący dowolny tekst. Dodaj:
 - jeden komentarz jednoliniowy,
 - jeden komentarz wieloliniowy.
 
+Komentarze powinny wyjaśniać cel programu albo znaczenie fragmentu kodu. Nie
+dodawaj komentarza typu `wypisuje tekst` nad oczywistą instrukcją `std::cout`.
+
+### Zadanie 4. Pierwsza wizytówka
+
+Napisz program, który wypisuje prostą wizytówkę:
+
+```text
+====================
+Jan Kowalski
+Technik programista
+====================
+```
+
+Wymagania:
+
+- użyj kilku instrukcji `std::cout`,
+- zadbaj o czytelne łamanie linii,
+- nie wczytuj danych od użytkownika.
+
 ## Poziom 2 - Wejście i wyjście
 
-### Zadanie 4. Dane użytkownika
+### Zadanie 5. Dane użytkownika
 
 Napisz program, który pyta użytkownika o imię i wiek, a następnie wypisuje zdanie:
 
@@ -58,11 +101,40 @@ Napisz program, który pyta użytkownika o imię i wiek, a następnie wypisuje z
 Czesc, Jan. Masz 20 lat.
 ```
 
-### Zadanie 5. Imię i nazwisko
+Scenariusz sprawdzenia:
+
+```text
+Dane wejsciowe:
+Jan
+20
+
+Oczekiwany fragment wyniku:
+Czesc, Jan. Masz 20 lat.
+```
+
+### Zadanie 6. Imię i nazwisko
 
 Napisz program, który wczytuje imię i nazwisko w jednej linii przy pomocy `std::getline`, a następnie wypisuje je na ekran.
 
-### Zadanie 6. Argumenty programu
+Wskazówka: jeśli wcześniej używasz `std::cin >>`, przed `std::getline` może być
+potrzebne oczyszczenie znaku końca linii. W tym zadaniu najlepiej użyć tylko
+`std::getline`.
+
+### Zadanie 7. Krótki formularz
+
+Napisz program, który wczytuje:
+
+- imię,
+- miasto,
+- nazwę szkoły.
+
+Następnie wypisuje jedno podsumowanie:
+
+```text
+Jan mieszka w Gdansku i uczy sie w Technikum nr 1.
+```
+
+### Zadanie 8. Argumenty programu
 
 Napisz program, który wypisuje wszystkie argumenty przekazane przy uruchomieniu programu.
 
@@ -84,7 +156,7 @@ Liczba argumentow: 4
 
 ## Poziom 3 - Typy, zmienne i operatory
 
-### Zadanie 7. Dwie liczby
+### Zadanie 9. Dwie liczby
 
 Napisz program, który wczytuje dwie liczby całkowite i wypisuje:
 
@@ -94,13 +166,28 @@ Napisz program, który wczytuje dwie liczby całkowite i wypisuje:
 - wynik dzielenia całkowitego,
 - resztę z dzielenia.
 
-### Zadanie 8. Pole prostokąta
+Scenariusz sprawdzenia:
+
+```text
+Dane wejsciowe:
+17
+5
+
+Oczekiwane wyniki:
+Suma: 22
+Roznica: 12
+Iloczyn: 85
+Dzielenie calkowite: 3
+Reszta: 2
+```
+
+### Zadanie 10. Pole prostokąta
 
 Napisz program, który oblicza pole prostokąta. Długości boków `a` i `b` użytkownik podaje z klawiatury. Użyj typu `double`.
 
 Wynik wypisz z dokładnością do dwóch miejsc po przecinku.
 
-### Zadanie 9. Pole i obwód koła
+### Zadanie 11. Pole i obwód koła
 
 Napisz program, który wczytuje promień koła i oblicza:
 
@@ -115,7 +202,7 @@ const double PI = 3.141592653589793;
 
 Wyniki wypisz z dokładnością do dwóch miejsc po przecinku.
 
-### Zadanie 10. BMI
+### Zadanie 12. BMI
 
 Napisz kalkulator BMI.
 
@@ -132,7 +219,18 @@ BMI = masa / (wzrost * wzrost)
 
 Program powinien wypisać wartość BMI z dokładnością do dwóch miejsc po przecinku.
 
-### Zadanie 11. Pierwiastek i potęga
+Scenariusz sprawdzenia:
+
+```text
+Dane wejsciowe:
+80
+2
+
+Oczekiwany wynik:
+BMI: 20.00
+```
+
+### Zadanie 13. Pierwiastek i potęga
 
 Napisz program, który wczytuje liczbę `x` typu `double`, a następnie wypisuje:
 
@@ -142,9 +240,30 @@ Napisz program, który wczytuje liczbę `x` typu `double`, a następnie wypisuje
 
 Użyj funkcji `std::sqrt` i `std::pow` z biblioteki `cmath`.
 
+### Zadanie 14. Czas w sekundach
+
+Napisz program, który wczytuje liczbę sekund jako liczbę całkowitą, a następnie
+przelicza ją na godziny, minuty i sekundy.
+
+Przykład:
+
+```text
+Dane wejsciowe:
+3671
+
+Oczekiwany wynik:
+1 h 1 min 11 s
+```
+
+Wymagania:
+
+- użyj dzielenia całkowitego,
+- użyj operatora reszty z dzielenia `%`,
+- nie używaj instrukcji warunkowych.
+
 ## Poziom 4 - Formatowanie wyjścia
 
-### Zadanie 12. Liczba PI
+### Zadanie 15. Liczba PI
 
 Napisz program, który wypisuje liczbę PI:
 
@@ -152,7 +271,7 @@ Napisz program, który wypisuje liczbę PI:
 - z dokładnością do pięciu miejsc po przecinku,
 - z dokładnością do dziesięciu miejsc po przecinku.
 
-### Zadanie 13. Prosta tabela
+### Zadanie 16. Prosta tabela
 
 Napisz program, który wypisuje tabelę produktów:
 
@@ -164,7 +283,13 @@ Napisz program, który wypisuje tabelę produktów:
 
 Użyj `std::setw`, aby wyrównać kolumny.
 
-### Zadanie 14. Numer z zerami
+Wymagania:
+
+- użyj `std::left` dla nazw produktów,
+- użyj `std::right` dla liczb,
+- ceny wypisz z dokładnością do dwóch miejsc po przecinku.
+
+### Zadanie 17. Numer z zerami
 
 Napisz program, który przechowuje numer zamówienia jako liczbę całkowitą, na przykład `123`, i wypisuje go w formacie:
 
@@ -174,9 +299,30 @@ Napisz program, który przechowuje numer zamówienia jako liczbę całkowitą, n
 
 Użyj `std::setw` i `std::setfill`.
 
+### Zadanie 18. Paragon
+
+Napisz program, który wczytuje:
+
+- nazwę produktu,
+- cenę jednostkową,
+- liczbę sztuk.
+
+Następnie wypisuje prosty paragon:
+
+```text
+Produkt          Cena    Ilosc    Wartosc
+Zeszyt           4.50        3      13.50
+```
+
+Wymagania:
+
+- użyj `std::setw`,
+- wynik wartości oblicz jako `cena * liczbaSztuk`,
+- ceny i wartość wypisz z dokładnością do dwóch miejsc po przecinku.
+
 ## Poziom 5 - Zadania dodatkowe
 
-### Zadanie 15. Palindrom tekstowy
+### Zadanie 19. Palindrom tekstowy
 
 Napisz program, który sprawdza, czy tekst przekazany jako argument programu jest palindromem.
 
@@ -198,7 +344,26 @@ Wynik:
 To jest palindrom.
 ```
 
-### Zadanie 16. Liczby skojarzone
+### Zadanie 20. Prosty kalkulator argumentów
+
+Napisz program, który przyjmuje przez argumenty programu dwie liczby całkowite i
+wypisuje ich sumę.
+
+Przykład:
+
+```sh
+./program 12 8
+```
+
+Wynik:
+
+```text
+Suma: 20
+```
+
+Wskazówka: zamiana tekstu na liczbę wymaga funkcji takiej jak `std::stoi`.
+
+### Zadanie 21. Liczby skojarzone
 
 Dwie różne liczby całkowite `a` i `b` większe od `1` nazwiemy skojarzonymi, jeśli:
 
@@ -208,6 +373,19 @@ Dwie różne liczby całkowite `a` i `b` większe od `1` nazwiemy skojarzonymi, 
 Napisz program, który sprawdza, czy dwie liczby podane przez użytkownika są skojarzone.
 
 Przykład: liczby `140` i `195` są skojarzone.
+
+## Wariant minimum
+
+Do zaliczenia segmentu wykonaj co najmniej:
+
+1. Zadanie 1 albo 2.
+2. Zadanie 5 albo 6.
+3. Zadanie 9.
+4. Zadanie 10 albo 11.
+5. Zadanie 15 albo 16.
+6. Mini-sprawdzian segmentu z końca pliku.
+
+Zadania z poziomu 5 są dodatkowe. Możesz je robić po wykonaniu wariantu minimum.
 
 ## Zadania przeniesione na później
 
@@ -243,3 +421,27 @@ Przed przejściem dalej student powinien samodzielnie napisać mały program, kt
 - wypisuje wynik z dokładnością do dwóch miejsc po przecinku,
 - używa czytelnych nazw zmiennych,
 - kompiluje się z flagami `-Wall -Wextra -pedantic`.
+
+Scenariusz sprawdzenia:
+
+```text
+Dane wejsciowe:
+Zeszyt
+4.5
+3
+
+Oczekiwany wynik:
+Produkt: Zeszyt
+Wartosc zamowienia: 13.50
+```
+
+## Checklista oddania
+
+Przed oddaniem rozwiązań sprawdź:
+
+- [ ] Każde zadanie jest w osobnym pliku `.cpp`.
+- [ ] Każdy program kompiluje się z `-Wall -Wextra -pedantic`.
+- [ ] Programy nie wymagają plików wynikowych zapisanych w repozytorium.
+- [ ] Wyniki są opisane, a nie wypisane jako same liczby.
+- [ ] W zadaniach z `double` wynik ma wymaganą liczbę miejsc po przecinku.
+- [ ] W zadaniach z wejściem przetestowano dane z treści zadania.
