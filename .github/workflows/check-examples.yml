@@ -1,0 +1,16 @@
+name: Check examples
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-examples:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check C++ examples
+        run: BUILD_DIR=/tmp/cpp-examples-build sh tools/check-examples.sh

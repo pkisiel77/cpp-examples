@@ -41,6 +41,8 @@ sh tools/check-examples.sh
 
 Skrypt używa domyślnie `c++`, standardu C++17 i katalogu `/tmp/cpp-examples-build`. Można to zmienić zmiennymi środowiskowymi `CXX`, `STD` i `BUILD_DIR`.
 
+Ten sam skrypt jest uruchamiany w GitHub Actions po `push` i `pull_request`.
+
 ## Status porządkowania
 
 Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały przygotowywane są po polsku. Kolejne prace powinny dotyczyć już jakości merytorycznej: rozbudowy przykładów, dodawania testów do większych zadań i przenoszenia wybranych materiałów z archiwów do lekcji.
