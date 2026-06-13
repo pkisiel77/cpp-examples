@@ -1,58 +1,189 @@
-# Wstęp
+# Projekt pomocniczy - Symulator bankomatu
 
-- Wykonaj aplikację konsolową według wskazań. 
-- Udokumentuj aplikacje zrzutami ekranu i komentarzami zgodnie z opisem w części ***Dokumentacja utworzonej aplikacji***.
-- Utwórz folder i nazwij swoim Imieniem i Nazwiskiem. 
-- W folderze utwórz podfoldery: konsola, dokumentacja. 
-- Po wykonaniu aplikacji, jej pełny kod (cały projekt) skopiuj do odpowiedniego podfolderu. 
-- Dokumentację aplikacji w postaci zrzutów ekranu i dokumentu umieść w podfolferze dokumentacja.
+## Cel projektu
 
-# Zadanie
-Napisz program konsolowy, symulujący [ATM](https://pl.wikipedia.org/wiki/Bankomat)
+Celem projektu jest przygotowanie aplikacji konsolowej symulującej działanie
+bankomatu. Projekt ma pokazać modelowanie prostego systemu użytkowego,
+walidację danych, obsługę menu, klasy, operacje na stanie konta oraz
+podstawową historię operacji.
 
-# Założenia programu
-- Program wykonywany w konsoli.
-- Język programowania C++
-- Program zawiera funkcję szyfrującą, która przyjmuje jako argument wprowadzony tekst.
-- Funkcja zwraca zaszyfrowany tekst.
-- W programie głównym występuje wczytanie tekstu z klawiatury po uprzednim wyświetleniu stosownego komunikatu
-dla użytkownika, a po zaszyfrowaniu wyświetlenie zaszyfrowanej jego wersji.
-- Program powinien być zapisany czytelnie, z zasadami czystego formatowania kodu, należy stosować znaczące nazwy
-zmiennych i funkcji.
-- Dokumentacja do programu powinna być wykonana zgodnie z wytycznymi z części ***Dokumentacja utworzonej aplikacji***
+To zadanie może być potraktowane jako większe ćwiczenie z programowania
+obiektowego albo jako kandydat na osobny projekt w segmencie `10-projekty`.
 
-# Dokumentacja utworzonej aplikacji
-- Wykonaj dokumentację aplikacji. 
-- W kodzie źródłowym aplikacji szyfrującej utwórz nagłówek funkcji szyfrującej według wzoru. 
-- Nagłówek powinien znaleźć się w kodzie źródłowym nad funkcją. 
-- W miejscu nawiasów <> należy podać nazwę funkcji, nazwy parametrów oraz zwięzłe informacje (kilka słów) – zgodnie ze wzorcem. 
-- W miejscu autor należy podać Imię i Nazwisko
-```cpp
-/********************************************************
-* nazwa funkcji: <tu wstaw nazwę funkcji>
-*
-* parametry wejściowe: <nazwa parametru> - <co przechowuje parametr>
-* wartość zwracana: <co zwraca funkcja – opis>
-* opis funkcji: <zwięzły opis>
-*
-* autor: <Imię i nazwisko>
-* ****************************************************/
+## Zakres funkcjonalny
+
+Program powinien umożliwiać:
+
+- uruchomienie bankomatu w terminalu,
+- zalogowanie użytkownika numerem karty albo identyfikatorem konta,
+- sprawdzenie kodu PIN,
+- wyświetlenie salda,
+- wypłatę środków,
+- wpłatę środków,
+- zmianę PIN-u,
+- wyświetlenie historii operacji,
+- zakończenie sesji użytkownika,
+- obsługę błędnych danych wejściowych.
+
+Przykładowe menu:
+
+```text
+1. Sprawdz saldo
+2. Wplac srodki
+3. Wyplac srodki
+4. Historia operacji
+5. Zmien PIN
+6. Wyloguj
 ```
-- Wykonaj zrzuty ekranu dokumentujące uruchomienie aplikacji. 
-- Zrzuty powinny obejmować cały obszar ekranu z widocznym paskiem zadań. 
-- Jeżeli aplikacja uruchamia się, na zrzucie należy umieścić okno z wynikiem działania programu oraz otwarte środowisko programistyczne z projektem pod spodem.
-- Jeżeli aplikacja nie uruchamia się z powodu błędów kompilacji, należy na zrzucie umieścić okno ze spisem błędów i widocznym otwartym środowiskiem programistycznym. 
-- Wymagane zrzuty ekranu:
-  - z aplikacji konsolowej => konsola.jpg
-- W edytorze tekstu pakietu biurowego utwórz plik z dokumentacją i nazwij go egzamin. 
-- Dokument powinien zawierać podpisane zrzuty ekranu oraz zapisane informacje:
-  - nazwę systemu operacyjnego,
-  - nazwy środowisk programistycznych,
-  - nazwy języków programowania użytych podczas tworzenia aplikacji,
-  ‒ opcjonalnie komentarz do wykonanej pracy.
-- Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
-# Source 
-- https://www.youtube.com/watch?v=wccZgjs90S8
-- https://www.youtube.com/watch?v=qBI7Qnz9Zho
-- https://www.youtube.com/watch?v=k18L_KxF9Ds
+## Wymagania techniczne
+
+Projekt powinien:
+
+- być napisany w C++17,
+- używać klasy `Account` do reprezentowania konta,
+- używać klasy `Atm` albo `AtmSession` do obsługi sesji użytkownika,
+- ukrywać saldo i PIN w polach prywatnych,
+- walidować kwoty wpłaty i wypłaty,
+- nie pozwalać wypłacić więcej niż wynosi saldo,
+- ograniczać liczbę nieudanych prób podania PIN-u,
+- używać `std::vector` do historii operacji,
+- rozdzielać deklaracje i implementacje na pliki `.h` i `.cpp`,
+- kompilować się z flagami `-Wall -Wextra -pedantic`.
+
+## Proponowana struktura plików
+
+```text
+atm/
+  include/atm/
+    account.h
+    atm.h
+    transaction.h
+    menu.h
+  src/
+    account.cpp
+    atm.cpp
+    transaction.cpp
+    menu.cpp
+    main.cpp
+  tests/
+    account_tests.cpp
+  data/
+    accounts.csv
+  build/
+```
+
+Znaczenie elementów:
+
+- `Account` - dane konta, saldo, PIN i operacje na środkach,
+- `Atm` - logika logowania oraz obsługa sesji,
+- `Transaction` - pojedyncza operacja w historii,
+- `Menu` - komunikacja z użytkownikiem w terminalu.
+
+## Model danych
+
+Konto powinno mieć co najmniej:
+
+- identyfikator konta,
+- PIN,
+- saldo,
+- informację, czy konto jest zablokowane,
+- historię operacji.
+
+Przykład:
+
+```cpp
+enum class TransactionType {
+    Deposit,
+    Withdrawal,
+    PinChange
+};
+
+struct Transaction {
+    TransactionType type;
+    double amount;
+    std::string description;
+};
+
+class Account {
+public:
+    Account(std::string id, std::string pin, double balance);
+
+    bool verifyPin(const std::string& pin) const;
+    double balance() const;
+    bool deposit(double amount);
+    bool withdraw(double amount);
+    bool changePin(const std::string& oldPin, const std::string& newPin);
+
+private:
+    std::string id_;
+    std::string pin_;
+    double balance_;
+    std::vector<Transaction> history_;
+};
+```
+
+## Minimalny wariant zaliczeniowy
+
+Minimalna wersja projektu powinna zawierać:
+
+1. Menu startowe z logowaniem.
+2. Jedno przykładowe konto zapisane w kodzie albo w pliku.
+3. Sprawdzenie PIN-u.
+4. Blokadę po trzech błędnych próbach PIN-u.
+5. Wyświetlenie salda.
+6. Wpłatę dodatniej kwoty.
+7. Wypłatę dodatniej kwoty.
+8. Odmowę wypłaty przy braku środków.
+9. Historię operacji w trakcie działania programu.
+10. Zakończenie sesji użytkownika.
+11. Instrukcję kompilacji i uruchomienia.
+
+## Rozszerzenia dla chętnych
+
+Możliwe rozszerzenia:
+
+- wiele kont,
+- zapis kont do pliku CSV,
+- odczyt kont z pliku przy starcie programu,
+- przelewy między kontami,
+- limit dziennej wypłaty,
+- data i godzina operacji,
+- eksport historii operacji do pliku,
+- testy automatyczne klasy `Account`,
+- osobna rola administratora,
+- prosta walidacja formatu PIN-u.
+
+## Kryteria oceny
+
+Projekt jest zaliczony, jeśli:
+
+- kompiluje się bez błędów i ostrzeżeń,
+- poprawnie loguje użytkownika poprawnym PIN-em,
+- odrzuca błędny PIN,
+- blokuje konto albo sesję po zbyt wielu błędnych próbach,
+- poprawnie pokazuje saldo,
+- poprawnie obsługuje wpłatę,
+- poprawnie obsługuje wypłatę,
+- nie pozwala wypłacić więcej niż wynosi saldo,
+- zapisuje operacje w historii,
+- ma czytelne menu konsolowe,
+- kod jest podzielony na klasy i moduły,
+- zawiera instrukcję uruchomienia,
+- zawiera testy albo opis ręcznych scenariuszy sprawdzenia.
+
+## Scenariusze sprawdzenia
+
+1. Zaloguj się poprawnym PIN-em i sprawdź saldo.
+2. Podaj trzy razy błędny PIN i sprawdź blokadę.
+3. Wpłać `100` i sprawdź, czy saldo wzrosło.
+4. Wypłać `50` i sprawdź, czy saldo spadło.
+5. Spróbuj wypłacić kwotę większą niż saldo.
+6. Spróbuj wpłacić albo wypłacić kwotę ujemną.
+7. Wykonaj kilka operacji i wyświetl historię.
+8. Zmień PIN i sprawdź logowanie nowym PIN-em.
+
+## Źródło pierwotne
+
+Zadanie pochodziło ze starszego materiału egzaminacyjnego i zostało
+uporządkowane do formatu projektu pomocniczego repozytorium.
