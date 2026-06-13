@@ -69,6 +69,8 @@ sh tools/check-examples.sh
 
 Skrypt kompiluje przykłady z głównej ścieżki i uruchamia testowy build z segmentu
 `08-projekt-build-testy`. Ten sam skrypt działa w GitHub Actions.
+Szczegóły konfiguracji i interpretacji wyników są w dokumencie
+[walidacja repozytorium](walidacja-repo.md).
 
 ## Praca z projektami
 

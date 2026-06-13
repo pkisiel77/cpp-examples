@@ -37,6 +37,9 @@ W segmentach z katalogiem `tests` znajdziesz też małe testy bez zewnętrznego
 frameworka. Możesz uruchamiać je osobno, jeśli chcesz przećwiczyć sprawdzanie
 funkcji bez pełnego skryptu repozytorium.
 
+Więcej informacji o lokalnej walidacji repozytorium znajdziesz w dokumencie
+[walidacja repozytorium](walidacja-repo.md).
+
 ## Jak oddawać zadania
 
 Dla każdego zadania przygotuj:

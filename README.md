@@ -34,6 +34,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/postepy-i-ocenianie.md](docs/postepy-i-ocenianie.md) - punkty kontrolne, poziomy osiągnięć i model oceniania.
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
+- [docs/walidacja-repo.md](docs/walidacja-repo.md) - lokalne sprawdzanie przykładów, testów i CI.
 - [10-projekty/checklista-projektu.md](10-projekty/checklista-projektu.md) - lista kontroli projektu zaliczeniowego.
 - [templates](templates) - szablony oddawania krótkich zadań i projektów.
 - [_assets](./_assets) - media i pliki pomocnicze.
@@ -50,6 +51,8 @@ sh tools/check-examples.sh
 Skrypt używa domyślnie `c++`, standardu C++17 i katalogu `/tmp/cpp-examples-build`. Można to zmienić zmiennymi środowiskowymi `CXX`, `STD` i `BUILD_DIR`.
 
 Ten sam skrypt jest uruchamiany w GitHub Actions po `push` i `pull_request`.
+Szczegóły użycia i interpretacji wyników są opisane w
+[docs/walidacja-repo.md](docs/walidacja-repo.md).
 
 ## Status porządkowania
 
