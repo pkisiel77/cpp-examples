@@ -22,6 +22,16 @@ c++ -std=c++17 -Wall -Wextra -pedantic nazwa_pliku.cpp -o program
 
 Dla zadań z wątkami użyj dodatkowo `-pthread`, jeśli wymaga tego system.
 
+## Wymagania jakościowe
+
+W zadaniach z tego segmentu zwracaj uwagę na:
+
+- kompilację z flagami `-std=c++17 -Wall -Wextra -pedantic`,
+- używanie `auto` tylko wtedy, gdy nie ukrywa znaczenia kodu,
+- `enum class` zamiast luźnych liczb lub napisów opisujących stan,
+- lambdy krótkie i czytelne, a dłuższą logikę przeniesioną do funkcji,
+- wywołanie `join` dla każdego uruchomionego wątku.
+
 ## Poziom 1 - Podstawy modern C++
 
 ### Zadanie 1. Inicjalizacja klamrowa

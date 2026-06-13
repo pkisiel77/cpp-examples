@@ -21,6 +21,16 @@ c++ -std=c++17 nazwa_pliku.cpp -o program
 Jeśli zadanie wymaga wyszukiwania lub sortowania, użyj odpowiedniego algorytmu
 STL zamiast pisać własną pętlę realizującą ten sam algorytm.
 
+## Wymagania jakościowe
+
+W zadaniach z tego segmentu zwracaj uwagę na:
+
+- kompilację z flagami `-std=c++17 -Wall -Wextra -pedantic`,
+- dobór kontenera do sposobu użycia danych,
+- pętle zakresowe i `const auto&` tam, gdzie poprawiają czytelność,
+- algorytmy STL zamiast ręcznego sortowania lub wyszukiwania,
+- sprawdzanie wyniku `find` przed użyciem znalezionego elementu.
+
 ## Poziom 1 - `std::vector`
 
 ### Zadanie 1. Liczby od 1 do 10

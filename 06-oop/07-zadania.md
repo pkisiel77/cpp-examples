@@ -17,6 +17,16 @@ c++ nazwa_pliku.cpp -o program
 
 Klasy powinny mieć czytelne nazwy, a pola powinny być prywatne, jeśli zadanie nie mówi inaczej.
 
+## Wymagania jakościowe
+
+W zadaniach z tego segmentu zwracaj uwagę na:
+
+- kompilację z flagami `-std=c++17 -Wall -Wextra -pedantic`,
+- prywatne pola i publiczne metody tylko tam, gdzie są potrzebne,
+- metody `const` dla operacji, które nie zmieniają obiektu,
+- konstruktory ustawiające obiekt od razu w poprawnym stanie,
+- krótkie funkcje i czytelne nazwy klas, metod oraz pól.
+
 ## Poziom 1 - Klasy i obiekty
 
 ### Zadanie 1. Punkt

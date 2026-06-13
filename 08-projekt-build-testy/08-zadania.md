@@ -21,6 +21,16 @@ c++ -std=c++17 -Wall -Wextra -pedantic main.cpp -o program
 Dla projektów wieloplikowych używaj katalogów `include`, `src`, `tests` i
 `build`. Plików wynikowych nie dodawaj do commita.
 
+## Wymagania jakościowe
+
+W zadaniach z tego segmentu zwracaj uwagę na:
+
+- kompilację z flagami `-std=c++17 -Wall -Wextra -pedantic`,
+- oddzielenie deklaracji w `.h` od implementacji w `.cpp`,
+- uruchamianie testów jako osobnego programu,
+- build zapisujący artefakty do katalogu `build` albo `/tmp`,
+- brak plików wynikowych, `.o` i tymczasowych katalogów w commicie.
+
 ## Poziom 1 - Preprocesor i nagłówki
 
 ### Zadanie 1. Własny nagłówek
