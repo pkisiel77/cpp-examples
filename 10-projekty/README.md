@@ -20,23 +20,43 @@ Po zakończeniu segmentu student powinien umieć:
 
 ### Narzędzia konsolowe
 
-- [project-01-logger.md](project-01-logger.md)
-- [project-08-kalkulator.md](project-08-kalkulator.md)
-- [project-09-kalkulator-macierzy.md](project-09-kalkulator-macierzy.md)
-- [project-11-parser-csv.md](project-11-parser-csv.md)
+- [Projekt 01 - Logger](project-01-logger.md)
+- [Projekt 08 - Kalkulator](project-08-kalkulator.md)
+- [Projekt 09 - Kalkulator macierzy](project-09-kalkulator-macierzy.md)
+- [Projekt 11 - Parser plików CSV](project-11-parser-csv.md)
 
 ### Systemy i aplikacje użytkowe
 
-- [project-02-kolejkowanie-zamowien.md](project-02-kolejkowanie-zamowien.md)
-- [project-07-baza-pojazdow.md](project-07-baza-pojazdow.md)
-- [project-10-system-zadan.md](project-10-system-zadan.md)
+- [Projekt 02 - Kolejkowanie zamówień](project-02-kolejkowanie-zamowien.md)
+- [Projekt 07 - Baza danych pojazdów](project-07-baza-pojazdow.md)
+- [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md)
 
 ### Gry
 
-- [gra-kolko-krzyzyk.md](gra-kolko-krzyzyk.md)
-- [project-04-tetris.md](project-04-tetris.md)
-- [project-05-snake.md](project-05-snake.md)
-- [project-06-pacman.md](project-06-pacman.md)
+- [Gra kółko i krzyżyk](gra-kolko-krzyzyk.md)
+- [Projekt 04 - Tetris](project-04-tetris.md)
+- [Projekt 05 - Snake](project-05-snake.md)
+- [Projekt 06 - Pac-Man](project-06-pacman.md)
+
+## Status porządkowania
+
+Opisy w docelowym formacie:
+
+- `project-01-logger.md`,
+- `project-02-kolejkowanie-zamowien.md`,
+- `project-07-baza-pojazdow.md`,
+- `project-08-kalkulator.md`,
+- `project-09-kalkulator-macierzy.md`,
+- `project-10-system-zadan.md`,
+- `project-11-parser-csv.md`.
+
+Do uporządkowania w kolejnych małych krokach:
+
+- `gra-kolko-krzyzyk.md`,
+- `project-04-tetris.md`,
+- `project-05-snake.md`,
+- `project-06-pacman.md`,
+- materiały pomocnicze w `tnt-tasks/`.
 
 ## Dodatkowe zadania źródłowe
 
@@ -51,9 +71,15 @@ Każdy docelowy opis projektu powinien mieć taki układ:
 2. Zakres funkcjonalny.
 3. Wymagania techniczne.
 4. Proponowana struktura plików.
-5. Minimalny wariant zaliczeniowy.
-6. Rozszerzenia dla chętnych.
-7. Kryteria oceny.
+5. Model danych albo model domeny, jeśli projekt tego wymaga.
+6. Minimalny wariant zaliczeniowy.
+7. Rozszerzenia dla chętnych.
+8. Kryteria oceny.
+9. Scenariusze sprawdzenia.
+
+W opisach projektów nie usuwamy pierwotnego sensu zadania, tylko doprecyzowujemy
+go tak, aby student wiedział, co jest wersją minimalną, co jest rozszerzeniem
+i jak sprawdzić poprawność rozwiązania.
 
 ## Wymagania dla rozwiązania
 
