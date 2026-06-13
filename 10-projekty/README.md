@@ -92,6 +92,10 @@ Projekt powinien zawierać:
 - krótki opis decyzji projektowych,
 - testy albo opis ręcznych scenariuszy sprawdzenia.
 
+Przed oddaniem pracy student powinien przejść przez
+[checklistę projektu](checklista-projektu.md). Checklista zbiera wymagania
+techniczne, dokumentacyjne i demonstracyjne w jednym miejscu.
+
 ## Wariant minimum i rozszerzenie
 
 Każdy projekt należy oddawać w jednym z dwóch wariantów:
@@ -129,5 +133,6 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Katalogi pomocnicze
 
+- [checklista-projektu.md](checklista-projektu.md) - lista kontroli przed oddaniem i pokazem projektu.
 - `tnt-tasks/` - starsze zadania źródłowe do dalszego uporządkowania.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych opisów.
