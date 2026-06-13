@@ -47,7 +47,14 @@ Katalog [examples](examples) zawiera krótkie programy pokazujące funkcje,
 parametry, tablice jedno- i dwuwymiarowe oraz podstawowe operacje na napisach.
 Przykłady są kompilowalne i mogą być punktem startowym do zadań.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty przykład testu automatycznego bez
+zewnętrznego frameworka. Test pokazuje, jak sprawdzać funkcje zwracające wynik
+i jak zwracać kod błędu, gdy przypadek testowy nie przechodzi.
+
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla funkcji.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
