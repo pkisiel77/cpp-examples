@@ -28,6 +28,8 @@ W każdym segmencie materiały są uporządkowane według schematu:
 
 ## Materiały pomocnicze
 
+- [docs/prowadzacy.md](docs/prowadzacy.md) - przewodnik organizacyjny dla prowadzącego.
+- [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
 
