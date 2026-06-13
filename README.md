@@ -31,6 +31,16 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
 
+## Sprawdzanie przykładów
+
+Przykłady z głównej ścieżki można skompilować zbiorczo:
+
+```sh
+sh tools/check-examples.sh
+```
+
+Skrypt używa domyślnie `c++`, standardu C++17 i katalogu `/tmp/cpp-examples-build`. Można to zmienić zmiennymi środowiskowymi `CXX`, `STD` i `BUILD_DIR`.
+
 ## Status porządkowania
 
 Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały przygotowywane są po polsku. Kolejne prace powinny dotyczyć już jakości merytorycznej: rozbudowy przykładów, dodawania testów do większych zadań i przenoszenia wybranych materiałów z archiwów do lekcji.
