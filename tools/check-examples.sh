@@ -95,6 +95,13 @@ echo "test 07 stl"
     -o "$BUILD_DIR/07_test_stl_algorytmy"
 "$BUILD_DIR/07_test_stl_algorytmy"
 
+echo "test 08 split-project calculator"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    08-projekt-build-testy/tests/test_split_project_calculator.cpp \
+    08-projekt-build-testy/examples/split-project/calculator.cpp \
+    -o "$BUILD_DIR/08_test_split_project_calculator"
+"$BUILD_DIR/08_test_split_project_calculator"
+
 echo "test 09 modern-cpp"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     09-modern-cpp/tests/test_modern_cpp.cpp \

@@ -49,6 +49,13 @@ Przykłady w katalogu [examples](examples) można uruchamiać osobno:
 - [examples/syntax-check/student_report.cpp](examples/syntax-check/student_report.cpp) - plik do sprawdzania składni.
 - [examples/ci-cd/github-actions-cpp.yml](examples/ci-cd/github-actions-cpp.yml) - przykładowy workflow CI.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test bez zewnętrznego frameworka. Test
+sprawdza funkcje z przykładu [examples/split-project](examples/split-project)
+i pokazuje, jak kompilować osobny program testujący razem z plikiem
+implementacji `.cpp`.
+
 ## Format lekcji
 
 Każda docelowa lekcja powinna mieć taki układ:
@@ -63,4 +70,5 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady i małe projekty dla tego segmentu.
+- `tests/` - proste testy automatyczne dla kodu dzielonego na pliki.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.
