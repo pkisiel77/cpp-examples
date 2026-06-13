@@ -11,7 +11,9 @@ Student powinien znać:
 - zmienne i typy danych z segmentu [01-podstawy](../01-podstawy/README.md),
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md).
 
-## Wartość i adres
+## Krótka teoria
+
+### Wartość i adres
 
 Zmienna ma wartość oraz miejsce w pamięci.
 
@@ -31,7 +33,7 @@ Adres zwykle jest wypisywany jako liczba szesnastkowa. Konkretna wartość adres
 
 Pełny przykład znajduje się w pliku [examples/address_of_variable.cpp](examples/address_of_variable.cpp).
 
-## Czym jest wskaźnik
+### Czym jest wskaźnik
 
 Wskaźnik to zmienna, która przechowuje adres innej zmiennej.
 
@@ -50,7 +52,7 @@ int* wskaznik;
 
 oznacza, że `wskaznik` może przechowywać adres zmiennej typu `int`.
 
-## Deklarowanie wskaźników
+### Deklarowanie wskaźników
 
 Możliwe są różne style zapisu:
 
@@ -80,7 +82,7 @@ int* p;
 int liczba;
 ```
 
-## Dereferencja
+## Przykład kodu: dereferencja
 
 Operator `*` przed wskaźnikiem pozwala dostać się do wartości, na którą wskaźnik wskazuje.
 
@@ -100,7 +102,7 @@ std::cout << liczba << std::endl; // 100
 
 Pełny przykład znajduje się w pliku [examples/pointer_dereference.cpp](examples/pointer_dereference.cpp).
 
-## `nullptr`
+### `nullptr`
 
 Wskaźnik może nie wskazywać na żadną poprawną zmienną. W C++ używamy wtedy wartości `nullptr`.
 
@@ -126,7 +128,7 @@ int* wskaznik = nullptr;
 
 Pełny przykład znajduje się w pliku [examples/nullptr_check.cpp](examples/nullptr_check.cpp).
 
-## Wskaźnik i adres wskaźnika
+## Przykład kodu: wskaźnik i adres wskaźnika
 
 Wskaźnik też jest zmienną, więc ma własny adres.
 
@@ -142,7 +144,7 @@ std::cout << "Adres wskaznika: " << &wskaznik << std::endl;
 
 `wskaznik` przechowuje adres liczby, ale `&wskaznik` to adres samego wskaźnika.
 
-## Częste błędy
+## Typowe błędy
 
 ### Błędny typ
 
@@ -180,7 +182,7 @@ if (p != nullptr)
 }
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz zmienną typu `int`, wypisz jej wartość i adres.
 2. Utwórz wskaźnik na zmienną typu `int` i wypisz wartość zmiennej przez wskaźnik.

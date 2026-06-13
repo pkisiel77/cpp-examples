@@ -12,7 +12,9 @@ Student powinien znać:
 - wskaźniki z lekcji [01-adresy-i-wskazniki.md](01-adresy-i-wskazniki.md),
 - referencje z lekcji [02-referencje.md](02-referencje.md).
 
-## Przekazywanie przez wartość
+## Krótka teoria
+
+### Przekazywanie przez wartość
 
 Przy przekazywaniu przez wartość funkcja dostaje kopię argumentu.
 
@@ -35,7 +37,7 @@ Oryginalna zmienna `x` nie zmienia się, bo funkcja modyfikuje tylko kopię.
 
 Pełny przykład znajduje się w pliku [examples/pass_by_value_no_change.cpp](examples/pass_by_value_no_change.cpp).
 
-## Przekazywanie przez wskaźnik
+### Przekazywanie przez wskaźnik
 
 Funkcja może otrzymać adres zmiennej. Wtedy może zmienić oryginalną wartość.
 
@@ -59,7 +61,7 @@ std::cout << x << std::endl; // 0
 
 W tej wersji funkcja przyjmuje wskaźnik, więc trzeba przekazać adres zmiennej operatorem `&`.
 
-## Przekazywanie przez referencję
+### Przekazywanie przez referencję
 
 Funkcja może otrzymać referencję do zmiennej. Wtedy pracuje bezpośrednio na oryginalnej zmiennej.
 
@@ -80,7 +82,7 @@ std::cout << x << std::endl; // 0
 
 Dla użytkownika funkcji wywołanie wygląda prościej niż przy wskaźniku, bo nie trzeba pisać `&x`.
 
-## Zamiana wartości przez wskaźniki
+## Przykład kodu: zamiana wartości przez wskaźniki
 
 ```cpp
 void zamien(int* a, int* b)
@@ -98,7 +100,7 @@ void zamien(int* a, int* b)
 
 Pełny przykład znajduje się w pliku [examples/swap_by_pointer.cpp](examples/swap_by_pointer.cpp).
 
-## Zamiana wartości przez referencje
+## Przykład kodu: zamiana wartości przez referencje
 
 ```cpp
 void zamien(int& a, int& b)
@@ -111,7 +113,7 @@ void zamien(int& a, int& b)
 
 Pełny przykład znajduje się w pliku [examples/swap_by_reference.cpp](examples/swap_by_reference.cpp).
 
-## Zwracanie więcej niż jednego wyniku
+## Przykład kodu: zwracanie więcej niż jednego wyniku
 
 Funkcja może zwrócić tylko jedną wartość przez `return`, ale dodatkowe wyniki można przekazać przez referencje lub wskaźniki.
 
@@ -136,7 +138,7 @@ sumaIIloczyn(3, 4, suma, iloczyn);
 
 Pełny przykład znajduje się w pliku [examples/multiple_results_reference.cpp](examples/multiple_results_reference.cpp).
 
-## Kiedy używać którego sposobu
+### Kiedy używać którego sposobu
 
 | Sposób | Kiedy używać |
 | --- | --- |
@@ -145,7 +147,7 @@ Pełny przykład znajduje się w pliku [examples/multiple_results_reference.cpp]
 | przez referencję | gdy funkcja ma zmienić argument i argument musi istnieć |
 | przez `const` referencję | gdy chcemy uniknąć kopii, ale nie zmieniać argumentu |
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz funkcję `ustawNaZero` w trzech wersjach: przez wartość, przez wskaźnik i przez referencję. Porównaj wyniki.
 2. Napisz funkcję, która zamienia miejscami dwie liczby przekazane przez wskaźniki.

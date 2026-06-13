@@ -12,7 +12,9 @@ Student powinien znać:
 - referencje z lekcji [02-referencje.md](02-referencje.md),
 - przekazywanie argumentów z lekcji [03-przekazywanie-do-funkcji.md](03-przekazywanie-do-funkcji.md).
 
-## Zasada 1: inicjalizuj wskaźniki
+## Krótka teoria
+
+### Zasada 1: inicjalizuj wskaźniki
 
 Nie zostawiaj wskaźnika bez wartości początkowej.
 
@@ -30,7 +32,7 @@ int* p = nullptr;
 
 Jeżeli wskaźnik nie wskazuje jeszcze na poprawną zmienną, ustaw go na `nullptr`.
 
-## Zasada 2: sprawdzaj `nullptr`
+### Zasada 2: sprawdzaj `nullptr`
 
 Przed dereferencją wskaźnika sprawdź, czy nie jest pusty.
 
@@ -43,7 +45,7 @@ if (p != nullptr)
 
 Pełny przykład znajduje się w pliku [examples/safe_pointer_read.cpp](examples/safe_pointer_read.cpp).
 
-## Zasada 3: nie zwracaj adresu zmiennej lokalnej
+### Zasada 3: nie zwracaj adresu zmiennej lokalnej
 
 Zmienna lokalna przestaje istnieć po zakończeniu funkcji.
 
@@ -69,7 +71,7 @@ int poprawnie()
 }
 ```
 
-## Zasada 4: nie wychodź poza zakres tablicy
+### Zasada 4: nie wychodź poza zakres tablicy
 
 Dla tablicy:
 
@@ -95,7 +97,7 @@ int* p = tablica;
 
 Pełny przykład bezpiecznego przejścia po tablicy znajduje się w pliku [examples/safe_array_pointer.cpp](examples/safe_array_pointer.cpp).
 
-## Zasada 5: używaj referencji, gdy argument musi istnieć
+### Zasada 5: używaj referencji, gdy argument musi istnieć
 
 Jeżeli funkcja wymaga poprawnej zmiennej, referencja jest często bezpieczniejsza i czytelniejsza niż wskaźnik.
 
@@ -122,7 +124,7 @@ void zwiekszJesliIstnieje(int* liczba)
 
 Pełny przykład znajduje się w pliku [examples/safe_optional_pointer.cpp](examples/safe_optional_pointer.cpp).
 
-## Zasada 6: ograniczaj zakres zmiennych
+### Zasada 6: ograniczaj zakres zmiennych
 
 Twórz zmienne możliwie blisko miejsca użycia.
 
@@ -146,7 +148,7 @@ Im mniejszy zakres zmiennej, tym mniejsze ryzyko przypadkowego użycia jej w zł
 - Używaj `const` referencji, gdy funkcja ma tylko czytać większy obiekt.
 - Pisz małe funkcje, które jasno pokazują, kto modyfikuje dane.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz funkcję `wypiszJesliIstnieje`, która przyjmuje `int*` i wypisuje wartość tylko wtedy, gdy wskaźnik nie jest `nullptr`.
 2. Napisz funkcję `zwiekszJesliIstnieje`, która przyjmuje `int*` i zwiększa wartość tylko wtedy, gdy wskaźnik nie jest `nullptr`.

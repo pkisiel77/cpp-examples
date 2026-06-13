@@ -23,9 +23,11 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-bezpieczenstwo-pamieci.md](04-bezpieczenstwo-pamieci.md) - typowe błędy i dobre praktyki.
 5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Materiały źródłowe
+## Status porządkowania
 
-Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pierwotne wersje są zachowane w katalogu [archive](archive):
+Lekcje i zadania w tym segmencie są uporządkowane w docelowym formacie.
+Materiały źródłowe zostały wchłonięte do lekcji, a ich pierwotne wersje są
+zachowane w katalogu [archive](archive):
 
 - [archive/wskazniki-i-referencje.md](archive/wskazniki-i-referencje.md)
 - [archive/lab-02-petle-wskazniki.md](archive/lab-02-petle-wskazniki.md)
@@ -41,6 +43,12 @@ Każda docelowa lekcja powinna mieć taki układ:
 4. Przykład kodu.
 5. Zadania do wykonania.
 6. Kryteria zaliczenia.
+
+## Przykłady kodu
+
+Katalog [examples](examples) zawiera krótkie programy pokazujące adresy,
+wskaźniki, referencje, przekazywanie argumentów do funkcji i podstawowe zasady
+bezpiecznej pracy z pamięcią.
 
 ## Katalogi pomocnicze
 

@@ -1,6 +1,6 @@
 # 05 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [04 - Wskaźniki, referencje, pamięć](README.md). Zadania sprawdzają rozumienie adresów, wskaźników, referencji, przekazywania argumentów do funkcji oraz podstawowych zasad bezpieczeństwa pamięci.
 

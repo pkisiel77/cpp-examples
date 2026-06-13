@@ -12,7 +12,9 @@ Student powinien znać:
 - funkcje,
 - podstawy wskaźników z lekcji [01-adresy-i-wskazniki.md](01-adresy-i-wskazniki.md).
 
-## Czym jest referencja
+## Krótka teoria
+
+### Czym jest referencja
 
 Referencja to inna nazwa dla istniejącej zmiennej.
 
@@ -30,7 +32,7 @@ std::cout << liczba << std::endl; // 20
 
 Pełny przykład znajduje się w pliku [examples/reference_alias.cpp](examples/reference_alias.cpp).
 
-## Referencję trzeba zainicjalizować
+### Referencję trzeba zainicjalizować
 
 Referencja musi od razu odnosić się do istniejącej zmiennej.
 
@@ -47,7 +49,7 @@ Niepoprawnie:
 int& ref; // błąd: referencja musi być zainicjalizowana
 ```
 
-## Referencji nie przepinamy
+### Referencji nie przepinamy
 
 Po utworzeniu referencja pozostaje aliasem tej samej zmiennej.
 
@@ -68,7 +70,7 @@ a == 2
 b == 2
 ```
 
-## Referencja a wskaźnik
+### Referencja a wskaźnik
 
 | Cecha | Referencja | Wskaźnik |
 | --- | --- | --- |
@@ -81,7 +83,7 @@ Referencja jest wygodna, gdy funkcja ma pracować na istniejącej zmiennej i nie
 
 Wskaźnik jest potrzebny, gdy wartość może być pusta albo gdy chcemy jawnie pokazać pracę na adresach.
 
-## Referencje w funkcjach
+## Przykład kodu: referencje w funkcjach
 
 Referencje często służą do modyfikowania argumentów przekazanych do funkcji.
 
@@ -102,7 +104,7 @@ std::cout << x << std::endl; // 6
 
 Pełny przykład znajduje się w pliku [examples/reference_increment.cpp](examples/reference_increment.cpp).
 
-## Zamiana wartości przez referencje
+## Przykład kodu: zamiana wartości przez referencje
 
 ```cpp
 void zamien(int& a, int& b)
@@ -117,7 +119,7 @@ Ta funkcja modyfikuje oryginalne zmienne przekazane przy wywołaniu.
 
 Pełny przykład znajduje się w pliku [examples/reference_swap.cpp](examples/reference_swap.cpp).
 
-## `const` referencja
+### `const` referencja
 
 Jeżeli funkcja ma tylko odczytać argument i nie powinna go zmieniać, można użyć `const`.
 
@@ -132,7 +134,7 @@ void wypisz(const std::string& tekst)
 
 To jest szczególnie przydatne dla większych obiektów, takich jak `std::string`.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz zmienną `int` i referencję do niej. Zmień wartość przez referencję i wypisz oryginalną zmienną.
 2. Napisz funkcję `zwieksz`, która przyjmuje `int&` i zwiększa wartość o `1`.
