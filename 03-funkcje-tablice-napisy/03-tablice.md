@@ -12,7 +12,9 @@ Student powinien znać:
 - funkcje z lekcji [01-funkcje-podstawy.md](01-funkcje-podstawy.md),
 - parametry i zmienne lokalne z lekcji [02-parametry-i-zakres.md](02-parametry-i-zakres.md).
 
-## Czym jest tablica
+## Krótka teoria
+
+### Czym jest tablica
 
 Tablica przechowuje wiele wartości tego samego typu pod jedną nazwą.
 
@@ -28,7 +30,7 @@ Ta tablica:
 - przechowuje wartości typu `int`,
 - ma `5` elementów.
 
-## Indeksy
+### Indeksy
 
 Elementy tablicy numerujemy od `0`.
 
@@ -47,7 +49,7 @@ Dla tablicy o rozmiarze `5` poprawne indeksy to:
 
 Indeks `5` jest już poza zakresem.
 
-## Deklaracja i inicjalizacja
+### Deklaracja i inicjalizacja
 
 Tablicę można zadeklarować bez wartości początkowych:
 
@@ -71,7 +73,7 @@ Jeżeli podajemy wartości przy inicjalizacji, kompilator może sam określić r
 int wyniki[] = {12, 15, 18};
 ```
 
-## Iteracja po tablicy
+## Przykład kodu: iteracja po tablicy
 
 Do przechodzenia po elementach tablicy najczęściej używamy pętli `for`.
 
@@ -87,7 +89,7 @@ for (int i = 0; i < rozmiar; i++)
 
 Pełny przykład znajduje się w pliku [examples/array_print.cpp](examples/array_print.cpp).
 
-## Rozmiar tablicy
+### Rozmiar tablicy
 
 Dla tablic statycznych w tym samym zakresie można obliczyć liczbę elementów:
 
@@ -97,7 +99,7 @@ int rozmiar = sizeof(liczby) / sizeof(liczby[0]);
 
 `sizeof(liczby)` zwraca rozmiar całej tablicy w bajtach, a `sizeof(liczby[0])` rozmiar jednego elementu.
 
-## Suma i średnia
+## Przykład kodu: suma i średnia
 
 Tablice często przetwarzamy w pętli.
 
@@ -114,7 +116,7 @@ double srednia = static_cast<double>(suma) / rozmiar;
 
 Pełny przykład znajduje się w pliku [examples/array_average.cpp](examples/array_average.cpp).
 
-## Minimum i maksimum
+## Przykład kodu: minimum i maksimum
 
 Typowy algorytm:
 
@@ -142,7 +144,7 @@ for (int i = 1; i < rozmiar; i++)
 
 Pełny przykład znajduje się w pliku [examples/array_min_max.cpp](examples/array_min_max.cpp).
 
-## Uwaga: wyjście poza zakres tablicy
+## Typowy błąd: wyjście poza zakres tablicy
 
 Dla tablicy:
 
@@ -160,7 +162,7 @@ liczby[3] = 10;
 
 jest błędny, bo zapisuje poza tablicą. Taki błąd może prowadzić do nieprzewidywalnego działania programu.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz tablicę pięciu liczb całkowitych i wypisz wszystkie elementy.
 2. Utwórz tablicę liczb i oblicz sumę jej elementów.

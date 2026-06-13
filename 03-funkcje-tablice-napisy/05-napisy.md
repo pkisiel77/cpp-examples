@@ -12,7 +12,9 @@ Student powinien znać:
 - pętle z segmentu [02-sterowanie-i-petle](../02-sterowanie-i-petle/README.md),
 - funkcje z lekcji [01-funkcje-podstawy.md](01-funkcje-podstawy.md).
 
-## Typ `std::string`
+## Krótka teoria
+
+### Typ `std::string`
 
 `std::string` służy do przechowywania tekstu.
 
@@ -24,7 +26,7 @@ std::string imie = "Ala";
 
 Do wypisywania i wczytywania `std::string` używamy `std::cout`, `std::cin` oraz `std::getline`.
 
-## `std::cin` i `std::getline`
+### `std::cin` i `std::getline`
 
 `std::cin >> tekst` wczytuje tekst do pierwszej spacji.
 
@@ -42,7 +44,7 @@ std::getline(std::cin, imieINazwisko);
 
 Pełny przykład znajduje się w pliku [examples/string_input.cpp](examples/string_input.cpp).
 
-## Długość napisu
+### Długość napisu
 
 Długość napisu można sprawdzić metodą `.length()` albo `.size()`.
 
@@ -55,7 +57,7 @@ std::cout << tekst.size() << std::endl;   // 7
 
 W prostych programach można używać obu form.
 
-## Indeksowanie znaków
+### Indeksowanie znaków
 
 Znaki w napisie są indeksowane od `0`, podobnie jak elementy tablicy.
 
@@ -71,7 +73,7 @@ Dla napisu o długości `3` poprawne indeksy to `0`, `1`, `2`.
 
 Pełny przykład znajduje się w pliku [examples/string_chars.cpp](examples/string_chars.cpp).
 
-## Iteracja po znakach
+## Przykład kodu: iteracja po znakach
 
 Możemy przechodzić po znakach napisu pętlą `for`.
 
@@ -93,7 +95,7 @@ for (char znak : tekst)
 }
 ```
 
-## Łączenie napisów
+### Łączenie napisów
 
 Napisy można łączyć operatorem `+`.
 
@@ -102,7 +104,7 @@ std::string imie = "Ala";
 std::string komunikat = "Czesc, " + imie + "!";
 ```
 
-## Proste sprawdzanie palindromu
+## Przykład kodu: proste sprawdzanie palindromu
 
 Palindrom to tekst, który czytany od lewej i od prawej strony jest taki sam.
 
@@ -143,7 +145,7 @@ Na tym etapie zakładamy, że tekst składa się z prostych znaków ASCII, np. `
 
 Polskie znaki, takie jak `ą`, `ę`, `ł`, wymagają dodatkowej wiedzy o kodowaniu tekstu i nie są częścią tej lekcji.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który wczytuje imię i wypisuje liczbę znaków.
 2. Napisz program, który wczytuje całe imię i nazwisko przy pomocy `std::getline`.

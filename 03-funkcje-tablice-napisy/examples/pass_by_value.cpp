@@ -3,6 +3,7 @@
 void zmien(int liczba)
 {
     liczba = 100;
+    std::cout << "wartosc lokalna w funkcji: " << liczba << std::endl;
 }
 
 int main()

@@ -24,9 +24,11 @@ Po zakończeniu segmentu student powinien umieć:
 5. [05-napisy.md](05-napisy.md) - `std::string`, długość, znaki, proste przetwarzanie tekstu.
 6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Obecne materiały źródłowe
+## Status porządkowania
 
-Materiały źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
+Lekcje i zadania w tym segmencie są uporządkowane w docelowym formacie.
+Materiały źródłowe zostały przeniesione do [archive](archive) po wchłonięciu
+ich treści do lekcji i zadań.
 
 ## Format lekcji
 
@@ -38,6 +40,12 @@ Każda docelowa lekcja powinna mieć taki układ:
 4. Przykład kodu.
 5. Zadania do wykonania.
 6. Kryteria zaliczenia.
+
+## Przykłady kodu
+
+Katalog [examples](examples) zawiera krótkie programy pokazujące funkcje,
+parametry, tablice jedno- i dwuwymiarowe oraz podstawowe operacje na napisach.
+Przykłady są kompilowalne i mogą być punktem startowym do zadań.
 
 ## Katalogi pomocnicze
 

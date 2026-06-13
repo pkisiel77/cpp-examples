@@ -1,6 +1,6 @@
 # 06 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [03 - Funkcje, tablice, napisy](README.md). Zadania sprawdzają umiejętność dzielenia programu na funkcje oraz pracy z tablicami i napisami.
 

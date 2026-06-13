@@ -11,7 +11,9 @@ Student powinien znać:
 - tablice jednowymiarowe z lekcji [03-tablice.md](03-tablice.md),
 - pętle zagnieżdżone z segmentu [02-sterowanie-i-petle](../02-sterowanie-i-petle/05-break-continue-i-zagniezdzenia.md).
 
-## Czym jest tablica dwuwymiarowa
+## Krótka teoria
+
+### Czym jest tablica dwuwymiarowa
 
 Tablica dwuwymiarowa przechowuje dane w układzie wierszy i kolumn.
 
@@ -30,7 +32,7 @@ Ta tablica ma:
 - `3` kolumny,
 - `6` elementów.
 
-## Indeksy
+### Indeksy
 
 Do elementu tablicy dwuwymiarowej odwołujemy się przez dwa indeksy:
 
@@ -47,7 +49,7 @@ std::cout << macierz[1][2] << std::endl; // 6
 
 Indeksy, tak jak w tablicach jednowymiarowych, zaczynają się od `0`.
 
-## Deklaracja
+### Deklaracja
 
 Składnia:
 
@@ -63,7 +65,7 @@ int plansza[3][3];
 
 Taka tablica może reprezentować planszę 3 x 3, np. do gry w kółko i krzyżyk.
 
-## Iteracja po tablicy dwuwymiarowej
+## Przykład kodu: iteracja po tablicy dwuwymiarowej
 
 Do przechodzenia po wszystkich elementach używamy pętli zagnieżdżonych.
 
@@ -83,7 +85,7 @@ Zewnętrzna pętla przechodzi po wierszach, a wewnętrzna po kolumnach.
 
 Pełny przykład znajduje się w pliku [examples/matrix_print.cpp](examples/matrix_print.cpp).
 
-## Suma wszystkich elementów
+## Przykład kodu: suma wszystkich elementów
 
 ```cpp
 int suma = 0;
@@ -99,7 +101,7 @@ for (int row = 0; row < rows; row++)
 
 Pełny przykład znajduje się w pliku [examples/matrix_sum.cpp](examples/matrix_sum.cpp).
 
-## Suma wierszy
+## Przykład kodu: suma wierszy
 
 Możemy też przetwarzać każdy wiersz osobno.
 
@@ -119,7 +121,7 @@ for (int row = 0; row < rows; row++)
 
 Pełny przykład znajduje się w pliku [examples/matrix_row_sums.cpp](examples/matrix_row_sums.cpp).
 
-## Tablica dwuwymiarowa jako plansza
+### Tablica dwuwymiarowa jako plansza
 
 Tablica dwuwymiarowa dobrze nadaje się do reprezentowania plansz.
 
@@ -140,7 +142,7 @@ plansza[1][1] = 'O';
 
 To dobry punkt startowy do projektu gry w kółko i krzyżyk.
 
-## Częste błędy
+## Typowe błędy
 
 ### Zamiana wiersza z kolumną
 
@@ -161,7 +163,7 @@ poprawne indeksy to:
 
 `macierz[2][0]` i `macierz[0][3]` są poza zakresem.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz tablicę `3 x 3` liczb całkowitych i wypisz ją w formie tabeli.
 2. Oblicz sumę wszystkich elementów tablicy `3 x 3`.

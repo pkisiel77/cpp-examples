@@ -12,7 +12,9 @@ Student powinien znać:
 - typy danych i zmienne,
 - instrukcje warunkowe oraz pętle z wcześniejszych segmentów.
 
-## Po co są funkcje
+## Krótka teoria
+
+### Po co są funkcje
 
 Funkcja to nazwany blok kodu, który wykonuje określone zadanie.
 
@@ -34,7 +36,7 @@ program BMI:
 
 Krok `oblicz BMI` może być osobną funkcją.
 
-## Definicja funkcji
+### Definicja funkcji
 
 Definicja funkcji zawiera nagłówek oraz ciało funkcji.
 
@@ -61,7 +63,7 @@ Znaczenie elementów:
 - `int a, int b` to parametry,
 - `return a + b;` zwraca wynik działania funkcji.
 
-## Wywołanie funkcji
+## Przykład kodu: wywołanie funkcji
 
 Funkcję wywołujemy przez podanie jej nazwy i argumentów.
 
@@ -73,7 +75,7 @@ Wartość `2` trafia do parametru `a`, a wartość `3` trafia do parametru `b`.
 
 Pełny przykład znajduje się w pliku [examples/function_add.cpp](examples/function_add.cpp).
 
-## Funkcja bez wartości zwracanej
+## Przykład kodu: funkcja bez wartości zwracanej
 
 Jeżeli funkcja nie zwraca wyniku, używamy typu `void`.
 
@@ -92,7 +94,7 @@ wypiszPowitanie();
 
 Pełny przykład znajduje się w pliku [examples/function_void.cpp](examples/function_void.cpp).
 
-## Deklaracja funkcji
+### Deklaracja funkcji
 
 Deklaracja informuje kompilator, że funkcja istnieje. Deklaracja kończy się średnikiem.
 
@@ -125,7 +127,7 @@ int dodaj(int a, int b) // definicja
 }
 ```
 
-## Deklaracja a definicja
+### Deklaracja a definicja
 
 **Deklaracja** mówi, jak funkcja wygląda z zewnątrz:
 
@@ -144,7 +146,7 @@ int dodaj(int a, int b)
 
 Funkcja może mieć wiele deklaracji, ale powinna mieć jedną definicję w programie.
 
-## Nazwy funkcji
+### Nazwy funkcji
 
 Dobra nazwa funkcji powinna mówić, co funkcja robi.
 
@@ -162,7 +164,7 @@ Słabe przykłady:
 - `test`,
 - `licz`.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz funkcję `dodaj`, która przyjmuje dwie liczby całkowite i zwraca ich sumę.
 2. Napisz funkcję `kwadrat`, która przyjmuje liczbę całkowitą i zwraca jej kwadrat.

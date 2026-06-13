@@ -8,7 +8,9 @@ Celem lekcji jest zrozumienie, jak funkcje otrzymują dane przez parametry, czym
 
 Student powinien znać materiał z lekcji [01-funkcje-podstawy.md](01-funkcje-podstawy.md): definicję funkcji, deklarację funkcji, wywołanie funkcji i `return`.
 
-## Parametr i argument
+## Krótka teoria
+
+### Parametr i argument
 
 **Parametr** to zmienna zapisana w definicji funkcji.
 
@@ -29,7 +31,7 @@ int wynik = dodaj(2, 3);
 
 Wartości `2` i `3` są argumentami.
 
-## Przekazywanie przez wartość
+## Przykład kodu: przekazywanie przez wartość
 
 Na tym etapie używamy przekazywania przez wartość. Oznacza to, że funkcja dostaje kopię przekazanej wartości.
 
@@ -51,7 +53,7 @@ Zmiana parametru `liczba` wewnątrz funkcji nie zmienia zmiennej `x` w `main`.
 
 Pełny przykład znajduje się w pliku [examples/pass_by_value.cpp](examples/pass_by_value.cpp).
 
-## Zmienne lokalne
+### Zmienne lokalne
 
 Zmienna zadeklarowana wewnątrz funkcji jest zmienną lokalną. Jest dostępna tylko w tej funkcji.
 
@@ -65,7 +67,7 @@ int obliczKwadrat(int liczba)
 
 Zmienna `wynik` istnieje tylko w funkcji `obliczKwadrat`.
 
-## Zakres zmiennej
+### Zakres zmiennej
 
 Zakres zmiennej określa, w której części programu można użyć tej zmiennej.
 
@@ -87,7 +89,7 @@ int main()
 
 Zmienna `y` istnieje tylko wewnątrz bloku `if`.
 
-## Nazwy parametrów w deklaracji
+### Nazwy parametrów w deklaracji
 
 W deklaracji funkcji nazwy parametrów można podać, ale nie trzeba.
 
@@ -112,7 +114,7 @@ double poleProstokata(double szerokosc, double wysokosc)
 }
 ```
 
-## Przykład: pole prostokąta
+## Przykład kodu: pole prostokąta
 
 ```cpp
 #include <iostream>
@@ -131,7 +133,7 @@ int main()
 
 Pełny przykład znajduje się w pliku [examples/function_rectangle_area.cpp](examples/function_rectangle_area.cpp).
 
-## Przykład: BMI
+## Przykład kodu: BMI
 
 ```cpp
 double obliczBmi(double masa, double wzrost)
@@ -144,7 +146,7 @@ Taka funkcja ukrywa wzór w jednym miejscu. Program główny może skupić się 
 
 Pełny przykład znajduje się w pliku [examples/function_bmi.cpp](examples/function_bmi.cpp).
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz funkcję `poleProstokata`, która przyjmuje dwa argumenty typu `double` i zwraca pole prostokąta.
 2. Napisz funkcję `obwodProstokata`, która przyjmuje dwa argumenty typu `double` i zwraca obwód prostokąta.
