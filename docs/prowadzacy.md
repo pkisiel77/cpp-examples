@@ -4,6 +4,8 @@ Ten dokument opisuje, jak używać repozytorium jako materiału do zajęć z C++
 Zakłada pracę etapową: najpierw podstawy języka, potem organizacja kodu,
 a na końcu projekty zaliczeniowe.
 
+Gotowy rozkład 15-tygodniowy znajduje się w [planie semestru](plan-semestru.md).
+
 ## Proponowany układ pracy
 
 | Etap | Segmenty | Cel |
