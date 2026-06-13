@@ -8,7 +8,7 @@ Celem lekcji jest zrozumienie, czym jest program w C++, gdzie zaczyna się jego 
 
 Student powinien mieć przygotowane środowisko z segmentu [00-start](../00-start/README.md): edytor, kompilator i dostęp do terminala.
 
-## Pojęcia
+## Krótka teoria
 
 **Algorytm** to opis kolejnych kroków prowadzących do rozwiązania problemu.
 
@@ -36,7 +36,7 @@ Znaczenie elementów:
 - `{ ... }` wyznacza ciało funkcji,
 - `return 0;` oznacza poprawne zakończenie programu.
 
-## Pierwszy przykład
+## Przykład kodu
 
 ```cpp
 #include <iostream>
@@ -94,7 +94,7 @@ Komentarze służą do opisywania kodu. Kompilator je pomija.
 
 Komentarzy używamy do wyjaśnienia decyzji albo trudniejszego fragmentu kodu. Nie trzeba komentować każdej oczywistej instrukcji.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który wypisze Twoje imię.
 2. Napisz program, który wypisze nazwę kierunku lub grupy.

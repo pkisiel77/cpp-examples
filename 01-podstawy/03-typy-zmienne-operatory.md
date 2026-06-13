@@ -11,7 +11,9 @@ Student powinien znać materiał z lekcji:
 - [01-pierwszy-program.md](01-pierwszy-program.md),
 - [02-wejscie-wyjscie.md](02-wejscie-wyjscie.md).
 
-## Typ danych
+## Krótka teoria
+
+### Typ danych
 
 Typ danych określa, jakiego rodzaju wartość może przechowywać zmienna.
 
@@ -31,7 +33,7 @@ Typ `std::string` wymaga dołączenia biblioteki `string`:
 #include <string>
 ```
 
-## Zmienna
+### Zmienna
 
 Zmienna to nazwane miejsce w pamięci programu, w którym przechowujemy wartość.
 
@@ -53,7 +55,7 @@ Inicjalizacja oznacza nadanie wartości początkowej:
 int liczba = 5;
 ```
 
-## Nazwy zmiennych
+### Nazwy zmiennych
 
 Dobra nazwa zmiennej powinna opisywać jej znaczenie.
 
@@ -72,7 +74,7 @@ double a;
 
 Krótkie nazwy są dopuszczalne w prostych wzorach matematycznych, ale w programach użytkowych lepiej stosować nazwy opisowe.
 
-## Operatory arytmetyczne
+### Operatory arytmetyczne
 
 Podstawowe operatory:
 
@@ -90,7 +92,7 @@ Operator `%` działa dla liczb całkowitych.
 int reszta = 10 % 3; // wynik: 1
 ```
 
-## Dzielenie całkowite i zmiennoprzecinkowe
+### Dzielenie całkowite i zmiennoprzecinkowe
 
 W C++ wynik dzielenia zależy od typów operandów.
 
@@ -110,7 +112,7 @@ std::cout << x / y << std::endl; // wynik: 2.5
 
 Jeżeli potrzebujemy wyniku zmiennoprzecinkowego, co najmniej jedna wartość powinna być typu `double`.
 
-## Konwersja typu
+### Konwersja typu
 
 Czasem trzeba jawnie potraktować wartość jako inny typ.
 
@@ -124,7 +126,7 @@ std::cout << wynik << std::endl; // wynik: 2.5
 
 `static_cast<double>(a)` tworzy wartość `a` potraktowaną jako `double`.
 
-## Przykład: podstawowe typy
+## Przykład kodu: podstawowe typy
 
 ```cpp
 #include <iostream>
@@ -150,7 +152,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/basic_types.cpp](examples/basic_types.cpp).
 
-## Przykład: kalkulator sumy
+## Przykład kodu: kalkulator sumy
 
 ```cpp
 #include <iostream>
@@ -204,7 +206,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/math_functions.cpp](examples/math_functions.cpp).
 
-## Zadania
+## Zadania do wykonania
 
 1. Zadeklaruj zmienne: imię, wiek, wzrost i informację, czy student jest aktywny. Wypisz je na ekran.
 2. Napisz program, który wczytuje dwie liczby całkowite i wypisuje ich sumę, różnicę oraz iloczyn.

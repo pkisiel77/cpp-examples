@@ -8,7 +8,9 @@ Celem lekcji jest nauczenie podstawowej komunikacji programu z użytkownikiem: w
 
 Student powinien rozumieć materiał z lekcji [01-pierwszy-program.md](01-pierwszy-program.md): funkcję `main`, dołączanie biblioteki `iostream`, kompilację i uruchamianie programu.
 
-## Strumień wyjściowy `std::cout`
+## Krótka teoria
+
+### Strumień wyjściowy `std::cout`
 
 Do wypisywania tekstu na ekran używamy `std::cout`.
 
@@ -30,7 +32,7 @@ Można wypisać kilka wartości w jednej instrukcji:
 std::cout << "Wynik: " << 42 << std::endl;
 ```
 
-## `std::endl` i `\n`
+### `std::endl` i `\n`
 
 `std::endl` kończy linię i opróżnia bufor wyjścia. W prostych programach jest wygodny, ale nie zawsze potrzebny.
 
@@ -43,7 +45,7 @@ std::cout << "Druga linia\n";
 
 W zadaniach podstawowych można używać obu form. W większych programach często wybiera się `\n`, gdy nie trzeba wymuszać opróżnienia bufora.
 
-## Strumień wejściowy `std::cin`
+### Strumień wejściowy `std::cin`
 
 Do wczytywania danych z klawiatury używamy `std::cin`.
 
@@ -67,7 +69,7 @@ Operator `>>` pobiera dane ze strumienia wejściowego i zapisuje je do zmiennej.
 
 Ten przykład znajduje się w pliku [examples/input_name.cpp](examples/input_name.cpp).
 
-## Wczytywanie całej linii
+### Wczytywanie całej linii
 
 `std::cin >> zmienna` czyta dane do pierwszej spacji. Jeżeli potrzebujemy wczytać cały tekst, na przykład imię i nazwisko, używamy `std::getline`.
 
@@ -89,7 +91,7 @@ int main()
 
 Ten przykład znajduje się w pliku [examples/input_line.cpp](examples/input_line.cpp).
 
-## Argumenty programu
+### Argumenty programu
 
 Program może otrzymać dane już w chwili uruchomienia. Służą do tego argumenty funkcji `main`.
 
@@ -128,7 +130,7 @@ c++ examples/program_arguments.cpp -o program_arguments
 ./program_arguments Ala ma kota
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który pyta użytkownika o imię i wypisuje powitanie.
 2. Napisz program, który pyta użytkownika o imię oraz wiek i wypisuje oba dane w jednym zdaniu.

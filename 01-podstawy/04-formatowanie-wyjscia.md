@@ -12,7 +12,9 @@ Student powinien znać materiał z lekcji:
 - [02-wejscie-wyjscie.md](02-wejscie-wyjscie.md),
 - [03-typy-zmienne-operatory.md](03-typy-zmienne-operatory.md).
 
-## Biblioteka `iomanip`
+## Krótka teoria
+
+### Biblioteka `iomanip`
 
 Do formatowania wyjścia używamy biblioteki `iomanip`.
 
@@ -27,7 +29,7 @@ Pozwala ona między innymi ustawiać:
 - szerokość pola tekstowego,
 - znak wypełnienia.
 
-## `std::setprecision`
+### `std::setprecision`
 
 `std::setprecision` ustawia precyzję wypisywania liczb zmiennoprzecinkowych.
 
@@ -48,7 +50,7 @@ int main()
 
 Bez `std::fixed` precyzja oznacza liczbę istotnych cyfr.
 
-## `std::fixed`
+### `std::fixed`
 
 `std::fixed` zmienia sposób wypisywania liczb zmiennoprzecinkowych. Po jego użyciu `std::setprecision` oznacza liczbę miejsc po przecinku.
 
@@ -64,7 +66,7 @@ Wynik:
 
 Przykład znajduje się w pliku [examples/format_precision.cpp](examples/format_precision.cpp).
 
-## `std::setw`
+### `std::setw`
 
 `std::setw` ustawia szerokość pola dla kolejnej wypisywanej wartości.
 
@@ -76,7 +78,7 @@ Jeżeli wartość jest krótsza niż podana szerokość, zostanie wyrównana spa
 
 Ważne: `std::setw` działa tylko na następną wartość wypisywaną do strumienia.
 
-## `std::setfill`
+### `std::setfill`
 
 `std::setfill` ustawia znak wypełnienia używany razem z `std::setw`.
 
@@ -90,7 +92,7 @@ Przykładowy wynik:
 ********15
 ```
 
-## Przykład: prosta tabela
+## Przykład kodu: prosta tabela
 
 ```cpp
 #include <iomanip>
@@ -113,7 +115,7 @@ int main()
 
 Pełny przykład znajduje się w pliku [examples/format_table.cpp](examples/format_table.cpp).
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który wypisuje liczbę `3.1415926535` z dokładnością do dwóch miejsc po przecinku.
 2. Napisz program, który wypisuje wynik dzielenia dwóch liczb typu `double` z dokładnością do trzech miejsc po przecinku.

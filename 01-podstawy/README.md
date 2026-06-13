@@ -23,11 +23,11 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-formatowanie-wyjscia.md](04-formatowanie-wyjscia.md) - `iomanip`, precyzja, szerokość, wypełnienie.
 5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Obecne materiały źródłowe
+## Status porządkowania
 
-Materiały w tym katalogu są jeszcze w trakcie porządkowania. Aktualnie źródłem treści są:
-
-Pozostałe pliki źródłowe tego segmentu zostały przeniesione do [archive](archive) po wchłonięciu ich treści do lekcji i zadań.
+Lekcje i zadania w tym segmencie są uporządkowane w docelowym formacie.
+Pierwotne notatki źródłowe zostały przeniesione do [archive](archive) po
+wchłonięciu ich treści do lekcji i zadań.
 
 ## Format lekcji
 
@@ -39,6 +39,12 @@ Każda docelowa lekcja powinna mieć taki układ:
 4. Przykład kodu.
 5. Zadania do wykonania.
 6. Kryteria zaliczenia.
+
+## Przykłady kodu
+
+Katalog [examples](examples) zawiera krótkie, kompilowalne programy powiązane
+z lekcjami. Przykłady służą do demonstracji składni i jako punkt startowy do
+zadań.
 
 ## Katalogi pomocnicze
 

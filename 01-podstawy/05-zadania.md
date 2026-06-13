@@ -1,6 +1,6 @@
 # 05 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [01 - Podstawy C++](README.md). Zadania są ułożone od najprostszych do trudniejszych i korzystają z materiału z lekcji:
 
