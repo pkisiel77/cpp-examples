@@ -12,7 +12,9 @@ Student powinien znać:
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md),
 - instrukcje warunkowe z segmentu [02-sterowanie-i-petle](../02-sterowanie-i-petle/README.md).
 
-## Problem z polami publicznymi
+## Krótka teoria
+
+### Problem z polami publicznymi
 
 W pierwszej lekcji pola były publiczne:
 
@@ -33,7 +35,7 @@ konto.saldo = -1000;
 
 Dla konta bankowego ujemne saldo może być niedozwolone. Klasa powinna chronić swoje dane przed niepoprawną zmianą.
 
-## `private`
+### `private`
 
 Słowo `private` oznacza, że pola są dostępne tylko wewnątrz klasy.
 
@@ -54,7 +56,7 @@ Konto konto;
 
 To jest początek enkapsulacji: dane obiektu są ukryte, a dostęp do nich odbywa się przez metody.
 
-## Konstruktor
+## Przykład kodu: konstruktor
 
 Konstruktor to specjalna metoda wywoływana podczas tworzenia obiektu. Ma taką samą nazwę jak klasa i nie ma typu zwracanego.
 
@@ -82,7 +84,7 @@ Konstruktor pozwala utworzyć obiekt od razu w poprawnym stanie.
 
 Pełny przykład znajduje się w pliku [examples/account_constructor.cpp](examples/account_constructor.cpp).
 
-## Getter
+### Getter
 
 Getter to metoda, która zwraca wartość pola.
 
@@ -99,7 +101,7 @@ Getter pozwala odczytać wartość bez bezpośredniego dostępu do pola.
 std::cout << konto.pobierzSaldo() << std::endl;
 ```
 
-## Setter
+### Setter
 
 Setter to metoda, która zmienia wartość pola. Setter może sprawdzić, czy nowa wartość jest poprawna.
 
@@ -115,7 +117,7 @@ void ustawSaldo(double noweSaldo)
 
 Dzięki temu klasa może odrzucić niepoprawne dane.
 
-## Enkapsulacja
+## Przykład kodu: enkapsulacja
 
 Enkapsulacja oznacza ukrywanie szczegółów działania klasy i udostępnianie tylko potrzebnych operacji.
 
@@ -156,7 +158,7 @@ private:
 
 Pełny przykład znajduje się w pliku [examples/car_encapsulation.cpp](examples/car_encapsulation.cpp).
 
-## Konstruktor domyślny i konstruktor z parametrami
+### Konstruktor domyślny i konstruktor z parametrami
 
 Konstruktor domyślny nie przyjmuje argumentów.
 
@@ -178,7 +180,7 @@ Konto(double saldoPoczatkowe)
 
 Klasa może mieć więcej niż jeden konstruktor, jeśli różnią się listą parametrów.
 
-## Częste błędy
+## Typowe błędy
 
 ### Publiczne pola bez kontroli
 
@@ -221,7 +223,7 @@ Getter powinien tylko odczytywać dane. Zmiana stanu w getterze jest myląca.
 
 Jeśli setter tylko przypisuje wartość bez żadnych zasad, to często nie daje przewagi nad polem publicznym.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz klasę `Konto` z prywatnym polem `saldo` i konstruktorem ustawiającym saldo początkowe.
 2. Dodaj getter `pobierzSaldo`.

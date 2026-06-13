@@ -12,7 +12,9 @@ Student powinien znać:
 - konstruktory i enkapsulację z lekcji [02-konstruktory-i-enkapsulacja.md](02-konstruktory-i-enkapsulacja.md),
 - metody `const` z lekcji [03-metody-const-i-this.md](03-metody-const-i-this.md).
 
-## Klasa bazowa i klasa pochodna
+## Krótka teoria
+
+### Klasa bazowa i klasa pochodna
 
 Dziedziczenie pozwala opisać relację typu „jest rodzajem”.
 
@@ -59,7 +61,7 @@ private:
 
 Pełny przykład znajduje się w pliku [examples/basic_inheritance.cpp](examples/basic_inheritance.cpp).
 
-## Dziedziczenie `public`
+### Dziedziczenie `public`
 
 Najczęściej na początku używamy dziedziczenia publicznego:
 
@@ -73,7 +75,7 @@ Oznacza to, że publiczne metody klasy bazowej pozostają publiczne w klasie poc
 
 Jeśli `Pracownik` ma publiczną metodę `opis()`, to obiekt klasy `Menedzer` też może jej użyć.
 
-## Konstruktor klasy bazowej
+## Przykład kodu: konstruktor klasy bazowej
 
 Klasa pochodna musi zbudować część bazową obiektu.
 
@@ -95,7 +97,7 @@ Fragment:
 
 wywołuje konstruktor klasy bazowej.
 
-## `protected`
+### `protected`
 
 Pola `private` klasy bazowej nie są dostępne bezpośrednio w klasie pochodnej.
 
@@ -121,7 +123,7 @@ protected:
 
 Na początku warto jednak nadal preferować `private` i publiczne metody dostępowe. `protected` jest przydatne, ale łatwo przez nie osłabić enkapsulację.
 
-## Rozszerzanie zachowania
+## Przykład kodu: rozszerzanie zachowania
 
 Klasa pochodna może dodać własne pola i metody.
 
@@ -141,7 +143,7 @@ private:
 
 Pełny przykład znajduje się w pliku [examples/car_inheritance.cpp](examples/car_inheritance.cpp).
 
-## Kiedy dziedziczenie ma sens
+### Kiedy dziedziczenie ma sens
 
 Dziedziczenie ma sens, gdy relacja naprawdę oznacza „jest rodzajem”.
 
@@ -167,7 +169,7 @@ private:
 
 To oznacza relację „ma”.
 
-## Częste błędy
+## Typowe błędy
 
 ### Dziedziczenie zamiast pola
 
@@ -183,7 +185,7 @@ Nadużywanie `protected` może sprawić, że klasy pochodne zbyt mocno zależą 
 
 Jeśli klasa bazowa nie ma konstruktora domyślnego, klasa pochodna musi jawnie wywołać konstruktor bazowy na liście inicjalizacyjnej.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz klasę `Pracownik` z polami `imie` i `pensja` oraz metodą `opis`.
 2. Utwórz klasę `Menedzer`, która dziedziczy publicznie po `Pracownik` i dodaje pole `liczbaOsob`.

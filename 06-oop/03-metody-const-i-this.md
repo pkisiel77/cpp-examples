@@ -11,7 +11,9 @@ Student powinien znać:
 - klasy i obiekty z lekcji [01-klasy-i-obiekty.md](01-klasy-i-obiekty.md),
 - konstruktory i enkapsulację z lekcji [02-konstruktory-i-enkapsulacja.md](02-konstruktory-i-enkapsulacja.md).
 
-## Metoda `const`
+## Krótka teoria
+
+### Metoda `const`
 
 Metoda oznaczona jako `const` obiecuje, że nie zmieni stanu obiektu.
 
@@ -39,7 +41,7 @@ Getter zwykle powinien być metodą `const`, ponieważ tylko odczytuje dane.
 
 Pełny przykład znajduje się w pliku [examples/const_methods.cpp](examples/const_methods.cpp).
 
-## Dlaczego `const` jest przydatne
+### Dlaczego `const` jest przydatne
 
 Jeśli obiekt jest stały, można na nim wywołać tylko metody `const`.
 
@@ -60,7 +62,7 @@ double pobierzSaldo() const
 }
 ```
 
-## Metody odczytujące i modyfikujące
+## Przykład kodu: metody odczytujące i modyfikujące
 
 Warto rozdzielać metody na dwie grupy.
 
@@ -91,7 +93,7 @@ void jedz(int kilometry);
 void ustawNazwe(std::string nowaNazwa);
 ```
 
-## Wskaźnik `this`
+## Przykład kodu: wskaźnik `this`
 
 Każda metoda obiektu ma dostęp do specjalnego wskaźnika `this`.
 
@@ -115,7 +117,7 @@ W przykładzie parametr konstruktora i pole klasy mają tę samą nazwę. Zapis 
 
 Pełny przykład znajduje się w pliku [examples/this_pointer.cpp](examples/this_pointer.cpp).
 
-## Kiedy używać `this`
+### Kiedy używać `this`
 
 `this` jest przydatne, gdy:
 
@@ -143,7 +145,7 @@ void ustawNazwe(std::string nowaNazwa)
 
 Oba style są poprawne. Najważniejsza jest spójność.
 
-## Dobre nazwy w klasach
+### Dobre nazwy w klasach
 
 Nazwy klas powinny być rzeczownikami.
 
@@ -171,7 +173,7 @@ Mniej czytelnie:
 - `manager`,
 - `process`.
 
-## Konwencja w tym kursie
+### Konwencja w tym kursie
 
 W materiałach stosujemy:
 
@@ -182,7 +184,7 @@ W materiałach stosujemy:
 
 W istniejących przykładach mogą pojawiać się starsze style. Nowe materiały powinny być spójne i czytelne.
 
-## Częste błędy
+## Typowe błędy
 
 ### Brak `const` przy getterze
 
@@ -230,7 +232,7 @@ class Data
 
 `Data` może oznaczać datę albo dane. Lepiej użyć nazwy bardziej jednoznacznej, np. `DaneKlienta` albo `DataUrodzenia`.
 
-## Zadania
+## Zadania do wykonania
 
 1. Dodaj `const` do getterów w klasie `Konto`.
 2. Utwórz klasę `Produkt` z polami `nazwa`, `cena` i `ilosc`. Gettery powinny być metodami `const`.

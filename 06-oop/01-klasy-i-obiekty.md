@@ -12,7 +12,9 @@ Student powinien znać:
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md),
 - podstawy pracy z plikami `.cpp`.
 
-## Klasa
+## Krótka teoria
+
+### Klasa
 
 Klasa to opis typu obiektu. Określa, jakie dane obiekt przechowuje i jakie operacje można na nim wykonać.
 
@@ -29,7 +31,7 @@ public:
 
 Klasa `Punkt` opisuje obiekty, które mają dwa pola: `x` i `y`.
 
-## Obiekt
+### Obiekt
 
 Obiekt to konkretna zmienna utworzona na podstawie klasy.
 
@@ -43,7 +45,7 @@ p.y = 20;
 
 Pełny przykład znajduje się w pliku [examples/simple_point.cpp](examples/simple_point.cpp).
 
-## Pola
+## Przykład kodu: pola klasy
 
 Pola to dane przechowywane w obiekcie.
 
@@ -70,7 +72,7 @@ ewa.wiek = 21;
 
 Zmiana pola w obiekcie `adam` nie zmienia pola w obiekcie `ewa`.
 
-## Metody
+## Przykład kodu: metody klasy
 
 Metoda to funkcja należąca do klasy. Metoda może korzystać z pól obiektu.
 
@@ -100,7 +102,7 @@ std::cout << p.pole() << std::endl;
 
 Pełny przykład znajduje się w pliku [examples/rectangle_methods.cpp](examples/rectangle_methods.cpp).
 
-## `public`
+### `public`
 
 Słowo `public` oznacza, że pola i metody są dostępne z zewnątrz klasy.
 
@@ -115,7 +117,7 @@ public:
 
 W pierwszej lekcji używamy `public`, żeby skupić się na samej idei klasy i obiektu. W kolejnej lekcji pojawi się `private`, czyli ukrywanie danych przed bezpośrednią zmianą z zewnątrz.
 
-## Nazwy klas
+### Nazwy klas
 
 Nazwy klas powinny być rzeczownikami albo krótkimi frazami rzeczownikowymi.
 
@@ -137,7 +139,7 @@ public:
 };
 ```
 
-## Częste błędy
+## Typowe błędy
 
 ### Brak średnika po klasie
 
@@ -202,7 +204,7 @@ class ListaZakupow
 
 Nazwa klasy powinna opisywać pojęcie z problemu, a nie szczegół implementacji.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz klasę `Punkt` z polami `x` i `y`. Utwórz dwa obiekty tej klasy i wypisz ich wartości.
 2. Utwórz klasę `Osoba` z polami `imie` i `wiek`. Wypisz dane dwóch osób.

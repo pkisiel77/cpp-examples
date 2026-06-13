@@ -12,7 +12,9 @@ Student powinien znać:
 - konstruktory i enkapsulację z lekcji [02-konstruktory-i-enkapsulacja.md](02-konstruktory-i-enkapsulacja.md),
 - referencje z segmentu [04-wskazniki-referencje-pamiec](../04-wskazniki-referencje-pamiec/README.md).
 
-## Kiedy powstaje kopia
+## Krótka teoria
+
+### Kiedy powstaje kopia
 
 Kopia obiektu może powstać między innymi wtedy, gdy:
 
@@ -29,7 +31,7 @@ Konto konto2 = konto1;
 
 `konto2` jest osobnym obiektem. Ma takie same wartości pól jak `konto1`, ale jest niezależną kopią.
 
-## Konstruktor kopiujący
+## Przykład kodu: konstruktor kopiujący
 
 Konstruktor kopiujący tworzy nowy obiekt na podstawie istniejącego obiektu tej samej klasy.
 
@@ -59,7 +61,7 @@ Używamy referencji, żeby nie tworzyć kolejnej kopii. Używamy `const`, bo kon
 
 Pełny przykład znajduje się w pliku [examples/copy_constructor.cpp](examples/copy_constructor.cpp).
 
-## Domyślne kopiowanie
+### Domyślne kopiowanie
 
 Jeśli klasa ma proste pola, C++ potrafi wygenerować konstruktor kopiujący automatycznie.
 
@@ -86,7 +88,7 @@ Własny konstruktor kopiujący piszemy wtedy, gdy chcemy mieć specjalne zachowa
 
 Na tym etapie najważniejsze jest rozumienie, kiedy kopia powstaje.
 
-## Przekazywanie przez wartość
+## Przykład kodu: przekazywanie przez wartość
 
 Gdy funkcja przyjmuje obiekt przez wartość, powstaje kopia.
 
@@ -101,7 +103,7 @@ Dla małych klas to może nie mieć znaczenia. Dla większych obiektów kopiowan
 
 Pełny przykład znajduje się w pliku [examples/pass_object.cpp](examples/pass_object.cpp).
 
-## Przekazywanie przez referencję `const`
+### Przekazywanie przez referencję `const`
 
 Jeśli funkcja ma tylko odczytać obiekt, zwykle lepiej przekazać go przez referencję `const`.
 
@@ -118,7 +120,7 @@ Taki zapis:
 - nie pozwala funkcji zmienić obiektu,
 - jest czytelny dla osoby czytającej kod.
 
-## Przekazywanie przez referencję bez `const`
+### Przekazywanie przez referencję bez `const`
 
 Jeśli funkcja ma zmienić obiekt, można przekazać go przez zwykłą referencję.
 
@@ -131,7 +133,7 @@ void dopiszOdsetki(Konto& konto)
 
 Taki zapis oznacza, że funkcja może zmienić oryginalny obiekt.
 
-## Zwracanie obiektów z funkcji
+### Zwracanie obiektów z funkcji
 
 Funkcja może zwrócić obiekt przez wartość.
 
@@ -145,7 +147,7 @@ Konto utworzKonto()
 
 W nowoczesnym C++ kompilator często optymalizuje takie przypadki. Na tym etapie warto jednak pamiętać, że zwracanie obiektu oznacza przekazanie gotowego wyniku do miejsca wywołania.
 
-## Częste błędy
+## Typowe błędy
 
 ### Niepotrzebne kopiowanie dużych obiektów
 
@@ -194,7 +196,7 @@ Konto b = a;
 
 `a` i `b` to dwa osobne obiekty. Zmiana `b` nie zmienia `a`.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz klasę `Konto` z polami prywatnymi `wlasciciel` i `saldo`.
 2. Dodaj konstruktor z parametrami oraz konstruktor kopiujący.

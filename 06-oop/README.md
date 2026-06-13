@@ -28,9 +28,9 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-przeciazanie-operatorow.md](06-przeciazanie-operatorow.md) - podstawy przeciążania operatorów.
 7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
-## Materiały źródłowe
+## Status porządkowania
 
-Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pierwotne wersje są zachowane w katalogu [archive](archive):
+Lekcje i zadania zostały uporządkowane do wspólnego formatu segmentów. Pierwotne wersje materiałów są zachowane w katalogu [archive](archive):
 
 - [archive/klasa-obiekt.md](archive/klasa-obiekt.md)
 - [archive/nazwy-klas.md](archive/nazwy-klas.md)
@@ -47,6 +47,23 @@ Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pie
 - [archive/composite.md](archive/composite.md)
 - [archive/uml-composite.md](archive/uml-composite.md)
 - [archive/linki-oop.md](archive/linki-oop.md)
+
+## Przykłady kodu
+
+Przykłady w katalogu [examples](examples) można kompilować osobno:
+
+- [examples/simple_point.cpp](examples/simple_point.cpp) - prosta klasa i obiekt.
+- [examples/rectangle_methods.cpp](examples/rectangle_methods.cpp) - pola i metody klasy.
+- [examples/car_encapsulation.cpp](examples/car_encapsulation.cpp) - enkapsulacja pól.
+- [examples/account_constructor.cpp](examples/account_constructor.cpp) - konstruktor i walidacja.
+- [examples/const_methods.cpp](examples/const_methods.cpp) - metody `const`.
+- [examples/this_pointer.cpp](examples/this_pointer.cpp) - wskaźnik `this`.
+- [examples/copy_constructor.cpp](examples/copy_constructor.cpp) - konstruktor kopiujący.
+- [examples/pass_object.cpp](examples/pass_object.cpp) - przekazywanie obiektów.
+- [examples/basic_inheritance.cpp](examples/basic_inheritance.cpp) - podstawowe dziedziczenie.
+- [examples/car_inheritance.cpp](examples/car_inheritance.cpp) - rozszerzanie klasy.
+- [examples/point_operators.cpp](examples/point_operators.cpp) - przeciążanie operatorów.
+- [examples/money_output_operator.cpp](examples/money_output_operator.cpp) - operator wyjścia `<<`.
 
 ## Format lekcji
 

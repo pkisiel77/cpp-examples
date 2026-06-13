@@ -13,7 +13,9 @@ Student powinien znać:
 - metody `const` z lekcji [03-metody-const-i-this.md](03-metody-const-i-this.md),
 - kopiowanie obiektów z lekcji [04-kopiowanie-obiektow.md](04-kopiowanie-obiektow.md).
 
-## Czym jest przeciążanie operatorów
+## Krótka teoria
+
+### Czym jest przeciążanie operatorów
 
 Przeciążanie operatorów pozwala zdefiniować, co oznacza operator dla obiektów własnej klasy.
 
@@ -36,7 +38,7 @@ Punkt operator+(const Punkt& inny) const
 
 Pełny przykład znajduje się w pliku [examples/point_operators.cpp](examples/point_operators.cpp).
 
-## Operator jako metoda
+## Przykład kodu: operator jako metoda
 
 Operator można zapisać jako metodę klasy.
 
@@ -61,7 +63,7 @@ Parametr `const Punkt& inny` oznacza drugi obiekt po prawej stronie operatora.
 
 Metoda jest `const`, bo dodawanie nie powinno zmieniać istniejących punktów.
 
-## Operator `==`
+## Przykład kodu: operator `==`
 
 Operator `==` powinien zwracać `bool`.
 
@@ -81,7 +83,7 @@ if (a == b)
 }
 ```
 
-## Operator `<<`
+## Przykład kodu: operator `<<`
 
 Operator `<<` pozwala wypisywać obiekt do strumienia.
 
@@ -105,7 +107,7 @@ Funkcja zwraca `std::ostream&`, żeby można było łączyć wypisywanie.
 std::cout << punkt << std::endl;
 ```
 
-## Operator jako funkcja zaprzyjaźniona
+### Operator jako funkcja zaprzyjaźniona
 
 Jeśli operator zewnętrzny potrzebuje dostępu do prywatnych pól, można użyć `friend`.
 
@@ -117,7 +119,7 @@ W tym kursie na początku preferujemy gettery, bo są prostsze do zrozumienia i 
 
 Pełny przykład operatora `<<` znajduje się w pliku [examples/money_output_operator.cpp](examples/money_output_operator.cpp).
 
-## Kiedy przeciążanie operatorów ma sens
+### Kiedy przeciążanie operatorów ma sens
 
 Przeciążanie operatorów ma sens, gdy operator jest naturalny dla danej klasy.
 
@@ -136,7 +138,7 @@ Podejrzane przykłady:
 
 Operator powinien zachowywać się intuicyjnie.
 
-## Częste błędy
+## Typowe błędy
 
 ### Operator robi coś zaskakującego
 
@@ -177,7 +179,7 @@ Punkt& operator+(const Punkt& inny)
 
 Wynik dodawania zwracamy przez wartość.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz klasę `Punkt` z polami `x` i `y`. Dodaj operator `+`.
 2. Dodaj operator `==` dla klasy `Punkt`.
