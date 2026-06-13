@@ -59,6 +59,12 @@ echo "test 03 functions"
     -o "$BUILD_DIR/03_test_podstawowe_funkcje"
 "$BUILD_DIR/03_test_podstawowe_funkcje"
 
+echo "test 04 pointers-references"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    04-wskazniki-referencje-pamiec/tests/test_wskazniki_referencje.cpp \
+    -o "$BUILD_DIR/04_test_wskazniki_referencje"
+"$BUILD_DIR/04_test_wskazniki_referencje"
+
 echo "test 05 validation"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     05-pliki-wyjatki/tests/test_walidacja.cpp \

@@ -50,7 +50,15 @@ Katalog [examples](examples) zawiera krótkie programy pokazujące adresy,
 wskaźniki, referencje, przekazywanie argumentów do funkcji i podstawowe zasady
 bezpiecznej pracy z pamięcią.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test bez zewnętrznego frameworka. Test
+sprawdza przekazywanie przez referencję, pracę ze wskaźnikiem, obsługę
+`nullptr`, przechodzenie po tablicy przez wskaźnik oraz zwracanie kilku wyników
+przez parametry referencyjne.
+
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla wskaźników i referencji.
 - `archive/` - pierwotne wersje materiałów zachowane do wglądu.
