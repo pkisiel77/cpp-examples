@@ -53,6 +53,12 @@ echo "compile 08 split-project"
 echo "build 08 project-layout"
 BUILD_DIR="$BUILD_DIR/08_project_layout" sh 08-projekt-build-testy/examples/project-layout/build.sh
 
+echo "test 02 control-flow"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    02-sterowanie-i-petle/tests/test_sterowanie_petle.cpp \
+    -o "$BUILD_DIR/02_test_sterowanie_petle"
+"$BUILD_DIR/02_test_sterowanie_petle"
+
 echo "test 03 functions"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     03-funkcje-tablice-napisy/tests/test_podstawowe_funkcje.cpp \

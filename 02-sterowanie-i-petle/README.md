@@ -47,7 +47,15 @@ Katalog [examples](examples) zawiera krótkie programy pokazujące instrukcje
 warunkowe, `switch`, pętle oraz użycie `break` i `continue`. Przykłady są
 kompilowalne i mogą być punktem startowym do zadań.
 
+## Testy
+
+Katalog [tests](tests) zawiera prosty test bez zewnętrznego frameworka. Test
+sprawdza warunki logiczne, `switch`, sumowanie w pętli `for`, pracę pętli
+`while`, przerwanie pętli przez `break` oraz pomijanie elementów przez
+`continue`.
+
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
+- `tests/` - proste testy automatyczne dla sterowania przepływem programu.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
