@@ -12,7 +12,9 @@ Student powinien znać:
 - `std::vector` z lekcji [02-vector.md](02-vector.md),
 - klasy z segmentu [06-oop](../06-oop/README.md).
 
-## Czym jest `std::map`
+## Krótka teoria
+
+### Czym jest `std::map`
 
 `std::map` przechowuje dane jako pary:
 
@@ -33,7 +35,7 @@ Do użycia `std::map` potrzebny jest nagłówek:
 #include <map>
 ```
 
-## Tworzenie mapy
+## Przykład kodu: tworzenie mapy
 
 Mapa z kluczem typu `std::string` i wartością typu `double`:
 
@@ -50,7 +52,7 @@ ocenyFilmow["Incepcja"] = 4.8;
 
 Pełny przykład znajduje się w pliku [examples/map_basics.cpp](examples/map_basics.cpp).
 
-## Klucz musi być unikalny
+### Klucz musi być unikalny
 
 W `std::map` każdy klucz występuje tylko raz.
 
@@ -61,7 +63,7 @@ ocenyFilmow["Matrix"] = 4.5;
 
 Po drugim przypisaniu wartość dla klucza `"Matrix"` zostanie zmieniona na `4.5`.
 
-## Odczyt przez `operator[]`
+### Odczyt przez `operator[]`
 
 Można odczytać wartość tak:
 
@@ -77,7 +79,7 @@ std::cout << ocenyFilmow["Nieznany film"] << std::endl;
 
 Ten kod doda do mapy nowy film z oceną `0.0`.
 
-## Bezpieczne wyszukiwanie przez `find`
+## Przykład kodu: bezpieczne wyszukiwanie przez `find`
 
 Do sprawdzania, czy klucz istnieje, używamy `find`.
 
@@ -92,7 +94,7 @@ if (wynik != ocenyFilmow.end())
 
 `wynik->first` to klucz, a `wynik->second` to wartość.
 
-## Przechodzenie po mapie
+### Przechodzenie po mapie
 
 Po mapie można przechodzić pętlą zakresową.
 
@@ -105,7 +107,7 @@ for (const auto& para : ocenyFilmow)
 
 Elementy w `std::map` są uporządkowane według klucza.
 
-## Usuwanie elementu
+### Usuwanie elementu
 
 Element można usunąć metodą `erase`.
 
@@ -124,7 +126,7 @@ if (ocenyFilmow.find("Matrix") != ocenyFilmow.end())
 }
 ```
 
-## Praktyczny przykład: biblioteka filmów
+## Przykład kodu: biblioteka filmów
 
 `std::map` dobrze pasuje do biblioteki filmów, w której tytuł jest kluczem, a ocena jest wartością.
 
@@ -143,7 +145,7 @@ Przykład pokazuje:
 - obliczanie średniej,
 - szukanie najwyżej ocenionego filmu.
 
-## Częste błędy
+## Typowe błędy
 
 ### Użycie `[]` do sprawdzania istnienia klucza
 
@@ -188,7 +190,7 @@ if (wynik != ocenyFilmow.end())
 
 Klucz powinien jednoznacznie identyfikować wpis. Jeśli tytuły filmów mogą się powtarzać, sam tytuł może nie wystarczyć.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz `std::map<std::string, int>` przechowującą liczbę sztuk produktów w magazynie.
 2. Dodaj kilka produktów i wypisz całą mapę.

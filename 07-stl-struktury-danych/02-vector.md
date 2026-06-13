@@ -12,7 +12,9 @@ Student powinien znać:
 - pętle z segmentu [02-sterowanie-i-petle](../02-sterowanie-i-petle/README.md),
 - podstawy STL z lekcji [01-wprowadzenie-do-stl.md](01-wprowadzenie-do-stl.md).
 
-## Czym jest `std::vector`
+## Krótka teoria
+
+### Czym jest `std::vector`
 
 `std::vector` to kontener przechowujący elementy w kolejności.
 
@@ -28,7 +30,7 @@ Do użycia `std::vector` potrzebny jest nagłówek:
 #include <vector>
 ```
 
-## Tworzenie wektora
+## Przykład kodu: tworzenie wektora
 
 Pusty wektor:
 
@@ -50,7 +52,7 @@ std::vector<int> liczby(5);
 
 Taki wektor ma pięć elementów ustawionych na `0`.
 
-## Dodawanie elementów
+## Przykład kodu: dodawanie elementów
 
 Do dodania elementu na końcu używamy `push_back`.
 
@@ -62,7 +64,7 @@ liczby.push_back(30);
 
 Pełny przykład znajduje się w pliku [examples/vector_basics.cpp](examples/vector_basics.cpp).
 
-## Rozmiar wektora
+### Rozmiar wektora
 
 Liczbę elementów sprawdzamy metodą `size`.
 
@@ -85,7 +87,7 @@ Do `std::size_t` zwykle wystarczy dołączony już nagłówek standardowy, ale w
 #include <cstddef>
 ```
 
-## Dostęp po indeksie
+### Dostęp po indeksie
 
 Dostęp przez `[]`:
 
@@ -105,7 +107,7 @@ std::cout << liczby.at(0) << std::endl;
 
 Na początku warto używać `at()`, gdy indeks pochodzi od użytkownika albo z obliczeń.
 
-## Pętla zakresowa
+### Pętla zakresowa
 
 Najczytelniejszy sposób wypisania wszystkich elementów:
 
@@ -125,7 +127,7 @@ for (int liczba : liczby)
 }
 ```
 
-## Usuwanie ostatniego elementu
+### Usuwanie ostatniego elementu
 
 Ostatni element usuwamy metodą `pop_back`.
 
@@ -142,7 +144,7 @@ if (!liczby.empty())
 }
 ```
 
-## `empty`, `front`, `back`
+### `empty`, `front`, `back`
 
 Przydatne metody:
 
@@ -158,7 +160,7 @@ if (!liczby.empty())
 }
 ```
 
-## Wektor struktur lub obiektów
+## Przykład kodu: wektor struktur lub obiektów
 
 Wektor może przechowywać nie tylko liczby, ale też struktury i obiekty.
 
@@ -174,7 +176,7 @@ std::vector<Kandydat> kandydaci;
 
 Pełny przykład znajduje się w pliku [examples/vector_records.cpp](examples/vector_records.cpp).
 
-## `resize`
+### `resize`
 
 Metoda `resize` zmienia rozmiar wektora.
 
@@ -191,7 +193,7 @@ liczby.resize(6, 4);
 
 Ten zapis powiększa wektor i wstawia `4` jako wartość nowych elementów.
 
-## Częste błędy
+## Typowe błędy
 
 ### Wyjście poza zakres
 
@@ -246,7 +248,7 @@ for (const auto& kandydat : kandydaci)
 }
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz wektor liczb całkowitych i dodaj do niego liczby od `1` do `10`.
 2. Wypisz zawartość wektora pętlą zakresową.

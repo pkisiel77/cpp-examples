@@ -12,7 +12,9 @@ Student powinien znać:
 - `std::vector` z lekcji [02-vector.md](02-vector.md),
 - algorytmy STL z lekcji [03-algorytmy-stl.md](03-algorytmy-stl.md).
 
-## `std::stack`
+## Krótka teoria
+
+### `std::stack`
 
 `std::stack` to stos. Działa według zasady LIFO:
 
@@ -49,7 +51,7 @@ historia.pop();
 
 Pełny przykład znajduje się w pliku [examples/stack_queue.cpp](examples/stack_queue.cpp).
 
-## `std::queue`
+## Przykład kodu: `std::queue`
 
 `std::queue` to kolejka. Działa według zasady FIFO:
 
@@ -85,7 +87,7 @@ std::cout << zgloszenia.front() << std::endl;
 zgloszenia.pop();
 ```
 
-## LIFO kontra FIFO
+### LIFO kontra FIFO
 
 Stos:
 
@@ -103,7 +105,7 @@ obsłuż: A, B, C
 
 Stos pasuje do historii cofania, a kolejka do obsługi zgłoszeń.
 
-## `std::list`
+## Przykład kodu: `std::list`
 
 `std::list` to lista dwukierunkowa.
 
@@ -131,7 +133,7 @@ liczby.push_back(13);
 
 Pełny przykład znajduje się w pliku [examples/list_operations.cpp](examples/list_operations.cpp).
 
-## Kiedy używać `std::list`
+### Kiedy używać `std::list`
 
 `std::list` ma sens, gdy:
 
@@ -147,7 +149,7 @@ Pełny przykład znajduje się w pliku [examples/list_operations.cpp](examples/l
 
 Na początku wybieraj `std::vector`, dopóki problem wyraźnie nie pasuje do listy.
 
-## Częste błędy
+## Typowe błędy
 
 ### `top`, `front` albo `back` na pustym kontenerze
 
@@ -183,7 +185,7 @@ Jeśli potrzebujesz indeksów, zwykle wybierz `std::vector`.
 
 Najpierw odczytaj element przez `top()` albo `front()`, potem wywołaj `pop()`.
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz `std::stack<std::string>` jako historię operacji. Dodaj trzy operacje i zdejmij je w kolejności cofania.
 2. Utwórz `std::queue<std::string>` jako kolejkę zgłoszeń. Dodaj trzy zgłoszenia i obsłuż je w kolejności przyjścia.

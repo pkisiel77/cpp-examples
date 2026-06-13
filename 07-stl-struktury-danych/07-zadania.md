@@ -1,6 +1,6 @@
 # 07 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [07 - STL i struktury danych](README.md).
 Zadania sprawdzają użycie kontenerów, algorytmów STL, iteratorów, predykatów
@@ -218,5 +218,4 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Archiwum
 
-Oryginalne materiały źródłowe tego segmentu będą zachowane w katalogu
-[archive](archive) po zakończeniu porządkowania.
+Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

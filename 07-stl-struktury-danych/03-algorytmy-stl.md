@@ -12,7 +12,9 @@ Student powinien znać:
 - `std::vector` z lekcji [02-vector.md](02-vector.md),
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md).
 
-## Nagłówek `<algorithm>`
+## Krótka teoria
+
+### Nagłówek `<algorithm>`
 
 Do wielu algorytmów STL potrzebny jest nagłówek:
 
@@ -26,7 +28,7 @@ Algorytmy działają na zakresie elementów. Zakres zwykle zapisujemy przez `beg
 std::sort(liczby.begin(), liczby.end());
 ```
 
-## `std::sort`
+## Przykład kodu: `std::sort`
 
 `std::sort` sortuje elementy w kontenerze.
 
@@ -43,7 +45,7 @@ Po sortowaniu wektor będzie miał wartości:
 
 Pełny przykład znajduje się w pliku [examples/sort_numbers.cpp](examples/sort_numbers.cpp).
 
-## Sortowanie malejące
+### Sortowanie malejące
 
 Do sortowania malejącego można przekazać predykat.
 
@@ -56,7 +58,7 @@ std::sort(liczby.begin(), liczby.end(), [](int a, int b)
 
 Predykat mówi, który element powinien być wcześniej.
 
-## Lambda
+### Lambda
 
 Lambda to krótka funkcja zapisana w miejscu użycia.
 
@@ -69,7 +71,7 @@ Lambda to krótka funkcja zapisana w miejscu użycia.
 
 W tym przykładzie lambda przyjmuje dwie liczby i zwraca `true`, jeśli pierwsza ma być przed drugą.
 
-## `std::find_if`
+## Przykład kodu: `std::find_if`
 
 `std::find_if` szuka pierwszego elementu spełniającego warunek.
 
@@ -89,7 +91,7 @@ if (wynik != liczby.end())
 }
 ```
 
-## `std::copy_if`
+## Przykład kodu: `std::copy_if`
 
 `std::copy_if` kopiuje do nowego kontenera tylko elementy spełniające warunek.
 
@@ -108,7 +110,7 @@ Do `std::back_inserter` potrzebny jest nagłówek:
 #include <iterator>
 ```
 
-## `std::remove_if` i `erase`
+### `std::remove_if` i `erase`
 
 `std::remove_if` samo nie zmniejsza rozmiaru wektora. Przesuwa elementy, które mają zostać zachowane.
 
@@ -128,7 +130,7 @@ Ten kod usuwa liczby ujemne.
 
 Pełny przykład znajduje się w pliku [examples/filter_people.cpp](examples/filter_people.cpp).
 
-## Predykat
+### Predykat
 
 Predykat to funkcja albo lambda zwracająca `bool`.
 
@@ -142,7 +144,7 @@ Przykłady predykatów:
 
 Predykaty są używane w algorytmach takich jak `find_if`, `copy_if` i `remove_if`.
 
-## Częste błędy
+## Typowe błędy
 
 ### Brak sprawdzenia wyniku `find_if`
 
@@ -177,7 +179,7 @@ std::sort(osoby.begin(), osoby.end(), [](const Osoba& a, const Osoba& b)
 });
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Utwórz wektor liczb i posortuj go rosnąco.
 2. Posortuj ten sam wektor malejąco przy pomocy lambdy.

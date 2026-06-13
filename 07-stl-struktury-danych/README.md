@@ -15,7 +15,7 @@ Po zakończeniu segmentu student powinien umieć:
 - zastosować podstawowe algorytmy STL, np. `std::sort` i `std::find_if`,
 - połączyć kontenery z klasami w małym programie.
 
-## Docelowa kolejność lekcji
+## Kolejność lekcji
 
 1. [01-wprowadzenie-do-stl.md](01-wprowadzenie-do-stl.md) - po co są kontenery i kiedy ich używać.
 2. [02-vector.md](02-vector.md) - `std::vector`, dodawanie, usuwanie, iteracja.
@@ -25,9 +25,9 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-projekt-hrms.md](06-projekt-hrms.md) - mini-projekt z kilkoma kontenerami.
 7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
 
-## Materiały zarchiwizowane
+## Status porządkowania
 
-Pierwotne materiały zostały zachowane w katalogu [archive](archive):
+Lekcje i zadania zostały uporządkowane do wspólnego formatu segmentów. Pierwotne materiały są zachowane w katalogu [archive](archive):
 
 - [archive/kontenery-stl.md](archive/kontenery-stl.md)
 - [archive/vector.md](archive/vector.md)
@@ -40,6 +40,22 @@ Pierwotne materiały zostały zachowane w katalogu [archive](archive):
 - [archive/egzamin-tablice.md](archive/egzamin-tablice.md)
 - [archive/powtorzenie-zadania.md](archive/powtorzenie-zadania.md)
 - [archive/powtorzenie-part2.md](archive/powtorzenie-part2.md)
+
+## Przykłady kodu
+
+Przykłady w katalogu [examples](examples) można kompilować osobno:
+
+- [examples/stl_containers_overview.cpp](examples/stl_containers_overview.cpp) - przegląd kontenerów STL.
+- [examples/choose_container.cpp](examples/choose_container.cpp) - dobór kontenera do problemu.
+- [examples/vector_basics.cpp](examples/vector_basics.cpp) - podstawy `std::vector`.
+- [examples/vector_records.cpp](examples/vector_records.cpp) - wektor rekordów.
+- [examples/sort_numbers.cpp](examples/sort_numbers.cpp) - sortowanie liczb.
+- [examples/filter_people.cpp](examples/filter_people.cpp) - filtrowanie danych.
+- [examples/map_basics.cpp](examples/map_basics.cpp) - podstawy `std::map`.
+- [examples/movie_library.cpp](examples/movie_library.cpp) - słownik filmów.
+- [examples/stack_queue.cpp](examples/stack_queue.cpp) - stos i kolejka.
+- [examples/list_operations.cpp](examples/list_operations.cpp) - operacje na liście.
+- [examples/hrms.cpp](examples/hrms.cpp) - przykład projektu HRMS.
 
 ## Format lekcji
 
@@ -55,4 +71,4 @@ Każda docelowa lekcja powinna mieć taki układ:
 ## Katalogi pomocnicze
 
 - `examples/` - kompilowalne przykłady `.cpp` dla tego segmentu.
-- `archive/` - stare wersje plików po wchłonięciu ich treści do nowych lekcji.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.

@@ -12,7 +12,9 @@ Student powinien znać:
 - klasy i obiekty z segmentu [06-oop](../06-oop/README.md),
 - podstawowe operacje wejścia i wyjścia.
 
-## Czym jest STL
+## Krótka teoria
+
+### Czym jest STL
 
 STL to część biblioteki standardowej C++, która dostarcza gotowe narzędzia do pracy z danymi.
 
@@ -25,7 +27,7 @@ W tym segmencie najważniejsze będą:
 
 Zamiast samodzielnie pisać tablicę dynamiczną, kolejkę albo mapowanie klucz-wartość, zwykle lepiej użyć gotowego kontenera z biblioteki standardowej.
 
-## Kontener
+### Kontener
 
 Kontener to obiekt przechowujący wiele elementów.
 
@@ -43,7 +45,7 @@ Do użycia `std::vector` potrzebny jest nagłówek:
 #include <vector>
 ```
 
-## Najważniejsze kontenery w tym segmencie
+### Najważniejsze kontenery w tym segmencie
 
 ### `std::vector`
 
@@ -97,7 +99,7 @@ Dobry wybór, gdy:
 
 W praktyce na początku częściej używa się `std::vector`, a `std::list` wybiera dopiero wtedy, gdy problem naprawdę tego wymaga.
 
-## Przykład kilku kontenerów
+## Przykład kodu: kilka kontenerów
 
 Pełny przykład znajduje się w pliku [examples/stl_containers_overview.cpp](examples/stl_containers_overview.cpp).
 
@@ -108,7 +110,7 @@ Pokazuje on:
 - `std::queue` jako kolejkę zadań,
 - `std::stack` jako historię cofania.
 
-## Dobór kontenera
+## Przykład kodu: dobór kontenera
 
 Dobór kontenera zaczynamy od pytania: jak będę używać danych?
 
@@ -138,7 +140,7 @@ std::stack<std::string> historia;
 
 Pełny przykład znajduje się w pliku [examples/choose_container.cpp](examples/choose_container.cpp).
 
-## Pętla zakresowa
+### Pętla zakresowa
 
 Po kontenerach często przechodzimy pętlą zakresową.
 
@@ -164,7 +166,7 @@ for (const int& liczba : liczby)
 }
 ```
 
-## Częste błędy
+## Typowe błędy
 
 ### Ręczne pisanie struktury, gdy istnieje kontener
 
@@ -192,7 +194,7 @@ for (const auto& element : elementy)
 }
 ```
 
-## Zadania
+## Zadania do wykonania
 
 1. Wypisz trzy przykłady problemów, dla których dobrym wyborem będzie `std::vector`.
 2. Wypisz trzy przykłady problemów, dla których dobrym wyborem będzie `std::map`.

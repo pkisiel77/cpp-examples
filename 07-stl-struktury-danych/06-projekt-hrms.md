@@ -15,7 +15,7 @@ Przed rozpoczęciem projektu warto znać:
 - [algorytmy STL](03-algorytmy-stl.md),
 - [`std::map`](04-map-i-slownik.md).
 
-## Opis projektu
+## Krótka teoria
 
 System HRMS przechowuje pracowników i pozwala:
 
@@ -25,7 +25,7 @@ System HRMS przechowuje pracowników i pozwala:
 - wyświetlić wszystkie wynagrodzenia,
 - wyświetlić wynagrodzenia posortowane malejąco.
 
-## Model pracownika
+## Przykład kodu: model pracownika
 
 Klasa `Employee` opisuje jednego pracownika:
 
@@ -43,7 +43,7 @@ private:
 Pola są prywatne. Pozostała część programu korzysta z publicznych metod
 dostępowych, dzięki czemu klasa kontroluje sposób udostępniania danych.
 
-## Dobór kontenerów
+### Dobór kontenerów
 
 System używa trzech kontenerów:
 
@@ -61,7 +61,7 @@ std::map<std::string, double> salaries;
 Taki podział pozwala ćwiczyć łączenie kilku struktur danych. W większym systemie
 należałoby dodatkowo przeanalizować koszt wyszukiwania pracowników w wektorze.
 
-## Dodawanie pracownika
+## Przykład kodu: dodawanie pracownika
 
 Przed dodaniem pracownika system sprawdza, czy:
 
@@ -71,7 +71,7 @@ Przed dodaniem pracownika system sprawdza, czy:
 Po poprawnej walidacji dane trafiają do wszystkich właściwych kontenerów.
 Ważne jest zachowanie ich spójności.
 
-## Wyszukiwanie i zmiana wynagrodzenia
+## Przykład kodu: wyszukiwanie i zmiana wynagrodzenia
 
 Do wyszukiwania wpisów w `std::map` używamy metody `find`:
 
@@ -86,7 +86,7 @@ if (salaryIt != salaries.end()) {
 Metoda `find` pozwala odróżnić istniejący wpis od brakującego. Samo użycie
 operatora `[]` utworzyłoby nowy wpis, gdyby klucza nie było w mapie.
 
-## Sortowanie wynagrodzeń
+## Przykład kodu: sortowanie wynagrodzeń
 
 Mapa porządkuje elementy według klucza, a nie według wynagrodzenia. Aby
 wyświetlić pensje malejąco:
@@ -102,7 +102,7 @@ std::sort(sortedSalaries.begin(), sortedSalaries.end(),
           });
 ```
 
-## Kompletny przykład
+## Przykład referencyjny
 
 Kod kompletnego programu znajduje się w pliku
 [`examples/hrms.cpp`](examples/hrms.cpp).
@@ -114,7 +114,7 @@ c++ -std=c++17 examples/hrms.cpp -o hrms
 ./hrms
 ```
 
-## Zadania rozszerzające
+## Zadania do wykonania
 
 1. Dodaj metodę usuwającą pracownika ze wszystkich kontenerów.
 2. Dodaj możliwość przeniesienia pracownika do innego działu.
@@ -122,7 +122,7 @@ c++ -std=c++17 examples/hrms.cpp -o hrms
 4. Wyświetl pracowników posortowanych alfabetycznie.
 5. Zapisz dane pracowników do pliku i odczytaj je po ponownym uruchomieniu.
 
-## Kryteria ukończenia
+## Kryteria zaliczenia
 
 Projekt jest ukończony, gdy:
 
