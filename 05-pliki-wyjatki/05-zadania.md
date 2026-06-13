@@ -1,6 +1,6 @@
 # 05 - Zadania
 
-## Cel
+## Cel zestawu zadań
 
 Ten plik zbiera zadania do segmentu [05 - Pliki i wyjątki](README.md). Zadania sprawdzają zapis i odczyt plików tekstowych, walidację danych, obsługę błędów oraz podstawy wyjątków.
 
@@ -192,4 +192,4 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Archiwum
 
-Oryginalne materiały źródłowe tego segmentu będą zachowane w katalogu [archive](archive) po zakończeniu porządkowania.
+Oryginalne materiały źródłowe tego segmentu są zachowane w katalogu [archive](archive).

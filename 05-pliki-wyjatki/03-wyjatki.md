@@ -12,7 +12,9 @@ Student powinien znać:
 - podstawy odczytu i walidacji z lekcji [02-odczyt-i-walidacja.md](02-odczyt-i-walidacja.md),
 - podstawowe komunikaty o błędach zwracane przez program.
 
-## Po co są wyjątki
+## Krótka teoria
+
+### Po co są wyjątki
 
 Wyjątek służy do zgłoszenia sytuacji błędnej, której funkcja nie chce albo nie potrafi obsłużyć lokalnie.
 
@@ -25,7 +27,7 @@ Przykład:
 
 Wyjątki nie zastępują zwykłych instrukcji `if`. Dla prostych walidacji, które można obsłużyć od razu, zwykły warunek często jest czytelniejszy.
 
-## `try`, `throw`, `catch`
+## Przykład kodu: `try`, `throw`, `catch`
 
 Podstawowy schemat wygląda tak:
 
@@ -48,7 +50,7 @@ Do `std::runtime_error` potrzebny jest nagłówek:
 
 Pełny przykład znajduje się w pliku [examples/basic_exception.cpp](examples/basic_exception.cpp).
 
-## Rzucanie wyjątku z funkcji
+## Przykład kodu: rzucanie wyjątku z funkcji
 
 Najczęściej wyjątek jest zgłaszany w funkcji, która wykrywa błąd.
 
@@ -79,7 +81,7 @@ catch (const std::invalid_argument& blad)
 
 Pełny przykład znajduje się w pliku [examples/function_exception.cpp](examples/function_exception.cpp).
 
-## Łapanie wyjątków standardowych
+## Przykład kodu: łapanie wyjątków standardowych
 
 Wiele elementów biblioteki standardowej zgłasza wyjątki. Przykładem jest metoda `at()` w `std::vector`, która sprawdza zakres indeksu.
 
@@ -110,7 +112,7 @@ catch (const std::exception& blad)
 
 Pełny przykład znajduje się w pliku [examples/standard_exception.cpp](examples/standard_exception.cpp).
 
-## Kolejność bloków `catch`
+### Kolejność bloków `catch`
 
 Najpierw zapisujemy bardziej szczegółowe typy wyjątków, a później ogólniejsze.
 
@@ -127,7 +129,7 @@ catch (const std::exception& blad)
 
 Jeśli `std::exception` byłoby pierwsze, złapałoby też wyjątki bardziej szczegółowe.
 
-## `catch (...)`
+### `catch (...)`
 
 Zapis:
 
@@ -140,7 +142,7 @@ catch (...)
 
 łapie każdy wyjątek. Używamy go ostrożnie, bo nie daje informacji o typie błędu. W prostych programach lepiej łapać konkretne typy albo `std::exception`.
 
-## Kiedy używać wyjątków
+### Kiedy używać wyjątków
 
 Wyjątek ma sens, gdy:
 
@@ -155,7 +157,7 @@ Zwykły `if` jest często lepszy, gdy:
 - sprawdzamy prosty warunek wejściowy,
 - niepoprawna wartość jest normalnym elementem działania programu.
 
-## Częste błędy
+## Typowe błędy
 
 ### Łapanie wyjątku przez wartość
 
@@ -195,7 +197,7 @@ Jeśli błąd jest ignorowany bez komunikatu, program może zachowywać się nie
 
 Wyjątki nie powinny zastępować pętli, `if` ani menu. Służą do obsługi sytuacji błędnych.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz funkcję `podziel`, która rzuca `std::invalid_argument`, gdy drugi argument jest równy `0`.
 2. Obsłuż wyjątek z zadania 1 w funkcji `main` i wypisz czytelny komunikat.

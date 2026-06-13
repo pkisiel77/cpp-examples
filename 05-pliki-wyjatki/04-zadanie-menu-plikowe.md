@@ -12,7 +12,7 @@ Student powinien znać:
 - walidację odczytu z lekcji [02-odczyt-i-walidacja.md](02-odczyt-i-walidacja.md),
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md).
 
-## Opis zadania
+## Krótka teoria
 
 Napisz program, który zarządza prostym plikiem tekstowym `dane.txt`.
 
@@ -27,7 +27,7 @@ Program powinien wyświetlać menu:
 
 Użytkownik wybiera opcję, a program wykonuje odpowiednią operację na pliku.
 
-## Wymagane funkcje programu
+### Wymagane funkcje programu
 
 Program powinien być podzielony na funkcje:
 
@@ -39,7 +39,7 @@ Program powinien być podzielony na funkcje:
 
 Podział na funkcje jest ważny, bo dzięki temu `main` pozostaje czytelny.
 
-## Dopisywanie wpisu
+## Przykład kodu: dopisywanie wpisu
 
 Dopisywanie wpisu wymaga otwarcia pliku w trybie `std::ios::app`.
 
@@ -50,7 +50,7 @@ plik << wpis << std::endl;
 
 Jeśli plik nie istnieje, zostanie utworzony.
 
-## Wyświetlanie wpisów
+## Przykład kodu: wyświetlanie wpisów
 
 Odczyt wykonujemy linia po linii.
 
@@ -66,7 +66,7 @@ while (std::getline(plik, linia))
 
 Warto numerować wpisy, bo wtedy wynik jest czytelniejszy.
 
-## Czyszczenie pliku
+## Przykład kodu: czyszczenie pliku
 
 Najprostszy sposób wyczyszczenia pliku to otwarcie go zwykłym `std::ofstream`.
 
@@ -76,7 +76,7 @@ std::ofstream plik("dane.txt");
 
 Taki zapis nadpisuje poprzednią zawartość pustą treścią.
 
-## Walidacja wyboru
+### Walidacja wyboru
 
 Nie można zakładać, że użytkownik zawsze wpisze liczbę.
 

@@ -13,7 +13,9 @@ Student powinien znać:
 - funkcje z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md),
 - podstawowy zapis i odczyt plików z lekcji [01-pliki-tekstowe.md](01-pliki-tekstowe.md).
 
-## Czym jest walidacja
+## Krótka teoria
+
+### Czym jest walidacja
 
 Walidacja to sprawdzenie, czy dane spełniają wymagania programu.
 
@@ -27,7 +29,7 @@ Przykłady wymagań:
 
 Program nie powinien zakładać, że dane zawsze są poprawne.
 
-## Sprawdzanie otwarcia pliku
+## Przykład kodu: sprawdzanie otwarcia pliku
 
 Przed odczytem trzeba sprawdzić, czy plik został poprawnie otwarty.
 
@@ -43,7 +45,7 @@ if (!plik)
 
 Pełny przykład znajduje się w pliku [examples/missing_file_check.cpp](examples/missing_file_check.cpp).
 
-## Sprawdzanie odczytu liczby
+## Przykład kodu: sprawdzanie odczytu liczby
 
 Operator `>>` zwraca strumień. Strumień można sprawdzić w warunku.
 
@@ -74,7 +76,7 @@ while (plik >> liczba)
 
 Pełny przykład znajduje się w pliku [examples/read_numbers_with_validation.cpp](examples/read_numbers_with_validation.cpp).
 
-## Walidacja zakresu
+### Walidacja zakresu
 
 Poprawny typ danych nie zawsze oznacza poprawną wartość.
 
@@ -104,7 +106,7 @@ else
 }
 ```
 
-## Odczyt linii i parsowanie
+## Przykład kodu: odczyt linii i parsowanie
 
 Jeśli plik może zawierać błędne linie, wygodnie jest czytać go liniami, a potem analizować każdą linię osobno.
 
@@ -135,7 +137,7 @@ Do `std::istringstream` potrzebny jest nagłówek:
 
 Pełny przykład znajduje się w pliku [examples/validate_lines.cpp](examples/validate_lines.cpp).
 
-## Stan strumienia
+### Stan strumienia
 
 Strumień może być w różnych stanach:
 
@@ -162,7 +164,7 @@ while (plik >> liczba)
 }
 ```
 
-## Częste błędy
+## Typowe błędy
 
 ### Użycie wartości po nieudanym odczycie
 
@@ -199,7 +201,7 @@ Najpierw sprawdzamy, czy udało się odczytać liczbę. Dopiero później sprawd
 
 W wielu zadaniach lepiej pominąć błędną linię, wypisać ostrzeżenie i kontynuować odczyt kolejnych danych.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który wczytuje liczbę z klawiatury i sprawdza, czy odczyt się udał.
 2. Rozbuduj program tak, aby sprawdzał, czy liczba należy do zakresu od `1` do `100`.

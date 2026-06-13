@@ -23,14 +23,29 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-zadanie-menu-plikowe.md](04-zadanie-menu-plikowe.md) - mały program z menu do zarządzania plikiem.
 5. [05-zadania.md](05-zadania.md) - zadania podstawowe i dodatkowe.
 
-## Materiały źródłowe
+## Status porządkowania
 
-Materiały źródłowe zostały wchłonięte do uporządkowanych lekcji. Ich pierwotne wersje są zachowane w katalogu [archive](archive):
+Lekcje i zadania zostały uporządkowane do wspólnego formatu segmentów. Pierwotne wersje materiałów są zachowane w katalogu [archive](archive):
 
 - [archive/pliki-tekstowe.md](archive/pliki-tekstowe.md)
 - [archive/pliki-tekstowe-zadanie.md](archive/pliki-tekstowe-zadanie.md)
 - [archive/zadanie-io-plik.md](archive/zadanie-io-plik.md)
 - [archive/wyjatki.md](archive/wyjatki.md)
+
+## Przykłady kodu
+
+Przykłady w katalogu [examples](examples) można kompilować osobno:
+
+- [examples/write_text_file.cpp](examples/write_text_file.cpp) - zapis do pliku.
+- [examples/append_text_file.cpp](examples/append_text_file.cpp) - dopisywanie danych.
+- [examples/read_text_file.cpp](examples/read_text_file.cpp) - odczyt liniami.
+- [examples/missing_file_check.cpp](examples/missing_file_check.cpp) - sprawdzanie braku pliku.
+- [examples/read_numbers_with_validation.cpp](examples/read_numbers_with_validation.cpp) - odczyt liczb z walidacją.
+- [examples/validate_lines.cpp](examples/validate_lines.cpp) - walidacja danych w liniach.
+- [examples/basic_exception.cpp](examples/basic_exception.cpp) - podstawowy wyjątek.
+- [examples/function_exception.cpp](examples/function_exception.cpp) - rzucanie wyjątku z funkcji.
+- [examples/standard_exception.cpp](examples/standard_exception.cpp) - obsługa wyjątku standardowego.
+- [examples/file_menu.cpp](examples/file_menu.cpp) - program z menu plikowym.
 
 ## Format lekcji
 

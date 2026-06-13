@@ -12,7 +12,9 @@ Student powinien znać:
 - instrukcje warunkowe i pętle z segmentu [02-sterowanie-i-petle](../02-sterowanie-i-petle/README.md),
 - funkcje i napisy z segmentu [03-funkcje-tablice-napisy](../03-funkcje-tablice-napisy/README.md).
 
-## Biblioteka `<fstream>`
+## Krótka teoria
+
+### Biblioteka `<fstream>`
 
 Do pracy z plikami tekstowymi używamy nagłówka:
 
@@ -28,7 +30,7 @@ Najczęściej używane klasy to:
 
 Na początku warto rozdzielać zapis i odczyt, bo kod jest wtedy prostszy do zrozumienia.
 
-## Zapis do pliku
+## Przykład kodu: zapis do pliku
 
 Plik można otworzyć do zapisu przy pomocy `std::ofstream`.
 
@@ -41,7 +43,7 @@ Jeśli plik `dane.txt` nie istnieje, zostanie utworzony. Jeśli istnieje, jego p
 
 Pełny przykład znajduje się w pliku [examples/write_text_file.cpp](examples/write_text_file.cpp).
 
-## Sprawdzanie otwarcia pliku
+### Sprawdzanie otwarcia pliku
 
 Operacja otwarcia pliku może się nie udać. Program powinien to sprawdzić przed zapisem albo odczytem.
 
@@ -57,7 +59,7 @@ if (!plik)
 
 Warunek `!plik` oznacza, że strumień jest w stanie błędu.
 
-## Dopisywanie do pliku
+## Przykład kodu: dopisywanie do pliku
 
 Domyślny zapis przez `std::ofstream` nadpisuje plik. Jeśli chcemy dopisać dane na końcu pliku, używamy trybu `std::ios::app`.
 
@@ -68,7 +70,7 @@ plik << "Nowy wpis" << std::endl;
 
 Pełny przykład znajduje się w pliku [examples/append_text_file.cpp](examples/append_text_file.cpp).
 
-## Odczyt z pliku
+## Przykład kodu: odczyt z pliku
 
 Plik można otworzyć do odczytu przy pomocy `std::ifstream`.
 
@@ -86,7 +88,7 @@ while (std::getline(plik, linia))
 
 Pełny przykład znajduje się w pliku [examples/read_text_file.cpp](examples/read_text_file.cpp).
 
-## Odczyt liniami i odczyt słowami
+### Odczyt liniami i odczyt słowami
 
 Dla plików tekstowych są dwa częste sposoby odczytu.
 
@@ -108,7 +110,7 @@ Ten sposób pomija białe znaki i czyta kolejne słowa osobno.
 
 W zadaniach z tekstem opisowym zwykle lepszy jest `std::getline`.
 
-## Zamykanie pliku
+### Zamykanie pliku
 
 Strumień plikowy zamyka plik automatycznie, gdy obiekt wychodzi poza zakres.
 
@@ -121,7 +123,7 @@ Strumień plikowy zamyka plik automatycznie, gdy obiekt wychodzi poza zakres.
 
 Można też wywołać `close()`, ale w prostych programach często nie jest to potrzebne.
 
-## Częste błędy
+## Typowe błędy
 
 ### Brak sprawdzenia otwarcia pliku
 
@@ -169,7 +171,7 @@ Ala ma kota
 
 operator `>>` wczyta najpierw tylko `Ala`. Funkcja `std::getline` wczyta całą linię.
 
-## Zadania
+## Zadania do wykonania
 
 1. Napisz program, który tworzy plik `dane.txt` i zapisuje do niego trzy linie tekstu.
 2. Napisz program, który odczytuje plik `dane.txt` linia po linii i wypisuje jego zawartość.
