@@ -1,62 +1,135 @@
-# Wstęp
+# Ćwiczenie - Minimum, maksimum i średnia
 
-- Wykonaj aplikację konsolową według wskazań. 
-- Udokumentuj aplikacje zrzutami ekranu i komentarzami zgodnie z opisem w części ***Dokumentacja utworzonej aplikacji***.
-- Utwórz folder i nazwij swoim Imieniem i Nazwiskiem. 
-- W folderze utwórz podfoldery: konsola, dokumentacja. 
-- Po wykonaniu aplikacji, jej pełny kod (cały projekt) skopiuj do odpowiedniego podfolderu. 
-- Dokumentację aplikacji w postaci zrzutów ekranu i dokumentu umieść w podfolferze dokumentacja.
+## Cel ćwiczenia
 
-# Zadanie
-Napisz program konsolowy, który wyliczy wartości:
-- minimalną,
-- maksymalną
-- oraz średnią arytmetyczną 
-z liczb rzeczywistych podawanych przez użtykownika.
-Zakończenie wprowadzania przycisk ESC.
+Celem ćwiczenia jest napisanie programu konsolowego, który wczytuje liczby
+rzeczywiste od użytkownika, a następnie wyznacza wartość minimalną, wartość
+maksymalną oraz średnią arytmetyczną.
 
-# Założenia programu
-- Program wykonywany w konsoli.
-- Język programowania C++
-- Program zawiera funkcję szyfrującą, która przyjmuje jako argument wprowadzony tekst.
-- Funkcja zwraca zaszyfrowany tekst.
-- W programie głównym występuje wczytanie tekstu z klawiatury po uprzednim wyświetleniu stosownego komunikatu
-dla użytkownika, a po zaszyfrowaniu wyświetlenie zaszyfrowanej jego wersji.
-- Program powinien być zapisany czytelnie, z zasadami czystego formatowania kodu, należy stosować znaczące nazwy
-zmiennych i funkcji.
-- Dokumentacja do programu powinna być wykonana zgodnie z wytycznymi z części ***Dokumentacja utworzonej aplikacji***
+Ćwiczenie utrwala:
 
-# Dokumentacja utworzonej aplikacji
-- Wykonaj dokumentację aplikacji. 
-- W kodzie źródłowym aplikacji szyfrującej utwórz nagłówek funkcji szyfrującej według wzoru. 
-- Nagłówek powinien znaleźć się w kodzie źródłowym nad funkcją. 
-- W miejscu nawiasów <> należy podać nazwę funkcji, nazwy parametrów oraz zwięzłe informacje (kilka słów) – zgodnie ze wzorcem. 
-- W miejscu autor należy podać Imię i Nazwisko
-```cpp
-/********************************************************
-* nazwa funkcji: <tu wstaw nazwę funkcji>
-*
-* parametry wejściowe: <nazwa parametru> - <co przechowuje parametr>
-* wartość zwracana: <co zwraca funkcja – opis>
-* opis funkcji: <zwięzły opis>
-*
-* autor: <Imię i nazwisko>
-* ****************************************************/
+- pętle zależne od warunku,
+- walidację danych wejściowych,
+- aktualizowanie wyniku częściowego,
+- pracę z typem `double`,
+- obsługę przypadku braku danych.
+
+## Zakres funkcjonalny
+
+Program powinien:
+
+- wczytywać kolejne liczby rzeczywiste,
+- pozwalać zakończyć wprowadzanie danych,
+- obliczyć minimum,
+- obliczyć maksimum,
+- obliczyć średnią arytmetyczną,
+- wyświetlić liczbę poprawnie wczytanych wartości,
+- obsłużyć sytuację, gdy użytkownik nie poda żadnej liczby.
+
+Zamiast wymagać obsługi klawisza `ESC`, można przyjąć prosty i przenośny
+wariant: użytkownik wpisuje `koniec`, `q` albo pustą linię, aby zakończyć
+wprowadzanie danych.
+
+## Przykład działania
+
+```text
+Podaj liczbe albo q, aby zakonczyc: 10
+Podaj liczbe albo q, aby zakonczyc: -2.5
+Podaj liczbe albo q, aby zakonczyc: 4.5
+Podaj liczbe albo q, aby zakonczyc: q
+
+Liczba wartosci: 3
+Minimum: -2.5
+Maksimum: 10
+Srednia: 4
 ```
-- Wykonaj zrzuty ekranu dokumentujące uruchomienie aplikacji. 
-- Zrzuty powinny obejmować cały obszar ekranu z widocznym paskiem zadań. 
-- Jeżeli aplikacja uruchamia się, na zrzucie należy umieścić okno z wynikiem działania programu oraz otwarte środowisko programistyczne z projektem pod spodem.
-- Jeżeli aplikacja nie uruchamia się z powodu błędów kompilacji, należy na zrzucie umieścić okno ze spisem błędów i widocznym otwartym środowiskiem programistycznym. 
-- Wymagane zrzuty ekranu:
-  - z aplikacji konsolowej => konsola.jpg
-- W edytorze tekstu pakietu biurowego utwórz plik z dokumentacją i nazwij go egzamin. 
-- Dokument powinien zawierać podpisane zrzuty ekranu oraz zapisane informacje:
-  - nazwę systemu operacyjnego,
-  - nazwy środowisk programistycznych,
-  - nazwy języków programowania użytych podczas tworzenia aplikacji,
-  ‒ opcjonalnie komentarz do wykonanej pracy.
-- Całą dokumentację umieść w podfolderze ***dokumentacja***.
 
-# Source 
-- https://www.youtube.com/watch?v=wccZgjs90S8
-- https://www.youtube.com/watch?v=qBI7Qnz9Zho
+## Wymagania techniczne
+
+Program powinien:
+
+- być napisany w C++17,
+- używać pętli `while` albo `do while`,
+- przechowywać sumę wartości w zmiennej typu `double`,
+- przechowywać licznik poprawnych wartości,
+- aktualizować minimum i maksimum po każdym poprawnym odczycie,
+- wykrywać błędne dane wejściowe,
+- nie dzielić przez zero, gdy nie podano żadnej liczby,
+- kompilować się z flagami `-Wall -Wextra -pedantic`.
+
+## Proponowany podział na funkcje
+
+W prostej wersji można użyć jednej funkcji pomocniczej do parsowania tekstu:
+
+```cpp
+bool tryParseDouble(const std::string& text, double& value);
+```
+
+W wersji rozszerzonej można dodać strukturę wyniku:
+
+```cpp
+struct Statistics {
+    double minimum;
+    double maximum;
+    double average;
+    int count;
+};
+```
+
+## Minimalny wariant zaliczeniowy
+
+Minimalna wersja ćwiczenia powinna zawierać:
+
+1. Wczytywanie wielu liczb od użytkownika.
+2. Komendę kończącą wprowadzanie danych.
+3. Obliczenie minimum.
+4. Obliczenie maksimum.
+5. Obliczenie średniej arytmetycznej.
+6. Obsługę przypadku pustej listy danych.
+7. Komunikat dla błędnej wartości wejściowej.
+8. Krótką instrukcję kompilacji i uruchomienia.
+
+## Rozszerzenia dla chętnych
+
+Możliwe rozszerzenia:
+
+- przechowywanie wszystkich liczb w `std::vector<double>`,
+- sortowanie wprowadzonych liczb,
+- obliczenie mediany,
+- obliczenie sumy,
+- obliczenie odchylenia standardowego,
+- wczytanie liczb z pliku,
+- zapis raportu do pliku,
+- testy automatyczne funkcji liczącej statystyki.
+
+## Kryteria oceny
+
+Ćwiczenie jest zaliczone, jeśli:
+
+- program kompiluje się bez błędów i ostrzeżeń,
+- poprawnie liczy minimum,
+- poprawnie liczy maksimum,
+- poprawnie liczy średnią,
+- poprawnie działa dla liczb ujemnych,
+- poprawnie działa dla jednej liczby,
+- nie wykonuje dzielenia przez zero,
+- informuje użytkownika o błędnym wejściu,
+- kod jest czytelnie sformatowany.
+
+## Scenariusze sprawdzenia
+
+1. Wpisz liczby `10`, `-2.5`, `4.5` i sprawdź wynik:
+   - minimum: `-2.5`,
+   - maksimum: `10`,
+   - średnia: `4`.
+2. Wpisz tylko jedną liczbę i sprawdź, czy minimum, maksimum i średnia są takie
+   same.
+3. Zakończ wprowadzanie bez podania liczby i sprawdź komunikat programu.
+4. Wpisz błędną wartość, np. `abc`, i sprawdź, czy program prosi o kolejną
+   wartość zamiast kończyć działanie.
+5. Wpisz kilka liczb ujemnych i sprawdź poprawność minimum oraz maksimum.
+
+## Źródło pierwotne
+
+Zadanie pochodziło ze starszego materiału egzaminacyjnego i zostało
+uporządkowane do formatu ćwiczenia repozytorium.
