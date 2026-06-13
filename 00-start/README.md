@@ -26,8 +26,7 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Status porządkowania
 
-Lekcje w tym segmencie są jeszcze w formie krótkich notatek źródłowych.
-Docelowo powinny zostać rozbudowane do wspólnego formatu:
+Lekcje w tym segmencie są uporządkowane w docelowym formacie:
 
 1. Cel lekcji.
 2. Wymagania wstępne.
@@ -43,5 +42,5 @@ w edytorze i zapisać zmiany w repozytorium.
 
 ## Kolejny krok porządkowania
 
-Najpierw warto rozbudować [kompilator.md](kompilator.md), ponieważ od tej
-lekcji zależy dalsza praca z przykładami C++.
+Po tym segmencie warto przejść do [01-podstawy](../01-podstawy/README.md)
+i ujednolicić pierwsze lekcje z podstaw języka.

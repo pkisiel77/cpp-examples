@@ -1,35 +1,168 @@
-## Lesson 1: Introduction to CMake
+# CMake - pierwsze wprowadzenie
 
-- What is CMake?
-- Advantages of using CMake
-- CMake architecture and components
-- Setting up CMake on your system
+## Cel lekcji
 
-## Lesson 2: CMake Project Structure
+Celem lekcji jest zrozumienie, po co używa się CMake i jak wygląda minimalny
+plik `CMakeLists.txt` dla prostego programu C++. Po tej lekcji student powinien
+umieć odróżnić ręczną kompilację pojedynczego pliku od budowania projektu.
 
-- Basic structure of a CMake project
-- Creating CMakeLists.txt files
-- Defining source files and targets
-- Creating libraries and executables
+## Wymagania wstępne
 
-## Lesson 3: CMake Variables and Functions
+Przed lekcją student powinien:
 
-- Using variables in CMake
-- Defining and using functions
-- Conditionals and control structures
-- Predefined CMake variables
+- umieć skompilować pojedynczy plik `.cpp`,
+- znać podstawowe pojęcie katalogu projektu,
+- umieć uruchomić polecenie w terminalu.
 
-## Lesson 4: Advanced CMake Concepts
+## Krótka teoria
 
-- Working with dependencies and external libraries
-- Building multiple configurations and platforms
-- Generating documentation and code from CMake
-- Cross-compiling with CMake
+CMake nie jest kompilatorem. CMake jest narzędziem, które generuje konfigurację
+budowania projektu dla właściwego kompilatora i systemu build.
 
-## Lesson 5: Best Practices and Tips
+Ręczna kompilacja jest wygodna dla jednego pliku:
 
-- Tips for organizing CMake projects
-- CMake best practices
-- Debugging CMake issues
-- Common mistakes and how to avoid them
+```bash
+g++ main.cpp -o app
+```
 
+Przy większym projekcie pojawiają się dodatkowe problemy:
+
+- wiele plików `.cpp`,
+- katalogi z nagłówkami,
+- biblioteki,
+- testy,
+- różne systemy operacyjne,
+- różne kompilatory.
+
+CMake pomaga opisać projekt w jednym miejscu.
+
+## Minimalny projekt
+
+Przykładowa struktura:
+
+```text
+hello-cmake/
+  CMakeLists.txt
+  main.cpp
+```
+
+Plik `main.cpp`:
+
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello from CMake\n";
+    return 0;
+}
+```
+
+Plik `CMakeLists.txt`:
+
+```cmake
+cmake_minimum_required(VERSION 3.16)
+
+project(hello_cmake LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(hello main.cpp)
+```
+
+## Budowanie projektu
+
+W katalogu projektu uruchom:
+
+```bash
+cmake -S . -B build
+```
+
+Następnie:
+
+```bash
+cmake --build build
+```
+
+Uruchomienie programu zależy od systemu i generatora. Na Linuxie albo macOS
+często będzie to:
+
+```bash
+./build/hello
+```
+
+Na Windows plik wykonywalny może znaleźć się głębiej w katalogu `build`,
+zależnie od użytego generatora.
+
+## Znaczenie poleceń
+
+```bash
+cmake -S . -B build
+```
+
+oznacza:
+
+- `-S .` - katalog ze źródłami znajduje się tutaj,
+- `-B build` - pliki budowania mają powstać w katalogu `build`.
+
+```bash
+cmake --build build
+```
+
+oznacza:
+
+- zbuduj projekt używając konfiguracji zapisanej w katalogu `build`.
+
+## Typowe problemy
+
+### CMake nie jest kompilatorem
+
+Jeśli kompilator nie jest zainstalowany, CMake nie rozwiąże tego problemu.
+Najpierw sprawdź:
+
+```bash
+g++ --version
+```
+
+albo:
+
+```bash
+clang++ --version
+```
+
+### Literówka w nazwie pliku
+
+Jeśli w `CMakeLists.txt` wpiszesz `main.cpp`, a plik nazywa się inaczej,
+budowanie zakończy się błędem.
+
+### Mieszanie plików źródłowych i build
+
+Katalog `build/` powinien zawierać pliki generowane. Nie należy ręcznie
+edytować większości plików w tym katalogu.
+
+## Zadania do wykonania
+
+1. Sprawdź wersję CMake:
+
+```bash
+cmake --version
+```
+
+2. Utwórz katalog `hello-cmake`.
+3. Dodaj pliki `main.cpp` i `CMakeLists.txt`.
+4. Wygeneruj katalog budowania poleceniem `cmake -S . -B build`.
+5. Zbuduj projekt poleceniem `cmake --build build`.
+6. Uruchom powstały program.
+7. Zmień tekst wypisywany przez program i zbuduj projekt ponownie.
+
+## Kryteria zaliczenia
+
+Lekcja jest zaliczona, jeśli student potrafi:
+
+- wyjaśnić, że CMake nie jest kompilatorem,
+- napisać minimalny `CMakeLists.txt`,
+- wygenerować katalog `build`,
+- zbudować projekt poleceniem `cmake --build`,
+- uruchomić powstały program,
+- wskazać, po co oddziela się katalog źródeł od katalogu `build`.
