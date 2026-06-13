@@ -21,15 +21,16 @@ Repozytorium jest uporządkowane jako kurs C++ podzielony na segmenty nauki. Ka�
 W każdym segmencie materiały są uporządkowane według schematu:
 
 - `README.md` - cel segmentu i sugerowana kolejność.
-- pliki lekcyjne - teoria, przykłady i linki.
-- pliki `zadania-*` albo `lab-*` - ćwiczenia do wykonania.
-- pliki pomocnicze albo przykłady `.cpp`, jeśli występują.
+- pliki lekcyjne - cel lekcji, wymagania wstępne, teoria, przykłady, zadania i kryteria zaliczenia.
+- plik zadań segmentu - zestaw ćwiczeń od podstawowych do projektowych.
+- `examples/` - kompilowalne przykłady `.cpp`, jeśli segment ich używa.
+- `archive/` - pierwotne wersje materiałów zachowane do wglądu.
 
 ## Materiały pomocnicze
 
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
 
-## Dalsze porządkowanie
+## Status porządkowania
 
-Następny sensowny krok to ujednolicenie formatu pojedynczych lekcji: cel, teoria, przykład, zadania podstawowe, zadania dodatkowe, kryteria zaliczenia.
+Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały przygotowywane są po polsku. Kolejne prace powinny dotyczyć już jakości merytorycznej: rozbudowy przykładów, dodawania testów do większych zadań i przenoszenia wybranych materiałów z archiwów do lekcji.
