@@ -67,8 +67,8 @@ Uporządkowane materiały pomocnicze:
 ## Dodatkowe zadania źródłowe
 
 Katalog [tnt-tasks](tnt-tasks) zawiera uporządkowane zadania pomocnicze, które
-można wykorzystać jako ćwiczenia, warianty projektów albo źródła do dalszego
-przenoszenia do wcześniejszych segmentów.
+posłużyły jako źródło nowych ćwiczeń i projektu bankomatu. Aktualną mapę decyzji
+zawiera [mapa przeniesienia zadań TNT](tnt-tasks/plan-przenoszenia.md).
 
 ## Docelowy format opisu projektu
 
@@ -149,5 +149,5 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - [plan-pracy-nad-projektem.md](plan-pracy-nad-projektem.md) - harmonogram pracy od pierwszej wersji do pokazu.
 - [checklista-projektu.md](checklista-projektu.md) - lista kontroli przed oddaniem i pokazem projektu.
 - [karta-oceny-projektu.md](karta-oceny-projektu.md) - karta odbioru, punktacji i poprawek.
-- `tnt-tasks/` - starsze zadania źródłowe do dalszego uporządkowania.
+- `tnt-tasks/` - starsze zadania źródłowe z mapą ich docelowego użycia.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych opisów.

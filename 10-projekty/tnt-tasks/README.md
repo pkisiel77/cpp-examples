@@ -1,14 +1,14 @@
 # Zadania pomocnicze TNT
 
 Ten katalog zawiera starsze opisy zadań źródłowych. Nie są jeszcze częścią
-głównej listy projektów, ale mogą być wykorzystane jako ćwiczenia, warianty
-projektów albo materiał do archiwizacji.
+głównej ścieżki lekcji, ale mają już wskazane wersje docelowe w segmentach
+kursu albo na głównej liście projektów.
 
 Pliki w tym katalogu zostały oczyszczone ze starego szablonu egzaminacyjnego
 i dopasowane do aktualnego formatu repozytorium.
 
-Decyzje dotyczące dalszego przenoszenia opisuje
-[plan przenoszenia zadań TNT](plan-przenoszenia.md).
+Decyzje dotyczące ich docelowego użycia opisuje
+[mapa przeniesienia zadań TNT](plan-przenoszenia.md).
 
 ## Klasyfikacja
 
@@ -34,7 +34,7 @@ Decyzje dotyczące dalszego przenoszenia opisuje
   wersja docelowa jest w
   [głównej liście projektów](../project-12-symulator-bankomatu.md).
 
-## Możliwe dalsze użycie
+## Status docelowy
 
 - `encryption-1.md` ma już wersję docelową w segmencie funkcji, tablic i napisów.
 - `min-max-avg.md` ma już wersję docelową w segmencie sterowania i pętli.
@@ -43,12 +43,13 @@ Decyzje dotyczące dalszego przenoszenia opisuje
   [Projektu 08 - Kalkulator](../project-08-kalkulator.md).
 - `atm.md` ma już wersję docelową jako osobny projekt główny.
 
-Szczegółowa kolejność pracy, priorytety i docelowe formaty są opisane w
-[planie przenoszenia](plan-przenoszenia.md).
+Szczegółowa mapa decyzji i docelowe formaty są opisane w
+[mapie przeniesienia](plan-przenoszenia.md).
 
-## Docelowy format po przeniesieniu
+## Docelowy format
 
-Jeśli zadanie zostanie przeniesione do głównych materiałów, powinno mieć:
+Jeśli w przyszłości pojawi się kolejne starsze zadanie, po przeniesieniu do
+głównych materiałów powinno mieć:
 
 - cel ćwiczenia albo projektu,
 - zakres funkcjonalny,

@@ -1,8 +1,8 @@
-# Plan przenoszenia zadań TNT
+# Mapa przeniesienia zadań TNT
 
-Ten dokument określa, co zrobić ze starszymi zadaniami z katalogu `tnt-tasks`.
-Nie każde zadanie musi trafić do głównej listy projektów. Część z nich lepiej
-działa jako krótkie ćwiczenia w segmentach wcześniejszych.
+Ten dokument pokazuje, co stało się ze starszymi zadaniami z katalogu
+`tnt-tasks`. Każde zadanie z bieżącej listy ma już wersję docelową albo decyzję
+o sposobie użycia.
 
 ## Zasady decyzji
 
@@ -31,7 +31,7 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 | `calculator.md` | `08-projekt-build-testy` | wykonane | wersja docelowa: `09-cwiczenie-kalkulator-rpn.md` |
 | `atm.md` | `10-projekty` | wykonane | wersja docelowa: `project-12-symulator-bankomatu.md` |
 
-## Kolejność pracy
+## Status pracy
 
 Wszystkie zadania z bieżącej listy TNT mają już decyzję docelową.
 
