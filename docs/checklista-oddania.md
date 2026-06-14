@@ -40,10 +40,20 @@ Użyj tej listy przed oddaniem pracy albo podczas sprawdzania rozwiązania.
 - [ ] `README.md` zawiera scenariusze sprawdzenia.
 - [ ] Przy projekcie opisano ograniczenia albo pomysły na dalszy rozwój.
 
+## Ćwiczenia pomostowe
+
+- [ ] Rozwiązanie obejmuje pełny wariant podstawowy z opisu ćwiczenia.
+- [ ] Student uruchomił scenariusze sprawdzenia z pliku ćwiczenia.
+- [ ] Program pokazuje połączenie kilku tematów, np. pętli z walidacją albo klas z polimorfizmem.
+- [ ] Przy większym ćwiczeniu kod jest podzielony na funkcje, klasy albo pliki zgodnie z treścią zadania.
+- [ ] Student potrafi wskazać, co byłoby następnym rozszerzeniem.
+
 ## Projekty zaliczeniowe
 
 - [ ] Wariant minimum działa stabilnie.
 - [ ] Rozszerzenia są opisane osobno od wariantu minimum.
 - [ ] Rozszerzenia nie psują podstawowych funkcji.
+- [ ] Projekt przeszedł [checklistę projektu](../10-projekty/checklista-projektu.md).
 - [ ] Projekt można ocenić według rubryki z [10-projekty](../10-projekty/README.md).
+- [ ] Przy odbiorze można wypełnić [kartę oceny projektu](../10-projekty/karta-oceny-projektu.md).
 - [ ] Student potrafi pokazać przypadek poprawny, graniczny i błędny.
