@@ -7,6 +7,9 @@ projektów albo materiał do archiwizacji.
 Pliki w tym katalogu zostały oczyszczone ze starego szablonu egzaminacyjnego
 i dopasowane do aktualnego formatu repozytorium.
 
+Decyzje dotyczące dalszego przenoszenia opisuje
+[plan przenoszenia zadań TNT](plan-przenoszenia.md).
+
 ## Klasyfikacja
 
 ### Ćwiczenia
@@ -33,6 +36,9 @@ i dopasowane do aktualnego formatu repozytorium.
   [Projekt 08 - Kalkulator](../project-08-kalkulator.md).
 - `atm.md` można zostawić jako projekt pomocniczy albo rozwinąć do osobnego
   głównego projektu.
+
+Szczegółowa kolejność pracy, priorytety i docelowe formaty są opisane w
+[planie przenoszenia](plan-przenoszenia.md).
 
 ## Docelowy format po przeniesieniu
 
