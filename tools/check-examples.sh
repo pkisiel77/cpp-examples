@@ -8,6 +8,9 @@ BUILD_DIR=${BUILD_DIR:-/tmp/cpp-examples-build}
 
 mkdir -p "$BUILD_DIR"
 
+echo "check markdown links"
+python3 tools/check-links.py
+
 compile_one() {
     src=$1
     name=$(printf '%s' "$src" | sed 's#^\./##; s#[/.]#_#g')

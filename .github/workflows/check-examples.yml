@@ -12,5 +12,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check C++ examples
+      - name: Check examples and links
         run: BUILD_DIR=/tmp/cpp-examples-build sh tools/check-examples.sh
