@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 pkisiel
+Copyright (c) 2020-2026 Piotr Kisiel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,38 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+For this repository, the license is intended to cover source code, code
+examples, documentation, teaching materials, and ebook source files.
+
+---
+
+Licencja MIT
+
+Copyright (c) 2020-2026 Piotr Kisiel
+
+Niniejsze polskie tłumaczenie ma charakter pomocniczy. W razie wątpliwości
+wiążąca jest angielska wersja licencji powyżej.
+
+Niniejszym udziela się bezpłatnie każdej osobie, która otrzyma kopię tego
+oprogramowania i powiązanych plików dokumentacji ("Oprogramowanie"),
+pozwolenia na korzystanie z Oprogramowania bez ograniczeń, w tym bez ograniczeń
+prawa do używania, kopiowania, modyfikowania, łączenia, publikowania,
+rozpowszechniania, udzielania sublicencji i/lub sprzedaży kopii
+Oprogramowania, a także zezwalania osobom, którym Oprogramowanie zostało
+dostarczone, na takie działania, pod następującymi warunkami:
+
+Powyższa informacja o prawach autorskich oraz niniejsza informacja o
+pozwoleniu muszą zostać dołączone do wszystkich kopii lub istotnych części
+Oprogramowania.
+
+OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI,
+WYRAŹNEJ LUB DOROZUMIANEJ, W TYM MIĘDZY INNYMI BEZ GWARANCJI PRZYDATNOŚCI
+HANDLOWEJ, PRZYDATNOŚCI DO OKREŚLONEGO CELU ORAZ NIENARUSZANIA PRAW. W ŻADNYM
+WYPADKU AUTORZY ANI POSIADACZE PRAW AUTORSKICH NIE PONOSZĄ ODPOWIEDZIALNOŚCI
+ZA JAKIEKOLWIEK ROSZCZENIA, SZKODY LUB INNĄ ODPOWIEDZIALNOŚĆ, CZY TO W RAMACH
+UMOWY, DELIKTU CZY W INNY SPOSÓB, WYNIKAJĄCĄ Z OPROGRAMOWANIA, JEGO UŻYWANIA
+LUB INNYCH DZIAŁAŃ ZWIĄZANYCH Z OPROGRAMOWANIEM.
+
+W tym repozytorium licencja ma obejmować kod źródłowy, przykłady kodu,
+dokumentację, materiały dydaktyczne oraz źródła ebooka.
