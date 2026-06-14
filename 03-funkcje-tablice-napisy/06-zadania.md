@@ -270,6 +270,9 @@ Scenariusze sprawdzenia:
 - `anna` - palindrom,
 - `program` - nie jest palindromem.
 
+Większe ćwiczenie z funkcji i przetwarzania znaków znajduje się w pliku
+[07-cwiczenie-szyfr-gaderypoluki.md](07-cwiczenie-szyfr-gaderypoluki.md).
+
 ## Poziom 5 - Zadania dodatkowe
 
 ### Zadanie 21. Kółko i krzyżyk - plansza

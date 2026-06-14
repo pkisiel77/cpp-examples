@@ -23,6 +23,7 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-tablice-dwuwymiarowe.md](04-tablice-dwuwymiarowe.md) - macierze i proste operacje na siatkach danych.
 5. [05-napisy.md](05-napisy.md) - `std::string`, długość, znaki, proste przetwarzanie tekstu.
 6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
+7. [07-cwiczenie-szyfr-gaderypoluki.md](07-cwiczenie-szyfr-gaderypoluki.md) - większe ćwiczenie z funkcji i przetwarzania napisów.
 
 ## Status porządkowania
 

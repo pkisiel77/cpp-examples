@@ -26,17 +26,16 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 | Plik | Docelowe użycie | Priorytet | Decyzja |
 | --- | --- | --- | --- |
 | `min-max-avg.md` | `02-sterowanie-i-petle` | wykonane | wersja docelowa: `07-cwiczenie-min-max-srednia.md` |
-| `encryption-1.md` | `03-funkcje-tablice-napisy/tasks` | wysoki | przenieść jako ćwiczenie z napisów i funkcji |
+| `encryption-1.md` | `03-funkcje-tablice-napisy` | wykonane | wersja docelowa: `07-cwiczenie-szyfr-gaderypoluki.md` |
 | `sfml-t1.md` | `06-oop/tasks` | średni | przenieść część bez SFML jako ćwiczenie OOP |
 | `calculator.md` | `08-projekt-build-testy` albo `10-projekty` | średni | zostawić jako pomost do projektu kalkulatora |
 | `atm.md` | `10-projekty` | niski | rozważyć jako nowy projekt główny po doprecyzowaniu |
 
 ## Kolejność pracy
 
-1. Przenieś `encryption-1.md` do segmentu funkcji i napisów.
-2. Wydziel z `sfml-t1.md` wersję bez biblioteki SFML i przenieś ją do OOP.
-3. Porównaj `calculator.md` z głównym projektem kalkulatora.
-4. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
+1. Wydziel z `sfml-t1.md` wersję bez biblioteki SFML i przenieś ją do OOP.
+2. Porównaj `calculator.md` z głównym projektem kalkulatora.
+3. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
 
 ## Format po przeniesieniu ćwiczenia
 
@@ -78,8 +77,10 @@ segmentu pętli, walidacji wejścia i obliczania wyniku częściowego.
 
 ### `encryption-1.md`
 
-Najlepiej pasuje do napisów i funkcji. Dobrze sprawdza rozdzielenie logiki
-szyfrowania od wejścia i wyjścia.
+Wersja docelowa znajduje się w
+`03-funkcje-tablice-napisy/07-cwiczenie-szyfr-gaderypoluki.md`. Ćwiczenie trafiło
+do segmentu napisów i funkcji. Dobrze sprawdza rozdzielenie logiki szyfrowania
+od wejścia i wyjścia.
 
 ### `sfml-t1.md`
 
