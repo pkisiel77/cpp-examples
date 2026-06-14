@@ -1,10 +1,17 @@
 ---
 title: "Kurs C++"
 subtitle: "Materiały dla studentów"
+author: "pkisiel@gmail.com"
+date: "Kraków, 14 czerwca 2026"
+version: "0.1.0"
 lang: pl-PL
 ---
 
 # Wstęp
+
+- Autor: `pkisiel@gmail.com`
+- Miejsce i data: Kraków, 14 czerwca 2026
+- Wersja: `0.1.0`
 
 Ten ebook powstaje na podstawie repozytorium z materiałami do nauki C++.
 Materiał jest ułożony w segmenty: od przygotowania środowiska, przez podstawy
