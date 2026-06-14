@@ -22,6 +22,7 @@ Dla osób, które chcą użyć kilku klas, kontenerów STL i zapisu do pliku:
 - [Projekt 02 - Kolejkowanie zamówień](project-02-kolejkowanie-zamowien.md),
 - [Projekt 07 - Baza danych pojazdów](project-07-baza-pojazdow.md),
 - [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md),
+- [Projekt 12 - Symulator bankomatu](project-12-symulator-bankomatu.md),
 - [Projekt 09 - Kalkulator macierzy](project-09-kalkulator-macierzy.md).
 
 ### Poziom rozszerzony
@@ -40,6 +41,7 @@ więcej przypadków brzegowych:
 | Pliki tekstowe i walidację | Logger, Parser CSV, System zadań |
 | Klasy i enkapsulację | Baza pojazdów, System zadań, Kalkulator macierzy |
 | STL i kolejki | Kolejkowanie zamówień, System zadań |
+| Stan użytkownika i walidację | Symulator bankomatu, System zadań |
 | Algorytmy i parsowanie | Kalkulator, Parser CSV |
 | Pętlę gry i stan planszy | Kółko i krzyżyk, Snake, Tetris, Pac-Man |
 | Testy i strukturę projektu | Każdy projekt, szczególnie Logger albo Kalkulator |

@@ -29,11 +29,11 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 | `encryption-1.md` | `03-funkcje-tablice-napisy` | wykonane | wersja docelowa: `07-cwiczenie-szyfr-gaderypoluki.md` |
 | `sfml-t1.md` | `06-oop` | wykonane | wersja docelowa: `08-cwiczenie-figury-polimorfizm.md` |
 | `calculator.md` | `08-projekt-build-testy` | wykonane | wersja docelowa: `09-cwiczenie-kalkulator-rpn.md` |
-| `atm.md` | `10-projekty` | niski | rozważyć jako nowy projekt główny po doprecyzowaniu |
+| `atm.md` | `10-projekty` | wykonane | wersja docelowa: `project-12-symulator-bankomatu.md` |
 
 ## Kolejność pracy
 
-1. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
+Wszystkie zadania z bieżącej listy TNT mają już decyzję docelową.
 
 ## Format po przeniesieniu ćwiczenia
 
@@ -96,6 +96,7 @@ dubluje pełnego projektu kalkulatora z `10-projekty`.
 
 ### `atm.md`
 
-Temat nadaje się na projekt główny, ale wymaga pilnowania zakresu. Wariant
-minimum powinien obejmować jedno konto testowe, logowanie PIN-em, saldo, wpłatę,
-wypłatę i historię operacji.
+Wersja docelowa znajduje się w
+`10-projekty/project-12-symulator-bankomatu.md`. Temat został awansowany do
+projektu głównego. Wariant minimum obejmuje jedno konto testowe, logowanie
+PIN-em, saldo, wpłatę, wypłatę i historię operacji.

@@ -34,6 +34,7 @@ projekt do poziomu trudności, czasu i materiału, który chcesz przećwiczyć.
 - [Projekt 02 - Kolejkowanie zamówień](project-02-kolejkowanie-zamowien.md)
 - [Projekt 07 - Baza danych pojazdów](project-07-baza-pojazdow.md)
 - [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md)
+- [Projekt 12 - Symulator bankomatu](project-12-symulator-bankomatu.md)
 
 ### Gry
 
@@ -56,7 +57,8 @@ Opisy w docelowym formacie:
 - `project-08-kalkulator.md`,
 - `project-09-kalkulator-macierzy.md`,
 - `project-10-system-zadan.md`,
-- `project-11-parser-csv.md`.
+- `project-11-parser-csv.md`,
+- `project-12-symulator-bankomatu.md`.
 
 Uporządkowane materiały pomocnicze:
 

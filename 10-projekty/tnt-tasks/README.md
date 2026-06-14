@@ -30,7 +30,9 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 ### Projekt pomocniczy
 
 - [atm.md](atm.md) - symulacja bankomatu. Ten temat można rozwinąć jako projekt
-  konsolowy z kontami, PIN-em, saldem, wpłatą, wypłatą i historią operacji.
+  konsolowy z kontami, PIN-em, saldem, wpłatą, wypłatą i historią operacji;
+  wersja docelowa jest w
+  [głównej liście projektów](../project-12-symulator-bankomatu.md).
 
 ## Możliwe dalsze użycie
 
@@ -39,8 +41,7 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 - `sfml-t1.md` ma już wersję docelową w segmencie OOP.
 - `calculator.md` ma już wersję docelową jako ćwiczenie przygotowujące do
   [Projektu 08 - Kalkulator](../project-08-kalkulator.md).
-- `atm.md` można zostawić jako projekt pomocniczy albo rozwinąć do osobnego
-  głównego projektu.
+- `atm.md` ma już wersję docelową jako osobny projekt główny.
 
 Szczegółowa kolejność pracy, priorytety i docelowe formaty są opisane w
 [planie przenoszenia](plan-przenoszenia.md).
