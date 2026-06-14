@@ -40,6 +40,16 @@ funkcji bez pełnego skryptu repozytorium.
 Więcej informacji o lokalnej walidacji repozytorium znajdziesz w dokumencie
 [walidacja repozytorium](walidacja-repo.md).
 
+## Ćwiczenia pomostowe
+
+Po zadaniach z segmentu warto wykonać większe ćwiczenie pomostowe, jeśli chcesz
+połączyć kilka tematów przed projektem:
+
+- [minimum, maksimum i średnia](../02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md),
+- [szyfr GADERYPOLUKI](../03-funkcje-tablice-napisy/07-cwiczenie-szyfr-gaderypoluki.md),
+- [figury i polimorfizm](../06-oop/08-cwiczenie-figury-polimorfizm.md),
+- [kalkulator RPN](../08-projekt-build-testy/09-cwiczenie-kalkulator-rpn.md).
+
 ## Jak oddawać zadania
 
 Dla każdego zadania przygotuj:
@@ -72,6 +82,11 @@ Unikaj:
 
 Przy projektach z [10-projekty](../10-projekty/README.md) najpierw zrób wariant
 minimum. Dopiero gdy działa stabilnie, dodawaj rozszerzenia.
+
+Jeśli nie wiesz, który temat wybrać, zacznij od
+[przewodnika wyboru projektu](../10-projekty/jak-wybrac-projekt.md). Jednym z
+tematów systemowych jest
+[symulator bankomatu](../10-projekty/project-12-symulator-bankomatu.md).
 
 Przed oddaniem projektu przejdź przez
 [checklistę projektu](../10-projekty/checklista-projektu.md). Jest bardziej

@@ -37,6 +37,10 @@ Zadania z poziomów podstawowych traktuj jako obowiązkowe. Zadania dodatkowe,
 rozszerzenia i projekty wariantu rozszerzonego powinny być używane dla osób,
 które kończą pracę wcześniej albo potrzebują większego wyzwania.
 
+Ćwiczenia pomostowe warto traktować jako materiał między krótkimi zadaniami a
+projektem: `02/07` dla pętli i walidacji, `03/07` dla funkcji i napisów,
+`06/08` dla polimorfizmu oraz `08/09` dla projektu wieloplikowego z testami.
+
 Praktyczna zasada:
 
 - minimum - student wykonuje zadania podstawowe i umie wyjaśnić własny kod,
@@ -86,3 +90,8 @@ Przy projektach zaliczeniowych poproś studentów o:
 Nie oceniaj rozszerzeń, jeśli wersja minimalna nie jest stabilna.
 Na pokazie projektu warto poprosić studenta o przejście przez przypadek
 poprawny, graniczny i błędny z checklisty projektu.
+
+Po migracji zadań TNT główna lista projektów zawiera też
+[Projekt 12 - Symulator bankomatu](../10-projekty/project-12-symulator-bankomatu.md),
+który dobrze sprawdza klasy, stan użytkownika, PIN, walidację kwot i historię
+operacji.

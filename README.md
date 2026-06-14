@@ -40,6 +40,16 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [_assets](./_assets) - media i pliki pomocnicze.
 - [_archive](./_archive) - luźne notatki, linki i stare materiały, które nie są częścią głównej ścieżki.
 
+## Ćwiczenia pomostowe
+
+Po wybranych segmentach dostępne są większe ćwiczenia, które łączą kilka lekcji
+i przygotowują do pracy projektowej:
+
+- [minimum, maksimum i średnia](02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md) - pętle, walidacja i wynik częściowy,
+- [szyfr GADERYPOLUKI](03-funkcje-tablice-napisy/07-cwiczenie-szyfr-gaderypoluki.md) - funkcje i przetwarzanie napisów,
+- [figury i polimorfizm](06-oop/08-cwiczenie-figury-polimorfizm.md) - dziedziczenie, klasa abstrakcyjna i polimorfizm,
+- [kalkulator RPN](08-projekt-build-testy/09-cwiczenie-kalkulator-rpn.md) - projekt wieloplikowy, build i testy.
+
 ## Sprawdzanie przykładów
 
 Przykłady z głównej ścieżki można skompilować zbiorczo:
@@ -56,4 +66,7 @@ Szczegóły użycia i interpretacji wyników są opisane w
 
 ## Status porządkowania
 
-Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały przygotowywane są po polsku. Kolejne prace powinny dotyczyć już jakości merytorycznej: rozbudowy przykładów, dodawania testów do większych zadań i przenoszenia wybranych materiałów z archiwów do lekcji.
+Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały
+przygotowywane są po polsku. Zadania TNT mają już mapę docelowego użycia:
+część została przeniesiona do ćwiczeń pomostowych, a symulator bankomatu trafił
+do głównej listy projektów.
