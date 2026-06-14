@@ -1,7 +1,7 @@
 ---
 title: "Kurs C++"
 subtitle: "Materiały dla studentów"
-author: "pkisiel@gmail.com"
+author: "Paweł Kisielewicz <pkisiel@gmail.com>"
 date: "Kraków, 14 czerwca 2026"
 version: "0.1.0"
 lang: pl-PL
@@ -9,7 +9,7 @@ lang: pl-PL
 
 # Wstęp
 
-- Autor: `pkisiel@gmail.com`
+- Autor: Paweł Kisielewicz `<pkisiel@gmail.com>`
 - Miejsce i data: Kraków, 14 czerwca 2026
 - Wersja: `0.1.0`
 
