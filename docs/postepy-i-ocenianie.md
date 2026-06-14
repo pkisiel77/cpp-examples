@@ -17,6 +17,23 @@ mini-sprawdzianów i projektu.
 | Po `08-projekt-build-testy` | projekt, build, testy | Student buduje projekt wieloplikowy i potrafi uruchomić testy lub scenariusze sprawdzenia. |
 | Po `10-projekty` | projekt zaliczeniowy | Student prezentuje działający wariant minimum i dokumentację. |
 
+## Ćwiczenia pomostowe
+
+Ćwiczenia pomostowe można oceniać jako większe zadania praktyczne między
+mini-sprawdzianem a projektem. Dobrze nadają się do sprawdzenia, czy student
+łączy kilka tematów w jednym programie.
+
+| Ćwiczenie | Co sprawdza | Kiedy użyć |
+| --- | --- | --- |
+| [minimum, maksimum i średnia](../02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md) | pętle, walidację, przypadek pustych danych | po `02-sterowanie-i-petle` |
+| [szyfr GADERYPOLUKI](../03-funkcje-tablice-napisy/07-cwiczenie-szyfr-gaderypoluki.md) | funkcje, napisy, rozdzielenie logiki od wejścia/wyjścia | po `03-funkcje-tablice-napisy` |
+| [figury i polimorfizm](../06-oop/08-cwiczenie-figury-polimorfizm.md) | klasę abstrakcyjną, dziedziczenie, polimorfizm | po dziedziczeniu w `06-oop` |
+| [kalkulator RPN](../08-projekt-build-testy/09-cwiczenie-kalkulator-rpn.md) | projekt wieloplikowy, build, testy, tokenizację | po `08-projekt-build-testy` |
+
+Przy ocenie ćwiczenia pomostowego wymagaj kompilacji, scenariuszy sprawdzenia
+i krótkiego wyjaśnienia decyzji projektowych. Nie musi mieć pełnej rubryki
+projektu zaliczeniowego.
+
 ## Poziomy osiągnięć
 
 ### Poziom podstawowy
@@ -54,7 +71,7 @@ Student:
 | Element | Waga | Uwagi |
 | --- | ---: | --- |
 | Zadania bieżące | 35% | Krótkie zadania z lekcji i segmentów. |
-| Mini-sprawdziany | 20% | Samodzielne programy kontrolne po segmentach. |
+| Mini-sprawdziany lub ćwiczenia pomostowe | 20% | Samodzielne programy kontrolne po segmentach albo większe ćwiczenia praktyczne. |
 | Aktywność techniczna | 10% | Kompilacja, czytanie błędów, praca z Git, poprawki. |
 | Projekt zaliczeniowy | 35% | Wariant minimum, jakość kodu, dokumentacja i prezentacja. |
 
@@ -92,3 +109,4 @@ je jako materiał do rozmowy i poprawki, a nie jako pełne zaliczenie.
 - [Plan semestru](plan-semestru.md) - kiedy robić punkty kontrolne.
 - [Checklista oddania](checklista-oddania.md) - co sprawdzić przed przyjęciem pracy.
 - [Rubryka projektów](../10-projekty/README.md) - jak oceniać projekty zaliczeniowe.
+- [Karta oceny projektu](../10-projekty/karta-oceny-projektu.md) - gotowy arkusz do odbioru projektu.
