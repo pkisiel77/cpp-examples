@@ -103,6 +103,8 @@ techniczne, dokumentacyjne i demonstracyjne w jednym miejscu.
 W trakcie pracy warto korzystać też z
 [planu pracy nad projektem](plan-pracy-nad-projektem.md), który rozbija projekt
 na małe etapy: start, model danych, wariant minimum, testy, dokumentację i pokaz.
+Do odbioru i wpisania punktacji służy
+[karta oceny projektu](karta-oceny-projektu.md).
 
 ## Wariant minimum i rozszerzenie
 
@@ -144,5 +146,6 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 - [jak-wybrac-projekt.md](jak-wybrac-projekt.md) - przewodnik wyboru tematu i pierwszego planu pracy.
 - [plan-pracy-nad-projektem.md](plan-pracy-nad-projektem.md) - harmonogram pracy od pierwszej wersji do pokazu.
 - [checklista-projektu.md](checklista-projektu.md) - lista kontroli przed oddaniem i pokazem projektu.
+- [karta-oceny-projektu.md](karta-oceny-projektu.md) - karta odbioru, punktacji i poprawek.
 - `tnt-tasks/` - starsze zadania źródłowe do dalszego uporządkowania.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych opisów.
