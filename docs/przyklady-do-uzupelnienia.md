@@ -1,6 +1,6 @@
 # Przykłady do uzupełnienia
 
-Ten dokument porządkuje przegląd przykładów `.cpp` w segmentach `01`-`09`.
+Ten dokument porządkuje przegląd przykładów `.cpp` w segmentach `01`-`10`.
 Nie każdy temat wymaga osobnego przykładu. Priorytet mają miejsca, w których
 krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 
@@ -17,6 +17,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | `07-stl-struktury-danych` | 11 | dobre |
 | `08-projekt-build-testy` | 10 | bardzo dobre po dodaniu przykładu RPN |
 | `09-modern-cpp` | 9 | wystarczające |
+| `10-projekty` | 1 | startowe po dodaniu szkicu konta bankomatu |
 
 ## Priorytety uzupełnień
 
@@ -49,6 +50,20 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
   algorytmy.
 - `09-modern-cpp` - przykłady są wystarczające dla materiału pokazowego.
 
+## Następne przykłady do napisania
+
+| Priorytet | Miejsce | Proponowany przykład | Cel dydaktyczny |
+| --- | --- | --- | --- |
+| 1 | `10-projekty/examples/` | szkic `Logger` dla projektu 01 | pokazać prosty model wpisu dziennika, poziomy logowania i zapis do pliku |
+| 2 | `10-projekty/examples/` | szkic `Task` i `TaskManager` dla projektu 10 | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
+| 3 | `10-projekty/examples/` | szkic parsera CSV dla projektu 11 | połączyć odczyt pliku, podział linii i walidację kolumn |
+| 4 | `07-stl-struktury-danych/examples/` | `map_vector_join.cpp` | pokazać praktyczne użycie `std::map` z wektorem rekordów |
+| 5 | `05-pliki-wyjatki/examples/` | `config_key_value.cpp` | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
+
+Te przykłady powinny być krótkimi punktami startowymi. Nie powinny rozwiązywać
+całego projektu zaliczeniowego, tylko pokazywać model danych albo jedną
+technikę, którą student rozwinie samodzielnie.
+
 ## Przykłady pomostowe dodane
 
 | Ćwiczenie | Przykład |
@@ -57,6 +72,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | Szyfr GADERYPOLUKI | [string_gaderypoluki.cpp](../03-funkcje-tablice-napisy/examples/string_gaderypoluki.cpp) |
 | Figury i polimorfizm | [figures_polymorphism.cpp](../06-oop/examples/figures_polymorphism.cpp) |
 | Kalkulator RPN | [rpn-calculator](../08-projekt-build-testy/examples/rpn-calculator/README.md) |
+| Model konta bankomatu | [atm_account.cpp](../10-projekty/examples/atm_account.cpp) |
 
 ## Zasada dodawania nowych przykładów
 
