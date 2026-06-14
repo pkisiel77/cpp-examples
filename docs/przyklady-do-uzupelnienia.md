@@ -17,7 +17,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | `07-stl-struktury-danych` | 12 | dobre po dodaniu przykładu łączenia `std::map` z wektorem |
 | `08-projekt-build-testy` | 10 | bardzo dobre po dodaniu przykładu RPN |
 | `09-modern-cpp` | 9 | wystarczające |
-| `10-projekty` | 1 | startowe po dodaniu szkicu konta bankomatu |
+| `10-projekty` | 4 | dobre po dodaniu szkiców startowych dla bankomatu, loggera, zadań i CSV |
 
 ## Priorytety uzupełnień
 
@@ -50,9 +50,9 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
   algorytmy.
 - `09-modern-cpp` - przykłady są wystarczające dla materiału pokazowego.
 
-## Następne przykłady do napisania
+## Uzupełnienia zamknięte
 
-| Priorytet | Miejsce | Proponowany przykład | Cel dydaktyczny |
+| Priorytet | Miejsce | Dodany przykład | Cel dydaktyczny |
 | --- | --- | --- | --- |
 | 1 | `10-projekty/examples/` | [logger_skeleton.cpp](../10-projekty/examples/logger_skeleton.cpp) | pokazać prosty model wpisu dziennika, poziomy logowania i zapis do pliku |
 | 2 | `10-projekty/examples/` | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
@@ -60,9 +60,19 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | 4 | `07-stl-struktury-danych/examples/` | [map_vector_join.cpp](../07-stl-struktury-danych/examples/map_vector_join.cpp) | pokazać praktyczne użycie `std::map` z wektorem rekordów |
 | 5 | `05-pliki-wyjatki/examples/` | [config_key_value.cpp](../05-pliki-wyjatki/examples/config_key_value.cpp) | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
 
-Te przykłady powinny być krótkimi punktami startowymi. Nie powinny rozwiązywać
-całego projektu zaliczeniowego, tylko pokazywać model danych albo jedną
-technikę, którą student rozwinie samodzielnie.
+Ta lista nie jest już backlogiem. To zapis wykonanych uzupełnień, które
+zamykają najważniejsze braki wskazane w audycie przykładów.
+
+## Co dalej
+
+Nie ma obecnie pilnych braków w przykładach `.cpp`. Nowe przykłady warto
+dodawać tylko wtedy, gdy:
+
+- pojawi się nowe ćwiczenie pomostowe,
+- studenci powtarzalnie blokują się na jednym technicznym fragmencie,
+- przykład może być krótki, kompilowalny i sprawdzany przez
+  `tools/check-examples.sh`,
+- nie będzie pełnym rozwiązaniem zadania zaliczeniowego albo projektu.
 
 ## Przykłady pomostowe dodane
 

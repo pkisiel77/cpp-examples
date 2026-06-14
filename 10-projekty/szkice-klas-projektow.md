@@ -33,5 +33,6 @@ obiektową, może samodzielnie wydzielić klasę `Calculator`.
 
 ## Rekomendowany porządek dalszych uzupełnień
 
-1. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
-   model w opisie.
+Nie ma obecnie priorytetowej kolejki uzupełnień. Kolejne przykłady warto
+dodawać dopiero do projektów, które mają już wystarczający model w opisie i
+potrzebują pokazania jednej konkretnej techniki.
