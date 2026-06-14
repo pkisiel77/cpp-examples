@@ -11,6 +11,9 @@ Test jest zwykłym programem C++, który tworzy obiekty, wywołuje metody i zwra
 ```sh
 c++ -std=c++17 -Wall -Wextra -pedantic tests/test_konto.cpp -o /tmp/test_konto
 /tmp/test_konto
+
+c++ -std=c++17 -Wall -Wextra -pedantic tests/test_figures_polymorphism.cpp -o /tmp/test_figures_polymorphism
+/tmp/test_figures_polymorphism
 ```
 
 Ten test jest też uruchamiany przez główny skrypt:
@@ -28,3 +31,4 @@ W klasach warto sprawdzać:
 - metody `const`, które tylko odczytują dane,
 - reakcję na błędne dane,
 - operatory, jeśli klasa je definiuje.
+- wywołania polimorficzne przez wskaźnik albo referencję do klasy bazowej.

@@ -108,6 +108,12 @@ echo "test 06 oop"
     -o "$BUILD_DIR/06_test_konto"
 "$BUILD_DIR/06_test_konto"
 
+echo "test 06 figures polymorphism"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    06-oop/tests/test_figures_polymorphism.cpp \
+    -o "$BUILD_DIR/06_test_figures_polymorphism"
+"$BUILD_DIR/06_test_figures_polymorphism"
+
 echo "test 07 stl"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     07-stl-struktury-danych/tests/test_stl_algorytmy.cpp \
