@@ -32,6 +32,7 @@ find . \
     -path './.git' -prune -o \
     -path './*/archive/*' -prune -o \
     -path './08-projekt-build-testy/examples/project-layout/*' -prune -o \
+    -path './08-projekt-build-testy/examples/rpn-calculator/*' -prune -o \
     -path './08-projekt-build-testy/examples/split-project/*' -prune -o \
     -path './09-modern-cpp/examples/code-organization/*' -prune -o \
     -type f -path './*/examples/*.cpp' -print |
@@ -55,6 +56,9 @@ echo "compile 08 split-project"
 
 echo "build 08 project-layout"
 BUILD_DIR="$BUILD_DIR/08_project_layout" sh 08-projekt-build-testy/examples/project-layout/build.sh
+
+echo "build 08 rpn-calculator"
+BUILD_DIR="$BUILD_DIR/08_rpn_calculator" sh 08-projekt-build-testy/examples/rpn-calculator/build.sh
 
 echo "test 01 basics"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
