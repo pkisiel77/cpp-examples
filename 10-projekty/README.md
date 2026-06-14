@@ -18,6 +18,10 @@ Po zakończeniu segmentu student powinien umieć:
 
 ## Kategorie projektów
 
+Jeśli nie wiesz, który temat wybrać, zacznij od
+[przewodnika wyboru projektu](jak-wybrac-projekt.md). Dokument pomaga dobrać
+projekt do poziomu trudności, czasu i materiału, który chcesz przećwiczyć.
+
 ### Narzędzia konsolowe
 
 - [Projekt 01 - Logger](project-01-logger.md)
@@ -133,6 +137,7 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Katalogi pomocnicze
 
+- [jak-wybrac-projekt.md](jak-wybrac-projekt.md) - przewodnik wyboru tematu i pierwszego planu pracy.
 - [checklista-projektu.md](checklista-projektu.md) - lista kontroli przed oddaniem i pokazem projektu.
 - `tnt-tasks/` - starsze zadania źródłowe do dalszego uporządkowania.
 - `archive/` - stare wersje plików po wchłonięciu ich treści do nowych opisów.
