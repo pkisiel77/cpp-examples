@@ -14,6 +14,12 @@ c++ -std=c++17 -Wall -Wextra -pedantic \
     -o /tmp/test_sterowanie_petle
 
 /tmp/test_sterowanie_petle
+
+c++ -std=c++17 -Wall -Wextra -pedantic \
+    02-sterowanie-i-petle/tests/test_min_max_average.cpp \
+    -o /tmp/test_min_max_average
+
+/tmp/test_min_max_average
 ```
 
 Można też uruchomić pełny zestaw kontroli:
@@ -30,3 +36,4 @@ sh tools/check-examples.sh
 - zliczanie przez pętlę `while`,
 - wyszukiwanie z użyciem `break`,
 - pomijanie wartości z użyciem `continue`.
+- parsowanie liczb i liczenie minimum, maksimum oraz średniej.

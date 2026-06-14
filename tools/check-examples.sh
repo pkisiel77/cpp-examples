@@ -72,6 +72,12 @@ echo "test 02 control-flow"
     -o "$BUILD_DIR/02_test_sterowanie_petle"
 "$BUILD_DIR/02_test_sterowanie_petle"
 
+echo "test 02 min-max-average"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    02-sterowanie-i-petle/tests/test_min_max_average.cpp \
+    -o "$BUILD_DIR/02_test_min_max_average"
+"$BUILD_DIR/02_test_min_max_average"
+
 echo "test 03 functions"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     03-funkcje-tablice-napisy/tests/test_podstawowe_funkcje.cpp \
