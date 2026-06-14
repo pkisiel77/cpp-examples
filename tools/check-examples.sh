@@ -28,6 +28,15 @@ compile_one() {
     "$CXX" "$STD" -Wall -Wextra -pedantic $extra_flags "$src" -o "$out"
 }
 
+run_compiled_example() {
+    src=$1
+    name=$(printf '%s' "$src" | sed 's#^\./##; s#[/.]#_#g')
+    out="$BUILD_DIR/$name"
+
+    echo "run $src"
+    "$out" >/dev/null
+}
+
 find . \
     -path './.git' -prune -o \
     -path './*/archive/*' -prune -o \
@@ -47,6 +56,14 @@ while IFS= read -r src; do
             ;;
     esac
 done
+
+echo "run selected starter examples"
+run_compiled_example ./05-pliki-wyjatki/examples/config_key_value.cpp
+run_compiled_example ./07-stl-struktury-danych/examples/map_vector_join.cpp
+run_compiled_example ./10-projekty/examples/atm_account.cpp
+run_compiled_example ./10-projekty/examples/csv_parser_skeleton.cpp
+run_compiled_example ./10-projekty/examples/logger_skeleton.cpp
+run_compiled_example ./10-projekty/examples/task_manager_skeleton.cpp
 
 echo "compile 08 split-project"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
