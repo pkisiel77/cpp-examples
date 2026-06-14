@@ -63,6 +63,7 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/pass_object.cpp](examples/pass_object.cpp) - przekazywanie obiektów.
 - [examples/basic_inheritance.cpp](examples/basic_inheritance.cpp) - podstawowe dziedziczenie.
 - [examples/car_inheritance.cpp](examples/car_inheritance.cpp) - rozszerzanie klasy.
+- [examples/figures_polymorphism.cpp](examples/figures_polymorphism.cpp) - klasa abstrakcyjna, `override` i polimorfizm.
 - [examples/point_operators.cpp](examples/point_operators.cpp) - przeciążanie operatorów.
 - [examples/money_output_operator.cpp](examples/money_output_operator.cpp) - operator wyjścia `<<`.
 

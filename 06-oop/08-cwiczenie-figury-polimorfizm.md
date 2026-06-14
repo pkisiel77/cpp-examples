@@ -94,6 +94,9 @@ przechowywać obiekty różnych klas w jednej kolekcji:
 std::vector<std::unique_ptr<Figura>> figury;
 ```
 
+Kompilowalny punkt startowy znajduje się w
+[examples/figures_polymorphism.cpp](examples/figures_polymorphism.cpp).
+
 ## Wariant podstawowy
 
 Minimalna wersja ćwiczenia powinna zawierać:
