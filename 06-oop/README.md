@@ -27,6 +27,7 @@ Po zakończeniu segmentu student powinien umieć:
 5. [05-dziedziczenie.md](05-dziedziczenie.md) - klasy bazowe i pochodne.
 6. [06-przeciazanie-operatorow.md](06-przeciazanie-operatorow.md) - podstawy przeciążania operatorów.
 7. [07-zadania.md](07-zadania.md) - zadania podstawowe i projektowe.
+8. [08-cwiczenie-figury-polimorfizm.md](08-cwiczenie-figury-polimorfizm.md) - większe ćwiczenie z dziedziczenia, klasy abstrakcyjnej i polimorfizmu.
 
 ## Status porządkowania
 
@@ -64,6 +65,9 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/car_inheritance.cpp](examples/car_inheritance.cpp) - rozszerzanie klasy.
 - [examples/point_operators.cpp](examples/point_operators.cpp) - przeciążanie operatorów.
 - [examples/money_output_operator.cpp](examples/money_output_operator.cpp) - operator wyjścia `<<`.
+
+Większe ćwiczenie integrujące dziedziczenie i polimorfizm znajduje się w pliku
+[08-cwiczenie-figury-polimorfizm.md](08-cwiczenie-figury-polimorfizm.md).
 
 ## Testy
 

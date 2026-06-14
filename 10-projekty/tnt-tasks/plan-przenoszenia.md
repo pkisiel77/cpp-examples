@@ -27,15 +27,14 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 | --- | --- | --- | --- |
 | `min-max-avg.md` | `02-sterowanie-i-petle` | wykonane | wersja docelowa: `07-cwiczenie-min-max-srednia.md` |
 | `encryption-1.md` | `03-funkcje-tablice-napisy` | wykonane | wersja docelowa: `07-cwiczenie-szyfr-gaderypoluki.md` |
-| `sfml-t1.md` | `06-oop/tasks` | średni | przenieść część bez SFML jako ćwiczenie OOP |
+| `sfml-t1.md` | `06-oop` | wykonane | wersja docelowa: `08-cwiczenie-figury-polimorfizm.md` |
 | `calculator.md` | `08-projekt-build-testy` albo `10-projekty` | średni | zostawić jako pomost do projektu kalkulatora |
 | `atm.md` | `10-projekty` | niski | rozważyć jako nowy projekt główny po doprecyzowaniu |
 
 ## Kolejność pracy
 
-1. Wydziel z `sfml-t1.md` wersję bez biblioteki SFML i przenieś ją do OOP.
-2. Porównaj `calculator.md` z głównym projektem kalkulatora.
-3. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
+1. Porównaj `calculator.md` z głównym projektem kalkulatora.
+2. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
 
 ## Format po przeniesieniu ćwiczenia
 
@@ -84,8 +83,10 @@ od wejścia i wyjścia.
 
 ### `sfml-t1.md`
 
-Minimalny wariant powinien działać bez SFML. Wizualizacja może zostać tylko jako
-rozszerzenie dla studentów, którzy mają przygotowane środowisko graficzne.
+Wersja docelowa znajduje się w
+`06-oop/08-cwiczenie-figury-polimorfizm.md`. Minimalny wariant działa bez SFML,
+a wizualizacja została opisana jako rozszerzenie dla studentów, którzy mają
+przygotowane środowisko graficzne.
 
 ### `calculator.md`
 

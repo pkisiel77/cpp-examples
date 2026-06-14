@@ -278,6 +278,9 @@ Wymagania:
 - pokaż różnice w klasach pochodnych,
 - nie powielaj tych samych pól bez potrzeby.
 
+Większe ćwiczenie z klasą abstrakcyjną i polimorfizmem znajduje się w pliku
+[08-cwiczenie-figury-polimorfizm.md](08-cwiczenie-figury-polimorfizm.md).
+
 ## Poziom 5 - Przeciążanie operatorów
 
 ### Zadanie 21. Punkt i operator `+`

@@ -21,7 +21,8 @@ Decyzje dotyczące dalszego przenoszenia opisuje
   podawanych przez użytkownika; wersja docelowa jest w
   [segmencie sterowania i pętli](../../02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md).
 - [sfml-t1.md](sfml-t1.md) - polimorfizm, klasy figur i opcjonalna wizualizacja
-  w SFML.
+  w SFML; wersja docelowa bez wymaganej biblioteki zewnętrznej jest w
+  [segmencie OOP](../../06-oop/08-cwiczenie-figury-polimorfizm.md).
 - [calculator.md](calculator.md) - krótszy wariant kalkulatora skupiony na
   odwrotnej notacji polskiej.
 
@@ -34,7 +35,7 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 
 - `encryption-1.md` ma już wersję docelową w segmencie funkcji, tablic i napisów.
 - `min-max-avg.md` ma już wersję docelową w segmencie sterowania i pętli.
-- `sfml-t1.md` można przenieść do segmentu OOP.
+- `sfml-t1.md` ma już wersję docelową w segmencie OOP.
 - `calculator.md` można zostawić jako ćwiczenie przygotowujące do projektu
   [Projekt 08 - Kalkulator](../project-08-kalkulator.md).
 - `atm.md` można zostawić jako projekt pomocniczy albo rozwinąć do osobnego
