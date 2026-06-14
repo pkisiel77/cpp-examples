@@ -28,13 +28,12 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 | `min-max-avg.md` | `02-sterowanie-i-petle` | wykonane | wersja docelowa: `07-cwiczenie-min-max-srednia.md` |
 | `encryption-1.md` | `03-funkcje-tablice-napisy` | wykonane | wersja docelowa: `07-cwiczenie-szyfr-gaderypoluki.md` |
 | `sfml-t1.md` | `06-oop` | wykonane | wersja docelowa: `08-cwiczenie-figury-polimorfizm.md` |
-| `calculator.md` | `08-projekt-build-testy` albo `10-projekty` | średni | zostawić jako pomost do projektu kalkulatora |
+| `calculator.md` | `08-projekt-build-testy` | wykonane | wersja docelowa: `09-cwiczenie-kalkulator-rpn.md` |
 | `atm.md` | `10-projekty` | niski | rozważyć jako nowy projekt główny po doprecyzowaniu |
 
 ## Kolejność pracy
 
-1. Porównaj `calculator.md` z głównym projektem kalkulatora.
-2. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
+1. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
 
 ## Format po przeniesieniu ćwiczenia
 
@@ -90,8 +89,10 @@ przygotowane środowisko graficzne.
 
 ### `calculator.md`
 
-To dobry pomost między ćwiczeniem a projektem. Nie trzeba tworzyć drugiego
-pełnego projektu kalkulatora, jeśli główny projekt już obejmuje ten temat.
+Wersja docelowa znajduje się w
+`08-projekt-build-testy/09-cwiczenie-kalkulator-rpn.md`. To pomost między
+ćwiczeniem a projektem: obejmuje RPN, podział na pliki, build i testy, ale nie
+dubluje pełnego projektu kalkulatora z `10-projekty`.
 
 ### `atm.md`
 

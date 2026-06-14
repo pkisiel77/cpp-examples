@@ -24,7 +24,8 @@ Decyzje dotyczące dalszego przenoszenia opisuje
   w SFML; wersja docelowa bez wymaganej biblioteki zewnętrznej jest w
   [segmencie OOP](../../06-oop/08-cwiczenie-figury-polimorfizm.md).
 - [calculator.md](calculator.md) - krótszy wariant kalkulatora skupiony na
-  odwrotnej notacji polskiej.
+  odwrotnej notacji polskiej; wersja docelowa jest w
+  [segmencie projekt, build i testy](../../08-projekt-build-testy/09-cwiczenie-kalkulator-rpn.md).
 
 ### Projekt pomocniczy
 
@@ -36,8 +37,8 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 - `encryption-1.md` ma już wersję docelową w segmencie funkcji, tablic i napisów.
 - `min-max-avg.md` ma już wersję docelową w segmencie sterowania i pętli.
 - `sfml-t1.md` ma już wersję docelową w segmencie OOP.
-- `calculator.md` można zostawić jako ćwiczenie przygotowujące do projektu
-  [Projekt 08 - Kalkulator](../project-08-kalkulator.md).
+- `calculator.md` ma już wersję docelową jako ćwiczenie przygotowujące do
+  [Projektu 08 - Kalkulator](../project-08-kalkulator.md).
 - `atm.md` można zostawić jako projekt pomocniczy albo rozwinąć do osobnego
   głównego projektu.
 

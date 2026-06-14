@@ -344,6 +344,10 @@ Dodaj do mini-projektu `README.md`, który zawiera:
 - komendę uruchamiającą cały build,
 - informację, czego nie commitować.
 
+Jeśli chcesz przećwiczyć większy projekt wieloplikowy przed projektem
+zaliczeniowym, wykonaj
+[09-cwiczenie-kalkulator-rpn.md](09-cwiczenie-kalkulator-rpn.md).
+
 ## Wariant minimum
 
 Do zaliczenia segmentu wykonaj co najmniej:

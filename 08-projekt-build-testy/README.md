@@ -27,6 +27,7 @@ Po zakończeniu segmentu student powinien umieć:
 6. [06-testy.md](06-testy.md) - proste testy bez frameworka i organizacja przypadków testowych.
 7. [07-ci-cd.md](07-ci-cd.md) - czym jest automatyzacja testów i budowania.
 8. [08-zadania.md](08-zadania.md) - zadania podstawowe i projektowe.
+9. [09-cwiczenie-kalkulator-rpn.md](09-cwiczenie-kalkulator-rpn.md) - ćwiczenie pomostowe: mały projekt wieloplikowy z tokenizacją i testami.
 
 ## Status porządkowania
 
@@ -48,6 +49,9 @@ Przykłady w katalogu [examples](examples) można uruchamiać osobno:
 - [examples/project-layout](examples/project-layout) - struktura projektu, build i testy.
 - [examples/syntax-check/student_report.cpp](examples/syntax-check/student_report.cpp) - plik do sprawdzania składni.
 - [examples/ci-cd/github-actions-cpp.yml](examples/ci-cd/github-actions-cpp.yml) - przykładowy workflow CI.
+
+Ćwiczenie [09-cwiczenie-kalkulator-rpn.md](09-cwiczenie-kalkulator-rpn.md)
+łączy podział na pliki, build i testy na mniejszym wariancie kalkulatora.
 
 ## Testy
 
