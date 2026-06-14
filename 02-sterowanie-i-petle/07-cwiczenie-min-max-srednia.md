@@ -61,6 +61,9 @@ Program powinien:
 - nie dzielić przez zero, gdy nie podano żadnej liczby,
 - kompilować się z flagami `-Wall -Wextra -pedantic`.
 
+Kompilowalny punkt startowy znajduje się w
+[examples/while_min_max_average.cpp](examples/while_min_max_average.cpp).
+
 ## Wariant podstawowy
 
 Minimalna wersja ćwiczenia powinna zawierać:

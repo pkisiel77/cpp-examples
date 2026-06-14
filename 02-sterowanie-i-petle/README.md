@@ -48,6 +48,9 @@ Katalog [examples](examples) zawiera krótkie programy pokazujące instrukcje
 warunkowe, `switch`, pętle oraz użycie `break` i `continue`. Przykłady są
 kompilowalne i mogą być punktem startowym do zadań.
 
+Do większego ćwiczenia z minimum, maksimum i średnią przydatny jest przykład
+[examples/while_min_max_average.cpp](examples/while_min_max_average.cpp).
+
 ## Testy
 
 Katalog [tests](tests) zawiera prosty test bez zewnętrznego frameworka. Test
