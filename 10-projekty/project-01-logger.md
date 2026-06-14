@@ -91,6 +91,10 @@ Znaczenie elementów:
 - `MemorySink` - zapis do wektora w pamięci,
 - `Logger` - klasa przyjmująca wiadomość i przekazująca ją do wybranego sinka.
 
+Kompilowalny szkic klas znajduje się w pliku
+[examples/logger_skeleton.cpp](examples/logger_skeleton.cpp). Przykład pokazuje
+wspólny interfejs `LogSink`, zapis do pamięci, zapis do pliku i klasę `Logger`.
+
 ## Minimalny wariant zaliczeniowy
 
 Minimalna wersja projektu powinna zawierać:

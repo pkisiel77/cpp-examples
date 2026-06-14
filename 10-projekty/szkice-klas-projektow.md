@@ -9,7 +9,7 @@ kompilowalny w katalogu [examples](examples).
 | Projekt | Status szkicu | Co jest w opisie | Następny krok |
 | --- | --- | --- | --- |
 | [Gra kółko i krzyżyk](gra-kolko-krzyzyk.md) | wystarczający | `Cell`, `GameState`, `Board` | brak pilnych zmian |
-| [Projekt 01 - Logger](project-01-logger.md) | do uzupełnienia | lista klas: `LogSink`, `FileSink`, `MemorySink`, `Logger` | dodać krótki szkic kodowy albo przykład `logger_skeleton.cpp` |
+| [Projekt 01 - Logger](project-01-logger.md) | dobry | lista klas i przykład [logger_skeleton.cpp](examples/logger_skeleton.cpp) | utrzymywać przykład jako punkt startowy |
 | [Projekt 02 - Kolejkowanie zamówień](project-02-kolejkowanie-zamowien.md) | wystarczający | `OrderStatus`, `Order` | rozważyć przykład dopiero po projektach bez szkicu |
 | [Projekt 04 - Tetris](project-04-tetris.md) | wystarczający | `TetrominoType`, `Position`, `Board` | brak pilnych zmian |
 | [Projekt 05 - Snake](project-05-snake.md) | wystarczający | `Direction`, `Position`, `Snake` | brak pilnych zmian |
@@ -25,9 +25,7 @@ kompilowalny w katalogu [examples](examples).
 
 Najpierw warto uzupełnić:
 
-1. `project-01-logger.md` - opis wymienia klasy, ale nie pokazuje krótkiego
-   kodowego szkieletu interfejsu.
-2. `project-10-system-zadan.md` - model `Task` istnieje, ale brakuje szkicu
+1. `project-10-system-zadan.md` - model `Task` istnieje, ale brakuje szkicu
    klasy zarządzającej kolekcją zadań.
 
 Projekt `project-08-kalkulator.md` nie wymaga szkicu klasy, bo wariant minimum
@@ -36,8 +34,7 @@ obiektową, może samodzielnie wydzielić klasę `Calculator`.
 
 ## Rekomendowany porządek dalszych uzupełnień
 
-1. Dodać `10-projekty/examples/logger_skeleton.cpp`.
-2. Dodać `10-projekty/examples/task_manager_skeleton.cpp`.
-3. Rozważyć `10-projekty/examples/csv_parser_skeleton.cpp`.
-4. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
+1. Dodać `10-projekty/examples/task_manager_skeleton.cpp`.
+2. Rozważyć `10-projekty/examples/csv_parser_skeleton.cpp`.
+3. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
    model w opisie.
