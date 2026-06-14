@@ -2,6 +2,23 @@
 
 Repozytorium jest uporządkowane jako kurs C++ podzielony na segmenty nauki. Każdy segment ma własny katalog i `README.md` z proponowaną kolejnością pracy.
 
+## Jak korzystać z repozytorium
+
+Dla studenta:
+
+1. Zacznij od [00-start](00-start/README.md).
+2. Przechodź przez segmenty w kolejności z sekcji [Ścieżka nauki](#ścieżka-nauki).
+3. W każdym segmencie czytaj najpierw `README.md`, potem lekcje i przykłady.
+4. Po lekcjach wykonuj zadania oraz większe ćwiczenia pomostowe.
+5. Przy większej pracy przejdź do [10-projekty](10-projekty/README.md) i wybierz wariant minimum projektu.
+
+Dla prowadzącego:
+
+- plan zajęć jest w [docs/plan-semestru.md](docs/plan-semestru.md),
+- model oceniania jest w [docs/postepy-i-ocenianie.md](docs/postepy-i-ocenianie.md),
+- walidacja repozytorium jest opisana w [docs/walidacja-repo.md](docs/walidacja-repo.md),
+- audyt przykładów jest w [docs/przyklady-do-uzupelnienia.md](docs/przyklady-do-uzupelnienia.md).
+
 ## Ścieżka nauki
 
 1. [00-start](00-start/README.md) - środowisko, kompilator, Git, CMake.
@@ -60,7 +77,10 @@ Przykłady z głównej ścieżki można skompilować zbiorczo:
 sh tools/check-examples.sh
 ```
 
-Skrypt używa domyślnie `c++`, standardu C++17 i katalogu `/tmp/cpp-examples-build`. Można to zmienić zmiennymi środowiskowymi `CXX`, `STD` i `BUILD_DIR`.
+Skrypt używa domyślnie `c++`, standardu C++17 i katalogu
+`/tmp/cpp-examples-build`. Można to zmienić zmiennymi środowiskowymi `CXX`,
+`STD` i `BUILD_DIR`. Skrypt kompiluje przykłady, uruchamia testy segmentów oraz
+wykonuje smoke check wybranych przykładów startowych.
 
 Ten sam skrypt jest uruchamiany w GitHub Actions po `push` i `pull_request`.
 Szczegóły użycia i interpretacji wyników są opisane w

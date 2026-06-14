@@ -20,6 +20,7 @@ Skrypt kompiluje przykłady z katalogów `examples`, uruchamia testy z katalogó
 `tools/check-examples.sh` wykonuje:
 
 - kompilację pojedynczych przykładów `.cpp` z głównej ścieżki,
+- smoke check wybranych przykładów startowych, które nie wymagają danych z terminala,
 - sprawdzenie składni wybranego przykładu przez `-fsyntax-only`,
 - kompilację przykładu `08-projekt-build-testy/examples/split-project`,
 - build i testy przykładu `08-projekt-build-testy/examples/project-layout`,
