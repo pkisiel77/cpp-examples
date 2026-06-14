@@ -14,7 +14,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | `04-wskazniki-referencje-pamiec` | 13 | dobre |
 | `05-pliki-wyjatki` | 10 | dobre |
 | `06-oop` | 13 | bardzo dobre po dodaniu przykładu polimorfizmu |
-| `07-stl-struktury-danych` | 11 | dobre |
+| `07-stl-struktury-danych` | 12 | dobre po dodaniu przykładu łączenia `std::map` z wektorem |
 | `08-projekt-build-testy` | 10 | bardzo dobre po dodaniu przykładu RPN |
 | `09-modern-cpp` | 9 | wystarczające |
 | `10-projekty` | 1 | startowe po dodaniu szkicu konta bankomatu |
@@ -57,7 +57,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | 1 | `10-projekty/examples/` | [logger_skeleton.cpp](../10-projekty/examples/logger_skeleton.cpp) | pokazać prosty model wpisu dziennika, poziomy logowania i zapis do pliku |
 | 2 | `10-projekty/examples/` | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
 | 3 | `10-projekty/examples/` | [csv_parser_skeleton.cpp](../10-projekty/examples/csv_parser_skeleton.cpp) | połączyć odczyt pliku, podział linii i walidację kolumn |
-| 4 | `07-stl-struktury-danych/examples/` | `map_vector_join.cpp` | pokazać praktyczne użycie `std::map` z wektorem rekordów |
+| 4 | `07-stl-struktury-danych/examples/` | [map_vector_join.cpp](../07-stl-struktury-danych/examples/map_vector_join.cpp) | pokazać praktyczne użycie `std::map` z wektorem rekordów |
 | 5 | `05-pliki-wyjatki/examples/` | `config_key_value.cpp` | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
 
 Te przykłady powinny być krótkimi punktami startowymi. Nie powinny rozwiązywać
@@ -76,6 +76,7 @@ technikę, którą student rozwinie samodzielnie.
 | Szkic loggera | [logger_skeleton.cpp](../10-projekty/examples/logger_skeleton.cpp) |
 | Szkic managera zadań | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) |
 | Szkic parsera CSV | [csv_parser_skeleton.cpp](../10-projekty/examples/csv_parser_skeleton.cpp) |
+| Łączenie mapy i wektora | [map_vector_join.cpp](../07-stl-struktury-danych/examples/map_vector_join.cpp) |
 
 ## Zasada dodawania nowych przykładów
 

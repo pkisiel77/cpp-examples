@@ -52,6 +52,7 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/sort_numbers.cpp](examples/sort_numbers.cpp) - sortowanie liczb.
 - [examples/filter_people.cpp](examples/filter_people.cpp) - filtrowanie danych.
 - [examples/map_basics.cpp](examples/map_basics.cpp) - podstawy `std::map`.
+- [examples/map_vector_join.cpp](examples/map_vector_join.cpp) - łączenie `std::map` z wektorem rekordów.
 - [examples/movie_library.cpp](examples/movie_library.cpp) - słownik filmów.
 - [examples/stack_queue.cpp](examples/stack_queue.cpp) - stos i kolejka.
 - [examples/list_operations.cpp](examples/list_operations.cpp) - operacje na liście.
