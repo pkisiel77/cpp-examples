@@ -145,6 +145,7 @@ Student zalicza segment, jeśli potrafi samodzielnie:
 
 ## Katalogi pomocnicze
 
+- [examples/](examples) - krótkie, kompilowalne szkice startowe do wybranych projektów.
 - [jak-wybrac-projekt.md](jak-wybrac-projekt.md) - przewodnik wyboru tematu i pierwszego planu pracy.
 - [plan-pracy-nad-projektem.md](plan-pracy-nad-projektem.md) - harmonogram pracy od pierwszej wersji do pokazu.
 - [checklista-projektu.md](checklista-projektu.md) - lista kontroli przed oddaniem i pokazem projektu.

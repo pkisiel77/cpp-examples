@@ -81,6 +81,11 @@ Znaczenie elementów:
 - `Transaction` - pojedyncza operacja w historii,
 - `Menu` - komunikacja z użytkownikiem w terminalu.
 
+Kompilowalny punkt startowy dla modelu konta znajduje się w pliku
+[examples/atm_account.cpp](examples/atm_account.cpp). Przykład pokazuje klasę
+`Account`, historię operacji oraz podstawową walidację wpłaty, wypłaty i zmiany
+PIN-u.
+
 ## Model danych
 
 Konto powinno mieć co najmniej:
