@@ -27,9 +27,11 @@ Skrypt kompiluje aplikację, kompiluje testy i uruchamia testy automatyczne.
 Przykład obsługuje:
 
 - liczby rzeczywiste,
+- liczby ujemne,
 - operatory `+`, `-`, `*`, `/`,
 - nawiasy,
 - priorytet operatorów,
-- dzielenie przez zero jako błąd.
+- dzielenie przez zero jako błąd,
+- błędy składni, np. brak argumentu albo nieznany znak.
 
 To jest punkt startowy, a nie pełny projekt zaliczeniowy.

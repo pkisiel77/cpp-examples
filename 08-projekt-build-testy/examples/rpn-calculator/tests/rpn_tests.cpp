@@ -39,9 +39,16 @@ int main() {
     ok = expectNear("2 + 2 * 2", 6.0) && ok;
     ok = expectNear("(2 + 2) * 2", 8.0) && ok;
     ok = expectNear("10 / 2 + 3", 8.0) && ok;
+    ok = expectNear("-5 + 2", -3.0) && ok;
+    ok = expectNear("2 * -3", -6.0) && ok;
+    ok = expectNear("2 - -3", 5.0) && ok;
+    ok = expectNear("(-2 + 5) * 3", 9.0) && ok;
     ok = expectError("10 / 0") && ok;
     ok = expectError("(2 + 3") && ok;
     ok = expectError("2 + * 3") && ok;
+    ok = expectError("") && ok;
+    ok = expectError("2 +") && ok;
+    ok = expectError("2 & 3") && ok;
 
     if (!ok) {
         return 1;

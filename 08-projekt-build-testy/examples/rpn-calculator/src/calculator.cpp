@@ -22,6 +22,20 @@ int precedence(char op) {
     return 0;
 }
 
+bool canStartSignedNumber(const std::vector<Token>& tokens) {
+    return tokens.empty() || tokens.back().type == TokenType::Operator || tokens.back().type == TokenType::LeftParen;
+}
+
+bool isSignedNumberStart(const std::string& expression, std::size_t index, const std::vector<Token>& tokens) {
+    const char ch = expression[index];
+    if ((ch != '-' && ch != '+') || !canStartSignedNumber(tokens) || index + 1 >= expression.size()) {
+        return false;
+    }
+
+    const char next = expression[index + 1];
+    return std::isdigit(static_cast<unsigned char>(next)) || next == '.';
+}
+
 double applyOperator(char op, double left, double right) {
     switch (op) {
         case '+':
@@ -53,8 +67,8 @@ std::vector<Token> tokenize(const std::string& expression) {
             continue;
         }
 
-        if (std::isdigit(static_cast<unsigned char>(ch)) || ch == '.') {
-            std::size_t end = i;
+        if (isSignedNumberStart(expression, i, tokens) || std::isdigit(static_cast<unsigned char>(ch)) || ch == '.') {
+            std::size_t end = 0;
             const double value = std::stod(expression.substr(i), &end);
             tokens.push_back(Token{TokenType::Number, value, '\0'});
             i += end;
