@@ -42,6 +42,7 @@ Przykłady w katalogu [examples](examples) można kompilować osobno:
 - [examples/missing_file_check.cpp](examples/missing_file_check.cpp) - sprawdzanie braku pliku.
 - [examples/read_numbers_with_validation.cpp](examples/read_numbers_with_validation.cpp) - odczyt liczb z walidacją.
 - [examples/validate_lines.cpp](examples/validate_lines.cpp) - walidacja danych w liniach.
+- [examples/config_key_value.cpp](examples/config_key_value.cpp) - parser konfiguracji `klucz=wartosc`.
 - [examples/basic_exception.cpp](examples/basic_exception.cpp) - podstawowy wyjątek.
 - [examples/function_exception.cpp](examples/function_exception.cpp) - rzucanie wyjątku z funkcji.
 - [examples/standard_exception.cpp](examples/standard_exception.cpp) - obsługa wyjątku standardowego.

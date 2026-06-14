@@ -12,7 +12,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | `02-sterowanie-i-petle` | 14 | bardzo dobre po dodaniu przykładu min/max/średnia |
 | `03-funkcje-tablice-napisy` | 15 | bardzo dobre po dodaniu przykładu GADERYPOLUKI |
 | `04-wskazniki-referencje-pamiec` | 13 | dobre |
-| `05-pliki-wyjatki` | 10 | dobre |
+| `05-pliki-wyjatki` | 11 | dobre po dodaniu parsera konfiguracji |
 | `06-oop` | 13 | bardzo dobre po dodaniu przykładu polimorfizmu |
 | `07-stl-struktury-danych` | 12 | dobre po dodaniu przykładu łączenia `std::map` z wektorem |
 | `08-projekt-build-testy` | 10 | bardzo dobre po dodaniu przykładu RPN |
@@ -58,7 +58,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | 2 | `10-projekty/examples/` | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
 | 3 | `10-projekty/examples/` | [csv_parser_skeleton.cpp](../10-projekty/examples/csv_parser_skeleton.cpp) | połączyć odczyt pliku, podział linii i walidację kolumn |
 | 4 | `07-stl-struktury-danych/examples/` | [map_vector_join.cpp](../07-stl-struktury-danych/examples/map_vector_join.cpp) | pokazać praktyczne użycie `std::map` z wektorem rekordów |
-| 5 | `05-pliki-wyjatki/examples/` | `config_key_value.cpp` | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
+| 5 | `05-pliki-wyjatki/examples/` | [config_key_value.cpp](../05-pliki-wyjatki/examples/config_key_value.cpp) | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
 
 Te przykłady powinny być krótkimi punktami startowymi. Nie powinny rozwiązywać
 całego projektu zaliczeniowego, tylko pokazywać model danych albo jedną
@@ -77,6 +77,7 @@ technikę, którą student rozwinie samodzielnie.
 | Szkic managera zadań | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) |
 | Szkic parsera CSV | [csv_parser_skeleton.cpp](../10-projekty/examples/csv_parser_skeleton.cpp) |
 | Łączenie mapy i wektora | [map_vector_join.cpp](../07-stl-struktury-danych/examples/map_vector_join.cpp) |
+| Parser konfiguracji | [config_key_value.cpp](../05-pliki-wyjatki/examples/config_key_value.cpp) |
 
 ## Zasada dodawania nowych przykładów
 
