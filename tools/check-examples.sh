@@ -78,6 +78,12 @@ echo "test 03 functions"
     -o "$BUILD_DIR/03_test_podstawowe_funkcje"
 "$BUILD_DIR/03_test_podstawowe_funkcje"
 
+echo "test 03 gaderypoluki"
+"$CXX" "$STD" -Wall -Wextra -pedantic \
+    03-funkcje-tablice-napisy/tests/test_gaderypoluki.cpp \
+    -o "$BUILD_DIR/03_test_gaderypoluki"
+"$BUILD_DIR/03_test_gaderypoluki"
+
 echo "test 04 pointers-references"
 "$CXX" "$STD" -Wall -Wextra -pedantic \
     04-wskazniki-referencje-pamiec/tests/test_wskazniki_referencje.cpp \

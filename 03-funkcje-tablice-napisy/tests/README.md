@@ -11,6 +11,9 @@ Test jest zwykłym programem C++, który zwraca:
 ```sh
 c++ -std=c++17 -Wall -Wextra -pedantic tests/test_podstawowe_funkcje.cpp -o /tmp/test_podstawowe_funkcje
 /tmp/test_podstawowe_funkcje
+
+c++ -std=c++17 -Wall -Wextra -pedantic tests/test_gaderypoluki.cpp -o /tmp/test_gaderypoluki
+/tmp/test_gaderypoluki
 ```
 
 Ten test jest też uruchamiany przez główny skrypt:
