@@ -48,6 +48,9 @@ Katalog [examples](examples) zawiera krótkie programy pokazujące funkcje,
 parametry, tablice jedno- i dwuwymiarowe oraz podstawowe operacje na napisach.
 Przykłady są kompilowalne i mogą być punktem startowym do zadań.
 
+Do większego ćwiczenia z szyfrem GADERYPOLUKI przydatny jest przykład
+[examples/string_gaderypoluki.cpp](examples/string_gaderypoluki.cpp).
+
 ## Testy
 
 Katalog [tests](tests) zawiera prosty przykład testu automatycznego bez

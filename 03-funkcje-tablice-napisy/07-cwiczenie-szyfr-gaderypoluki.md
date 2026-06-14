@@ -71,6 +71,9 @@ Przykładowy nagłówek funkcji:
 std::string encryptGaderypoluki(const std::string& text);
 ```
 
+Kompilowalny punkt startowy znajduje się w
+[examples/string_gaderypoluki.cpp](examples/string_gaderypoluki.cpp).
+
 ## Wariant podstawowy
 
 Minimalna wersja ćwiczenia powinna zawierać:
