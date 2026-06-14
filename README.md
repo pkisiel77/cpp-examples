@@ -54,6 +54,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
 - [docs/walidacja-repo.md](docs/walidacja-repo.md) - lokalne sprawdzanie przykładów, testów i CI.
 - [docs/przyklady-do-uzupelnienia.md](docs/przyklady-do-uzupelnienia.md) - audyt przykładów `.cpp` i priorytety uzupełnień.
+- [docs/status-porzadkowania.md](docs/status-porzadkowania.md) - status zamknięcia bieżącego etapu porządkowania.
 - [10-projekty/checklista-projektu.md](10-projekty/checklista-projektu.md) - lista kontroli projektu zaliczeniowego.
 - [templates](templates) - szablony oddawania krótkich zadań i projektów.
 - [_assets](./_assets) - media i pliki pomocnicze.
@@ -91,4 +92,5 @@ Szczegóły użycia i interpretacji wyników są opisane w
 Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały
 przygotowywane są po polsku. Zadania TNT mają już mapę docelowego użycia:
 część została przeniesiona do ćwiczeń pomostowych, a symulator bankomatu trafił
-do głównej listy projektów.
+do głównej listy projektów. Aktualny status zamknięcia prac jest opisany w
+[docs/status-porzadkowania.md](docs/status-porzadkowania.md).
