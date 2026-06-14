@@ -9,11 +9,11 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | Segment | Liczba przykładów `.cpp` | Ocena pokrycia |
 | --- | ---: | --- |
 | `01-podstawy` | 9 | dobre |
-| `02-sterowanie-i-petle` | 13 | dobre |
-| `03-funkcje-tablice-napisy` | 14 | dobre |
+| `02-sterowanie-i-petle` | 14 | bardzo dobre po dodaniu przykładu min/max/średnia |
+| `03-funkcje-tablice-napisy` | 15 | bardzo dobre po dodaniu przykładu GADERYPOLUKI |
 | `04-wskazniki-referencje-pamiec` | 13 | dobre |
 | `05-pliki-wyjatki` | 10 | dobre |
-| `06-oop` | 12 | dobre |
+| `06-oop` | 13 | bardzo dobre po dodaniu przykładu polimorfizmu |
 | `07-stl-struktury-danych` | 11 | dobre |
 | `08-projekt-build-testy` | 10 | bardzo dobre po dodaniu przykładu RPN |
 | `09-modern-cpp` | 9 | wystarczające |
@@ -25,18 +25,18 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 - `08-projekt-build-testy` - utrzymywać przykład
   [rpn-calculator](../08-projekt-build-testy/examples/rpn-calculator/README.md)
   jako wzorzec projektu wieloplikowego z testami.
-- `06-oop` - w przyszłości można dodać kompilowalny przykład do ćwiczenia
-  [figury i polimorfizm](../06-oop/08-cwiczenie-figury-polimorfizm.md), jeśli
-  grupa potrzebuje więcej wsparcia przy `virtual`, `override` i `unique_ptr`.
+- `06-oop` - utrzymywać przykład
+  [figures_polymorphism.cpp](../06-oop/examples/figures_polymorphism.cpp) jako
+  punkt startowy do ćwiczenia z klasą abstrakcyjną i polimorfizmem.
 
 ### Średni priorytet
 
-- `02-sterowanie-i-petle` - można dodać przykład częściowy do ćwiczenia
-  [minimum, maksimum i średnia](../02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md),
-  np. samą pętlę wczytywania i walidacji bez pełnego rozwiązania.
-- `03-funkcje-tablice-napisy` - można dodać przykład częściowy do ćwiczenia
-  [szyfr GADERYPOLUKI](../03-funkcje-tablice-napisy/07-cwiczenie-szyfr-gaderypoluki.md),
-  np. funkcję zamieniającą pojedynczy znak.
+- `02-sterowanie-i-petle` - utrzymywać przykład
+  [while_min_max_average.cpp](../02-sterowanie-i-petle/examples/while_min_max_average.cpp)
+  jako demonstrację pętli, walidacji i wyniku częściowego.
+- `03-funkcje-tablice-napisy` - utrzymywać przykład
+  [string_gaderypoluki.cpp](../03-funkcje-tablice-napisy/examples/string_gaderypoluki.cpp)
+  jako demonstrację funkcji pracujących na znakach i napisach.
 
 ### Niski priorytet
 
@@ -48,6 +48,15 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 - `07-stl-struktury-danych` - przykłady obejmują najważniejsze kontenery i
   algorytmy.
 - `09-modern-cpp` - przykłady są wystarczające dla materiału pokazowego.
+
+## Przykłady pomostowe dodane
+
+| Ćwiczenie | Przykład |
+| --- | --- |
+| Minimum, maksimum i średnia | [while_min_max_average.cpp](../02-sterowanie-i-petle/examples/while_min_max_average.cpp) |
+| Szyfr GADERYPOLUKI | [string_gaderypoluki.cpp](../03-funkcje-tablice-napisy/examples/string_gaderypoluki.cpp) |
+| Figury i polimorfizm | [figures_polymorphism.cpp](../06-oop/examples/figures_polymorphism.cpp) |
+| Kalkulator RPN | [rpn-calculator](../08-projekt-build-testy/examples/rpn-calculator/README.md) |
 
 ## Zasada dodawania nowych przykładów
 
