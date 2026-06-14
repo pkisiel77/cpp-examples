@@ -9,6 +9,8 @@ Ten dokument pokazuje, jak korzystać z repozytorium podczas nauki C++.
 3. W każdym segmencie czytaj najpierw `README.md`, potem lekcje w podanej kolejności.
 4. Uruchamiaj przykłady z katalogu `examples`, jeśli segment je zawiera.
 5. Po lekcji wykonaj zadania i sprawdź checklistę.
+6. Jeśli nie wiesz, co zrobić dalej, użyj indeksu
+   [co wybrać po segmencie](co-po-segmencie.md).
 
 ## Jak kompilować przykłady
 

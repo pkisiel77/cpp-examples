@@ -33,6 +33,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/plan-semestru.md](docs/plan-semestru.md) - przykładowy 15-tygodniowy rozkład zajęć.
 - [docs/postepy-i-ocenianie.md](docs/postepy-i-ocenianie.md) - punkty kontrolne, poziomy osiągnięć i model oceniania.
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
+- [docs/co-po-segmencie.md](docs/co-po-segmencie.md) - co wybrać po segmencie: mini-sprawdzian, ćwiczenie pomostowe albo projekt.
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
 - [docs/walidacja-repo.md](docs/walidacja-repo.md) - lokalne sprawdzanie przykładów, testów i CI.
 - [docs/przyklady-do-uzupelnienia.md](docs/przyklady-do-uzupelnienia.md) - audyt przykładów `.cpp` i priorytety uzupełnień.
