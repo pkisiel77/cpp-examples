@@ -88,6 +88,11 @@ Znaczenie elementów:
 - `Query` - wybieranie kolumn, filtrowanie i sortowanie,
 - `Menu` - interfejs użytkownika w terminalu.
 
+Kompilowalny szkic parsera znajduje się w pliku
+[examples/csv_parser_skeleton.cpp](examples/csv_parser_skeleton.cpp). Przykład
+pokazuje podział linii CSV, obsługę pól w cudzysłowach, puste pola, model
+`CsvTable` oraz filtrowanie po wartości kolumny.
+
 ## Model danych
 
 Tabela powinna mieć co najmniej:

@@ -18,7 +18,7 @@ kompilowalny w katalogu [examples](examples).
 | [Projekt 08 - Kalkulator](project-08-kalkulator.md) | niewymagany | projekt może być funkcyjny | szkic klasy nie jest konieczny w wariancie minimum |
 | [Projekt 09 - Kalkulator macierzy](project-09-kalkulator-macierzy.md) | wystarczający | `Matrix` | brak pilnych zmian |
 | [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md) | dobry | `TaskPriority`, `TaskStatus`, `Task` i przykład [task_manager_skeleton.cpp](examples/task_manager_skeleton.cpp) | utrzymywać przykład jako punkt startowy |
-| [Projekt 11 - Parser plików CSV](project-11-parser-csv.md) | wystarczający | `CsvRecord`, `CsvTable` | dodać przykład parsera, jeśli pojawią się trudności studentów |
+| [Projekt 11 - Parser plików CSV](project-11-parser-csv.md) | dobry | `CsvRecord`, `CsvTable` i przykład [csv_parser_skeleton.cpp](examples/csv_parser_skeleton.cpp) | utrzymywać przykład jako punkt startowy |
 | [Projekt 12 - Symulator bankomatu](project-12-symulator-bankomatu.md) | dobry | `TransactionType`, `Transaction`, `Account` | utrzymywać przykład [atm_account.cpp](examples/atm_account.cpp) |
 
 ## Projekty bez kodowego szkicu klasy
@@ -33,6 +33,5 @@ obiektową, może samodzielnie wydzielić klasę `Calculator`.
 
 ## Rekomendowany porządek dalszych uzupełnień
 
-1. Rozważyć `10-projekty/examples/csv_parser_skeleton.cpp`.
-2. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
+1. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
    model w opisie.
