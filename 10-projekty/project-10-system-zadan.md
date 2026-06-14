@@ -92,6 +92,11 @@ Znaczenie elementów:
 - `TaskManager` - logika dodawania, usuwania, edycji i wyszukiwania,
 - `TaskStorage` - zapis i odczyt zadań z pliku.
 
+Kompilowalny szkic klasy zarządzającej znajduje się w pliku
+[examples/task_manager_skeleton.cpp](examples/task_manager_skeleton.cpp).
+Przykład pokazuje dodawanie zadań, odrzucenie duplikatu ID, zmianę statusu,
+sortowanie po priorytecie i filtrowanie po statusie.
+
 ## Model danych
 
 Zadanie powinno mieć co najmniej:

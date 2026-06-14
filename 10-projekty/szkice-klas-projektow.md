@@ -17,16 +17,15 @@ kompilowalny w katalogu [examples](examples).
 | [Projekt 07 - Baza pojazdów](project-07-baza-pojazdow.md) | wystarczający | `VehicleType`, `Vehicle` | można później dodać przykład filtrowania |
 | [Projekt 08 - Kalkulator](project-08-kalkulator.md) | niewymagany | projekt może być funkcyjny | szkic klasy nie jest konieczny w wariancie minimum |
 | [Projekt 09 - Kalkulator macierzy](project-09-kalkulator-macierzy.md) | wystarczający | `Matrix` | brak pilnych zmian |
-| [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md) | częściowy | `TaskPriority`, `TaskStatus`, `Task` | dodać przykład `TaskManager` w `examples` |
+| [Projekt 10 - System zarządzania zadaniami](project-10-system-zadan.md) | dobry | `TaskPriority`, `TaskStatus`, `Task` i przykład [task_manager_skeleton.cpp](examples/task_manager_skeleton.cpp) | utrzymywać przykład jako punkt startowy |
 | [Projekt 11 - Parser plików CSV](project-11-parser-csv.md) | wystarczający | `CsvRecord`, `CsvTable` | dodać przykład parsera, jeśli pojawią się trudności studentów |
 | [Projekt 12 - Symulator bankomatu](project-12-symulator-bankomatu.md) | dobry | `TransactionType`, `Transaction`, `Account` | utrzymywać przykład [atm_account.cpp](examples/atm_account.cpp) |
 
 ## Projekty bez kodowego szkicu klasy
 
-Najpierw warto uzupełnić:
-
-1. `project-10-system-zadan.md` - model `Task` istnieje, ale brakuje szkicu
-   klasy zarządzającej kolekcją zadań.
+Nie ma już pilnych braków w kodowych szkicach klas. Kolejne przykłady warto
+dodawać wtedy, gdy pomagają pokazać jedną technikę, np. zapis CSV albo
+filtrowanie danych.
 
 Projekt `project-08-kalkulator.md` nie wymaga szkicu klasy, bo wariant minimum
 może być czytelnie zrealizowany funkcjami. Jeśli student wybierze wersję
@@ -34,7 +33,6 @@ obiektową, może samodzielnie wydzielić klasę `Calculator`.
 
 ## Rekomendowany porządek dalszych uzupełnień
 
-1. Dodać `10-projekty/examples/task_manager_skeleton.cpp`.
-2. Rozważyć `10-projekty/examples/csv_parser_skeleton.cpp`.
-3. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
+1. Rozważyć `10-projekty/examples/csv_parser_skeleton.cpp`.
+2. Dopiero potem dodawać przykłady do projektów, które mają już wystarczający
    model w opisie.

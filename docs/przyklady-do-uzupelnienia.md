@@ -55,7 +55,7 @@ krótki program demonstracyjny pomaga studentowi zacząć większe zadanie.
 | Priorytet | Miejsce | Proponowany przykład | Cel dydaktyczny |
 | --- | --- | --- | --- |
 | 1 | `10-projekty/examples/` | [logger_skeleton.cpp](../10-projekty/examples/logger_skeleton.cpp) | pokazać prosty model wpisu dziennika, poziomy logowania i zapis do pliku |
-| 2 | `10-projekty/examples/` | szkic `Task` i `TaskManager` dla projektu 10 | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
+| 2 | `10-projekty/examples/` | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) | pokazać klasę zarządzającą kolekcją obiektów i filtrowanie statusów |
 | 3 | `10-projekty/examples/` | szkic parsera CSV dla projektu 11 | połączyć odczyt pliku, podział linii i walidację kolumn |
 | 4 | `07-stl-struktury-danych/examples/` | `map_vector_join.cpp` | pokazać praktyczne użycie `std::map` z wektorem rekordów |
 | 5 | `05-pliki-wyjatki/examples/` | `config_key_value.cpp` | pokazać prosty parser konfiguracji `klucz=wartosc` z obsługą błędów |
@@ -74,6 +74,7 @@ technikę, którą student rozwinie samodzielnie.
 | Kalkulator RPN | [rpn-calculator](../08-projekt-build-testy/examples/rpn-calculator/README.md) |
 | Model konta bankomatu | [atm_account.cpp](../10-projekty/examples/atm_account.cpp) |
 | Szkic loggera | [logger_skeleton.cpp](../10-projekty/examples/logger_skeleton.cpp) |
+| Szkic managera zadań | [task_manager_skeleton.cpp](../10-projekty/examples/task_manager_skeleton.cpp) |
 
 ## Zasada dodawania nowych przykładów
 
