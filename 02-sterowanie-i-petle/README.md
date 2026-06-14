@@ -23,6 +23,7 @@ Po zakończeniu segmentu student powinien umieć:
 4. [04-petle-while-do-while.md](04-petle-while-do-while.md) - pętle zależne od warunku.
 5. [05-break-continue-i-zagniezdzenia.md](05-break-continue-i-zagniezdzenia.md) - sterowanie wewnątrz pętli i pętle zagnieżdżone.
 6. [06-zadania.md](06-zadania.md) - zadania podstawowe i dodatkowe.
+7. [07-cwiczenie-min-max-srednia.md](07-cwiczenie-min-max-srednia.md) - większe ćwiczenie z pętli, walidacji i wyniku częściowego.
 
 ## Status porządkowania
 

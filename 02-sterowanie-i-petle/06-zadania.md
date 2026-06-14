@@ -316,6 +316,10 @@ Wymagania:
 - jeśli `n <= 0`, wypisz komunikat o błędzie,
 - nie używaj tablic.
 
+Rozszerzony wariant tego zadania, z wczytywaniem do momentu wpisania komendy
+kończącej, znajduje się w osobnym ćwiczeniu
+[07-cwiczenie-min-max-srednia.md](07-cwiczenie-min-max-srednia.md).
+
 ### Zadanie 28. Liczby trójkątne
 
 Napisz program, który wypisuje wszystkie liczby trójkątne z przedziału od `1` do `20`.

@@ -25,7 +25,7 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 
 | Plik | Docelowe użycie | Priorytet | Decyzja |
 | --- | --- | --- | --- |
-| `min-max-avg.md` | `02-sterowanie-i-petle/tasks` | wysoki | przenieść jako ćwiczenie z pętli i walidacji |
+| `min-max-avg.md` | `02-sterowanie-i-petle` | wykonane | wersja docelowa: `07-cwiczenie-min-max-srednia.md` |
 | `encryption-1.md` | `03-funkcje-tablice-napisy/tasks` | wysoki | przenieść jako ćwiczenie z napisów i funkcji |
 | `sfml-t1.md` | `06-oop/tasks` | średni | przenieść część bez SFML jako ćwiczenie OOP |
 | `calculator.md` | `08-projekt-build-testy` albo `10-projekty` | średni | zostawić jako pomost do projektu kalkulatora |
@@ -33,11 +33,10 @@ Zadanie zostaje w `tnt-tasks`, jeśli:
 
 ## Kolejność pracy
 
-1. Przenieś `min-max-avg.md` do segmentu sterowania i pętli.
-2. Przenieś `encryption-1.md` do segmentu funkcji i napisów.
-3. Wydziel z `sfml-t1.md` wersję bez biblioteki SFML i przenieś ją do OOP.
-4. Porównaj `calculator.md` z głównym projektem kalkulatora.
-5. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
+1. Przenieś `encryption-1.md` do segmentu funkcji i napisów.
+2. Wydziel z `sfml-t1.md` wersję bez biblioteki SFML i przenieś ją do OOP.
+3. Porównaj `calculator.md` z głównym projektem kalkulatora.
+4. Zdecyduj, czy `atm.md` ma zostać projektem pomocniczym, czy projektem głównym.
 
 ## Format po przeniesieniu ćwiczenia
 
@@ -73,9 +72,9 @@ Jeśli zadanie zostaje projektem w `10-projekty`, powinno mieć pełny układ:
 
 ### `min-max-avg.md`
 
-Najlepiej pasuje do pętli, walidacji wejścia i obliczania wyniku częściowego.
-Po przeniesieniu warto dodać pytania o pusty zestaw danych i błędny tekst
-wpisany zamiast liczby.
+Wersja docelowa znajduje się w
+`02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md`. Ćwiczenie trafiło do
+segmentu pętli, walidacji wejścia i obliczania wyniku częściowego.
 
 ### `encryption-1.md`
 

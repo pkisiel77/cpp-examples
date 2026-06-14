@@ -16,7 +16,8 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 
 - [encryption-1.md](encryption-1.md) - szyfr podstawieniowy GADERYPOLUKI.
 - [min-max-avg.md](min-max-avg.md) - minimum, maksimum i średnia z liczb
-  podawanych przez użytkownika.
+  podawanych przez użytkownika; wersja docelowa jest w
+  [segmencie sterowania i pętli](../../02-sterowanie-i-petle/07-cwiczenie-min-max-srednia.md).
 - [sfml-t1.md](sfml-t1.md) - polimorfizm, klasy figur i opcjonalna wizualizacja
   w SFML.
 - [calculator.md](calculator.md) - krótszy wariant kalkulatora skupiony na
@@ -30,7 +31,7 @@ Decyzje dotyczące dalszego przenoszenia opisuje
 ## Możliwe dalsze użycie
 
 - `encryption-1.md` można przenieść do segmentu funkcji i napisów.
-- `min-max-avg.md` można przenieść do segmentu sterowania i pętli.
+- `min-max-avg.md` ma już wersję docelową w segmencie sterowania i pętli.
 - `sfml-t1.md` można przenieść do segmentu OOP.
 - `calculator.md` można zostawić jako ćwiczenie przygotowujące do projektu
   [Projekt 08 - Kalkulator](../project-08-kalkulator.md).
