@@ -35,6 +35,7 @@ W każdym segmencie materiały są uporządkowane według schematu:
 - [docs/student.md](docs/student.md) - instrukcja pracy z repozytorium dla studenta.
 - [docs/checklista-oddania.md](docs/checklista-oddania.md) - lista kontrolna przed oddaniem i odbiorem pracy.
 - [docs/walidacja-repo.md](docs/walidacja-repo.md) - lokalne sprawdzanie przykładów, testów i CI.
+- [docs/przyklady-do-uzupelnienia.md](docs/przyklady-do-uzupelnienia.md) - audyt przykładów `.cpp` i priorytety uzupełnień.
 - [10-projekty/checklista-projektu.md](10-projekty/checklista-projektu.md) - lista kontroli projektu zaliczeniowego.
 - [templates](templates) - szablony oddawania krótkich zadań i projektów.
 - [_assets](./_assets) - media i pliki pomocnicze.
