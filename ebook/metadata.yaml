@@ -1,0 +1,13 @@
+---
+title: "Kurs C++"
+subtitle: "Materiały dla studentów"
+author: "Profeosoft"
+lang: "pl-PL"
+toc: true
+toc-depth: 2
+numbersections: true
+documentclass: report
+papersize: a4
+geometry:
+  - margin=2.5cm
+---

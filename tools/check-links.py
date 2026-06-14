@@ -11,6 +11,7 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {".git"}
+EXCLUDED_PATHS = {Path("ebook/build")}
 LINK_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 
@@ -27,6 +28,9 @@ def markdown_files() -> list[Path]:
     files: list[Path] = []
     for path in ROOT.rglob("*.md"):
         if any(part in EXCLUDED_DIRS for part in path.parts):
+            continue
+        relative = path.relative_to(ROOT)
+        if any(relative == excluded or excluded in relative.parents for excluded in EXCLUDED_PATHS):
             continue
         files.append(path)
     return sorted(files)
