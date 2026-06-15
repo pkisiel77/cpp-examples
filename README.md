@@ -19,6 +19,15 @@ Dla prowadzącego:
 - walidacja repozytorium jest opisana w [docs/walidacja-repo.md](docs/walidacja-repo.md),
 - audyt przykładów jest w [docs/przyklady-do-uzupelnienia.md](docs/przyklady-do-uzupelnienia.md).
 
+## Pobierz ebook
+
+Aktualny draft ebooka można pobrać bez budowania lokalnego:
+
+- [PDF](ebook/download/cpp-kurs.pdf),
+- [EPUB](ebook/download/cpp-kurs.epub).
+
+Źródła i instrukcja budowania są w katalogu [ebook](ebook/README.md).
+
 ## Ścieżka nauki
 
 1. [00-start](00-start/README.md) - środowisko, kompilator, Git, CMake.
