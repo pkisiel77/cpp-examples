@@ -18,6 +18,7 @@ Ebook ma być wersją czytelniczą kursu C++:
 - [metadata.yaml](metadata.yaml) - metadane dla `pandoc`.
 - [front-matter.md](front-matter.md) - strona wstępna ebooka.
 - [manifest.txt](manifest.txt) - kolejność plików źródłowych.
+- [CHANGELOG.md](CHANGELOG.md) - historia wersji ebooka.
 - [download/cpp-kurs.pdf](download/cpp-kurs.pdf) - aktualny PDF do pobrania.
 - [download/cpp-kurs.epub](download/cpp-kurs.epub) - aktualny EPUB do pobrania.
 - `build/` - katalog wynikowy tworzony przez skrypt, ignorowany przez Git.

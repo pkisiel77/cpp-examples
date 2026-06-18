@@ -10,6 +10,7 @@ prepare the English structure before translating the full course.
 - [front-matter.md](front-matter.md) - English title and introduction.
 - [course-plan.md](course-plan.md) - English course plan and translation roadmap.
 - [manifest.txt](manifest.txt) - source file order.
+- [../CHANGELOG.md](../CHANGELOG.md) - ebook version history.
 
 ## Build
 
