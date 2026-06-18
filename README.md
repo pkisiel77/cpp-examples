@@ -21,10 +21,17 @@ Dla prowadzącego:
 
 ## Pobierz ebook
 
-Aktualny draft ebooka można pobrać bez budowania lokalnego:
+Aktualny draft ebooka można pobrać bez budowania lokalnego.
 
-- [PDF](ebook/download/cpp-kurs.pdf),
-- [EPUB](ebook/download/cpp-kurs.epub).
+Wersja polska:
+
+- [PDF PL](ebook/download/cpp-kurs.pdf),
+- [EPUB PL](ebook/download/cpp-kurs.epub).
+
+English draft:
+
+- [PDF EN](ebook/download/cpp-course-en.pdf),
+- [EPUB EN](ebook/download/cpp-course-en.epub).
 
 Źródła i instrukcja budowania są w katalogu [ebook](ebook/README.md).
 

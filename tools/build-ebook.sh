@@ -3,9 +3,28 @@
 set -eu
 
 OUT_DIR=${OUT_DIR:-ebook/build}
-MANIFEST=${MANIFEST:-ebook/manifest.txt}
-METADATA=${METADATA:-ebook/metadata.yaml}
-OUT_BASENAME=${OUT_BASENAME:-cpp-kurs}
+EBOOK_LANG=${EBOOK_LANG:-pl}
+
+case "$EBOOK_LANG" in
+    pl)
+        DEFAULT_MANIFEST=ebook/manifest.txt
+        DEFAULT_METADATA=ebook/metadata.yaml
+        DEFAULT_OUT_BASENAME=cpp-kurs
+        ;;
+    en)
+        DEFAULT_MANIFEST=ebook/en/manifest.txt
+        DEFAULT_METADATA=ebook/en/metadata.yaml
+        DEFAULT_OUT_BASENAME=cpp-course-en
+        ;;
+    *)
+        echo "Unsupported EBOOK_LANG: $EBOOK_LANG" >&2
+        exit 1
+        ;;
+esac
+
+MANIFEST=${MANIFEST:-$DEFAULT_MANIFEST}
+METADATA=${METADATA:-$DEFAULT_METADATA}
+OUT_BASENAME=${OUT_BASENAME:-$DEFAULT_OUT_BASENAME}
 
 mkdir -p "$OUT_DIR"
 

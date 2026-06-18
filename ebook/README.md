@@ -26,8 +26,13 @@ Ebook ma być wersją czytelniczą kursu C++:
 
 Gotowe pliki:
 
-- [Pobierz PDF](download/cpp-kurs.pdf),
-- [Pobierz EPUB](download/cpp-kurs.epub).
+- [Pobierz PDF PL](download/cpp-kurs.pdf),
+- [Pobierz EPUB PL](download/cpp-kurs.epub),
+- [Download PDF EN](download/cpp-course-en.pdf),
+- [Download EPUB EN](download/cpp-course-en.epub).
+
+Wersja angielska jest przygotowywana w katalogu [en](en/README.md). Obecnie jest
+to draft planu i struktury tłumaczenia, a nie pełny przekład całego kursu.
 
 ## Budowanie
 
@@ -42,6 +47,12 @@ Domyślnie skrypt tworzy:
 - `ebook/build/cpp-kurs.md`,
 - `ebook/build/cpp-kurs.pdf`,
 - `ebook/build/cpp-kurs.epub`.
+
+Wersję angielską można zbudować poleceniem:
+
+```sh
+EBOOK_LANG=en sh tools/build-ebook.sh
+```
 
 Po zatwierdzonej redakcji można skopiować aktualne pliki PDF i EPUB do
 `ebook/download/`, żeby były dostępne bezpośrednio z repozytorium.

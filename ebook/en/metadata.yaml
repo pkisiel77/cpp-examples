@@ -1,0 +1,15 @@
+---
+title: "C++ Course"
+subtitle: "Materials for Students"
+author: "Paweł Kisielewicz <pkisiel@gmail.com>"
+date: "Krakow, 18 June 2026"
+version: "0.1.0-en"
+lang: "en-US"
+toc: true
+toc-depth: 2
+numbersections: true
+documentclass: report
+papersize: a4
+geometry:
+  - margin=2.5cm
+---
