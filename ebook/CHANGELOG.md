@@ -3,6 +3,15 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.2.0-en - 2026-06-18
+
+Pierwszy angielski batch lekcji:
+
+- dodano rozdział `00 - Start`,
+- dodano rozdział `01 - C++ Basics`,
+- zaktualizowano angielski manifest ebooka,
+- zaktualizowano metadane wersji EN do `0.2.0-en`.
+
 ## 0.1.0-en - 2026-06-18
 
 Pierwszy angielski draft:

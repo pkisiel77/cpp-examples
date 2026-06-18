@@ -1,2 +1,4 @@
 ebook/en/front-matter.md
 ebook/en/course-plan.md
+ebook/en/00-start.md
+ebook/en/01-basics.md

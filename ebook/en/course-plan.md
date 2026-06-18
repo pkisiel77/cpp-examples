@@ -28,10 +28,10 @@ batches.
 
 ### Batch 1
 
-- Main repository introduction.
-- Ebook front matter.
-- `00-start`.
-- `01-basics`.
+- Main repository introduction - draft added.
+- Ebook front matter - draft added.
+- `00-start` - first English chapter added.
+- `01-basics` - first English chapter added.
 
 ### Batch 2
 
