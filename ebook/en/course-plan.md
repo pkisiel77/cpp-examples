@@ -35,8 +35,8 @@ batches.
 
 ### Batch 2
 
-- `02-control-flow-loops`.
-- Bridge exercise: minimum, maximum, and average.
+- `02-control-flow-loops` - first English chapter added.
+- Bridge exercise: minimum, maximum, and average - included in the chapter.
 
 ### Batch 3
 
