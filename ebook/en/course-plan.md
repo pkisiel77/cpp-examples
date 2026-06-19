@@ -58,9 +58,9 @@ batches.
 
 ### Batch 6
 
-- `09-modern-cpp`.
-- `10-projects`.
-- Project checklist and grading card.
+- `09-modern-cpp` - first English chapter added.
+- `10-projects` - first English chapter added.
+- Project checklist and grading card - included in the project chapter.
 
 ## Editorial Rules
 

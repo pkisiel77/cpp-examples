@@ -3,6 +3,16 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.7.0-en - 2026-06-19
+
+Szósty angielski batch lekcji:
+
+- dodano rozdział `09 - Modern C++`,
+- dodano rozdział `10 - Projects`,
+- dodano angielską checklistę projektu i rubrykę oceny,
+- zaktualizowano angielski manifest ebooka,
+- zaktualizowano metadane wersji EN do `0.7.0-en`.
+
 ## 0.6.0-en - 2026-06-19
 
 Piąty angielski batch lekcji:

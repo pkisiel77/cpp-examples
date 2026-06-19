@@ -9,3 +9,5 @@ ebook/en/05-files-exceptions.md
 ebook/en/06-oop.md
 ebook/en/07-stl-data-structures.md
 ebook/en/08-project-build-tests.md
+ebook/en/09-modern-cpp.md
+ebook/en/10-projects.md
