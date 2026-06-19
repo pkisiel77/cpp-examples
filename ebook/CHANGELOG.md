@@ -3,6 +3,16 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.6.0-en - 2026-06-19
+
+Piąty angielski batch lekcji:
+
+- dodano rozdział `07 - STL and Data Structures`,
+- dodano rozdział `08 - Project Structure, Build, and Tests`,
+- dodano angielską wersję ćwiczenia pomostowego kalkulator RPN,
+- zaktualizowano angielski manifest ebooka,
+- zaktualizowano metadane wersji EN do `0.6.0-en`.
+
 ## 0.5.0-en - 2026-06-19
 
 Czwarty angielski batch lekcji:

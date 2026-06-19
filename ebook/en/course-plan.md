@@ -52,9 +52,9 @@ batches.
 
 ### Batch 5
 
-- `07-stl-data-structures`.
-- `08-project-build-tests`.
-- Bridge exercise: RPN calculator.
+- `07-stl-data-structures` - first English chapter added.
+- `08-project-build-tests` - first English chapter added.
+- Bridge exercise: RPN calculator - included in the chapter.
 
 ### Batch 6
 
