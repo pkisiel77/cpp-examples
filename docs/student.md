@@ -12,6 +12,17 @@ Ten dokument pokazuje, jak korzystać z repozytorium podczas nauki C++.
 6. Jeśli nie wiesz, co zrobić dalej, użyj indeksu
    [co wybrać po segmencie](co-po-segmencie.md).
 
+## Ebook do pobrania
+
+Jeśli chcesz czytać materiał poza repozytorium, użyj gotowych plików:
+
+- [PDF PL](../ebook/download/cpp-kurs.pdf),
+- [EPUB PL](../ebook/download/cpp-kurs.epub),
+- [PDF EN](../ebook/download/cpp-course-en.pdf),
+- [EPUB EN](../ebook/download/cpp-course-en.epub).
+
+Źródła ebooka i instrukcja budowania są w katalogu [ebook](../ebook/README.md).
+
 ## Jak kompilować przykłady
 
 Większość pojedynczych plików można kompilować tak:

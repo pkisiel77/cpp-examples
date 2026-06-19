@@ -6,6 +6,8 @@ a na końcu projekty zaliczeniowe.
 
 Gotowy rozkład 15-tygodniowy znajduje się w [planie semestru](plan-semestru.md).
 Zasady punktów kontrolnych i oceniania opisuje dokument [postępy i ocenianie](postepy-i-ocenianie.md).
+Wersje czytelnicze materiałów są dostępne jako ebook PL i EN w katalogu
+[ebook](../ebook/README.md).
 
 ## Proponowany układ pracy
 
@@ -75,6 +77,12 @@ Skrypt kompiluje przykłady z głównej ścieżki i uruchamia testowy build z se
 `08-projekt-build-testy`. Ten sam skrypt działa w GitHub Actions.
 Szczegóły konfiguracji i interpretacji wyników są w dokumencie
 [walidacja repozytorium](walidacja-repo.md).
+
+Jeśli zmieniasz treść ebooka, sprawdź również budowanie plików PDF/EPUB:
+
+```sh
+sh tools/check-ebooks.sh
+```
 
 ## Praca z projektami
 
