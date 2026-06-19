@@ -45,10 +45,10 @@ batches.
 
 ### Batch 4
 
-- `04-pointers-references-memory`.
-- `05-files-exceptions`.
-- `06-oop`.
-- Bridge exercise: figures and polymorphism.
+- `04-pointers-references-memory` - first English chapter added.
+- `05-files-exceptions` - first English chapter added.
+- `06-oop` - first English chapter added.
+- Bridge exercise: figures and polymorphism - included in the chapter.
 
 ### Batch 5
 

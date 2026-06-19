@@ -3,6 +3,17 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.5.0-en - 2026-06-19
+
+Czwarty angielski batch lekcji:
+
+- dodano rozdział `04 - Pointers, References, and Memory`,
+- dodano rozdział `05 - Files and Exceptions`,
+- dodano rozdział `06 - Object-Oriented Programming`,
+- dodano angielską wersję ćwiczenia pomostowego figury i polimorfizm,
+- zaktualizowano angielski manifest ebooka,
+- zaktualizowano metadane wersji EN do `0.5.0-en`.
+
 ## 0.4.0-en - 2026-06-19
 
 Trzeci angielski batch lekcji:

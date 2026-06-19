@@ -4,3 +4,6 @@ ebook/en/00-start.md
 ebook/en/01-basics.md
 ebook/en/02-control-flow-loops.md
 ebook/en/03-functions-arrays-strings.md
+ebook/en/04-pointers-references-memory.md
+ebook/en/05-files-exceptions.md
+ebook/en/06-oop.md

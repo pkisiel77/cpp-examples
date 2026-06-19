@@ -2,16 +2,16 @@
 title: "C++ Course"
 subtitle: "Materials for Students"
 author: "Paweł Kisielewicz <pkisiel@gmail.com>"
-date: "Krakow, 18 June 2026"
-version: "0.4.0-en"
+date: "Krakow, 19 June 2026"
+version: "0.5.0-en"
 lang: en-US
 ---
 
 # Introduction
 
 - Author: Paweł Kisielewicz `<pkisiel@gmail.com>`
-- Place and date: Krakow, 18 June 2026
-- Version: `0.4.0-en`
+- Place and date: Krakow, 19 June 2026
+- Version: `0.5.0-en`
 
 This ebook is the first English draft based on the Polish C++ learning
 materials. The Polish version remains the source of truth for now. The English
