@@ -7,7 +7,7 @@ repozytorium.
 
 Ebook ma być wersją czytelniczą kursu C++:
 
-- po polsku,
+- po polsku i po angielsku,
 - dla studentów uczących się od podstaw,
 - z zachowaniem segmentów `00`-`10`,
 - z ćwiczeniami pomostowymi i projektami,
@@ -21,6 +21,7 @@ Ebook ma być wersją czytelniczą kursu C++:
 - [CHANGELOG.md](CHANGELOG.md) - historia wersji ebooka.
 - [download/cpp-kurs.pdf](download/cpp-kurs.pdf) - aktualny PDF do pobrania.
 - [download/cpp-kurs.epub](download/cpp-kurs.epub) - aktualny EPUB do pobrania.
+- [en](en/README.md) - źródła i opis angielskiej wersji ebooka.
 - `build/` - katalog wynikowy tworzony przez skrypt, ignorowany przez Git.
 
 ## Pobieranie
@@ -32,8 +33,8 @@ Gotowe pliki:
 - [Download PDF EN](download/cpp-course-en.pdf),
 - [Download EPUB EN](download/cpp-course-en.epub).
 
-Wersja angielska jest przygotowywana w katalogu [en](en/README.md). Obecnie jest
-to draft planu i struktury tłumaczenia, a nie pełny przekład całego kursu.
+Wersja angielska jest przygotowywana w katalogu [en](en/README.md). Obejmuje
+pełną ścieżkę `00`-`10` w formie pierwszej angielskiej edycji rozdziałów.
 
 ## Budowanie
 
@@ -70,4 +71,5 @@ redakcji powinny:
 - dodawać krótkie przejścia między rozdziałami,
 - zostawiać kod w blokach Markdown,
 - pomijać katalogi `archive`,
-- utrzymywać polski język materiałów.
+- utrzymywać spójny język danej wersji,
+- aktualizować pliki w `ebook/download/` po zatwierdzonej zmianie treści.

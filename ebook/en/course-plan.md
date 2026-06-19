@@ -5,10 +5,9 @@
 The English edition should become a downloadable version of the C++ course for
 students who want to learn from the same material as the Polish course.
 
-The first release should focus on readability and navigation. The code examples
-can stay close to the Polish repository at the beginning, while explanations,
-chapter introductions, exercises, and project descriptions are translated in
-batches.
+The current English edition covers the full learning path from `00-start` to
+`10-projects`. Further work should focus on review, examples, consistency, and
+future polishing rather than creating the first structure.
 
 ## Learning Path
 
@@ -97,13 +96,13 @@ C) 6 6
 Answer: `B) 5 6`, because postfix `x++` returns the current value first and
 increments the variable afterwards.
 
-## First Downloadable English Draft
+## Current Downloadable English Edition
 
-The first downloadable English file should be marked clearly as a draft:
+The current downloadable English edition is:
 
 - title: `C++ Course`
-- version: `0.1.0-en`
-- scope: plan, learning path, and translation roadmap
+- version: `0.7.0-en`
+- scope: full learning path `00`-`10`
 - output files:
   - `ebook/download/cpp-course-en.pdf`
   - `ebook/download/cpp-course-en.epub`
