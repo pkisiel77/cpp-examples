@@ -40,8 +40,8 @@ batches.
 
 ### Batch 3
 
-- `03-functions-arrays-strings`.
-- Bridge exercise: GADERYPOLUKI cipher.
+- `03-functions-arrays-strings` - first English chapter added.
+- Bridge exercise: GADERYPOLUKI cipher - included in the chapter.
 
 ### Batch 4
 
