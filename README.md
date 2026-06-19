@@ -21,14 +21,14 @@ Dla prowadzącego:
 
 ## Pobierz ebook
 
-Aktualny draft ebooka można pobrać bez budowania lokalnego.
+Aktualne wersje ebooka można pobrać bez budowania lokalnego.
 
 Wersja polska:
 
 - [PDF PL](ebook/download/cpp-kurs.pdf),
 - [EPUB PL](ebook/download/cpp-kurs.epub).
 
-English draft:
+Wersja angielska:
 
 - [PDF EN](ebook/download/cpp-course-en.pdf),
 - [EPUB EN](ebook/download/cpp-course-en.epub).
@@ -103,10 +103,17 @@ Ten sam skrypt jest uruchamiany w GitHub Actions po `push` i `pull_request`.
 Szczegóły użycia i interpretacji wyników są opisane w
 [docs/walidacja-repo.md](docs/walidacja-repo.md).
 
+Po zmianach w ebooku uruchom również:
+
+```sh
+sh tools/check-ebooks.sh
+```
+
 ## Status porządkowania
 
 Główna ścieżka `00`-`10` została ujednolicona do wspólnego formatu. Materiały
-przygotowywane są po polsku. Zadania TNT mają już mapę docelowego użycia:
-część została przeniesiona do ćwiczeń pomostowych, a symulator bankomatu trafił
-do głównej listy projektów. Aktualny status zamknięcia prac jest opisany w
+źródłowe głównej ścieżki pozostają po polsku, a ebook ma gotowe wersje PL i EN
+do pobrania. Zadania TNT mają już mapę docelowego użycia: część została
+przeniesiona do ćwiczeń pomostowych, a symulator bankomatu trafił do głównej
+listy projektów. Aktualny status zamknięcia prac jest opisany w
 [docs/status-porzadkowania.md](docs/status-porzadkowania.md).
