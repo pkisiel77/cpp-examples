@@ -4,6 +4,9 @@ set -eu
 
 build_dir=${BUILD_DIR:-ebook/build}
 
+echo "check ebook metadata"
+python3 tools/check-ebook-metadata.py
+
 echo "build PL ebook"
 OUT_DIR="$build_dir" EBOOK_LANG=pl sh tools/build-ebook.sh
 

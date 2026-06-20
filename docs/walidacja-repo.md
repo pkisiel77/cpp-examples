@@ -41,6 +41,7 @@ które nie muszą być częścią bieżącej ścieżki zajęć.
 
 `tools/check-ebooks.sh` buduje obie wersje ebooka:
 
+- sprawdza spójność metadanych wersji PL i EN,
 - PL: `ebook/build/cpp-kurs.pdf` i `ebook/build/cpp-kurs.epub`,
 - EN: `ebook/build/cpp-course-en.pdf` i `ebook/build/cpp-course-en.epub`.
 
@@ -53,7 +54,10 @@ Uruchamiaj go po zmianach w:
 - `ebook/en/manifest.txt`,
 - `ebook/en/metadata.yaml`,
 - `ebook/en/front-matter.md`,
+- `ebook/README.md`,
+- `ebook/en/README.md`,
 - rozdziałach ebooka PL albo EN,
+- `ebook/CHANGELOG.md`,
 - skryptach `tools/build-ebook.sh` i `tools/check-ebooks.sh`.
 
 Jeśli zmiana treści ebooka jest zatwierdzona, przebuduj odpowiednią wersję i
