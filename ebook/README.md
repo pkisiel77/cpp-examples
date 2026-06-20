@@ -24,6 +24,11 @@ Ebook ma być wersją czytelniczą kursu C++:
 - [en](en/README.md) - źródła i opis angielskiej wersji ebooka.
 - `build/` - katalog wynikowy tworzony przez skrypt, ignorowany przez Git.
 
+## Aktualne wersje
+
+- PL: `0.1.1`.
+- EN: `0.7.1-en`.
+
 ## Pobieranie
 
 Gotowe pliki:
@@ -33,8 +38,8 @@ Gotowe pliki:
 - [Download PDF EN](download/cpp-course-en.pdf),
 - [Download EPUB EN](download/cpp-course-en.epub).
 
-Wersja angielska jest przygotowywana w katalogu [en](en/README.md). Obejmuje
-pełną ścieżkę `00`-`10` w formie pierwszej angielskiej edycji rozdziałów.
+Wersja angielska jest utrzymywana w katalogu [en](en/README.md). Obejmuje pełną
+ścieżkę `00`-`10` w formie pierwszej angielskiej edycji rozdziałów.
 
 ## Budowanie
 
