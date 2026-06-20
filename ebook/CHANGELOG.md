@@ -3,6 +3,14 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.7.1-en - 2026-06-20
+
+Korekta angielskiej edycji ebooka:
+
+- zaktualizowano opis we wstępie EN po zamknięciu pełnej ścieżki `00`-`10`,
+- zaktualizowano datę i metadane wersji EN do `0.7.1-en`,
+- przebudowano pliki do pobrania `cpp-course-en.pdf` i `cpp-course-en.epub`.
+
 ## 0.7.0-en - 2026-06-19
 
 Szósty angielski batch lekcji:

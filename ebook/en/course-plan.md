@@ -101,7 +101,7 @@ increments the variable afterwards.
 The current downloadable English edition is:
 
 - title: `C++ Course`
-- version: `0.7.0-en`
+- version: `0.7.1-en`
 - scope: full learning path `00`-`10`
 - output files:
   - `ebook/download/cpp-course-en.pdf`

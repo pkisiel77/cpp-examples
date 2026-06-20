@@ -5,7 +5,7 @@ The English edition covers the full learning path from environment setup to
 final projects. It is written as a practical student-facing version, not as a
 literal line-by-line translation of the Polish materials.
 
-Current version: `0.7.0-en`.
+Current version: `0.7.1-en`.
 
 ## Files
 
