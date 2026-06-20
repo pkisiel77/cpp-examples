@@ -3,6 +3,14 @@
 Wszystkie istotne zmiany w plikach ebooka są zapisywane w tym dokumencie.
 Format jest uproszczony i utrzymywany ręcznie.
 
+## 0.1.1 - 2026-06-20
+
+Korekta polskiej edycji ebooka:
+
+- zaktualizowano opis wersji we wstępie PL,
+- zaktualizowano datę i metadane wersji PL do `0.1.1`,
+- przebudowano pliki do pobrania `cpp-kurs.pdf` i `cpp-kurs.epub`.
+
 ## 0.7.1-en - 2026-06-20
 
 Korekta angielskiej edycji ebooka:

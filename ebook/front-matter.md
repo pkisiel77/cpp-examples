@@ -2,16 +2,16 @@
 title: "Kurs C++"
 subtitle: "Materiały dla studentów"
 author: "Paweł Kisielewicz <pkisiel@gmail.com>"
-date: "Kraków, 14 czerwca 2026"
-version: "0.1.0"
+date: "Kraków, 20 czerwca 2026"
+version: "0.1.1"
 lang: pl-PL
 ---
 
 # Wstęp
 
 - Autor: Paweł Kisielewicz `<pkisiel@gmail.com>`
-- Miejsce i data: Kraków, 14 czerwca 2026
-- Wersja: `0.1.0`
+- Miejsce i data: Kraków, 20 czerwca 2026
+- Wersja: `0.1.1`
 
 Ten ebook powstaje na podstawie repozytorium z materiałami do nauki C++.
 Materiał jest ułożony w segmenty: od przygotowania środowiska, przez podstawy
@@ -40,5 +40,6 @@ sh tools/check-examples.sh
 
 ## Uwaga o wersji
 
-To jest pierwszy techniczny draft ebooka. Kolejne kroki redakcyjne powinny
-dostosować materiał do płynnego czytania poza repozytorium.
+To jest pierwsza uporządkowana edycja czytelnicza materiałów kursu. Kolejne
+kroki redakcyjne powinny skupiać się na wygładzeniu przejść między rozdziałami,
+usuwaniu powtórzeń i dopisywaniu krótkich podsumowań po większych segmentach.
