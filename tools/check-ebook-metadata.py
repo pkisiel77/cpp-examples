@@ -10,12 +10,44 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+LANGUAGES = [
+    {
+        "label": "PL",
+        "metadata_path": "ebook/metadata.yaml",
+        "front_matter_path": "ebook/front-matter.md",
+        "manifest_path": "ebook/manifest.txt",
+        "expected_first_source": "ebook/front-matter.md",
+        "expectations": [
+            ("ebook/README.md", "PL: `{version}`"),
+            ("ebook/front-matter.md", "Wersja: `{version}`"),
+        ],
+    },
+    {
+        "label": "EN",
+        "metadata_path": "ebook/en/metadata.yaml",
+        "front_matter_path": "ebook/en/front-matter.md",
+        "manifest_path": "ebook/en/manifest.txt",
+        "expected_first_source": "ebook/en/front-matter.md",
+        "expectations": [
+            ("ebook/README.md", "EN: `{version}`"),
+            ("ebook/en/README.md", "Current version: `{version}`"),
+            ("ebook/en/course-plan.md", "version: `{version}`"),
+            ("ebook/en/front-matter.md", "Version: `{version}`"),
+        ],
+    },
+]
+
+
 def read(relative: str) -> str:
     return (ROOT / relative).read_text(encoding="utf-8")
 
 
 def field(text: str, name: str, source: str) -> str:
-    match = re.search(rf'^{re.escape(name)}:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
+    match = re.search(
+        rf'^{re.escape(name)}:\s*"?([^"\n]+)"?\s*$',
+        text,
+        re.MULTILINE,
+    )
     if not match:
         raise ValueError(f"{source}: missing field {name}")
     return match.group(1)
@@ -33,7 +65,8 @@ def check_manifest(manifest_path: str, expected_first: str) -> list[str]:
     entries: list[str] = []
     seen: dict[str, int] = {}
 
-    for line_no, line in enumerate(manifest.read_text(encoding="utf-8").splitlines(), start=1):
+    lines = manifest.read_text(encoding="utf-8").splitlines()
+    for line_no, line in enumerate(lines, start=1):
         entry = line.strip()
         if not entry or entry.startswith("#"):
             continue
@@ -112,7 +145,8 @@ def check_language(
         )
 
     for path, template in expectations:
-        errors.extend(require_contains(read(path), template.format(version=metadata_version), path))
+        expected = template.format(version=metadata_version)
+        errors.extend(require_contains(read(path), expected, path))
 
     errors.extend(check_manifest(manifest_path, expected_first_source))
 
@@ -122,35 +156,8 @@ def check_language(
 def main() -> int:
     errors: list[str] = []
 
-    errors.extend(
-        check_language(
-            label="PL",
-            metadata_path="ebook/metadata.yaml",
-            front_matter_path="ebook/front-matter.md",
-            manifest_path="ebook/manifest.txt",
-            expected_first_source="ebook/front-matter.md",
-            expectations=[
-                ("ebook/README.md", "PL: `{version}`"),
-                ("ebook/front-matter.md", "Wersja: `{version}`"),
-            ],
-        )
-    )
-
-    errors.extend(
-        check_language(
-            label="EN",
-            metadata_path="ebook/en/metadata.yaml",
-            front_matter_path="ebook/en/front-matter.md",
-            manifest_path="ebook/en/manifest.txt",
-            expected_first_source="ebook/en/front-matter.md",
-            expectations=[
-                ("ebook/README.md", "EN: `{version}`"),
-                ("ebook/en/README.md", "Current version: `{version}`"),
-                ("ebook/en/course-plan.md", "version: `{version}`"),
-                ("ebook/en/front-matter.md", "Version: `{version}`"),
-            ],
-        )
-    )
+    for config in LANGUAGES:
+        errors.extend(check_language(**config))
 
     if errors:
         print("Ebook metadata check failed:")
