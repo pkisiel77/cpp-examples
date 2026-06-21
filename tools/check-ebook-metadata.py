@@ -27,10 +27,11 @@ def require_contains(text: str, needle: str, source: str) -> list[str]:
     return []
 
 
-def check_manifest(manifest_path: str) -> list[str]:
+def check_manifest(manifest_path: str, expected_first: str) -> list[str]:
     errors: list[str] = []
     manifest = ROOT / manifest_path
     entries: list[str] = []
+    seen: dict[str, int] = {}
 
     for line_no, line in enumerate(manifest.read_text(encoding="utf-8").splitlines(), start=1):
         entry = line.strip()
@@ -38,6 +39,14 @@ def check_manifest(manifest_path: str) -> list[str]:
             continue
 
         entries.append(entry)
+        if entry in seen:
+            errors.append(
+                f"{manifest_path}:{line_no}: duplicate source: {entry} "
+                f"(first listed on line {seen[entry]})"
+            )
+        else:
+            seen[entry] = line_no
+
         path = ROOT / entry
 
         if not path.exists():
@@ -53,6 +62,11 @@ def check_manifest(manifest_path: str) -> list[str]:
 
     if not entries:
         errors.append(f"{manifest_path}: manifest has no source files")
+    elif entries[0] != expected_first:
+        errors.append(
+            f"{manifest_path}: first source should be {expected_first}, "
+            f"got {entries[0]}"
+        )
 
     return errors
 
@@ -62,6 +76,7 @@ def check_language(
     metadata_path: str,
     front_matter_path: str,
     manifest_path: str,
+    expected_first_source: str,
     expectations: list[tuple[str, str]],
 ) -> list[str]:
     errors: list[str] = []
@@ -99,7 +114,7 @@ def check_language(
     for path, template in expectations:
         errors.extend(require_contains(read(path), template.format(version=metadata_version), path))
 
-    errors.extend(check_manifest(manifest_path))
+    errors.extend(check_manifest(manifest_path, expected_first_source))
 
     return errors
 
@@ -113,6 +128,7 @@ def main() -> int:
             metadata_path="ebook/metadata.yaml",
             front_matter_path="ebook/front-matter.md",
             manifest_path="ebook/manifest.txt",
+            expected_first_source="ebook/front-matter.md",
             expectations=[
                 ("ebook/README.md", "PL: `{version}`"),
                 ("ebook/front-matter.md", "Wersja: `{version}`"),
@@ -126,6 +142,7 @@ def main() -> int:
             metadata_path="ebook/en/metadata.yaml",
             front_matter_path="ebook/en/front-matter.md",
             manifest_path="ebook/en/manifest.txt",
+            expected_first_source="ebook/en/front-matter.md",
             expectations=[
                 ("ebook/README.md", "EN: `{version}`"),
                 ("ebook/en/README.md", "Current version: `{version}`"),
