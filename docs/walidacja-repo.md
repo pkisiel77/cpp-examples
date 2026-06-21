@@ -4,6 +4,8 @@ Ten dokument opisuje, jak lokalnie sprawdzić linki, przykłady, testy i ebooki
 z głównej ścieżki kursu. Używaj go przed zajęciami, po większych zmianach w
 materiałach albo przed przygotowaniem pull requesta.
 
+Krótki indeks dostępnych skryptów znajduje się w [tools/README.md](../tools/README.md).
+
 ## Szybkie uruchomienie
 
 Z katalogu głównego repozytorium:
