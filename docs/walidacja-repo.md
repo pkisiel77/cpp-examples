@@ -100,19 +100,23 @@ błędzie. W takim przypadku sprawdź:
 
 ## CI
 
-Ten sam skrypt działa w GitHub Actions po `push` i `pull_request`.
+Ten sam skrypt przykładów działa w GitHub Actions po `push` i `pull_request`.
+CI uruchamia też lekki check metadanych ebooka:
+`python3 tools/check-ebook-metadata.py`.
+
 Konfiguracja znajduje się w:
 
 ```text
 .github/workflows/check-examples.yml
 ```
 
-Dzięki temu lokalne uruchomienie `sh tools/check-examples.sh` daje podobny
-wynik do sprawdzenia w repozytorium zdalnym.
+Dzięki temu lokalne uruchomienie `sh tools/check-examples.sh` oraz
+`python3 tools/check-ebook-metadata.py` daje podobny wynik do sprawdzenia w
+repozytorium zdalnym.
 
-Ebooki nie są obecnie budowane w GitHub Actions. Sprawdzaj je lokalnie komendą
-`sh tools/check-ebooks.sh`, szczególnie przed commitem zmieniającym katalog
-`ebook/`.
+PDF i EPUB nie są obecnie budowane w GitHub Actions. Sprawdzaj je lokalnie
+komendą `sh tools/check-ebooks.sh`, szczególnie przed commitem zmieniającym
+katalog `ebook/`.
 
 ## Kiedy uruchamiać
 

@@ -14,3 +14,6 @@ jobs:
 
       - name: Check examples and links
         run: BUILD_DIR=/tmp/cpp-examples-build sh tools/check-examples.sh
+
+      - name: Check ebook metadata
+        run: python3 tools/check-ebook-metadata.py
