@@ -42,6 +42,7 @@ które nie muszą być częścią bieżącej ścieżki zajęć.
 `tools/check-ebooks.sh` buduje obie wersje ebooka:
 
 - sprawdza spójność metadanych wersji PL i EN,
+- sprawdza, czy źródła wymienione w manifestach istnieją i nie są puste,
 - PL: `ebook/build/cpp-kurs.pdf` i `ebook/build/cpp-kurs.epub`,
 - EN: `ebook/build/cpp-course-en.pdf` i `ebook/build/cpp-course-en.epub`.
 

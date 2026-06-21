@@ -27,10 +27,41 @@ def require_contains(text: str, needle: str, source: str) -> list[str]:
     return []
 
 
+def check_manifest(manifest_path: str) -> list[str]:
+    errors: list[str] = []
+    manifest = ROOT / manifest_path
+    entries: list[str] = []
+
+    for line_no, line in enumerate(manifest.read_text(encoding="utf-8").splitlines(), start=1):
+        entry = line.strip()
+        if not entry or entry.startswith("#"):
+            continue
+
+        entries.append(entry)
+        path = ROOT / entry
+
+        if not path.exists():
+            errors.append(f"{manifest_path}:{line_no}: missing source: {entry}")
+            continue
+
+        if not path.is_file():
+            errors.append(f"{manifest_path}:{line_no}: source is not a file: {entry}")
+            continue
+
+        if path.stat().st_size == 0:
+            errors.append(f"{manifest_path}:{line_no}: empty source: {entry}")
+
+    if not entries:
+        errors.append(f"{manifest_path}: manifest has no source files")
+
+    return errors
+
+
 def check_language(
     label: str,
     metadata_path: str,
     front_matter_path: str,
+    manifest_path: str,
     expectations: list[tuple[str, str]],
 ) -> list[str]:
     errors: list[str] = []
@@ -68,6 +99,8 @@ def check_language(
     for path, template in expectations:
         errors.extend(require_contains(read(path), template.format(version=metadata_version), path))
 
+    errors.extend(check_manifest(manifest_path))
+
     return errors
 
 
@@ -79,6 +112,7 @@ def main() -> int:
             label="PL",
             metadata_path="ebook/metadata.yaml",
             front_matter_path="ebook/front-matter.md",
+            manifest_path="ebook/manifest.txt",
             expectations=[
                 ("ebook/README.md", "PL: `{version}`"),
                 ("ebook/front-matter.md", "Wersja: `{version}`"),
@@ -91,6 +125,7 @@ def main() -> int:
             label="EN",
             metadata_path="ebook/en/metadata.yaml",
             front_matter_path="ebook/en/front-matter.md",
+            manifest_path="ebook/en/manifest.txt",
             expectations=[
                 ("ebook/README.md", "EN: `{version}`"),
                 ("ebook/en/README.md", "Current version: `{version}`"),
