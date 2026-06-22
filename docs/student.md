@@ -52,6 +52,7 @@ funkcji bez pełnego skryptu repozytorium.
 
 Więcej informacji o lokalnej walidacji repozytorium znajdziesz w dokumencie
 [walidacja repozytorium](walidacja-repo.md).
+Krótki indeks skryptów jest w [tools/README.md](../tools/README.md).
 
 ## Ćwiczenia pomostowe
 

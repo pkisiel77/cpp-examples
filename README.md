@@ -102,6 +102,7 @@ wykonuje smoke check wybranych przykładów startowych.
 Ten sam skrypt jest uruchamiany w GitHub Actions po `push` i `pull_request`.
 Szczegóły użycia i interpretacji wyników są opisane w
 [docs/walidacja-repo.md](docs/walidacja-repo.md).
+Indeks wszystkich lokalnych skryptów jest w [tools/README.md](tools/README.md).
 
 Po zmianach w ebooku uruchom również:
 
